@@ -1,0 +1,4 @@
+﻿2019/08/19 09:34:04            ，销售单：OC-190820-0001，销售单详细单号：79201---G0738, 
+2019/08/19 09:34:26            ，销售单：OC-190820-0001，销售单详细单号：79201---G0738,错误：，销售单：OC-190820-0001，销售单详细单号：79201---G0738,,错误信息：无法连接到远程服务器,错误堆栈：   在 System.Net.HttpWebRequest.GetRequestStream(TransportContext& context)
+   在 System.Net.HttpWebRequest.GetRequestStream()
+   在 Enterprise.IIS.Common.HttpRequest.httpRequest(tmsModel t, String uri) 位置 E:\ffqserp\trunk\application\Enterprise.IIS\Common\HttpRequest.cs:行号 61 

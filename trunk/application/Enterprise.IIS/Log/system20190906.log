@@ -1,0 +1,92 @@
+﻿2019/09/06 +08:00 09:23:12     [4088] Enterprise.Framework.Log.LogUtil.ErrorLog(:0) Enterprise.Framework.Log.LogUtil.ErrorLog(:0) [(null)] - 
+错误开始===========================================
+客户机IP:127.0.0.1
+错误地址:http://localhost:19008/business/Sales/Index.aspx
+异常信息:引发类型为“System.Web.HttpUnhandledException”的异常。
+错误结束=========================================== e 
+System.Web.HttpUnhandledException (0x80004005): 引发类型为“System.Web.HttpUnhandledException”的异常。 ---> System.IndexOutOfRangeException: 索引超出了数组界限。
+   在 Enterprise.IIS.business.Sales.Index.Grid1_RowDataBound(Object sender, GridRowEventArgs e) 位置 h:\ffqserp\trunk\application\Enterprise.IIS\business\Sales\Index.aspx.cs:行号 194
+   在 FineUI.Grid.OnRowDataBound(GridRowEventArgs e)
+   在 FineUI.Grid.DataBindRow(Int32 rowIndex, Object rowObj)
+   在 FineUI.Grid.DataBindToEnumerable(IEnumerable list)
+   在 FineUI.Grid.DataBind()
+   在 Enterprise.IIS.business.Sales.Index.BindDataGrid() 位置 h:\ffqserp\trunk\application\Enterprise.IIS\business\Sales\Index.aspx.cs:行号 685
+   在 Enterprise.IIS.business.Sales.Index.btnSearch_Click(Object sender, EventArgs e) 位置 h:\ffqserp\trunk\application\Enterprise.IIS\business\Sales\Index.aspx.cs:行号 619
+   在 FineUI.Button.OnClick(EventArgs e)
+   在 FineUI.Button.RaisePostBackEvent(String eventArgument)
+   在 System.Web.UI.Page.RaisePostBackEvent(IPostBackEventHandler sourceControl, String eventArgument)
+   在 System.Web.UI.Page.RaisePostBackEvent(NameValueCollection postData)
+   在 System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   在 System.Web.UI.Page.HandleError(Exception e)
+   在 System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   在 System.Web.UI.Page.ProcessRequest(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   在 System.Web.UI.Page.ProcessRequest()
+   在 System.Web.UI.Page.ProcessRequestWithNoAssert(HttpContext context)
+   在 System.Web.UI.Page.ProcessRequest(HttpContext context)
+   在 ASP.business_sales_index_aspx.ProcessRequest(HttpContext context) 位置 c:\Users\Administrator\AppData\Local\Temp\Temporary ASP.NET Files\vs\b3079d60\a8129d37\App_Web_maldtpwn.0.cs:行号 0
+   在 System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   在 System.Web.HttpApplication.ExecuteStepImpl(IExecutionStep step)
+   在 System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+2019/09/06 +08:00 09:23:12     [4088] Enterprise.Framework.Log.LogUtil.ErrorLog(:0) Enterprise.Framework.Log.LogUtil.ErrorLog(:0) [(null)] - 索引超出了数组界限。 e 
+System.IndexOutOfRangeException: 索引超出了数组界限。
+   在 Enterprise.IIS.business.Sales.Index.Grid1_RowDataBound(Object sender, GridRowEventArgs e) 位置 h:\ffqserp\trunk\application\Enterprise.IIS\business\Sales\Index.aspx.cs:行号 194
+   在 FineUI.Grid.OnRowDataBound(GridRowEventArgs e)
+   在 FineUI.Grid.DataBindRow(Int32 rowIndex, Object rowObj)
+   在 FineUI.Grid.DataBindToEnumerable(IEnumerable list)
+   在 FineUI.Grid.DataBind()
+   在 Enterprise.IIS.business.Sales.Index.BindDataGrid() 位置 h:\ffqserp\trunk\application\Enterprise.IIS\business\Sales\Index.aspx.cs:行号 685
+   在 Enterprise.IIS.business.Sales.Index.btnSearch_Click(Object sender, EventArgs e) 位置 h:\ffqserp\trunk\application\Enterprise.IIS\business\Sales\Index.aspx.cs:行号 619
+   在 FineUI.Button.OnClick(EventArgs e)
+   在 FineUI.Button.RaisePostBackEvent(String eventArgument)
+   在 System.Web.UI.Page.RaisePostBackEvent(IPostBackEventHandler sourceControl, String eventArgument)
+   在 System.Web.UI.Page.RaisePostBackEvent(NameValueCollection postData)
+   在 System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+2019/09/06 +08:00 09:34:42     [9500] Enterprise.Framework.Log.LogUtil.ErrorLog(:0) Enterprise.Framework.Log.LogUtil.ErrorLog(:0) [(null)] - 
+错误开始===========================================
+客户机IP:::1
+错误地址:http://localhost:19008/business/Allot/Details.aspx?action=6&keyid=AX-190828-0001
+异常信息:“FineUI.RegionCollection”内不允许包含文字内容(“</f:RegionPanel>
+                    </Items>
+                </f:Region>”)。
+错误结束=========================================== e 
+System.Web.HttpParseException (0x80004005): “FineUI.RegionCollection”内不允许包含文字内容(“</f:RegionPanel>
+                    </Items>
+                </f:Region>”)。 ---> System.Web.HttpParseException (0x80004005): “FineUI.RegionCollection”内不允许包含文字内容(“</f:RegionPanel>
+                    </Items>
+                </f:Region>”)。 ---> System.Web.HttpException (0x80004005): “FineUI.RegionCollection”内不允许包含文字内容(“</f:RegionPanel>
+                    </Items>
+                </f:Region>”)。
+   在 System.Web.UI.CollectionBuilder.AppendLiteralString(String s)
+   在 System.Web.UI.TemplateParser.ProcessLiteral()
+   在 System.Web.UI.TemplateParser.ProcessException(Exception ex)
+   在 System.Web.UI.TemplateParser.ProcessLiteral()
+   在 System.Web.UI.TemplateParser.MaybeTerminateControl(String tagName, Match match)
+   在 System.Web.UI.TemplateParser.ProcessEndTag(Match match)
+   在 System.Web.UI.TemplateParser.ParseStringInternal(String text, Encoding fileEncoding)
+   在 System.Web.UI.TemplateParser.ParseString(String text, VirtualPath virtualPath, Encoding fileEncoding)
+   在 System.Web.UI.TemplateParser.ParseString(String text, VirtualPath virtualPath, Encoding fileEncoding)
+   在 System.Web.UI.TemplateParser.ParseFile(String physicalPath, VirtualPath virtualPath)
+   在 System.Web.UI.TemplateParser.ParseInternal()
+   在 System.Web.UI.TemplateParser.Parse()
+   在 System.Web.Compilation.BaseTemplateBuildProvider.get_CodeCompilerType()
+   在 System.Web.Compilation.BuildProvider.GetCompilerTypeFromBuildProvider(BuildProvider buildProvider)
+   在 System.Web.Compilation.BuildProvidersCompiler.ProcessBuildProviders()
+   在 System.Web.Compilation.BuildProvidersCompiler.PerformBuild()
+   在 System.Web.Compilation.BuildManager.CompileWebFile(VirtualPath virtualPath)
+   在 System.Web.Compilation.BuildManager.GetVPathBuildResultInternal(VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   在 System.Web.Compilation.BuildManager.GetVPathBuildResultWithNoAssert(HttpContext context, VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   在 System.Web.Compilation.BuildManager.GetVirtualPathObjectFactory(VirtualPath virtualPath, HttpContext context, Boolean allowCrossApp, Boolean throwIfNotFound)
+   在 System.Web.Compilation.BuildManager.CreateInstanceFromVirtualPath(VirtualPath virtualPath, Type requiredBaseType, HttpContext context, Boolean allowCrossApp)
+   在 System.Web.UI.PageHandlerFactory.GetHandlerHelper(HttpContext context, String requestType, VirtualPath virtualPath, String physicalPath)
+   在 System.Web.UI.PageHandlerFactory.GetHandler(HttpContext context, String requestType, String virtualPath, String path)
+   在 System.Web.HttpApplication.MaterializeHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   在 System.Web.HttpApplication.ExecuteStepImpl(IExecutionStep step)
+   在 System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+2019/09/06 +08:00 09:34:42     [9500] Enterprise.Framework.Log.LogUtil.ErrorLog(:0) Enterprise.Framework.Log.LogUtil.ErrorLog(:0) [(null)] - “FineUI.RegionCollection”内不允许包含文字内容(“</f:RegionPanel>
+                    </Items>
+                </f:Region>”)。 e 
+System.Web.HttpException (0x80004005): “FineUI.RegionCollection”内不允许包含文字内容(“</f:RegionPanel>
+                    </Items>
+                </f:Region>”)。
+   在 System.Web.UI.CollectionBuilder.AppendLiteralString(String s)
+   在 System.Web.UI.TemplateParser.ProcessLiteral()

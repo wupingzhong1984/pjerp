@@ -1,0 +1,4 @@
+﻿2019/06/13 14:15:40            ，发货单：TS-190320-0013，发货单详细单号：100655---G1159,，销售单：OC-190320-0057，销售单详细单号：75262---G1159, 
+2019/06/13 14:16:04            ，发货单：TS-190320-0013，发货单详细单号：100655---G1159,，销售单：OC-190320-0057，销售单详细单号：75262---G1159,错误：，发货单：TS-190320-0013，发货单详细单号：100655---G1159,，销售单：OC-190320-0057，销售单详细单号：75262---G1159,,错误信息：无法连接到远程服务器,错误堆栈：   在 System.Net.HttpWebRequest.GetRequestStream(TransportContext& context)
+   在 System.Net.HttpWebRequest.GetRequestStream()
+   在 Enterprise.IIS.Common.HttpRequest.httpRequest(tmsModel t, String uri) 位置 E:\ffqserp\trunk\application\Enterprise.IIS\Common\HttpRequest.cs:行号 61 

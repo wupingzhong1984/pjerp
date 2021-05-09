@@ -1,0 +1,82 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<DATA>
+  <SHEET>
+    <!--1.整车  2.挂车-->
+    <VHCL_TYPE>2</VHCL_TYPE>
+    <VHCL_NO_1>沪D92052</VHCL_NO_1>
+    <VHCL_NO_2>沪F2758挂</VHCL_NO_2>
+    <!--额定吨位-->
+    <VHCL_DONS>33</VHCL_DONS>
+    <!--箱位-->
+    <VHCL_SLOTS>0</VHCL_SLOTS>
+    <!--车型-->
+    <VHCL_MODEL>牵引车头</VHCL_MODEL>
+    <!--公司名称-->
+    <COMP_NAME>上海坦申物流有限公司</COMP_NAME>
+    <!--公司许可证号-->
+    <COMP_LICENSE>沪市310000005297</COMP_LICENSE>
+    <!--1.出车 2.事故停驶3.修理维护4.无业务停驶5.普通货运6.其他-->
+    <OUTWARD>1</OUTWARD>
+    <!--驾驶员-->
+    <DRIVER>于广飞</DRIVER>
+    <!--驾驶员资格证号-->
+    <DRIVER_LICENSE>3100001050113008595</DRIVER_LICENSE>
+    <!--驾驶员手机号-->
+    <DRIVER_PHONE>17001677703</DRIVER_PHONE>
+    <!--从业岗位-->
+    <DRIVER_JOB>道路危险货物运输驾驶人员</DRIVER_JOB>
+    <!--押运员-->
+    <SUPERCARGO>杨永强</SUPERCARGO>
+    <SUPERCARGO_LICENSE>310228196812312219</SUPERCARGO_LICENSE>
+    <SUPERCARGO_PHONE>18930308621</SUPERCARGO_PHONE>
+    <SUPERCARGO_JOB>道路危险货物运输押运人员</SUPERCARGO_JOB>
+    <!--开始时间-->
+    <START_DATE>2017-03-24 14:59:00</START_DATE>
+    <!--结束时间-->
+    <END_DATE>2017-03-24 14:59:00</END_DATE>
+    <!--出场地点-->
+    <OUT_ADDRESS>浙江省杭州市萧山区临江工业园区红十五路9936号</OUT_ADDRESS>
+    <!--出场地点-->
+    <IN_ADDRESS>浙江省杭州市萧山区临江工业园区红十五路9936号</IN_ADDRESS>
+    <!--出场空驶里程-->
+    <OUT_MILAGE>0</OUT_MILAGE>
+    <REMARK></REMARK>
+    <OIL_TYPE>1</OIL_TYPE>
+    <OIL_WEAR>268</OIL_WEAR>
+    <TRANSPORTATION_COST>3335</TRANSPORTATION_COST>
+    <ITEM>
+      <!--装货省-->
+      <LOAD_PROVINCE>浙江省</LOAD_PROVINCE>
+      <LOAD_CITY>杭州市</LOAD_CITY>
+      <LOAD_AREA>萧山区</LOAD_AREA>
+      <!--装货口-->
+      <LOAD_PORT></LOAD_PORT>
+      <!--装货公司名称-->
+      <LOAD_COMPNAME>上海浦江特种气体有限公司</LOAD_COMPNAME>
+      <LOAD_ADDRESS>临江工业园区红十五路9936号</LOAD_ADDRESS>
+      <!--装货人-->
+      <LOAD_MAN>杨永强</LOAD_MAN>
+      <LOAD_PHONE>18930308621</LOAD_PHONE>
+      <!--里程-->
+      <MILAGE>334</MILAGE>
+      <GOODS_TYPE>普危</GOODS_TYPE>
+      <GOODS_NAME>氢</GOODS_NAME>
+      <GOODS_WEIGHT>32.35</GOODS_WEIGHT>
+      <TRANSPORT_NUM>1</TRANSPORT_NUM>
+      <CHEMICALS_CATEGORY>2</CHEMICALS_CATEGORY>
+      <LOADDOWN_NUM>1</LOADDOWN_NUM>
+      <DOWN_PROVINCE>浙江省</DOWN_PROVINCE>
+      <DOWN_CITY>台州市</DOWN_CITY>
+      <DOWN_AREA>椒江区</DOWN_AREA>
+      <DOWN_PORT></DOWN_PORT>
+      <DOWN_COMPNAME>台州市前进化工有限公司</DOWN_COMPNAME>
+      <DOWN_ADDRESS>外沙路</DOWN_ADDRESS>
+      <DOWN_MAN>杨永强</DOWN_MAN>
+      <DOWN_PHONE>18930308621</DOWN_PHONE>
+      <DOWN_MILAGE>334</DOWN_MILAGE>
+      <DOWN_GOODS_TYPE>普危</DOWN_GOODS_TYPE>
+      <DOWN_GOODS_NAME>氢</DOWN_GOODS_NAME>
+      <DOWN_GOODS_WEIGHT>32.35</DOWN_GOODS_WEIGHT>
+    </ITEM>
+  </SHEET>
+</DATA>

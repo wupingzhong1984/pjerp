@@ -1,0 +1,52 @@
+﻿2019/10/15 15:18:06            ，销售单：OC-191016-0001，销售单详细单号：95481---G4721, 
+2019/10/15 15:18:27            ，销售单：OC-191016-0001，销售单详细单号：95481---G4721,错误：，销售单：OC-191016-0001，销售单详细单号：95481---G4721,,错误信息：无法连接到远程服务器,错误堆栈：   在 System.Net.HttpWebRequest.GetRequestStream(TransportContext& context)
+   在 System.Net.HttpWebRequest.GetRequestStream()
+   在 Enterprise.IIS.Common.HttpRequest.httpRequest(tmsModel t, String uri) 位置 h:\ffqserp\trunk\application\Enterprise.IIS\Common\HttpRequest.cs:行号 61 
+2019/10/15 15:20:24            ，销售单：OC-191016-0002，销售单详细单号：95482---G4721, 
+2019/10/15 15:20:45            ，销售单：OC-191016-0002，销售单详细单号：95482---G4721,错误：，销售单：OC-191016-0002，销售单详细单号：95482---G4721,,错误信息：无法连接到远程服务器,错误堆栈：   在 System.Net.HttpWebRequest.GetRequestStream(TransportContext& context)
+   在 System.Net.HttpWebRequest.GetRequestStream()
+   在 Enterprise.IIS.Common.HttpRequest.httpRequest(tmsModel t, String uri) 位置 h:\ffqserp\trunk\application\Enterprise.IIS\Common\HttpRequest.cs:行号 61 
+2019/10/15 15:23:19            ，销售单：OC-191016-0003，销售单详细单号：95483---G4721, 
+2019/10/15 15:23:40            ，销售单：OC-191016-0003，销售单详细单号：95483---G4721,错误：，销售单：OC-191016-0003，销售单详细单号：95483---G4721,,错误信息：无法连接到远程服务器,错误堆栈：   在 System.Net.HttpWebRequest.GetRequestStream(TransportContext& context)
+   在 System.Net.HttpWebRequest.GetRequestStream()
+   在 Enterprise.IIS.Common.HttpRequest.httpRequest(tmsModel t, String uri) 位置 h:\ffqserp\trunk\application\Enterprise.IIS\Common\HttpRequest.cs:行号 61 
+2019/10/15 15:28:16            ，销售单：OC-191016-0004，销售单详细单号：95484---G4721, 
+2019/10/15 15:28:37            ，销售单：OC-191016-0004，销售单详细单号：95484---G4721,错误：，销售单：OC-191016-0004，销售单详细单号：95484---G4721,,错误信息：无法连接到远程服务器,错误堆栈：   在 System.Net.HttpWebRequest.GetRequestStream(TransportContext& context)
+   在 System.Net.HttpWebRequest.GetRequestStream()
+   在 Enterprise.IIS.Common.HttpRequest.httpRequest(tmsModel t, String uri) 位置 h:\ffqserp\trunk\application\Enterprise.IIS\Common\HttpRequest.cs:行号 61 
+2019/10/15 15:30:22            ，销售单：OC-191016-0005，销售单详细单号：95485---G4721, 
+2019/10/15 15:30:43            ，销售单：OC-191016-0005，销售单详细单号：95485---G4721,错误：，销售单：OC-191016-0005，销售单详细单号：95485---G4721,,错误信息：无法连接到远程服务器,错误堆栈：   在 System.Net.HttpWebRequest.GetRequestStream(TransportContext& context)
+   在 System.Net.HttpWebRequest.GetRequestStream()
+   在 Enterprise.IIS.Common.HttpRequest.httpRequest(tmsModel t, String uri) 位置 h:\ffqserp\trunk\application\Enterprise.IIS\Common\HttpRequest.cs:行号 61 
+2019/10/15 15:42:58            ，销售单：OC-191016-0006，销售单详细单号：95486---G4721, 
+2019/10/15 15:43:19            ，销售单：OC-191016-0006，销售单详细单号：95486---G4721,错误：，销售单：OC-191016-0006，销售单详细单号：95486---G4721,,错误信息：无法连接到远程服务器,错误堆栈：   在 System.Net.HttpWebRequest.GetRequestStream(TransportContext& context)
+   在 System.Net.HttpWebRequest.GetRequestStream()
+   在 Enterprise.IIS.Common.HttpRequest.httpRequest(tmsModel t, String uri) 位置 h:\ffqserp\trunk\application\Enterprise.IIS\Common\HttpRequest.cs:行号 61 
+2019/10/15 15:43:20            ，销售单：OC-191016-0007，销售单详细单号：95487---G4721, 
+2019/10/15 15:43:41            ，销售单：OC-191016-0007，销售单详细单号：95487---G4721,错误：，销售单：OC-191016-0007，销售单详细单号：95487---G4721,,错误信息：无法连接到远程服务器,错误堆栈：   在 System.Net.HttpWebRequest.GetRequestStream(TransportContext& context)
+   在 System.Net.HttpWebRequest.GetRequestStream()
+   在 Enterprise.IIS.Common.HttpRequest.httpRequest(tmsModel t, String uri) 位置 h:\ffqserp\trunk\application\Enterprise.IIS\Common\HttpRequest.cs:行号 61 
+2019/10/15 15:47:24            ，销售单：OC-191016-0008，销售单详细单号：95489---G4721, 
+2019/10/15 15:47:45            ，销售单：OC-191016-0008，销售单详细单号：95489---G4721,错误：，销售单：OC-191016-0008，销售单详细单号：95489---G4721,,错误信息：无法连接到远程服务器,错误堆栈：   在 System.Net.HttpWebRequest.GetRequestStream(TransportContext& context)
+   在 System.Net.HttpWebRequest.GetRequestStream()
+   在 Enterprise.IIS.Common.HttpRequest.httpRequest(tmsModel t, String uri) 位置 h:\ffqserp\trunk\application\Enterprise.IIS\Common\HttpRequest.cs:行号 61 
+2019/10/15 15:47:46            ，销售单：OC-191016-0009，销售单详细单号：95490---G4721, 
+2019/10/15 15:48:07            ，销售单：OC-191016-0009，销售单详细单号：95490---G4721,错误：，销售单：OC-191016-0009，销售单详细单号：95490---G4721,,错误信息：无法连接到远程服务器,错误堆栈：   在 System.Net.HttpWebRequest.GetRequestStream(TransportContext& context)
+   在 System.Net.HttpWebRequest.GetRequestStream()
+   在 Enterprise.IIS.Common.HttpRequest.httpRequest(tmsModel t, String uri) 位置 h:\ffqserp\trunk\application\Enterprise.IIS\Common\HttpRequest.cs:行号 61 
+2019/10/15 15:48:08            ，销售单：OC-191016-0010，销售单详细单号：95491---G4721, 
+2019/10/15 15:48:29            ，销售单：OC-191016-0010，销售单详细单号：95491---G4721,错误：，销售单：OC-191016-0010，销售单详细单号：95491---G4721,,错误信息：无法连接到远程服务器,错误堆栈：   在 System.Net.HttpWebRequest.GetRequestStream(TransportContext& context)
+   在 System.Net.HttpWebRequest.GetRequestStream()
+   在 Enterprise.IIS.Common.HttpRequest.httpRequest(tmsModel t, String uri) 位置 h:\ffqserp\trunk\application\Enterprise.IIS\Common\HttpRequest.cs:行号 61 
+2019/10/15 15:48:29            ，销售单：OC-191016-0011，销售单详细单号：95492---G4721, 
+2019/10/15 15:48:50            ，销售单：OC-191016-0011，销售单详细单号：95492---G4721,错误：，销售单：OC-191016-0011，销售单详细单号：95492---G4721,,错误信息：无法连接到远程服务器,错误堆栈：   在 System.Net.HttpWebRequest.GetRequestStream(TransportContext& context)
+   在 System.Net.HttpWebRequest.GetRequestStream()
+   在 Enterprise.IIS.Common.HttpRequest.httpRequest(tmsModel t, String uri) 位置 h:\ffqserp\trunk\application\Enterprise.IIS\Common\HttpRequest.cs:行号 61 
+2019/10/15 15:48:51            ，销售单：OC-191016-0012，销售单详细单号：95493---G4721, 
+2019/10/15 15:49:12            ，销售单：OC-191016-0012，销售单详细单号：95493---G4721,错误：，销售单：OC-191016-0012，销售单详细单号：95493---G4721,,错误信息：无法连接到远程服务器,错误堆栈：   在 System.Net.HttpWebRequest.GetRequestStream(TransportContext& context)
+   在 System.Net.HttpWebRequest.GetRequestStream()
+   在 Enterprise.IIS.Common.HttpRequest.httpRequest(tmsModel t, String uri) 位置 h:\ffqserp\trunk\application\Enterprise.IIS\Common\HttpRequest.cs:行号 61 
+2019/10/15 16:19:18            ，销售单：OC-191016-0013，销售单详细单号：95494---G4721, 
+2019/10/15 16:19:40            ，销售单：OC-191016-0013，销售单详细单号：95494---G4721,错误：，销售单：OC-191016-0013，销售单详细单号：95494---G4721,,错误信息：无法连接到远程服务器,错误堆栈：   在 System.Net.HttpWebRequest.GetRequestStream(TransportContext& context)
+   在 System.Net.HttpWebRequest.GetRequestStream()
+   在 Enterprise.IIS.Common.HttpRequest.httpRequest(tmsModel t, String uri) 位置 h:\ffqserp\trunk\application\Enterprise.IIS\Common\HttpRequest.cs:行号 61 

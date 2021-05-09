@@ -1,0 +1,563 @@
+﻿2019/05/21 +08:00 08:48:49     [26656] Enterprise.Framework.Log.LogUtil.ErrorLog(:0) Enterprise.Framework.Log.LogUtil.ErrorLog(:0) [(null)] - 
+错误开始===========================================
+客户机IP:::1
+错误地址:http://localhost:19008/Business/Reports/primeCost.aspx
+异常信息:引发类型为“System.Web.HttpUnhandledException”的异常。
+错误结束=========================================== e 
+System.Web.HttpUnhandledException (0x80004005): 引发类型为“System.Web.HttpUnhandledException”的异常。 ---> System.FormatException: 输入字符串的格式不正确。
+   在 System.Number.ParseDouble(String value, NumberStyles options, NumberFormatInfo numfmt)
+   在 System.Double.Parse(String s)
+   在 Enterprise.IIS.business.Reports.primeCost.BindData() 位置 E:\ffqserp\trunk\application\Enterprise.IIS\business\Reports\primeCost.aspx.cs:行号 103
+   在 Enterprise.IIS.business.Reports.primeCost.btnSearch_Click(Object sender, EventArgs e) 位置 E:\ffqserp\trunk\application\Enterprise.IIS\business\Reports\primeCost.aspx.cs:行号 147
+   在 FineUI.Button.OnClick(EventArgs e)
+   在 FineUI.Button.RaisePostBackEvent(String eventArgument)
+   在 System.Web.UI.Page.RaisePostBackEvent(IPostBackEventHandler sourceControl, String eventArgument)
+   在 System.Web.UI.Page.RaisePostBackEvent(NameValueCollection postData)
+   在 System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   在 System.Web.UI.Page.HandleError(Exception e)
+   在 System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   在 System.Web.UI.Page.ProcessRequest(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   在 System.Web.UI.Page.ProcessRequest()
+   在 System.Web.UI.Page.ProcessRequestWithNoAssert(HttpContext context)
+   在 System.Web.UI.Page.ProcessRequest(HttpContext context)
+   在 ASP.business_reports_primecost_aspx.ProcessRequest(HttpContext context) 位置 c:\Windows\Microsoft.NET\Framework\v4.0.30319\Temporary ASP.NET Files\vs\acc0e68d\f6fd98d3\App_Web_maxvyktx.8.cs:行号 0
+   在 System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   在 System.Web.HttpApplication.ExecuteStepImpl(IExecutionStep step)
+   在 System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+2019/05/21 +08:00 08:48:51     [26656] Enterprise.Framework.Log.LogUtil.ErrorLog(:0) Enterprise.Framework.Log.LogUtil.ErrorLog(:0) [(null)] - 输入字符串的格式不正确。 e 
+System.FormatException: 输入字符串的格式不正确。
+   在 System.Number.ParseDouble(String value, NumberStyles options, NumberFormatInfo numfmt)
+   在 System.Double.Parse(String s)
+   在 Enterprise.IIS.business.Reports.primeCost.BindData() 位置 E:\ffqserp\trunk\application\Enterprise.IIS\business\Reports\primeCost.aspx.cs:行号 103
+   在 Enterprise.IIS.business.Reports.primeCost.btnSearch_Click(Object sender, EventArgs e) 位置 E:\ffqserp\trunk\application\Enterprise.IIS\business\Reports\primeCost.aspx.cs:行号 147
+   在 FineUI.Button.OnClick(EventArgs e)
+   在 FineUI.Button.RaisePostBackEvent(String eventArgument)
+   在 System.Web.UI.Page.RaisePostBackEvent(IPostBackEventHandler sourceControl, String eventArgument)
+   在 System.Web.UI.Page.RaisePostBackEvent(NameValueCollection postData)
+   在 System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+2019/05/21 +08:00 08:52:41     [3816] Enterprise.Framework.Log.LogUtil.ErrorLog(:0) Enterprise.Framework.Log.LogUtil.ErrorLog(:0) [(null)] - 
+错误开始===========================================
+客户机IP:::1
+错误地址:http://localhost:19008/Business/Reports/primeCost.aspx
+异常信息:引发类型为“System.Web.HttpUnhandledException”的异常。
+错误结束=========================================== e 
+System.Web.HttpUnhandledException (0x80004005): 引发类型为“System.Web.HttpUnhandledException”的异常。 ---> System.FormatException: 输入字符串的格式不正确。
+   在 System.Number.ParseDouble(String value, NumberStyles options, NumberFormatInfo numfmt)
+   在 System.Double.Parse(String s)
+   在 Enterprise.IIS.business.Reports.primeCost.BindData() 位置 E:\ffqserp\trunk\application\Enterprise.IIS\business\Reports\primeCost.aspx.cs:行号 103
+   在 Enterprise.IIS.business.Reports.primeCost.btnSearch_Click(Object sender, EventArgs e) 位置 E:\ffqserp\trunk\application\Enterprise.IIS\business\Reports\primeCost.aspx.cs:行号 147
+   在 FineUI.Button.OnClick(EventArgs e)
+   在 FineUI.Button.RaisePostBackEvent(String eventArgument)
+   在 System.Web.UI.Page.RaisePostBackEvent(IPostBackEventHandler sourceControl, String eventArgument)
+   在 System.Web.UI.Page.RaisePostBackEvent(NameValueCollection postData)
+   在 System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   在 System.Web.UI.Page.HandleError(Exception e)
+   在 System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   在 System.Web.UI.Page.ProcessRequest(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   在 System.Web.UI.Page.ProcessRequest()
+   在 System.Web.UI.Page.ProcessRequestWithNoAssert(HttpContext context)
+   在 System.Web.UI.Page.ProcessRequest(HttpContext context)
+   在 ASP.business_reports_primecost_aspx.ProcessRequest(HttpContext context) 位置 c:\Windows\Microsoft.NET\Framework\v4.0.30319\Temporary ASP.NET Files\vs\acc0e68d\f6fd98d3\App_Web_gdcpnjbs.0.cs:行号 0
+   在 System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   在 System.Web.HttpApplication.ExecuteStepImpl(IExecutionStep step)
+   在 System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+2019/05/21 +08:00 08:52:41     [3816] Enterprise.Framework.Log.LogUtil.ErrorLog(:0) Enterprise.Framework.Log.LogUtil.ErrorLog(:0) [(null)] - 输入字符串的格式不正确。 e 
+System.FormatException: 输入字符串的格式不正确。
+   在 System.Number.ParseDouble(String value, NumberStyles options, NumberFormatInfo numfmt)
+   在 System.Double.Parse(String s)
+   在 Enterprise.IIS.business.Reports.primeCost.BindData() 位置 E:\ffqserp\trunk\application\Enterprise.IIS\business\Reports\primeCost.aspx.cs:行号 103
+   在 Enterprise.IIS.business.Reports.primeCost.btnSearch_Click(Object sender, EventArgs e) 位置 E:\ffqserp\trunk\application\Enterprise.IIS\business\Reports\primeCost.aspx.cs:行号 147
+   在 FineUI.Button.OnClick(EventArgs e)
+   在 FineUI.Button.RaisePostBackEvent(String eventArgument)
+   在 System.Web.UI.Page.RaisePostBackEvent(IPostBackEventHandler sourceControl, String eventArgument)
+   在 System.Web.UI.Page.RaisePostBackEvent(NameValueCollection postData)
+   在 System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+2019/05/21 +08:00 09:18:15     [17404] Enterprise.Framework.Log.LogUtil.ErrorLog(:0) Enterprise.Framework.Log.LogUtil.ErrorLog(:0) [(null)] - 
+错误开始===========================================
+客户机IP:::1
+错误地址:http://localhost:19008/Business/Reports/primeCost.aspx
+异常信息:引发类型为“System.Web.HttpUnhandledException”的异常。
+错误结束=========================================== e 
+System.Web.HttpUnhandledException (0x80004005): 引发类型为“System.Web.HttpUnhandledException”的异常。 ---> System.ArgumentException: 正在分析“100|[1-9]?\d(\.\d\d?\d?)?)%”－ ) 过多。
+   在 System.Text.RegularExpressions.RegexParser.ScanRegex()
+   在 System.Text.RegularExpressions.RegexParser.Parse(String re, RegexOptions op)
+   在 System.Text.RegularExpressions.Regex..ctor(String pattern, RegexOptions options, TimeSpan matchTimeout, Boolean useCache)
+   在 System.Text.RegularExpressions.Regex..ctor(String pattern, RegexOptions options)
+   在 Enterprise.IIS.business.Reports.primeCost.BindData() 位置 E:\ffqserp\trunk\application\Enterprise.IIS\business\Reports\primeCost.aspx.cs:行号 99
+   在 Enterprise.IIS.business.Reports.primeCost.btnSearch_Click(Object sender, EventArgs e) 位置 E:\ffqserp\trunk\application\Enterprise.IIS\business\Reports\primeCost.aspx.cs:行号 147
+   在 FineUI.Button.OnClick(EventArgs e)
+   在 FineUI.Button.RaisePostBackEvent(String eventArgument)
+   在 System.Web.UI.Page.RaisePostBackEvent(IPostBackEventHandler sourceControl, String eventArgument)
+   在 System.Web.UI.Page.RaisePostBackEvent(NameValueCollection postData)
+   在 System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   在 System.Web.UI.Page.HandleError(Exception e)
+   在 System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   在 System.Web.UI.Page.ProcessRequest(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   在 System.Web.UI.Page.ProcessRequest()
+   在 System.Web.UI.Page.ProcessRequestWithNoAssert(HttpContext context)
+   在 System.Web.UI.Page.ProcessRequest(HttpContext context)
+   在 ASP.business_reports_primecost_aspx.ProcessRequest(HttpContext context) 位置 c:\Windows\Microsoft.NET\Framework\v4.0.30319\Temporary ASP.NET Files\vs\acc0e68d\f6fd98d3\App_Web_1dzdh4th.3.cs:行号 0
+   在 System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   在 System.Web.HttpApplication.ExecuteStepImpl(IExecutionStep step)
+   在 System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+2019/05/21 +08:00 09:18:17     [17404] Enterprise.Framework.Log.LogUtil.ErrorLog(:0) Enterprise.Framework.Log.LogUtil.ErrorLog(:0) [(null)] - 正在分析“100|[1-9]?\d(\.\d\d?\d?)?)%”－ ) 过多。 e 
+System.ArgumentException: 正在分析“100|[1-9]?\d(\.\d\d?\d?)?)%”－ ) 过多。
+   在 System.Text.RegularExpressions.RegexParser.ScanRegex()
+   在 System.Text.RegularExpressions.RegexParser.Parse(String re, RegexOptions op)
+   在 System.Text.RegularExpressions.Regex..ctor(String pattern, RegexOptions options, TimeSpan matchTimeout, Boolean useCache)
+   在 System.Text.RegularExpressions.Regex..ctor(String pattern, RegexOptions options)
+   在 Enterprise.IIS.business.Reports.primeCost.BindData() 位置 E:\ffqserp\trunk\application\Enterprise.IIS\business\Reports\primeCost.aspx.cs:行号 99
+   在 Enterprise.IIS.business.Reports.primeCost.btnSearch_Click(Object sender, EventArgs e) 位置 E:\ffqserp\trunk\application\Enterprise.IIS\business\Reports\primeCost.aspx.cs:行号 147
+   在 FineUI.Button.OnClick(EventArgs e)
+   在 FineUI.Button.RaisePostBackEvent(String eventArgument)
+   在 System.Web.UI.Page.RaisePostBackEvent(IPostBackEventHandler sourceControl, String eventArgument)
+   在 System.Web.UI.Page.RaisePostBackEvent(NameValueCollection postData)
+   在 System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+2019/05/21 +08:00 09:24:35     [14864] Enterprise.Framework.Log.LogUtil.ErrorLog(:0) Enterprise.Framework.Log.LogUtil.ErrorLog(:0) [(null)] - 
+错误开始===========================================
+客户机IP:::1
+错误地址:http://localhost:19008/Business/Reports/primeCost.aspx
+异常信息:引发类型为“System.Web.HttpUnhandledException”的异常。
+错误结束=========================================== e 
+System.Web.HttpUnhandledException (0x80004005): 引发类型为“System.Web.HttpUnhandledException”的异常。 ---> System.ArgumentException: 正在分析“100|[1-9]?[0-9](.[0-9][0-9]?[0-9]?)?)%”－ ) 过多。
+   在 System.Text.RegularExpressions.RegexParser.ScanRegex()
+   在 System.Text.RegularExpressions.RegexParser.Parse(String re, RegexOptions op)
+   在 System.Text.RegularExpressions.Regex..ctor(String pattern, RegexOptions options, TimeSpan matchTimeout, Boolean useCache)
+   在 System.Text.RegularExpressions.Regex..ctor(String pattern, RegexOptions options)
+   在 Enterprise.IIS.business.Reports.primeCost.BindData() 位置 E:\ffqserp\trunk\application\Enterprise.IIS\business\Reports\primeCost.aspx.cs:行号 99
+   在 Enterprise.IIS.business.Reports.primeCost.btnSearch_Click(Object sender, EventArgs e) 位置 E:\ffqserp\trunk\application\Enterprise.IIS\business\Reports\primeCost.aspx.cs:行号 147
+   在 FineUI.Button.OnClick(EventArgs e)
+   在 FineUI.Button.RaisePostBackEvent(String eventArgument)
+   在 System.Web.UI.Page.RaisePostBackEvent(IPostBackEventHandler sourceControl, String eventArgument)
+   在 System.Web.UI.Page.RaisePostBackEvent(NameValueCollection postData)
+   在 System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   在 System.Web.UI.Page.HandleError(Exception e)
+   在 System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   在 System.Web.UI.Page.ProcessRequest(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   在 System.Web.UI.Page.ProcessRequest()
+   在 System.Web.UI.Page.ProcessRequestWithNoAssert(HttpContext context)
+   在 System.Web.UI.Page.ProcessRequest(HttpContext context)
+   在 ASP.business_reports_primecost_aspx.ProcessRequest(HttpContext context) 位置 c:\Windows\Microsoft.NET\Framework\v4.0.30319\Temporary ASP.NET Files\vs\acc0e68d\f6fd98d3\App_Web_wvsjcqg4.8.cs:行号 0
+   在 System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   在 System.Web.HttpApplication.ExecuteStepImpl(IExecutionStep step)
+   在 System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+2019/05/21 +08:00 09:24:35     [14864] Enterprise.Framework.Log.LogUtil.ErrorLog(:0) Enterprise.Framework.Log.LogUtil.ErrorLog(:0) [(null)] - 正在分析“100|[1-9]?[0-9](.[0-9][0-9]?[0-9]?)?)%”－ ) 过多。 e 
+System.ArgumentException: 正在分析“100|[1-9]?[0-9](.[0-9][0-9]?[0-9]?)?)%”－ ) 过多。
+   在 System.Text.RegularExpressions.RegexParser.ScanRegex()
+   在 System.Text.RegularExpressions.RegexParser.Parse(String re, RegexOptions op)
+   在 System.Text.RegularExpressions.Regex..ctor(String pattern, RegexOptions options, TimeSpan matchTimeout, Boolean useCache)
+   在 System.Text.RegularExpressions.Regex..ctor(String pattern, RegexOptions options)
+   在 Enterprise.IIS.business.Reports.primeCost.BindData() 位置 E:\ffqserp\trunk\application\Enterprise.IIS\business\Reports\primeCost.aspx.cs:行号 99
+   在 Enterprise.IIS.business.Reports.primeCost.btnSearch_Click(Object sender, EventArgs e) 位置 E:\ffqserp\trunk\application\Enterprise.IIS\business\Reports\primeCost.aspx.cs:行号 147
+   在 FineUI.Button.OnClick(EventArgs e)
+   在 FineUI.Button.RaisePostBackEvent(String eventArgument)
+   在 System.Web.UI.Page.RaisePostBackEvent(IPostBackEventHandler sourceControl, String eventArgument)
+   在 System.Web.UI.Page.RaisePostBackEvent(NameValueCollection postData)
+   在 System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+2019/05/21 +08:00 09:31:52     [20532] Enterprise.Framework.Log.LogUtil.ErrorLog(:0) Enterprise.Framework.Log.LogUtil.ErrorLog(:0) [(null)] - 
+错误开始===========================================
+客户机IP:::1
+错误地址:http://localhost:19008/Business/Reports/primeCost.aspx
+异常信息:引发类型为“System.Web.HttpUnhandledException”的异常。
+错误结束=========================================== e 
+System.Web.HttpUnhandledException (0x80004005): 引发类型为“System.Web.HttpUnhandledException”的异常。 ---> System.ArgumentException: 列“1pmCO”不属于表 Table。
+   在 System.Data.DataRow.GetDataColumn(String columnName)
+   在 System.Data.DataRow.set_Item(String columnName, Object value)
+   在 Enterprise.IIS.business.Reports.primeCost.BindData() 位置 E:\ffqserp\trunk\application\Enterprise.IIS\business\Reports\primeCost.aspx.cs:行号 124
+   在 Enterprise.IIS.business.Reports.primeCost.btnSearch_Click(Object sender, EventArgs e) 位置 E:\ffqserp\trunk\application\Enterprise.IIS\business\Reports\primeCost.aspx.cs:行号 147
+   在 FineUI.Button.OnClick(EventArgs e)
+   在 FineUI.Button.RaisePostBackEvent(String eventArgument)
+   在 System.Web.UI.Page.RaisePostBackEvent(IPostBackEventHandler sourceControl, String eventArgument)
+   在 System.Web.UI.Page.RaisePostBackEvent(NameValueCollection postData)
+   在 System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   在 System.Web.UI.Page.HandleError(Exception e)
+   在 System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   在 System.Web.UI.Page.ProcessRequest(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   在 System.Web.UI.Page.ProcessRequest()
+   在 System.Web.UI.Page.ProcessRequestWithNoAssert(HttpContext context)
+   在 System.Web.UI.Page.ProcessRequest(HttpContext context)
+   在 ASP.business_reports_primecost_aspx.ProcessRequest(HttpContext context) 位置 c:\Windows\Microsoft.NET\Framework\v4.0.30319\Temporary ASP.NET Files\vs\acc0e68d\f6fd98d3\App_Web_n022j3lx.5.cs:行号 0
+   在 System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   在 System.Web.HttpApplication.ExecuteStepImpl(IExecutionStep step)
+   在 System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+2019/05/21 +08:00 09:31:53     [20532] Enterprise.Framework.Log.LogUtil.ErrorLog(:0) Enterprise.Framework.Log.LogUtil.ErrorLog(:0) [(null)] - 列“1pmCO”不属于表 Table。 e 
+System.ArgumentException: 列“1pmCO”不属于表 Table。
+   在 System.Data.DataRow.GetDataColumn(String columnName)
+   在 System.Data.DataRow.set_Item(String columnName, Object value)
+   在 Enterprise.IIS.business.Reports.primeCost.BindData() 位置 E:\ffqserp\trunk\application\Enterprise.IIS\business\Reports\primeCost.aspx.cs:行号 124
+   在 Enterprise.IIS.business.Reports.primeCost.btnSearch_Click(Object sender, EventArgs e) 位置 E:\ffqserp\trunk\application\Enterprise.IIS\business\Reports\primeCost.aspx.cs:行号 147
+   在 FineUI.Button.OnClick(EventArgs e)
+   在 FineUI.Button.RaisePostBackEvent(String eventArgument)
+   在 System.Web.UI.Page.RaisePostBackEvent(IPostBackEventHandler sourceControl, String eventArgument)
+   在 System.Web.UI.Page.RaisePostBackEvent(NameValueCollection postData)
+   在 System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+2019/05/21 +08:00 09:36:18     [4476] Enterprise.Framework.Log.LogUtil.ErrorLog(:0) Enterprise.Framework.Log.LogUtil.ErrorLog(:0) [(null)] - 
+错误开始===========================================
+客户机IP:::1
+错误地址:http://localhost:19008/Business/Reports/primeCost.aspx
+异常信息:引发类型为“System.Web.HttpUnhandledException”的异常。
+错误结束=========================================== e 
+System.Web.HttpUnhandledException (0x80004005): 引发类型为“System.Web.HttpUnhandledException”的异常。 ---> System.ArgumentException: 列“1pmCO”不属于表 Table。
+   在 System.Data.DataRow.GetDataColumn(String columnName)
+   在 System.Data.DataRow.set_Item(String columnName, Object value)
+   在 Enterprise.IIS.business.Reports.primeCost.BindData() 位置 E:\ffqserp\trunk\application\Enterprise.IIS\business\Reports\primeCost.aspx.cs:行号 124
+   在 Enterprise.IIS.business.Reports.primeCost.btnSearch_Click(Object sender, EventArgs e) 位置 E:\ffqserp\trunk\application\Enterprise.IIS\business\Reports\primeCost.aspx.cs:行号 147
+   在 FineUI.Button.OnClick(EventArgs e)
+   在 FineUI.Button.RaisePostBackEvent(String eventArgument)
+   在 System.Web.UI.Page.RaisePostBackEvent(IPostBackEventHandler sourceControl, String eventArgument)
+   在 System.Web.UI.Page.RaisePostBackEvent(NameValueCollection postData)
+   在 System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   在 System.Web.UI.Page.HandleError(Exception e)
+   在 System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   在 System.Web.UI.Page.ProcessRequest(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   在 System.Web.UI.Page.ProcessRequest()
+   在 System.Web.UI.Page.ProcessRequestWithNoAssert(HttpContext context)
+   在 System.Web.UI.Page.ProcessRequest(HttpContext context)
+   在 ASP.business_reports_primecost_aspx.ProcessRequest(HttpContext context) 位置 c:\Windows\Microsoft.NET\Framework\v4.0.30319\Temporary ASP.NET Files\vs\acc0e68d\f6fd98d3\App_Web_fyknlpxt.6.cs:行号 0
+   在 System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   在 System.Web.HttpApplication.ExecuteStepImpl(IExecutionStep step)
+   在 System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+2019/05/21 +08:00 09:36:19     [4476] Enterprise.Framework.Log.LogUtil.ErrorLog(:0) Enterprise.Framework.Log.LogUtil.ErrorLog(:0) [(null)] - 列“1pmCO”不属于表 Table。 e 
+System.ArgumentException: 列“1pmCO”不属于表 Table。
+   在 System.Data.DataRow.GetDataColumn(String columnName)
+   在 System.Data.DataRow.set_Item(String columnName, Object value)
+   在 Enterprise.IIS.business.Reports.primeCost.BindData() 位置 E:\ffqserp\trunk\application\Enterprise.IIS\business\Reports\primeCost.aspx.cs:行号 124
+   在 Enterprise.IIS.business.Reports.primeCost.btnSearch_Click(Object sender, EventArgs e) 位置 E:\ffqserp\trunk\application\Enterprise.IIS\business\Reports\primeCost.aspx.cs:行号 147
+   在 FineUI.Button.OnClick(EventArgs e)
+   在 FineUI.Button.RaisePostBackEvent(String eventArgument)
+   在 System.Web.UI.Page.RaisePostBackEvent(IPostBackEventHandler sourceControl, String eventArgument)
+   在 System.Web.UI.Page.RaisePostBackEvent(NameValueCollection postData)
+   在 System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+2019/05/21 +08:00 09:40:24     [17132] Enterprise.Framework.Log.LogUtil.ErrorLog(:0) Enterprise.Framework.Log.LogUtil.ErrorLog(:0) [(null)] - 
+错误开始===========================================
+客户机IP:::1
+错误地址:http://localhost:19008/Business/Reports/primeCost.aspx
+异常信息:引发类型为“System.Web.HttpUnhandledException”的异常。
+错误结束=========================================== e 
+System.Web.HttpUnhandledException (0x80004005): 引发类型为“System.Web.HttpUnhandledException”的异常。 ---> System.ArgumentException: 列“mCO”不属于表 Table。
+   在 System.Data.DataRow.GetDataColumn(String columnName)
+   在 System.Data.DataRow.set_Item(String columnName, Object value)
+   在 Enterprise.IIS.business.Reports.primeCost.BindData() 位置 E:\ffqserp\trunk\application\Enterprise.IIS\business\Reports\primeCost.aspx.cs:行号 124
+   在 Enterprise.IIS.business.Reports.primeCost.btnSearch_Click(Object sender, EventArgs e) 位置 E:\ffqserp\trunk\application\Enterprise.IIS\business\Reports\primeCost.aspx.cs:行号 147
+   在 FineUI.Button.OnClick(EventArgs e)
+   在 FineUI.Button.RaisePostBackEvent(String eventArgument)
+   在 System.Web.UI.Page.RaisePostBackEvent(IPostBackEventHandler sourceControl, String eventArgument)
+   在 System.Web.UI.Page.RaisePostBackEvent(NameValueCollection postData)
+   在 System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   在 System.Web.UI.Page.HandleError(Exception e)
+   在 System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   在 System.Web.UI.Page.ProcessRequest(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   在 System.Web.UI.Page.ProcessRequest()
+   在 System.Web.UI.Page.ProcessRequestWithNoAssert(HttpContext context)
+   在 System.Web.UI.Page.ProcessRequest(HttpContext context)
+   在 ASP.business_reports_primecost_aspx.ProcessRequest(HttpContext context) 位置 c:\Windows\Microsoft.NET\Framework\v4.0.30319\Temporary ASP.NET Files\vs\acc0e68d\f6fd98d3\App_Web_primecost.aspx.3e9c9a95.cce_rdps.0.cs:行号 0
+   在 System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   在 System.Web.HttpApplication.ExecuteStepImpl(IExecutionStep step)
+   在 System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+2019/05/21 +08:00 09:40:24     [17132] Enterprise.Framework.Log.LogUtil.ErrorLog(:0) Enterprise.Framework.Log.LogUtil.ErrorLog(:0) [(null)] - 列“mCO”不属于表 Table。 e 
+System.ArgumentException: 列“mCO”不属于表 Table。
+   在 System.Data.DataRow.GetDataColumn(String columnName)
+   在 System.Data.DataRow.set_Item(String columnName, Object value)
+   在 Enterprise.IIS.business.Reports.primeCost.BindData() 位置 E:\ffqserp\trunk\application\Enterprise.IIS\business\Reports\primeCost.aspx.cs:行号 124
+   在 Enterprise.IIS.business.Reports.primeCost.btnSearch_Click(Object sender, EventArgs e) 位置 E:\ffqserp\trunk\application\Enterprise.IIS\business\Reports\primeCost.aspx.cs:行号 147
+   在 FineUI.Button.OnClick(EventArgs e)
+   在 FineUI.Button.RaisePostBackEvent(String eventArgument)
+   在 System.Web.UI.Page.RaisePostBackEvent(IPostBackEventHandler sourceControl, String eventArgument)
+   在 System.Web.UI.Page.RaisePostBackEvent(NameValueCollection postData)
+   在 System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+2019/05/21 +08:00 09:42:05     [3220] Enterprise.Framework.Log.LogUtil.ErrorLog(:0) Enterprise.Framework.Log.LogUtil.ErrorLog(:0) [(null)] - 
+错误开始===========================================
+客户机IP:::1
+错误地址:http://localhost:19008/Business/Reports/primeCost.aspx
+异常信息:引发类型为“System.Web.HttpUnhandledException”的异常。
+错误结束=========================================== e 
+System.Web.HttpUnhandledException (0x80004005): 引发类型为“System.Web.HttpUnhandledException”的异常。 ---> System.ArgumentException: 列“mCO”不属于表 Table。
+   在 System.Data.DataRow.GetDataColumn(String columnName)
+   在 System.Data.DataRow.set_Item(String columnName, Object value)
+   在 Enterprise.IIS.business.Reports.primeCost.BindData() 位置 E:\ffqserp\trunk\application\Enterprise.IIS\business\Reports\primeCost.aspx.cs:行号 124
+   在 Enterprise.IIS.business.Reports.primeCost.btnSearch_Click(Object sender, EventArgs e) 位置 E:\ffqserp\trunk\application\Enterprise.IIS\business\Reports\primeCost.aspx.cs:行号 147
+   在 FineUI.Button.OnClick(EventArgs e)
+   在 FineUI.Button.RaisePostBackEvent(String eventArgument)
+   在 System.Web.UI.Page.RaisePostBackEvent(IPostBackEventHandler sourceControl, String eventArgument)
+   在 System.Web.UI.Page.RaisePostBackEvent(NameValueCollection postData)
+   在 System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   在 System.Web.UI.Page.HandleError(Exception e)
+   在 System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   在 System.Web.UI.Page.ProcessRequest(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   在 System.Web.UI.Page.ProcessRequest()
+   在 System.Web.UI.Page.ProcessRequestWithNoAssert(HttpContext context)
+   在 System.Web.UI.Page.ProcessRequest(HttpContext context)
+   在 ASP.business_reports_primecost_aspx.ProcessRequest(HttpContext context) 位置 c:\Windows\Microsoft.NET\Framework\v4.0.30319\Temporary ASP.NET Files\vs\acc0e68d\f6fd98d3\App_Web_primecost.aspx.3e9c9a95.cce_rdps.0.cs:行号 0
+   在 System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   在 System.Web.HttpApplication.ExecuteStepImpl(IExecutionStep step)
+   在 System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+2019/05/21 +08:00 09:42:05     [3220] Enterprise.Framework.Log.LogUtil.ErrorLog(:0) Enterprise.Framework.Log.LogUtil.ErrorLog(:0) [(null)] - 列“mCO”不属于表 Table。 e 
+System.ArgumentException: 列“mCO”不属于表 Table。
+   在 System.Data.DataRow.GetDataColumn(String columnName)
+   在 System.Data.DataRow.set_Item(String columnName, Object value)
+   在 Enterprise.IIS.business.Reports.primeCost.BindData() 位置 E:\ffqserp\trunk\application\Enterprise.IIS\business\Reports\primeCost.aspx.cs:行号 124
+   在 Enterprise.IIS.business.Reports.primeCost.btnSearch_Click(Object sender, EventArgs e) 位置 E:\ffqserp\trunk\application\Enterprise.IIS\business\Reports\primeCost.aspx.cs:行号 147
+   在 FineUI.Button.OnClick(EventArgs e)
+   在 FineUI.Button.RaisePostBackEvent(String eventArgument)
+   在 System.Web.UI.Page.RaisePostBackEvent(IPostBackEventHandler sourceControl, String eventArgument)
+   在 System.Web.UI.Page.RaisePostBackEvent(NameValueCollection postData)
+   在 System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+2019/05/21 +08:00 09:52:56     [32344] Enterprise.Framework.Log.LogUtil.ErrorLog(:0) Enterprise.Framework.Log.LogUtil.ErrorLog(:0) [(null)] - 
+错误开始===========================================
+客户机IP:::1
+错误地址:http://localhost:19008/Business/Reports/primeCost.aspx
+异常信息:引发类型为“System.Web.HttpUnhandledException”的异常。
+错误结束=========================================== e 
+System.Web.HttpUnhandledException (0x80004005): 引发类型为“System.Web.HttpUnhandledException”的异常。 ---> System.ArgumentException: 列“pmCO”不属于表 Table。
+   在 System.Data.DataRow.GetDataColumn(String columnName)
+   在 System.Data.DataRow.set_Item(String columnName, Object value)
+   在 Enterprise.IIS.business.Reports.primeCost.BindData() 位置 E:\ffqserp\trunk\application\Enterprise.IIS\business\Reports\primeCost.aspx.cs:行号 124
+   在 Enterprise.IIS.business.Reports.primeCost.btnSearch_Click(Object sender, EventArgs e) 位置 E:\ffqserp\trunk\application\Enterprise.IIS\business\Reports\primeCost.aspx.cs:行号 147
+   在 FineUI.Button.OnClick(EventArgs e)
+   在 FineUI.Button.RaisePostBackEvent(String eventArgument)
+   在 System.Web.UI.Page.RaisePostBackEvent(IPostBackEventHandler sourceControl, String eventArgument)
+   在 System.Web.UI.Page.RaisePostBackEvent(NameValueCollection postData)
+   在 System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   在 System.Web.UI.Page.HandleError(Exception e)
+   在 System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   在 System.Web.UI.Page.ProcessRequest(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   在 System.Web.UI.Page.ProcessRequest()
+   在 System.Web.UI.Page.ProcessRequestWithNoAssert(HttpContext context)
+   在 System.Web.UI.Page.ProcessRequest(HttpContext context)
+   在 ASP.business_reports_primecost_aspx.ProcessRequest(HttpContext context) 位置 c:\Windows\Microsoft.NET\Framework\v4.0.30319\Temporary ASP.NET Files\vs\acc0e68d\f6fd98d3\App_Web_primecost.aspx.3e9c9a95.5tinxwhm.0.cs:行号 0
+   在 System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   在 System.Web.HttpApplication.ExecuteStepImpl(IExecutionStep step)
+   在 System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+2019/05/21 +08:00 09:52:57     [32344] Enterprise.Framework.Log.LogUtil.ErrorLog(:0) Enterprise.Framework.Log.LogUtil.ErrorLog(:0) [(null)] - 列“pmCO”不属于表 Table。 e 
+System.ArgumentException: 列“pmCO”不属于表 Table。
+   在 System.Data.DataRow.GetDataColumn(String columnName)
+   在 System.Data.DataRow.set_Item(String columnName, Object value)
+   在 Enterprise.IIS.business.Reports.primeCost.BindData() 位置 E:\ffqserp\trunk\application\Enterprise.IIS\business\Reports\primeCost.aspx.cs:行号 124
+   在 Enterprise.IIS.business.Reports.primeCost.btnSearch_Click(Object sender, EventArgs e) 位置 E:\ffqserp\trunk\application\Enterprise.IIS\business\Reports\primeCost.aspx.cs:行号 147
+   在 FineUI.Button.OnClick(EventArgs e)
+   在 FineUI.Button.RaisePostBackEvent(String eventArgument)
+   在 System.Web.UI.Page.RaisePostBackEvent(IPostBackEventHandler sourceControl, String eventArgument)
+   在 System.Web.UI.Page.RaisePostBackEvent(NameValueCollection postData)
+   在 System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+2019/05/21 +08:00 09:57:07     [14504] Enterprise.Framework.Log.LogUtil.ErrorLog(:0) Enterprise.Framework.Log.LogUtil.ErrorLog(:0) [(null)] - 
+错误开始===========================================
+客户机IP:::1
+错误地址:http://localhost:19008/Business/Reports/primeCost.aspx
+异常信息:引发类型为“System.Web.HttpUnhandledException”的异常。
+错误结束=========================================== e 
+System.Web.HttpUnhandledException (0x80004005): 引发类型为“System.Web.HttpUnhandledException”的异常。 ---> System.ArgumentException: 列“溶解乙炔”不属于表 Table。
+   在 System.Data.DataRow.GetDataColumn(String columnName)
+   在 System.Data.DataRow.set_Item(String columnName, Object value)
+   在 Enterprise.IIS.business.Reports.primeCost.BindData() 位置 E:\ffqserp\trunk\application\Enterprise.IIS\business\Reports\primeCost.aspx.cs:行号 110
+   在 Enterprise.IIS.business.Reports.primeCost.btnSearch_Click(Object sender, EventArgs e) 位置 E:\ffqserp\trunk\application\Enterprise.IIS\business\Reports\primeCost.aspx.cs:行号 147
+   在 FineUI.Button.OnClick(EventArgs e)
+   在 FineUI.Button.RaisePostBackEvent(String eventArgument)
+   在 System.Web.UI.Page.RaisePostBackEvent(IPostBackEventHandler sourceControl, String eventArgument)
+   在 System.Web.UI.Page.RaisePostBackEvent(NameValueCollection postData)
+   在 System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   在 System.Web.UI.Page.HandleError(Exception e)
+   在 System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   在 System.Web.UI.Page.ProcessRequest(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   在 System.Web.UI.Page.ProcessRequest()
+   在 System.Web.UI.Page.ProcessRequestWithNoAssert(HttpContext context)
+   在 System.Web.UI.Page.ProcessRequest(HttpContext context)
+   在 ASP.business_reports_primecost_aspx.ProcessRequest(HttpContext context) 位置 c:\Windows\Microsoft.NET\Framework\v4.0.30319\Temporary ASP.NET Files\vs\acc0e68d\f6fd98d3\App_Web_primecost.aspx.3e9c9a95.4at45ux-.0.cs:行号 0
+   在 System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   在 System.Web.HttpApplication.ExecuteStepImpl(IExecutionStep step)
+   在 System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+2019/05/21 +08:00 09:57:07     [14504] Enterprise.Framework.Log.LogUtil.ErrorLog(:0) Enterprise.Framework.Log.LogUtil.ErrorLog(:0) [(null)] - 列“溶解乙炔”不属于表 Table。 e 
+System.ArgumentException: 列“溶解乙炔”不属于表 Table。
+   在 System.Data.DataRow.GetDataColumn(String columnName)
+   在 System.Data.DataRow.set_Item(String columnName, Object value)
+   在 Enterprise.IIS.business.Reports.primeCost.BindData() 位置 E:\ffqserp\trunk\application\Enterprise.IIS\business\Reports\primeCost.aspx.cs:行号 110
+   在 Enterprise.IIS.business.Reports.primeCost.btnSearch_Click(Object sender, EventArgs e) 位置 E:\ffqserp\trunk\application\Enterprise.IIS\business\Reports\primeCost.aspx.cs:行号 147
+   在 FineUI.Button.OnClick(EventArgs e)
+   在 FineUI.Button.RaisePostBackEvent(String eventArgument)
+   在 System.Web.UI.Page.RaisePostBackEvent(IPostBackEventHandler sourceControl, String eventArgument)
+   在 System.Web.UI.Page.RaisePostBackEvent(NameValueCollection postData)
+   在 System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+2019/05/21 +08:00 11:03:01     [31324] Enterprise.Framework.Log.LogUtil.ErrorLog(:0) Enterprise.Framework.Log.LogUtil.ErrorLog(:0) [(null)] - 
+错误开始===========================================
+客户机IP:::1
+错误地址:http://localhost:19008/Business/Reports/primeCost.aspx
+异常信息:引发类型为“System.Web.HttpUnhandledException”的异常。
+错误结束=========================================== e 
+System.Web.HttpUnhandledException (0x80004005): 引发类型为“System.Web.HttpUnhandledException”的异常。 ---> System.FormatException: 输入字符串的格式不正确。
+   在 System.Number.ParseDouble(String value, NumberStyles options, NumberFormatInfo numfmt)
+   在 System.Double.Parse(String s)
+   在 Enterprise.IIS.business.Reports.primeCost.BindData() 位置 E:\ffqserp\trunk\application\Enterprise.IIS\business\Reports\primeCost.aspx.cs:行号 158
+   在 Enterprise.IIS.business.Reports.primeCost.btnSearch_Click(Object sender, EventArgs e) 位置 E:\ffqserp\trunk\application\Enterprise.IIS\business\Reports\primeCost.aspx.cs:行号 171
+   在 FineUI.Button.OnClick(EventArgs e)
+   在 FineUI.Button.RaisePostBackEvent(String eventArgument)
+   在 System.Web.UI.Page.RaisePostBackEvent(IPostBackEventHandler sourceControl, String eventArgument)
+   在 System.Web.UI.Page.RaisePostBackEvent(NameValueCollection postData)
+   在 System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   在 System.Web.UI.Page.HandleError(Exception e)
+   在 System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   在 System.Web.UI.Page.ProcessRequest(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   在 System.Web.UI.Page.ProcessRequest()
+   在 System.Web.UI.Page.ProcessRequestWithNoAssert(HttpContext context)
+   在 System.Web.UI.Page.ProcessRequest(HttpContext context)
+   在 ASP.business_reports_primecost_aspx.ProcessRequest(HttpContext context) 位置 c:\Windows\Microsoft.NET\Framework\v4.0.30319\Temporary ASP.NET Files\vs\acc0e68d\f6fd98d3\App_Web_hmgfaeco.0.cs:行号 0
+   在 System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   在 System.Web.HttpApplication.ExecuteStepImpl(IExecutionStep step)
+   在 System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+2019/05/21 +08:00 11:03:01     [31324] Enterprise.Framework.Log.LogUtil.ErrorLog(:0) Enterprise.Framework.Log.LogUtil.ErrorLog(:0) [(null)] - 输入字符串的格式不正确。 e 
+System.FormatException: 输入字符串的格式不正确。
+   在 System.Number.ParseDouble(String value, NumberStyles options, NumberFormatInfo numfmt)
+   在 System.Double.Parse(String s)
+   在 Enterprise.IIS.business.Reports.primeCost.BindData() 位置 E:\ffqserp\trunk\application\Enterprise.IIS\business\Reports\primeCost.aspx.cs:行号 158
+   在 Enterprise.IIS.business.Reports.primeCost.btnSearch_Click(Object sender, EventArgs e) 位置 E:\ffqserp\trunk\application\Enterprise.IIS\business\Reports\primeCost.aspx.cs:行号 171
+   在 FineUI.Button.OnClick(EventArgs e)
+   在 FineUI.Button.RaisePostBackEvent(String eventArgument)
+   在 System.Web.UI.Page.RaisePostBackEvent(IPostBackEventHandler sourceControl, String eventArgument)
+   在 System.Web.UI.Page.RaisePostBackEvent(NameValueCollection postData)
+   在 System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+2019/05/21 +08:00 11:06:10     [13792] Enterprise.Framework.Log.LogUtil.ErrorLog(:0) Enterprise.Framework.Log.LogUtil.ErrorLog(:0) [(null)] - 
+错误开始===========================================
+客户机IP:::1
+错误地址:http://localhost:19008/Business/Reports/primeCost.aspx
+异常信息:引发类型为“System.Web.HttpUnhandledException”的异常。
+错误结束=========================================== e 
+System.Web.HttpUnhandledException (0x80004005): 引发类型为“System.Web.HttpUnhandledException”的异常。 ---> System.ArgumentException: 列“5%H2”不属于表 Table。
+   在 System.Data.DataRow.GetDataColumn(String columnName)
+   在 System.Data.DataRow.get_Item(String columnName)
+   在 Enterprise.IIS.business.Reports.primeCost.BindData() 位置 E:\ffqserp\trunk\application\Enterprise.IIS\business\Reports\primeCost.aspx.cs:行号 158
+   在 Enterprise.IIS.business.Reports.primeCost.btnSearch_Click(Object sender, EventArgs e) 位置 E:\ffqserp\trunk\application\Enterprise.IIS\business\Reports\primeCost.aspx.cs:行号 171
+   在 FineUI.Button.OnClick(EventArgs e)
+   在 FineUI.Button.RaisePostBackEvent(String eventArgument)
+   在 System.Web.UI.Page.RaisePostBackEvent(IPostBackEventHandler sourceControl, String eventArgument)
+   在 System.Web.UI.Page.RaisePostBackEvent(NameValueCollection postData)
+   在 System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   在 System.Web.UI.Page.HandleError(Exception e)
+   在 System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   在 System.Web.UI.Page.ProcessRequest(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   在 System.Web.UI.Page.ProcessRequest()
+   在 System.Web.UI.Page.ProcessRequestWithNoAssert(HttpContext context)
+   在 System.Web.UI.Page.ProcessRequest(HttpContext context)
+   在 ASP.business_reports_primecost_aspx.ProcessRequest(HttpContext context) 位置 c:\Windows\Microsoft.NET\Framework\v4.0.30319\Temporary ASP.NET Files\vs\acc0e68d\f6fd98d3\App_Web_primecost.aspx.3e9c9a95.vwizkgou.0.cs:行号 0
+   在 System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   在 System.Web.HttpApplication.ExecuteStepImpl(IExecutionStep step)
+   在 System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+2019/05/21 +08:00 11:06:11     [13792] Enterprise.Framework.Log.LogUtil.ErrorLog(:0) Enterprise.Framework.Log.LogUtil.ErrorLog(:0) [(null)] - 列“5%H2”不属于表 Table。 e 
+System.ArgumentException: 列“5%H2”不属于表 Table。
+   在 System.Data.DataRow.GetDataColumn(String columnName)
+   在 System.Data.DataRow.get_Item(String columnName)
+   在 Enterprise.IIS.business.Reports.primeCost.BindData() 位置 E:\ffqserp\trunk\application\Enterprise.IIS\business\Reports\primeCost.aspx.cs:行号 158
+   在 Enterprise.IIS.business.Reports.primeCost.btnSearch_Click(Object sender, EventArgs e) 位置 E:\ffqserp\trunk\application\Enterprise.IIS\business\Reports\primeCost.aspx.cs:行号 171
+   在 FineUI.Button.OnClick(EventArgs e)
+   在 FineUI.Button.RaisePostBackEvent(String eventArgument)
+   在 System.Web.UI.Page.RaisePostBackEvent(IPostBackEventHandler sourceControl, String eventArgument)
+   在 System.Web.UI.Page.RaisePostBackEvent(NameValueCollection postData)
+   在 System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+2019/05/21 +08:00 11:06:49     [12024] Enterprise.Framework.Log.LogUtil.ErrorLog(:0) Enterprise.Framework.Log.LogUtil.ErrorLog(:0) [(null)] - 
+错误开始===========================================
+客户机IP:::1
+错误地址:http://localhost:19008/Business/Reports/primeCost.aspx
+异常信息:引发类型为“System.Web.HttpUnhandledException”的异常。
+错误结束=========================================== e 
+System.Web.HttpUnhandledException (0x80004005): 引发类型为“System.Web.HttpUnhandledException”的异常。 ---> System.ArgumentException: 列“5%H2”不属于表 Table。
+   在 System.Data.DataRow.GetDataColumn(String columnName)
+   在 System.Data.DataRow.get_Item(String columnName)
+   在 Enterprise.IIS.business.Reports.primeCost.BindData() 位置 E:\ffqserp\trunk\application\Enterprise.IIS\business\Reports\primeCost.aspx.cs:行号 158
+   在 Enterprise.IIS.business.Reports.primeCost.btnSearch_Click(Object sender, EventArgs e) 位置 E:\ffqserp\trunk\application\Enterprise.IIS\business\Reports\primeCost.aspx.cs:行号 171
+   在 FineUI.Button.OnClick(EventArgs e)
+   在 FineUI.Button.RaisePostBackEvent(String eventArgument)
+   在 System.Web.UI.Page.RaisePostBackEvent(IPostBackEventHandler sourceControl, String eventArgument)
+   在 System.Web.UI.Page.RaisePostBackEvent(NameValueCollection postData)
+   在 System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   在 System.Web.UI.Page.HandleError(Exception e)
+   在 System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   在 System.Web.UI.Page.ProcessRequest(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   在 System.Web.UI.Page.ProcessRequest()
+   在 System.Web.UI.Page.ProcessRequestWithNoAssert(HttpContext context)
+   在 System.Web.UI.Page.ProcessRequest(HttpContext context)
+   在 ASP.business_reports_primecost_aspx.ProcessRequest(HttpContext context) 位置 c:\Windows\Microsoft.NET\Framework\v4.0.30319\Temporary ASP.NET Files\vs\acc0e68d\f6fd98d3\App_Web_primecost.aspx.3e9c9a95.vwizkgou.0.cs:行号 0
+   在 System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   在 System.Web.HttpApplication.ExecuteStepImpl(IExecutionStep step)
+   在 System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+2019/05/21 +08:00 11:06:49     [12024] Enterprise.Framework.Log.LogUtil.ErrorLog(:0) Enterprise.Framework.Log.LogUtil.ErrorLog(:0) [(null)] - 列“5%H2”不属于表 Table。 e 
+System.ArgumentException: 列“5%H2”不属于表 Table。
+   在 System.Data.DataRow.GetDataColumn(String columnName)
+   在 System.Data.DataRow.get_Item(String columnName)
+   在 Enterprise.IIS.business.Reports.primeCost.BindData() 位置 E:\ffqserp\trunk\application\Enterprise.IIS\business\Reports\primeCost.aspx.cs:行号 158
+   在 Enterprise.IIS.business.Reports.primeCost.btnSearch_Click(Object sender, EventArgs e) 位置 E:\ffqserp\trunk\application\Enterprise.IIS\business\Reports\primeCost.aspx.cs:行号 171
+   在 FineUI.Button.OnClick(EventArgs e)
+   在 FineUI.Button.RaisePostBackEvent(String eventArgument)
+   在 System.Web.UI.Page.RaisePostBackEvent(IPostBackEventHandler sourceControl, String eventArgument)
+   在 System.Web.UI.Page.RaisePostBackEvent(NameValueCollection postData)
+   在 System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+2019/05/21 +08:00 11:11:44     [29480] Enterprise.Framework.Log.LogUtil.ErrorLog(:0) Enterprise.Framework.Log.LogUtil.ErrorLog(:0) [(null)] - 
+错误开始===========================================
+客户机IP:::1
+错误地址:http://localhost:19008/Business/Reports/primeCost.aspx
+异常信息:引发类型为“System.Web.HttpUnhandledException”的异常。
+错误结束=========================================== e 
+System.Web.HttpUnhandledException (0x80004005): 引发类型为“System.Web.HttpUnhandledException”的异常。 ---> System.FormatException: 输入字符串的格式不正确。
+   在 System.Number.ParseDouble(String value, NumberStyles options, NumberFormatInfo numfmt)
+   在 System.Double.Parse(String s)
+   在 Enterprise.IIS.business.Reports.primeCost.BindData() 位置 E:\ffqserp\trunk\application\Enterprise.IIS\business\Reports\primeCost.aspx.cs:行号 159
+   在 Enterprise.IIS.business.Reports.primeCost.btnSearch_Click(Object sender, EventArgs e) 位置 E:\ffqserp\trunk\application\Enterprise.IIS\business\Reports\primeCost.aspx.cs:行号 172
+   在 FineUI.Button.OnClick(EventArgs e)
+   在 FineUI.Button.RaisePostBackEvent(String eventArgument)
+   在 System.Web.UI.Page.RaisePostBackEvent(IPostBackEventHandler sourceControl, String eventArgument)
+   在 System.Web.UI.Page.RaisePostBackEvent(NameValueCollection postData)
+   在 System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   在 System.Web.UI.Page.HandleError(Exception e)
+   在 System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   在 System.Web.UI.Page.ProcessRequest(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   在 System.Web.UI.Page.ProcessRequest()
+   在 System.Web.UI.Page.ProcessRequestWithNoAssert(HttpContext context)
+   在 System.Web.UI.Page.ProcessRequest(HttpContext context)
+   在 ASP.business_reports_primecost_aspx.ProcessRequest(HttpContext context) 位置 c:\Windows\Microsoft.NET\Framework\v4.0.30319\Temporary ASP.NET Files\vs\acc0e68d\f6fd98d3\App_Web_primecost.aspx.3e9c9a95.xchmf8ye.0.cs:行号 0
+   在 System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   在 System.Web.HttpApplication.ExecuteStepImpl(IExecutionStep step)
+   在 System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+2019/05/21 +08:00 11:11:44     [29480] Enterprise.Framework.Log.LogUtil.ErrorLog(:0) Enterprise.Framework.Log.LogUtil.ErrorLog(:0) [(null)] - 输入字符串的格式不正确。 e 
+System.FormatException: 输入字符串的格式不正确。
+   在 System.Number.ParseDouble(String value, NumberStyles options, NumberFormatInfo numfmt)
+   在 System.Double.Parse(String s)
+   在 Enterprise.IIS.business.Reports.primeCost.BindData() 位置 E:\ffqserp\trunk\application\Enterprise.IIS\business\Reports\primeCost.aspx.cs:行号 159
+   在 Enterprise.IIS.business.Reports.primeCost.btnSearch_Click(Object sender, EventArgs e) 位置 E:\ffqserp\trunk\application\Enterprise.IIS\business\Reports\primeCost.aspx.cs:行号 172
+   在 FineUI.Button.OnClick(EventArgs e)
+   在 FineUI.Button.RaisePostBackEvent(String eventArgument)
+   在 System.Web.UI.Page.RaisePostBackEvent(IPostBackEventHandler sourceControl, String eventArgument)
+   在 System.Web.UI.Page.RaisePostBackEvent(NameValueCollection postData)
+   在 System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+2019/05/21 +08:00 11:27:40     [25496] Enterprise.Framework.Log.LogUtil.ErrorLog(:0) Enterprise.Framework.Log.LogUtil.ErrorLog(:0) [(null)] - 
+错误开始===========================================
+客户机IP:::1
+错误地址:http://localhost:19008/Business/Reports/primeCost.aspx
+异常信息:引发类型为“System.Web.HttpUnhandledException”的异常。
+错误结束=========================================== e 
+System.Web.HttpUnhandledException (0x80004005): 引发类型为“System.Web.HttpUnhandledException”的异常。 ---> System.ArgumentException: 列“CH3Br”不属于表 Table。
+   在 System.Data.DataRow.GetDataColumn(String columnName)
+   在 System.Data.DataRow.set_Item(String columnName, Object value)
+   在 Enterprise.IIS.business.Reports.primeCost.BindData() 位置 E:\ffqserp\trunk\application\Enterprise.IIS\business\Reports\primeCost.aspx.cs:行号 159
+   在 Enterprise.IIS.business.Reports.primeCost.btnSearch_Click(Object sender, EventArgs e) 位置 E:\ffqserp\trunk\application\Enterprise.IIS\business\Reports\primeCost.aspx.cs:行号 172
+   在 FineUI.Button.OnClick(EventArgs e)
+   在 FineUI.Button.RaisePostBackEvent(String eventArgument)
+   在 System.Web.UI.Page.RaisePostBackEvent(IPostBackEventHandler sourceControl, String eventArgument)
+   在 System.Web.UI.Page.RaisePostBackEvent(NameValueCollection postData)
+   在 System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   在 System.Web.UI.Page.HandleError(Exception e)
+   在 System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   在 System.Web.UI.Page.ProcessRequest(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   在 System.Web.UI.Page.ProcessRequest()
+   在 System.Web.UI.Page.ProcessRequestWithNoAssert(HttpContext context)
+   在 System.Web.UI.Page.ProcessRequest(HttpContext context)
+   在 ASP.business_reports_primecost_aspx.ProcessRequest(HttpContext context) 位置 c:\Windows\Microsoft.NET\Framework\v4.0.30319\Temporary ASP.NET Files\vs\acc0e68d\f6fd98d3\App_Web_0aspy1rt.6.cs:行号 0
+   在 System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   在 System.Web.HttpApplication.ExecuteStepImpl(IExecutionStep step)
+   在 System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+2019/05/21 +08:00 11:27:40     [25496] Enterprise.Framework.Log.LogUtil.ErrorLog(:0) Enterprise.Framework.Log.LogUtil.ErrorLog(:0) [(null)] - 列“CH3Br”不属于表 Table。 e 
+System.ArgumentException: 列“CH3Br”不属于表 Table。
+   在 System.Data.DataRow.GetDataColumn(String columnName)
+   在 System.Data.DataRow.set_Item(String columnName, Object value)
+   在 Enterprise.IIS.business.Reports.primeCost.BindData() 位置 E:\ffqserp\trunk\application\Enterprise.IIS\business\Reports\primeCost.aspx.cs:行号 159
+   在 Enterprise.IIS.business.Reports.primeCost.btnSearch_Click(Object sender, EventArgs e) 位置 E:\ffqserp\trunk\application\Enterprise.IIS\business\Reports\primeCost.aspx.cs:行号 172
+   在 FineUI.Button.OnClick(EventArgs e)
+   在 FineUI.Button.RaisePostBackEvent(String eventArgument)
+   在 System.Web.UI.Page.RaisePostBackEvent(IPostBackEventHandler sourceControl, String eventArgument)
+   在 System.Web.UI.Page.RaisePostBackEvent(NameValueCollection postData)
+   在 System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)

@@ -1,0 +1,4 @@
+﻿2020/10/22 11:09:12            ，销售单：OC-201023-0001，销售单详细单号：94126---G0821, 
+2020/10/22 11:09:34            ，销售单：OC-201023-0001，销售单详细单号：94126---G0821,错误：，销售单：OC-201023-0001，销售单详细单号：94126---G0821,,错误信息：无法连接到远程服务器,错误堆栈：   在 System.Net.HttpWebRequest.GetRequestStream(TransportContext& context)
+   在 System.Net.HttpWebRequest.GetRequestStream()
+   在 Enterprise.IIS.Common.HttpRequest.httpRequest(tmsModel t, String uri) 位置 h:\ffqserp\trunk\application\Enterprise.IIS\Common\HttpRequest.cs:行号 61 

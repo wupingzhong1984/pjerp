@@ -1,0 +1,356 @@
+﻿2019/05/10 +08:00 09:53:14     [11000] Enterprise.Framework.Log.LogUtil.ErrorLog(:0) Enterprise.Framework.Log.LogUtil.ErrorLog(:0) [(null)] - 
+错误开始===========================================
+客户机IP:::1
+错误地址:http://localhost:19008/Business/Reports/ProducePlace.aspx
+异常信息:e:\ffqserp\trunk\application\Enterprise.IIS\business\Reports\ProducePlace.aspx(23): error CS1061: “ASP.business_reports_produceplace_aspx”不包含“btnConfirm_Click”的定义，并且找不到可接受类型为“ASP.business_reports_produceplace_aspx”的第一个参数的扩展方法“btnConfirm_Click”(是否缺少 using 指令或程序集引用?)
+错误结束=========================================== e 
+System.Web.HttpCompileException (0x80004005): e:\ffqserp\trunk\application\Enterprise.IIS\business\Reports\ProducePlace.aspx(23): error CS1061: “ASP.business_reports_produceplace_aspx”不包含“btnConfirm_Click”的定义，并且找不到可接受类型为“ASP.business_reports_produceplace_aspx”的第一个参数的扩展方法“btnConfirm_Click”(是否缺少 using 指令或程序集引用?)
+   在 System.Web.Compilation.BuildManager.CompileWebFile(VirtualPath virtualPath)
+   在 System.Web.Compilation.BuildManager.GetVPathBuildResultInternal(VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   在 System.Web.Compilation.BuildManager.GetVPathBuildResultWithNoAssert(HttpContext context, VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   在 System.Web.Compilation.BuildManager.GetVirtualPathObjectFactory(VirtualPath virtualPath, HttpContext context, Boolean allowCrossApp, Boolean throwIfNotFound)
+   在 System.Web.Compilation.BuildManager.CreateInstanceFromVirtualPath(VirtualPath virtualPath, Type requiredBaseType, HttpContext context, Boolean allowCrossApp)
+   在 System.Web.UI.PageHandlerFactory.GetHandlerHelper(HttpContext context, String requestType, VirtualPath virtualPath, String physicalPath)
+   在 System.Web.UI.PageHandlerFactory.GetHandler(HttpContext context, String requestType, String virtualPath, String path)
+   在 System.Web.HttpApplication.MaterializeHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   在 System.Web.HttpApplication.ExecuteStepImpl(IExecutionStep step)
+   在 System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+2019/05/10 +08:00 09:53:15     [11000] Enterprise.Framework.Log.LogUtil.ErrorLog(:0) Enterprise.Framework.Log.LogUtil.ErrorLog(:0) [(null)] - e:\ffqserp\trunk\application\Enterprise.IIS\business\Reports\ProducePlace.aspx(23): error CS1061: “ASP.business_reports_produceplace_aspx”不包含“btnConfirm_Click”的定义，并且找不到可接受类型为“ASP.business_reports_produceplace_aspx”的第一个参数的扩展方法“btnConfirm_Click”(是否缺少 using 指令或程序集引用?) e 
+System.Web.HttpCompileException (0x80004005): e:\ffqserp\trunk\application\Enterprise.IIS\business\Reports\ProducePlace.aspx(23): error CS1061: “ASP.business_reports_produceplace_aspx”不包含“btnConfirm_Click”的定义，并且找不到可接受类型为“ASP.business_reports_produceplace_aspx”的第一个参数的扩展方法“btnConfirm_Click”(是否缺少 using 指令或程序集引用?)
+   在 System.Web.Compilation.BuildManager.CompileWebFile(VirtualPath virtualPath)
+   在 System.Web.Compilation.BuildManager.GetVPathBuildResultInternal(VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   在 System.Web.Compilation.BuildManager.GetVPathBuildResultWithNoAssert(HttpContext context, VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   在 System.Web.Compilation.BuildManager.GetVirtualPathObjectFactory(VirtualPath virtualPath, HttpContext context, Boolean allowCrossApp, Boolean throwIfNotFound)
+   在 System.Web.Compilation.BuildManager.CreateInstanceFromVirtualPath(VirtualPath virtualPath, Type requiredBaseType, HttpContext context, Boolean allowCrossApp)
+   在 System.Web.UI.PageHandlerFactory.GetHandlerHelper(HttpContext context, String requestType, VirtualPath virtualPath, String physicalPath)
+   在 System.Web.UI.PageHandlerFactory.GetHandler(HttpContext context, String requestType, String virtualPath, String path)
+   在 System.Web.HttpApplication.MaterializeHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   在 System.Web.HttpApplication.ExecuteStepImpl(IExecutionStep step)
+   在 System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+2019/05/10 +08:00 10:03:25     [12660] Enterprise.Framework.Log.LogUtil.ErrorLog(:0) Enterprise.Framework.Log.LogUtil.ErrorLog(:0) [(null)] - 
+错误开始===========================================
+客户机IP:::1
+错误地址:http://localhost:19008/Business/Reports/ProducePlace.aspx
+异常信息:e:\ffqserp\trunk\application\Enterprise.IIS\business\Reports\ProducePlace.aspx(104): error CS1061: “ASP.business_reports_produceplace_aspx”不包含“ddlPageSize_SelectedIndexChanged”的定义，并且找不到可接受类型为“ASP.business_reports_produceplace_aspx”的第一个参数的扩展方法“ddlPageSize_SelectedIndexChanged”(是否缺少 using 指令或程序集引用?)
+错误结束=========================================== e 
+System.Web.HttpCompileException (0x80004005): e:\ffqserp\trunk\application\Enterprise.IIS\business\Reports\ProducePlace.aspx(104): error CS1061: “ASP.business_reports_produceplace_aspx”不包含“ddlPageSize_SelectedIndexChanged”的定义，并且找不到可接受类型为“ASP.business_reports_produceplace_aspx”的第一个参数的扩展方法“ddlPageSize_SelectedIndexChanged”(是否缺少 using 指令或程序集引用?)
+   在 System.Web.Compilation.AssemblyBuilder.Compile()
+   在 System.Web.Compilation.BuildProvidersCompiler.PerformBuild()
+   在 System.Web.Compilation.BuildManager.CompileWebFile(VirtualPath virtualPath)
+   在 System.Web.Compilation.BuildManager.GetVPathBuildResultInternal(VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   在 System.Web.Compilation.BuildManager.GetVPathBuildResultWithNoAssert(HttpContext context, VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   在 System.Web.Compilation.BuildManager.GetVirtualPathObjectFactory(VirtualPath virtualPath, HttpContext context, Boolean allowCrossApp, Boolean throwIfNotFound)
+   在 System.Web.Compilation.BuildManager.CreateInstanceFromVirtualPath(VirtualPath virtualPath, Type requiredBaseType, HttpContext context, Boolean allowCrossApp)
+   在 System.Web.UI.PageHandlerFactory.GetHandlerHelper(HttpContext context, String requestType, VirtualPath virtualPath, String physicalPath)
+   在 System.Web.UI.PageHandlerFactory.GetHandler(HttpContext context, String requestType, String virtualPath, String path)
+   在 System.Web.HttpApplication.MaterializeHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   在 System.Web.HttpApplication.ExecuteStepImpl(IExecutionStep step)
+   在 System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+2019/05/10 +08:00 10:03:25     [12660] Enterprise.Framework.Log.LogUtil.ErrorLog(:0) Enterprise.Framework.Log.LogUtil.ErrorLog(:0) [(null)] - e:\ffqserp\trunk\application\Enterprise.IIS\business\Reports\ProducePlace.aspx(104): error CS1061: “ASP.business_reports_produceplace_aspx”不包含“ddlPageSize_SelectedIndexChanged”的定义，并且找不到可接受类型为“ASP.business_reports_produceplace_aspx”的第一个参数的扩展方法“ddlPageSize_SelectedIndexChanged”(是否缺少 using 指令或程序集引用?) e 
+System.Web.HttpCompileException (0x80004005): e:\ffqserp\trunk\application\Enterprise.IIS\business\Reports\ProducePlace.aspx(104): error CS1061: “ASP.business_reports_produceplace_aspx”不包含“ddlPageSize_SelectedIndexChanged”的定义，并且找不到可接受类型为“ASP.business_reports_produceplace_aspx”的第一个参数的扩展方法“ddlPageSize_SelectedIndexChanged”(是否缺少 using 指令或程序集引用?)
+   在 System.Web.Compilation.AssemblyBuilder.Compile()
+   在 System.Web.Compilation.BuildProvidersCompiler.PerformBuild()
+   在 System.Web.Compilation.BuildManager.CompileWebFile(VirtualPath virtualPath)
+   在 System.Web.Compilation.BuildManager.GetVPathBuildResultInternal(VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   在 System.Web.Compilation.BuildManager.GetVPathBuildResultWithNoAssert(HttpContext context, VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   在 System.Web.Compilation.BuildManager.GetVirtualPathObjectFactory(VirtualPath virtualPath, HttpContext context, Boolean allowCrossApp, Boolean throwIfNotFound)
+   在 System.Web.Compilation.BuildManager.CreateInstanceFromVirtualPath(VirtualPath virtualPath, Type requiredBaseType, HttpContext context, Boolean allowCrossApp)
+   在 System.Web.UI.PageHandlerFactory.GetHandlerHelper(HttpContext context, String requestType, VirtualPath virtualPath, String physicalPath)
+   在 System.Web.UI.PageHandlerFactory.GetHandler(HttpContext context, String requestType, String virtualPath, String path)
+   在 System.Web.HttpApplication.MaterializeHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   在 System.Web.HttpApplication.ExecuteStepImpl(IExecutionStep step)
+   在 System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+2019/05/10 +08:00 10:45:23     [7696] Enterprise.Framework.Log.LogUtil.ErrorLog(:0) Enterprise.Framework.Log.LogUtil.ErrorLog(:0) [(null)] - 
+错误开始===========================================
+客户机IP:::1
+错误地址:http://localhost:19008/Business/Reports/ProducePlace.aspx
+异常信息:e:\ffqserp\trunk\application\Enterprise.IIS\business\Reports\ProducePlace.aspx(105): error CS1061: “ASP.business_reports_produceplace_aspx”不包含“ddlPageSize_SelectedIndexChanged”的定义，并且找不到可接受类型为“ASP.business_reports_produceplace_aspx”的第一个参数的扩展方法“ddlPageSize_SelectedIndexChanged”(是否缺少 using 指令或程序集引用?)
+错误结束=========================================== e 
+System.Web.HttpCompileException (0x80004005): e:\ffqserp\trunk\application\Enterprise.IIS\business\Reports\ProducePlace.aspx(105): error CS1061: “ASP.business_reports_produceplace_aspx”不包含“ddlPageSize_SelectedIndexChanged”的定义，并且找不到可接受类型为“ASP.business_reports_produceplace_aspx”的第一个参数的扩展方法“ddlPageSize_SelectedIndexChanged”(是否缺少 using 指令或程序集引用?)
+   在 System.Web.Compilation.AssemblyBuilder.Compile()
+   在 System.Web.Compilation.BuildProvidersCompiler.PerformBuild()
+   在 System.Web.Compilation.BuildManager.CompileWebFile(VirtualPath virtualPath)
+   在 System.Web.Compilation.BuildManager.GetVPathBuildResultInternal(VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   在 System.Web.Compilation.BuildManager.GetVPathBuildResultWithNoAssert(HttpContext context, VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   在 System.Web.Compilation.BuildManager.GetVirtualPathObjectFactory(VirtualPath virtualPath, HttpContext context, Boolean allowCrossApp, Boolean throwIfNotFound)
+   在 System.Web.Compilation.BuildManager.CreateInstanceFromVirtualPath(VirtualPath virtualPath, Type requiredBaseType, HttpContext context, Boolean allowCrossApp)
+   在 System.Web.UI.PageHandlerFactory.GetHandlerHelper(HttpContext context, String requestType, VirtualPath virtualPath, String physicalPath)
+   在 System.Web.UI.PageHandlerFactory.GetHandler(HttpContext context, String requestType, String virtualPath, String path)
+   在 System.Web.HttpApplication.MaterializeHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   在 System.Web.HttpApplication.ExecuteStepImpl(IExecutionStep step)
+   在 System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+2019/05/10 +08:00 10:45:23     [7696] Enterprise.Framework.Log.LogUtil.ErrorLog(:0) Enterprise.Framework.Log.LogUtil.ErrorLog(:0) [(null)] - e:\ffqserp\trunk\application\Enterprise.IIS\business\Reports\ProducePlace.aspx(105): error CS1061: “ASP.business_reports_produceplace_aspx”不包含“ddlPageSize_SelectedIndexChanged”的定义，并且找不到可接受类型为“ASP.business_reports_produceplace_aspx”的第一个参数的扩展方法“ddlPageSize_SelectedIndexChanged”(是否缺少 using 指令或程序集引用?) e 
+System.Web.HttpCompileException (0x80004005): e:\ffqserp\trunk\application\Enterprise.IIS\business\Reports\ProducePlace.aspx(105): error CS1061: “ASP.business_reports_produceplace_aspx”不包含“ddlPageSize_SelectedIndexChanged”的定义，并且找不到可接受类型为“ASP.business_reports_produceplace_aspx”的第一个参数的扩展方法“ddlPageSize_SelectedIndexChanged”(是否缺少 using 指令或程序集引用?)
+   在 System.Web.Compilation.AssemblyBuilder.Compile()
+   在 System.Web.Compilation.BuildProvidersCompiler.PerformBuild()
+   在 System.Web.Compilation.BuildManager.CompileWebFile(VirtualPath virtualPath)
+   在 System.Web.Compilation.BuildManager.GetVPathBuildResultInternal(VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   在 System.Web.Compilation.BuildManager.GetVPathBuildResultWithNoAssert(HttpContext context, VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   在 System.Web.Compilation.BuildManager.GetVirtualPathObjectFactory(VirtualPath virtualPath, HttpContext context, Boolean allowCrossApp, Boolean throwIfNotFound)
+   在 System.Web.Compilation.BuildManager.CreateInstanceFromVirtualPath(VirtualPath virtualPath, Type requiredBaseType, HttpContext context, Boolean allowCrossApp)
+   在 System.Web.UI.PageHandlerFactory.GetHandlerHelper(HttpContext context, String requestType, VirtualPath virtualPath, String physicalPath)
+   在 System.Web.UI.PageHandlerFactory.GetHandler(HttpContext context, String requestType, String virtualPath, String path)
+   在 System.Web.HttpApplication.MaterializeHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   在 System.Web.HttpApplication.ExecuteStepImpl(IExecutionStep step)
+   在 System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+2019/05/10 +08:00 10:47:03     [10164] Enterprise.Framework.Log.LogUtil.ErrorLog(:0) Enterprise.Framework.Log.LogUtil.ErrorLog(:0) [(null)] - 
+错误开始===========================================
+客户机IP:::1
+错误地址:http://localhost:19008/Business/Reports/ProducePlace.aspx
+异常信息:e:\ffqserp\trunk\application\Enterprise.IIS\business\Reports\ProducePlace.aspx(105): error CS1061: “ASP.business_reports_produceplace_aspx”不包含“ddlPageSize_SelectedIndexChanged”的定义，并且找不到可接受类型为“ASP.business_reports_produceplace_aspx”的第一个参数的扩展方法“ddlPageSize_SelectedIndexChanged”(是否缺少 using 指令或程序集引用?)
+错误结束=========================================== e 
+System.Web.HttpCompileException (0x80004005): e:\ffqserp\trunk\application\Enterprise.IIS\business\Reports\ProducePlace.aspx(105): error CS1061: “ASP.business_reports_produceplace_aspx”不包含“ddlPageSize_SelectedIndexChanged”的定义，并且找不到可接受类型为“ASP.business_reports_produceplace_aspx”的第一个参数的扩展方法“ddlPageSize_SelectedIndexChanged”(是否缺少 using 指令或程序集引用?)
+   在 System.Web.Compilation.BuildManager.CompileWebFile(VirtualPath virtualPath)
+   在 System.Web.Compilation.BuildManager.GetVPathBuildResultInternal(VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   在 System.Web.Compilation.BuildManager.GetVPathBuildResultWithNoAssert(HttpContext context, VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   在 System.Web.Compilation.BuildManager.GetVirtualPathObjectFactory(VirtualPath virtualPath, HttpContext context, Boolean allowCrossApp, Boolean throwIfNotFound)
+   在 System.Web.Compilation.BuildManager.CreateInstanceFromVirtualPath(VirtualPath virtualPath, Type requiredBaseType, HttpContext context, Boolean allowCrossApp)
+   在 System.Web.UI.PageHandlerFactory.GetHandlerHelper(HttpContext context, String requestType, VirtualPath virtualPath, String physicalPath)
+   在 System.Web.UI.PageHandlerFactory.GetHandler(HttpContext context, String requestType, String virtualPath, String path)
+   在 System.Web.HttpApplication.MaterializeHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   在 System.Web.HttpApplication.ExecuteStepImpl(IExecutionStep step)
+   在 System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+2019/05/10 +08:00 10:47:03     [10164] Enterprise.Framework.Log.LogUtil.ErrorLog(:0) Enterprise.Framework.Log.LogUtil.ErrorLog(:0) [(null)] - e:\ffqserp\trunk\application\Enterprise.IIS\business\Reports\ProducePlace.aspx(105): error CS1061: “ASP.business_reports_produceplace_aspx”不包含“ddlPageSize_SelectedIndexChanged”的定义，并且找不到可接受类型为“ASP.business_reports_produceplace_aspx”的第一个参数的扩展方法“ddlPageSize_SelectedIndexChanged”(是否缺少 using 指令或程序集引用?) e 
+System.Web.HttpCompileException (0x80004005): e:\ffqserp\trunk\application\Enterprise.IIS\business\Reports\ProducePlace.aspx(105): error CS1061: “ASP.business_reports_produceplace_aspx”不包含“ddlPageSize_SelectedIndexChanged”的定义，并且找不到可接受类型为“ASP.business_reports_produceplace_aspx”的第一个参数的扩展方法“ddlPageSize_SelectedIndexChanged”(是否缺少 using 指令或程序集引用?)
+   在 System.Web.Compilation.BuildManager.CompileWebFile(VirtualPath virtualPath)
+   在 System.Web.Compilation.BuildManager.GetVPathBuildResultInternal(VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   在 System.Web.Compilation.BuildManager.GetVPathBuildResultWithNoAssert(HttpContext context, VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   在 System.Web.Compilation.BuildManager.GetVirtualPathObjectFactory(VirtualPath virtualPath, HttpContext context, Boolean allowCrossApp, Boolean throwIfNotFound)
+   在 System.Web.Compilation.BuildManager.CreateInstanceFromVirtualPath(VirtualPath virtualPath, Type requiredBaseType, HttpContext context, Boolean allowCrossApp)
+   在 System.Web.UI.PageHandlerFactory.GetHandlerHelper(HttpContext context, String requestType, VirtualPath virtualPath, String physicalPath)
+   在 System.Web.UI.PageHandlerFactory.GetHandler(HttpContext context, String requestType, String virtualPath, String path)
+   在 System.Web.HttpApplication.MaterializeHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   在 System.Web.HttpApplication.ExecuteStepImpl(IExecutionStep step)
+   在 System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+2019/05/10 +08:00 10:48:03     [10164] Enterprise.Framework.Log.LogUtil.ErrorLog(:0) Enterprise.Framework.Log.LogUtil.ErrorLog(:0) [(null)] - 
+错误开始===========================================
+客户机IP:::1
+错误地址:http://localhost:19008/Business/Reports/ProducePlace.aspx
+异常信息:e:\ffqserp\trunk\application\Enterprise.IIS\business\Reports\ProducePlace.aspx(69): error CS1061: “ASP.business_reports_produceplace_aspx”不包含“Grid1_RowCommand”的定义，并且找不到可接受类型为“ASP.business_reports_produceplace_aspx”的第一个参数的扩展方法“Grid1_RowCommand”(是否缺少 using 指令或程序集引用?)
+错误结束=========================================== e 
+System.Web.HttpCompileException (0x80004005): e:\ffqserp\trunk\application\Enterprise.IIS\business\Reports\ProducePlace.aspx(69): error CS1061: “ASP.business_reports_produceplace_aspx”不包含“Grid1_RowCommand”的定义，并且找不到可接受类型为“ASP.business_reports_produceplace_aspx”的第一个参数的扩展方法“Grid1_RowCommand”(是否缺少 using 指令或程序集引用?)
+   在 System.Web.Compilation.BuildManager.CompileWebFile(VirtualPath virtualPath)
+   在 System.Web.Compilation.BuildManager.GetVPathBuildResultInternal(VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   在 System.Web.Compilation.BuildManager.GetVPathBuildResultWithNoAssert(HttpContext context, VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   在 System.Web.Compilation.BuildManager.GetVirtualPathObjectFactory(VirtualPath virtualPath, HttpContext context, Boolean allowCrossApp, Boolean throwIfNotFound)
+   在 System.Web.Compilation.BuildManager.CreateInstanceFromVirtualPath(VirtualPath virtualPath, Type requiredBaseType, HttpContext context, Boolean allowCrossApp)
+   在 System.Web.UI.PageHandlerFactory.GetHandlerHelper(HttpContext context, String requestType, VirtualPath virtualPath, String physicalPath)
+   在 System.Web.UI.PageHandlerFactory.GetHandler(HttpContext context, String requestType, String virtualPath, String path)
+   在 System.Web.HttpApplication.MaterializeHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   在 System.Web.HttpApplication.ExecuteStepImpl(IExecutionStep step)
+   在 System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+2019/05/10 +08:00 10:48:04     [10164] Enterprise.Framework.Log.LogUtil.ErrorLog(:0) Enterprise.Framework.Log.LogUtil.ErrorLog(:0) [(null)] - e:\ffqserp\trunk\application\Enterprise.IIS\business\Reports\ProducePlace.aspx(69): error CS1061: “ASP.business_reports_produceplace_aspx”不包含“Grid1_RowCommand”的定义，并且找不到可接受类型为“ASP.business_reports_produceplace_aspx”的第一个参数的扩展方法“Grid1_RowCommand”(是否缺少 using 指令或程序集引用?) e 
+System.Web.HttpCompileException (0x80004005): e:\ffqserp\trunk\application\Enterprise.IIS\business\Reports\ProducePlace.aspx(69): error CS1061: “ASP.business_reports_produceplace_aspx”不包含“Grid1_RowCommand”的定义，并且找不到可接受类型为“ASP.business_reports_produceplace_aspx”的第一个参数的扩展方法“Grid1_RowCommand”(是否缺少 using 指令或程序集引用?)
+   在 System.Web.Compilation.BuildManager.CompileWebFile(VirtualPath virtualPath)
+   在 System.Web.Compilation.BuildManager.GetVPathBuildResultInternal(VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   在 System.Web.Compilation.BuildManager.GetVPathBuildResultWithNoAssert(HttpContext context, VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   在 System.Web.Compilation.BuildManager.GetVirtualPathObjectFactory(VirtualPath virtualPath, HttpContext context, Boolean allowCrossApp, Boolean throwIfNotFound)
+   在 System.Web.Compilation.BuildManager.CreateInstanceFromVirtualPath(VirtualPath virtualPath, Type requiredBaseType, HttpContext context, Boolean allowCrossApp)
+   在 System.Web.UI.PageHandlerFactory.GetHandlerHelper(HttpContext context, String requestType, VirtualPath virtualPath, String physicalPath)
+   在 System.Web.UI.PageHandlerFactory.GetHandler(HttpContext context, String requestType, String virtualPath, String path)
+   在 System.Web.HttpApplication.MaterializeHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   在 System.Web.HttpApplication.ExecuteStepImpl(IExecutionStep step)
+   在 System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+2019/05/10 +08:00 10:48:22     [10164] Enterprise.Framework.Log.LogUtil.ErrorLog(:0) Enterprise.Framework.Log.LogUtil.ErrorLog(:0) [(null)] - 
+错误开始===========================================
+客户机IP:::1
+错误地址:http://localhost:19008/Business/Reports/ProducePlace.aspx
+异常信息:e:\ffqserp\trunk\application\Enterprise.IIS\business\Reports\ProducePlace.aspx(69): error CS1061: “ASP.business_reports_produceplace_aspx”不包含“Grid1_RowDataBound”的定义，并且找不到可接受类型为“ASP.business_reports_produceplace_aspx”的第一个参数的扩展方法“Grid1_RowDataBound”(是否缺少 using 指令或程序集引用?)
+错误结束=========================================== e 
+System.Web.HttpCompileException (0x80004005): e:\ffqserp\trunk\application\Enterprise.IIS\business\Reports\ProducePlace.aspx(69): error CS1061: “ASP.business_reports_produceplace_aspx”不包含“Grid1_RowDataBound”的定义，并且找不到可接受类型为“ASP.business_reports_produceplace_aspx”的第一个参数的扩展方法“Grid1_RowDataBound”(是否缺少 using 指令或程序集引用?)
+   在 System.Web.Compilation.AssemblyBuilder.Compile()
+   在 System.Web.Compilation.BuildProvidersCompiler.PerformBuild()
+   在 System.Web.Compilation.BuildManager.CompileWebFile(VirtualPath virtualPath)
+   在 System.Web.Compilation.BuildManager.GetVPathBuildResultInternal(VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   在 System.Web.Compilation.BuildManager.GetVPathBuildResultWithNoAssert(HttpContext context, VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   在 System.Web.Compilation.BuildManager.GetVirtualPathObjectFactory(VirtualPath virtualPath, HttpContext context, Boolean allowCrossApp, Boolean throwIfNotFound)
+   在 System.Web.Compilation.BuildManager.CreateInstanceFromVirtualPath(VirtualPath virtualPath, Type requiredBaseType, HttpContext context, Boolean allowCrossApp)
+   在 System.Web.UI.PageHandlerFactory.GetHandlerHelper(HttpContext context, String requestType, VirtualPath virtualPath, String physicalPath)
+   在 System.Web.UI.PageHandlerFactory.GetHandler(HttpContext context, String requestType, String virtualPath, String path)
+   在 System.Web.HttpApplication.MaterializeHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   在 System.Web.HttpApplication.ExecuteStepImpl(IExecutionStep step)
+   在 System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+2019/05/10 +08:00 10:48:22     [10164] Enterprise.Framework.Log.LogUtil.ErrorLog(:0) Enterprise.Framework.Log.LogUtil.ErrorLog(:0) [(null)] - e:\ffqserp\trunk\application\Enterprise.IIS\business\Reports\ProducePlace.aspx(69): error CS1061: “ASP.business_reports_produceplace_aspx”不包含“Grid1_RowDataBound”的定义，并且找不到可接受类型为“ASP.business_reports_produceplace_aspx”的第一个参数的扩展方法“Grid1_RowDataBound”(是否缺少 using 指令或程序集引用?) e 
+System.Web.HttpCompileException (0x80004005): e:\ffqserp\trunk\application\Enterprise.IIS\business\Reports\ProducePlace.aspx(69): error CS1061: “ASP.business_reports_produceplace_aspx”不包含“Grid1_RowDataBound”的定义，并且找不到可接受类型为“ASP.business_reports_produceplace_aspx”的第一个参数的扩展方法“Grid1_RowDataBound”(是否缺少 using 指令或程序集引用?)
+   在 System.Web.Compilation.AssemblyBuilder.Compile()
+   在 System.Web.Compilation.BuildProvidersCompiler.PerformBuild()
+   在 System.Web.Compilation.BuildManager.CompileWebFile(VirtualPath virtualPath)
+   在 System.Web.Compilation.BuildManager.GetVPathBuildResultInternal(VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   在 System.Web.Compilation.BuildManager.GetVPathBuildResultWithNoAssert(HttpContext context, VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   在 System.Web.Compilation.BuildManager.GetVirtualPathObjectFactory(VirtualPath virtualPath, HttpContext context, Boolean allowCrossApp, Boolean throwIfNotFound)
+   在 System.Web.Compilation.BuildManager.CreateInstanceFromVirtualPath(VirtualPath virtualPath, Type requiredBaseType, HttpContext context, Boolean allowCrossApp)
+   在 System.Web.UI.PageHandlerFactory.GetHandlerHelper(HttpContext context, String requestType, VirtualPath virtualPath, String physicalPath)
+   在 System.Web.UI.PageHandlerFactory.GetHandler(HttpContext context, String requestType, String virtualPath, String path)
+   在 System.Web.HttpApplication.MaterializeHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   在 System.Web.HttpApplication.ExecuteStepImpl(IExecutionStep step)
+   在 System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+2019/05/10 +08:00 10:48:55     [10164] Enterprise.Framework.Log.LogUtil.ErrorLog(:0) Enterprise.Framework.Log.LogUtil.ErrorLog(:0) [(null)] - 
+错误开始===========================================
+客户机IP:::1
+错误地址:http://localhost:19008/Business/Reports/ProducePlace.aspx
+异常信息:引发类型为“System.Web.HttpUnhandledException”的异常。
+错误结束=========================================== e 
+System.Web.HttpUnhandledException (0x80004005): 引发类型为“System.Web.HttpUnhandledException”的异常。 ---> System.ArgumentException: 类型为“System.Object”的表达式不能用于方法“Boolean Contains(System.String)”的类型为“System.String”的参数
+   在 System.Linq.Expressions.Expression.ValidateOneArgument(MethodBase method, ExpressionType nodeKind, Expression arg, ParameterInfo pi)
+   在 System.Linq.Expressions.Expression.ValidateArgumentTypes(MethodBase method, ExpressionType nodeKind, ReadOnlyCollection`1& arguments)
+   在 System.Linq.Expressions.Expression.Call(Expression instance, MethodInfo method, IEnumerable`1 arguments)
+   在 System.Linq.Expressions.Expression.Call(Expression instance, MethodInfo method, Expression[] arguments)
+   在 Enterprise.IIS.business.Reports.ProducePlace.BuildPredicate(Object& orderingSelector) 位置 E:\ffqserp\trunk\application\Enterprise.IIS\business\Reports\ProducePlace.aspx.cs:行号 179
+   在 Enterprise.IIS.business.Reports.ProducePlace.BindData() 位置 E:\ffqserp\trunk\application\Enterprise.IIS\business\Reports\ProducePlace.aspx.cs:行号 77
+   在 Enterprise.IIS.business.Reports.ProducePlace.Button1_Click(Object sender, EventArgs e) 位置 E:\ffqserp\trunk\application\Enterprise.IIS\business\Reports\ProducePlace.aspx.cs:行号 107
+   在 FineUI.Button.OnClick(EventArgs e)
+   在 FineUI.Button.RaisePostBackEvent(String eventArgument)
+   在 System.Web.UI.Page.RaisePostBackEvent(IPostBackEventHandler sourceControl, String eventArgument)
+   在 System.Web.UI.Page.RaisePostBackEvent(NameValueCollection postData)
+   在 System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   在 System.Web.UI.Page.HandleError(Exception e)
+   在 System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   在 System.Web.UI.Page.ProcessRequest(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   在 System.Web.UI.Page.ProcessRequest()
+   在 System.Web.UI.Page.ProcessRequestWithNoAssert(HttpContext context)
+   在 System.Web.UI.Page.ProcessRequest(HttpContext context)
+   在 ASP.business_reports_produceplace_aspx.ProcessRequest(HttpContext context) 位置 c:\Windows\Microsoft.NET\Framework\v4.0.30319\Temporary ASP.NET Files\vs\acc0e68d\f6fd98d3\App_Web_produceplace.aspx.3e9c9a95.yi8lh7ea.0.cs:行号 0
+   在 System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   在 System.Web.HttpApplication.ExecuteStepImpl(IExecutionStep step)
+   在 System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+2019/05/10 +08:00 10:48:55     [10164] Enterprise.Framework.Log.LogUtil.ErrorLog(:0) Enterprise.Framework.Log.LogUtil.ErrorLog(:0) [(null)] - 类型为“System.Object”的表达式不能用于方法“Boolean Contains(System.String)”的类型为“System.String”的参数 e 
+System.ArgumentException: 类型为“System.Object”的表达式不能用于方法“Boolean Contains(System.String)”的类型为“System.String”的参数
+   在 System.Linq.Expressions.Expression.ValidateOneArgument(MethodBase method, ExpressionType nodeKind, Expression arg, ParameterInfo pi)
+   在 System.Linq.Expressions.Expression.ValidateArgumentTypes(MethodBase method, ExpressionType nodeKind, ReadOnlyCollection`1& arguments)
+   在 System.Linq.Expressions.Expression.Call(Expression instance, MethodInfo method, IEnumerable`1 arguments)
+   在 System.Linq.Expressions.Expression.Call(Expression instance, MethodInfo method, Expression[] arguments)
+   在 Enterprise.IIS.business.Reports.ProducePlace.BuildPredicate(Object& orderingSelector) 位置 E:\ffqserp\trunk\application\Enterprise.IIS\business\Reports\ProducePlace.aspx.cs:行号 179
+   在 Enterprise.IIS.business.Reports.ProducePlace.BindData() 位置 E:\ffqserp\trunk\application\Enterprise.IIS\business\Reports\ProducePlace.aspx.cs:行号 77
+   在 Enterprise.IIS.business.Reports.ProducePlace.Button1_Click(Object sender, EventArgs e) 位置 E:\ffqserp\trunk\application\Enterprise.IIS\business\Reports\ProducePlace.aspx.cs:行号 107
+   在 FineUI.Button.OnClick(EventArgs e)
+   在 FineUI.Button.RaisePostBackEvent(String eventArgument)
+   在 System.Web.UI.Page.RaisePostBackEvent(IPostBackEventHandler sourceControl, String eventArgument)
+   在 System.Web.UI.Page.RaisePostBackEvent(NameValueCollection postData)
+   在 System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+2019/05/10 +08:00 11:09:55     [13648] Enterprise.Framework.Log.LogUtil.ErrorLog(:0) Enterprise.Framework.Log.LogUtil.ErrorLog(:0) [(null)] - 
+错误开始===========================================
+客户机IP:::1
+错误地址:http://localhost:19008/Business/Reports/ProducePlace.aspx
+异常信息:引发类型为“System.Web.HttpUnhandledException”的异常。
+错误结束=========================================== e 
+System.Web.HttpUnhandledException (0x80004005): 引发类型为“System.Web.HttpUnhandledException”的异常。 ---> System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 ASP.business_reports_produceplace_aspx.__DataBindinglblAuditStatus(Object sender, EventArgs e) 位置 e:\ffqserp\trunk\application\Enterprise.IIS\business\Reports\ProducePlace.aspx:行号 83
+   在 System.Web.UI.Control.OnDataBinding(EventArgs e)
+   在 System.Web.UI.Control.DataBind(Boolean raiseOnDataBinding)
+   在 System.Web.UI.Control.DataBind()
+   在 System.Web.UI.Control.DataBindChildren()
+   在 System.Web.UI.Control.DataBind(Boolean raiseOnDataBinding)
+   在 System.Web.UI.Control.DataBind()
+   在 FineUI.GridRow.DataBindRow()
+   在 FineUI.Grid.DataBindRow(Int32 rowIndex, Object rowObj)
+   在 FineUI.Grid.DataBindToEnumerable(IEnumerable list)
+   在 FineUI.Grid.DataBind()
+   在 Enterprise.IIS.business.Reports.ProducePlace.BindData() 位置 E:\ffqserp\trunk\application\Enterprise.IIS\business\Reports\ProducePlace.aspx.cs:行号 90
+   在 Enterprise.IIS.business.Reports.ProducePlace.Button1_Click(Object sender, EventArgs e) 位置 E:\ffqserp\trunk\application\Enterprise.IIS\business\Reports\ProducePlace.aspx.cs:行号 109
+   在 FineUI.Button.OnClick(EventArgs e)
+   在 FineUI.Button.RaisePostBackEvent(String eventArgument)
+   在 System.Web.UI.Page.RaisePostBackEvent(IPostBackEventHandler sourceControl, String eventArgument)
+   在 System.Web.UI.Page.RaisePostBackEvent(NameValueCollection postData)
+   在 System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   在 System.Web.UI.Page.HandleError(Exception e)
+   在 System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   在 System.Web.UI.Page.ProcessRequest(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   在 System.Web.UI.Page.ProcessRequest()
+   在 System.Web.UI.Page.ProcessRequestWithNoAssert(HttpContext context)
+   在 System.Web.UI.Page.ProcessRequest(HttpContext context)
+   在 ASP.business_reports_produceplace_aspx.ProcessRequest(HttpContext context) 位置 c:\Windows\Microsoft.NET\Framework\v4.0.30319\Temporary ASP.NET Files\vs\acc0e68d\f6fd98d3\App_Web_tejmtgja.2.cs:行号 0
+   在 System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   在 System.Web.HttpApplication.ExecuteStepImpl(IExecutionStep step)
+   在 System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+2019/05/10 +08:00 11:09:55     [13648] Enterprise.Framework.Log.LogUtil.ErrorLog(:0) Enterprise.Framework.Log.LogUtil.ErrorLog(:0) [(null)] - 未将对象引用设置到对象的实例。 e 
+System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 ASP.business_reports_produceplace_aspx.__DataBindinglblAuditStatus(Object sender, EventArgs e) 位置 e:\ffqserp\trunk\application\Enterprise.IIS\business\Reports\ProducePlace.aspx:行号 83
+   在 System.Web.UI.Control.OnDataBinding(EventArgs e)
+   在 System.Web.UI.Control.DataBind(Boolean raiseOnDataBinding)
+   在 System.Web.UI.Control.DataBind()
+   在 System.Web.UI.Control.DataBindChildren()
+   在 System.Web.UI.Control.DataBind(Boolean raiseOnDataBinding)
+   在 System.Web.UI.Control.DataBind()
+   在 FineUI.GridRow.DataBindRow()
+   在 FineUI.Grid.DataBindRow(Int32 rowIndex, Object rowObj)
+   在 FineUI.Grid.DataBindToEnumerable(IEnumerable list)
+   在 FineUI.Grid.DataBind()
+   在 Enterprise.IIS.business.Reports.ProducePlace.BindData() 位置 E:\ffqserp\trunk\application\Enterprise.IIS\business\Reports\ProducePlace.aspx.cs:行号 90
+   在 Enterprise.IIS.business.Reports.ProducePlace.Button1_Click(Object sender, EventArgs e) 位置 E:\ffqserp\trunk\application\Enterprise.IIS\business\Reports\ProducePlace.aspx.cs:行号 109
+   在 FineUI.Button.OnClick(EventArgs e)
+   在 FineUI.Button.RaisePostBackEvent(String eventArgument)
+   在 System.Web.UI.Page.RaisePostBackEvent(IPostBackEventHandler sourceControl, String eventArgument)
+   在 System.Web.UI.Page.RaisePostBackEvent(NameValueCollection postData)
+   在 System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+2019/05/10 +08:00 11:54:21     [18112] Enterprise.Framework.Log.LogUtil.ErrorLog(:0) Enterprise.Framework.Log.LogUtil.ErrorLog(:0) [(null)] - 
+错误开始===========================================
+客户机IP:::1
+错误地址:http://localhost:19008/Business/Reports/ProducePlaceQty.aspx
+异常信息:未能加载类型“Enterprise.IIS.business.Reports.ProducePlaceQty”。
+错误结束=========================================== e 
+System.Web.HttpParseException (0x80004005): 未能加载类型“Enterprise.IIS.business.Reports.ProducePlaceQty”。 ---> System.Web.HttpParseException (0x80004005): 未能加载类型“Enterprise.IIS.business.Reports.ProducePlaceQty”。 ---> System.Web.HttpException (0x80004005): 未能加载类型“Enterprise.IIS.business.Reports.ProducePlaceQty”。
+   在 System.Web.UI.TemplateParser.GetType(String typeName, Boolean ignoreCase, Boolean throwOnError)
+   在 System.Web.UI.TemplateParser.ProcessInheritsAttribute(String baseTypeName, String codeFileBaseTypeName, String src, Assembly assembly)
+   在 System.Web.UI.TemplateParser.PostProcessMainDirectiveAttributes(IDictionary parseData)
+   在 System.Web.UI.TemplateParser.ProcessException(Exception ex)
+   在 System.Web.UI.TemplateParser.ParseStringInternal(String text, Encoding fileEncoding)
+   在 System.Web.UI.TemplateParser.ParseString(String text, VirtualPath virtualPath, Encoding fileEncoding)
+   在 System.Web.UI.TemplateParser.ParseString(String text, VirtualPath virtualPath, Encoding fileEncoding)
+   在 System.Web.UI.TemplateParser.ParseFile(String physicalPath, VirtualPath virtualPath)
+   在 System.Web.UI.TemplateParser.ParseInternal()
+   在 System.Web.UI.TemplateParser.Parse()
+   在 System.Web.Compilation.BaseTemplateBuildProvider.get_CodeCompilerType()
+   在 System.Web.Compilation.BuildProvider.GetCompilerTypeFromBuildProvider(BuildProvider buildProvider)
+   在 System.Web.Compilation.BuildProvidersCompiler.ProcessBuildProviders()
+   在 System.Web.Compilation.BuildProvidersCompiler.PerformBuild()
+   在 System.Web.Compilation.BuildManager.CompileWebFile(VirtualPath virtualPath)
+   在 System.Web.Compilation.BuildManager.GetVPathBuildResultInternal(VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   在 System.Web.Compilation.BuildManager.GetVPathBuildResultWithNoAssert(HttpContext context, VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   在 System.Web.Compilation.BuildManager.GetVirtualPathObjectFactory(VirtualPath virtualPath, HttpContext context, Boolean allowCrossApp, Boolean throwIfNotFound)
+   在 System.Web.Compilation.BuildManager.CreateInstanceFromVirtualPath(VirtualPath virtualPath, Type requiredBaseType, HttpContext context, Boolean allowCrossApp)
+   在 System.Web.UI.PageHandlerFactory.GetHandlerHelper(HttpContext context, String requestType, VirtualPath virtualPath, String physicalPath)
+   在 System.Web.UI.PageHandlerFactory.GetHandler(HttpContext context, String requestType, String virtualPath, String path)
+   在 System.Web.HttpApplication.MaterializeHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   在 System.Web.HttpApplication.ExecuteStepImpl(IExecutionStep step)
+   在 System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+2019/05/10 +08:00 11:54:21     [18112] Enterprise.Framework.Log.LogUtil.ErrorLog(:0) Enterprise.Framework.Log.LogUtil.ErrorLog(:0) [(null)] - 未能加载类型“Enterprise.IIS.business.Reports.ProducePlaceQty”。 e 
+System.Web.HttpException (0x80004005): 未能加载类型“Enterprise.IIS.business.Reports.ProducePlaceQty”。
+   在 System.Web.UI.TemplateParser.GetType(String typeName, Boolean ignoreCase, Boolean throwOnError)
+   在 System.Web.UI.TemplateParser.ProcessInheritsAttribute(String baseTypeName, String codeFileBaseTypeName, String src, Assembly assembly)
+   在 System.Web.UI.TemplateParser.PostProcessMainDirectiveAttributes(IDictionary parseData)
+2019/05/10 +08:00 12:07:29     [14972] Enterprise.Framework.Log.LogUtil.ErrorLog(:0) Enterprise.Framework.Log.LogUtil.ErrorLog(:0) [(null)] - 
+错误开始===========================================
+客户机IP:::1
+错误地址:http://localhost:19008/Business/Reports/ProducePlaceQty.aspx
+异常信息:未能加载类型“Enterprise.IIS.business.Reports.ProducePlaceQty”。
+错误结束=========================================== e 
+System.Web.HttpParseException (0x80004005): 未能加载类型“Enterprise.IIS.business.Reports.ProducePlaceQty”。 ---> System.Web.HttpParseException (0x80004005): 未能加载类型“Enterprise.IIS.business.Reports.ProducePlaceQty”。 ---> System.Web.HttpException (0x80004005): 未能加载类型“Enterprise.IIS.business.Reports.ProducePlaceQty”。
+   在 System.Web.UI.TemplateParser.GetType(String typeName, Boolean ignoreCase, Boolean throwOnError)
+   在 System.Web.UI.TemplateParser.ProcessInheritsAttribute(String baseTypeName, String codeFileBaseTypeName, String src, Assembly assembly)
+   在 System.Web.UI.TemplateParser.PostProcessMainDirectiveAttributes(IDictionary parseData)
+   在 System.Web.UI.TemplateParser.ProcessException(Exception ex)
+   在 System.Web.UI.TemplateParser.ParseStringInternal(String text, Encoding fileEncoding)
+   在 System.Web.UI.TemplateParser.ParseString(String text, VirtualPath virtualPath, Encoding fileEncoding)
+   在 System.Web.UI.TemplateParser.ParseString(String text, VirtualPath virtualPath, Encoding fileEncoding)
+   在 System.Web.UI.TemplateParser.ParseFile(String physicalPath, VirtualPath virtualPath)
+   在 System.Web.UI.TemplateParser.ParseInternal()
+   在 System.Web.UI.TemplateParser.Parse()
+   在 System.Web.Compilation.BaseTemplateBuildProvider.get_CodeCompilerType()
+   在 System.Web.Compilation.BuildProvider.GetCompilerTypeFromBuildProvider(BuildProvider buildProvider)
+   在 System.Web.Compilation.BuildProvidersCompiler.ProcessBuildProviders()
+   在 System.Web.Compilation.BuildProvidersCompiler.PerformBuild()
+   在 System.Web.Compilation.BuildManager.CompileWebFile(VirtualPath virtualPath)
+   在 System.Web.Compilation.BuildManager.GetVPathBuildResultInternal(VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   在 System.Web.Compilation.BuildManager.GetVPathBuildResultWithNoAssert(HttpContext context, VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   在 System.Web.Compilation.BuildManager.GetVirtualPathObjectFactory(VirtualPath virtualPath, HttpContext context, Boolean allowCrossApp, Boolean throwIfNotFound)
+   在 System.Web.Compilation.BuildManager.CreateInstanceFromVirtualPath(VirtualPath virtualPath, Type requiredBaseType, HttpContext context, Boolean allowCrossApp)
+   在 System.Web.UI.PageHandlerFactory.GetHandlerHelper(HttpContext context, String requestType, VirtualPath virtualPath, String physicalPath)
+   在 System.Web.UI.PageHandlerFactory.GetHandler(HttpContext context, String requestType, String virtualPath, String path)
+   在 System.Web.HttpApplication.MaterializeHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   在 System.Web.HttpApplication.ExecuteStepImpl(IExecutionStep step)
+   在 System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+2019/05/10 +08:00 12:07:29     [14972] Enterprise.Framework.Log.LogUtil.ErrorLog(:0) Enterprise.Framework.Log.LogUtil.ErrorLog(:0) [(null)] - 未能加载类型“Enterprise.IIS.business.Reports.ProducePlaceQty”。 e 
+System.Web.HttpException (0x80004005): 未能加载类型“Enterprise.IIS.business.Reports.ProducePlaceQty”。
+   在 System.Web.UI.TemplateParser.GetType(String typeName, Boolean ignoreCase, Boolean throwOnError)
+   在 System.Web.UI.TemplateParser.ProcessInheritsAttribute(String baseTypeName, String codeFileBaseTypeName, String src, Assembly assembly)
+   在 System.Web.UI.TemplateParser.PostProcessMainDirectiveAttributes(IDictionary parseData)

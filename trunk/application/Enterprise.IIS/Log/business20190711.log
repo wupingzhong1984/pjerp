@@ -1,0 +1,24 @@
+﻿2019/07/11 08:40:03            ，销售单：OC-190712-0001，销售单详细单号：79199---G0450, 
+2019/07/11 08:40:26            ，销售单：OC-190712-0001，销售单详细单号：79199---G0450,错误：，销售单：OC-190712-0001，销售单详细单号：79199---G0450,,错误信息：无法连接到远程服务器,错误堆栈：   在 System.Net.HttpWebRequest.GetRequestStream(TransportContext& context)
+   在 System.Net.HttpWebRequest.GetRequestStream()
+   在 Enterprise.IIS.Common.HttpRequest.httpRequest(tmsModel t, String uri) 位置 E:\ffqserp\trunk\application\Enterprise.IIS\Common\HttpRequest.cs:行号 61 
+2019/07/11 08:40:54            ，发货单：XS-190711-0001，发货单详细单号：105452---G0450,，销售单：OC-190712-0001，销售单详细单号：79199---G0450, 
+2019/07/11 08:41:16            ，发货单：XS-190711-0001，发货单详细单号：105452---G0450,，销售单：OC-190712-0001，销售单详细单号：79199---G0450,错误：，发货单：XS-190711-0001，发货单详细单号：105452---G0450,，销售单：OC-190712-0001，销售单详细单号：79199---G0450,,错误信息：无法连接到远程服务器,错误堆栈：   在 System.Net.HttpWebRequest.GetRequestStream(TransportContext& context)
+   在 System.Net.HttpWebRequest.GetRequestStream()
+   在 Enterprise.IIS.Common.HttpRequest.httpRequest(tmsModel t, String uri) 位置 E:\ffqserp\trunk\application\Enterprise.IIS\Common\HttpRequest.cs:行号 61 
+2019/07/11 11:01:55            ，发货单详细单号：，销售单：AT-190712-0001，销售单详细单号：79200---G0023, 
+2019/07/11 11:02:17            ，发货单详细单号：，销售单：AT-190712-0001，销售单详细单号：79200---G0023,错误：，发货单详细单号：，销售单：AT-190712-0001，销售单详细单号：79200---G0023,,错误信息：无法连接到远程服务器,错误堆栈：   在 System.Net.HttpWebRequest.GetRequestStream(TransportContext& context)
+   在 System.Net.HttpWebRequest.GetRequestStream()
+   在 Enterprise.IIS.Common.HttpRequest.httpRequest(tmsModel t, String uri) 位置 E:\ffqserp\trunk\application\Enterprise.IIS\Common\HttpRequest.cs:行号 61 
+2019/07/11 11:02:39            ，发货单详细单号：，销售单：AT-190712-0001，销售单详细单号：79200---G0023, 
+2019/07/11 11:03:00            ，发货单详细单号：，销售单：AT-190712-0001，销售单详细单号：79200---G0023,错误：，发货单详细单号：，销售单：AT-190712-0001，销售单详细单号：79200---G0023,,错误信息：无法连接到远程服务器,错误堆栈：   在 System.Net.HttpWebRequest.GetRequestStream(TransportContext& context)
+   在 System.Net.HttpWebRequest.GetRequestStream()
+   在 Enterprise.IIS.Common.HttpRequest.httpRequest(tmsModel t, String uri) 位置 E:\ffqserp\trunk\application\Enterprise.IIS\Common\HttpRequest.cs:行号 61 
+2019/07/11 11:07:44            ，发货单详细单号：，销售单：AT-190712-0001，销售单详细单号：79200---G0023, 
+2019/07/11 11:08:05            ，发货单详细单号：，销售单：AT-190712-0001，销售单详细单号：79200---G0023,错误：，发货单详细单号：，销售单：AT-190712-0001，销售单详细单号：79200---G0023,,错误信息：无法连接到远程服务器,错误堆栈：   在 System.Net.HttpWebRequest.GetRequestStream(TransportContext& context)
+   在 System.Net.HttpWebRequest.GetRequestStream()
+   在 Enterprise.IIS.Common.HttpRequest.httpRequest(tmsModel t, String uri) 位置 E:\ffqserp\trunk\application\Enterprise.IIS\Common\HttpRequest.cs:行号 61 
+2019/07/11 11:08:38            ，发货单详细单号：，销售单：AT-190712-0001，销售单详细单号：79200---G0023, 
+2019/07/11 11:08:59            ，发货单详细单号：，销售单：AT-190712-0001，销售单详细单号：79200---G0023,错误：，发货单详细单号：，销售单：AT-190712-0001，销售单详细单号：79200---G0023,,错误信息：无法连接到远程服务器,错误堆栈：   在 System.Net.HttpWebRequest.GetRequestStream(TransportContext& context)
+   在 System.Net.HttpWebRequest.GetRequestStream()
+   在 Enterprise.IIS.Common.HttpRequest.httpRequest(tmsModel t, String uri) 位置 E:\ffqserp\trunk\application\Enterprise.IIS\Common\HttpRequest.cs:行号 61 

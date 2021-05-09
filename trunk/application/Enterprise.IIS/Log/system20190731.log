@@ -1,0 +1,366 @@
+﻿2019/07/31 +08:00 10:22:19     [16936] Enterprise.Framework.Log.LogUtil.ErrorLog(:0) Enterprise.Framework.Log.LogUtil.ErrorLog(:0) [(null)] - 
+错误开始===========================================
+客户机IP:::1
+错误地址:http://localhost:19008/business/Reports/SalaryDriver.aspx
+异常信息:引发类型为“System.Web.HttpUnhandledException”的异常。
+错误结束=========================================== e 
+System.Web.HttpUnhandledException (0x80004005): 引发类型为“System.Web.HttpUnhandledException”的异常。 ---> System.ArgumentException: 列“CarType”不属于表 。
+   在 System.Data.DataRow.GetDataColumn(String columnName)
+   在 System.Data.DataRow.set_Item(String columnName, Object value)
+   在 Enterprise.IIS.business.Reports.SalaryDriver.BindDataGrid() 位置 E:\ffqserp\trunk\application\Enterprise.IIS\business\Reports\SalaryDriver.aspx.cs:行号 316
+   在 Enterprise.IIS.business.Reports.SalaryDriver.btnSearch_Click(Object sender, EventArgs e) 位置 E:\ffqserp\trunk\application\Enterprise.IIS\business\Reports\SalaryDriver.aspx.cs:行号 112
+   在 FineUI.Button.OnClick(EventArgs e)
+   在 FineUI.Button.RaisePostBackEvent(String eventArgument)
+   在 System.Web.UI.Page.RaisePostBackEvent(IPostBackEventHandler sourceControl, String eventArgument)
+   在 System.Web.UI.Page.RaisePostBackEvent(NameValueCollection postData)
+   在 System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   在 System.Web.UI.Page.HandleError(Exception e)
+   在 System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   在 System.Web.UI.Page.ProcessRequest(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   在 System.Web.UI.Page.ProcessRequest()
+   在 System.Web.UI.Page.ProcessRequestWithNoAssert(HttpContext context)
+   在 System.Web.UI.Page.ProcessRequest(HttpContext context)
+   在 ASP.business_reports_salarydriver_aspx.ProcessRequest(HttpContext context) 位置 c:\Windows\Microsoft.NET\Framework\v4.0.30319\Temporary ASP.NET Files\vs\acc0e68d\f6fd98d3\App_Web_a0ftn2bz.4.cs:行号 0
+   在 System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   在 System.Web.HttpApplication.ExecuteStepImpl(IExecutionStep step)
+   在 System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+2019/07/31 +08:00 10:22:21     [16936] Enterprise.Framework.Log.LogUtil.ErrorLog(:0) Enterprise.Framework.Log.LogUtil.ErrorLog(:0) [(null)] - 列“CarType”不属于表 。 e 
+System.ArgumentException: 列“CarType”不属于表 。
+   在 System.Data.DataRow.GetDataColumn(String columnName)
+   在 System.Data.DataRow.set_Item(String columnName, Object value)
+   在 Enterprise.IIS.business.Reports.SalaryDriver.BindDataGrid() 位置 E:\ffqserp\trunk\application\Enterprise.IIS\business\Reports\SalaryDriver.aspx.cs:行号 316
+   在 Enterprise.IIS.business.Reports.SalaryDriver.btnSearch_Click(Object sender, EventArgs e) 位置 E:\ffqserp\trunk\application\Enterprise.IIS\business\Reports\SalaryDriver.aspx.cs:行号 112
+   在 FineUI.Button.OnClick(EventArgs e)
+   在 FineUI.Button.RaisePostBackEvent(String eventArgument)
+   在 System.Web.UI.Page.RaisePostBackEvent(IPostBackEventHandler sourceControl, String eventArgument)
+   在 System.Web.UI.Page.RaisePostBackEvent(NameValueCollection postData)
+   在 System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+2019/07/31 +08:00 10:30:36     [17700] Enterprise.Framework.Log.LogUtil.ErrorLog(:0) Enterprise.Framework.Log.LogUtil.ErrorLog(:0) [(null)] - 
+错误开始===========================================
+客户机IP:::1
+错误地址:http://localhost:19008/business/Reports/SalaryDriver.aspx
+异常信息:引发类型为“System.Web.HttpUnhandledException”的异常。
+错误结束=========================================== e 
+System.Web.HttpUnhandledException (0x80004005): 引发类型为“System.Web.HttpUnhandledException”的异常。 ---> System.ArgumentException: 该行已经属于此表。
+   在 System.Data.DataTable.InsertRow(DataRow row, Int64 proposedID, Int32 pos, Boolean fireEvent)
+   在 System.Data.DataRowCollection.Add(DataRow row)
+   在 Enterprise.IIS.business.Reports.SalaryDriver.BindDataGrid() 位置 E:\ffqserp\trunk\application\Enterprise.IIS\business\Reports\SalaryDriver.aspx.cs:行号 233
+   在 Enterprise.IIS.business.Reports.SalaryDriver.btnSearch_Click(Object sender, EventArgs e) 位置 E:\ffqserp\trunk\application\Enterprise.IIS\business\Reports\SalaryDriver.aspx.cs:行号 112
+   在 FineUI.Button.OnClick(EventArgs e)
+   在 FineUI.Button.RaisePostBackEvent(String eventArgument)
+   在 System.Web.UI.Page.RaisePostBackEvent(IPostBackEventHandler sourceControl, String eventArgument)
+   在 System.Web.UI.Page.RaisePostBackEvent(NameValueCollection postData)
+   在 System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   在 System.Web.UI.Page.HandleError(Exception e)
+   在 System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   在 System.Web.UI.Page.ProcessRequest(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   在 System.Web.UI.Page.ProcessRequest()
+   在 System.Web.UI.Page.ProcessRequestWithNoAssert(HttpContext context)
+   在 System.Web.UI.Page.ProcessRequest(HttpContext context)
+   在 ASP.business_reports_salarydriver_aspx.ProcessRequest(HttpContext context) 位置 c:\Windows\Microsoft.NET\Framework\v4.0.30319\Temporary ASP.NET Files\vs\acc0e68d\f6fd98d3\App_Web_y2wyx5jj.0.cs:行号 0
+   在 System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   在 System.Web.HttpApplication.ExecuteStepImpl(IExecutionStep step)
+   在 System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+2019/07/31 +08:00 10:30:36     [17700] Enterprise.Framework.Log.LogUtil.ErrorLog(:0) Enterprise.Framework.Log.LogUtil.ErrorLog(:0) [(null)] - 该行已经属于此表。 e 
+System.ArgumentException: 该行已经属于此表。
+   在 System.Data.DataTable.InsertRow(DataRow row, Int64 proposedID, Int32 pos, Boolean fireEvent)
+   在 System.Data.DataRowCollection.Add(DataRow row)
+   在 Enterprise.IIS.business.Reports.SalaryDriver.BindDataGrid() 位置 E:\ffqserp\trunk\application\Enterprise.IIS\business\Reports\SalaryDriver.aspx.cs:行号 233
+   在 Enterprise.IIS.business.Reports.SalaryDriver.btnSearch_Click(Object sender, EventArgs e) 位置 E:\ffqserp\trunk\application\Enterprise.IIS\business\Reports\SalaryDriver.aspx.cs:行号 112
+   在 FineUI.Button.OnClick(EventArgs e)
+   在 FineUI.Button.RaisePostBackEvent(String eventArgument)
+   在 System.Web.UI.Page.RaisePostBackEvent(IPostBackEventHandler sourceControl, String eventArgument)
+   在 System.Web.UI.Page.RaisePostBackEvent(NameValueCollection postData)
+   在 System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+2019/07/31 +08:00 13:14:53     [18496] Enterprise.Framework.Log.LogUtil.ErrorLog(:0) Enterprise.Framework.Log.LogUtil.ErrorLog(:0) [(null)] - 
+错误开始===========================================
+客户机IP:::1
+错误地址:http://localhost:19008/business/Reports/SalaryDriver.aspx
+异常信息:引发类型为“System.Web.HttpUnhandledException”的异常。
+错误结束=========================================== e 
+System.Web.HttpUnhandledException (0x80004005): 引发类型为“System.Web.HttpUnhandledException”的异常。 ---> System.ArgumentException: 该行已经属于此表。
+   在 System.Data.DataTable.InsertRow(DataRow row, Int64 proposedID, Int32 pos, Boolean fireEvent)
+   在 System.Data.DataRowCollection.Add(DataRow row)
+   在 Enterprise.IIS.business.Reports.SalaryDriver.BindDataGrid() 位置 E:\ffqserp\trunk\application\Enterprise.IIS\business\Reports\SalaryDriver.aspx.cs:行号 233
+   在 Enterprise.IIS.business.Reports.SalaryDriver.btnSearch_Click(Object sender, EventArgs e) 位置 E:\ffqserp\trunk\application\Enterprise.IIS\business\Reports\SalaryDriver.aspx.cs:行号 112
+   在 FineUI.Button.OnClick(EventArgs e)
+   在 FineUI.Button.RaisePostBackEvent(String eventArgument)
+   在 System.Web.UI.Page.RaisePostBackEvent(IPostBackEventHandler sourceControl, String eventArgument)
+   在 System.Web.UI.Page.RaisePostBackEvent(NameValueCollection postData)
+   在 System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   在 System.Web.UI.Page.HandleError(Exception e)
+   在 System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   在 System.Web.UI.Page.ProcessRequest(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   在 System.Web.UI.Page.ProcessRequest()
+   在 System.Web.UI.Page.ProcessRequestWithNoAssert(HttpContext context)
+   在 System.Web.UI.Page.ProcessRequest(HttpContext context)
+   在 ASP.business_reports_salarydriver_aspx.ProcessRequest(HttpContext context) 位置 c:\Windows\Microsoft.NET\Framework\v4.0.30319\Temporary ASP.NET Files\vs\acc0e68d\f6fd98d3\App_Web_salarydriver.aspx.3e9c9a95.hzzxy5pr.0.cs:行号 0
+   在 System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   在 System.Web.HttpApplication.ExecuteStepImpl(IExecutionStep step)
+   在 System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+2019/07/31 +08:00 13:14:53     [18496] Enterprise.Framework.Log.LogUtil.ErrorLog(:0) Enterprise.Framework.Log.LogUtil.ErrorLog(:0) [(null)] - 该行已经属于此表。 e 
+System.ArgumentException: 该行已经属于此表。
+   在 System.Data.DataTable.InsertRow(DataRow row, Int64 proposedID, Int32 pos, Boolean fireEvent)
+   在 System.Data.DataRowCollection.Add(DataRow row)
+   在 Enterprise.IIS.business.Reports.SalaryDriver.BindDataGrid() 位置 E:\ffqserp\trunk\application\Enterprise.IIS\business\Reports\SalaryDriver.aspx.cs:行号 233
+   在 Enterprise.IIS.business.Reports.SalaryDriver.btnSearch_Click(Object sender, EventArgs e) 位置 E:\ffqserp\trunk\application\Enterprise.IIS\business\Reports\SalaryDriver.aspx.cs:行号 112
+   在 FineUI.Button.OnClick(EventArgs e)
+   在 FineUI.Button.RaisePostBackEvent(String eventArgument)
+   在 System.Web.UI.Page.RaisePostBackEvent(IPostBackEventHandler sourceControl, String eventArgument)
+   在 System.Web.UI.Page.RaisePostBackEvent(NameValueCollection postData)
+   在 System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+2019/07/31 +08:00 13:24:13     [18900] Enterprise.Framework.Log.LogUtil.ErrorLog(:0) Enterprise.Framework.Log.LogUtil.ErrorLog(:0) [(null)] - 
+错误开始===========================================
+客户机IP:::1
+错误地址:http://localhost:19008/business/Reports/SalaryDriver.aspx
+异常信息:引发类型为“System.Web.HttpUnhandledException”的异常。
+错误结束=========================================== e 
+System.Web.HttpUnhandledException (0x80004005): 引发类型为“System.Web.HttpUnhandledException”的异常。 ---> System.ArgumentException: 该行已经属于此表。
+   在 System.Data.DataTable.InsertRow(DataRow row, Int64 proposedID, Int32 pos, Boolean fireEvent)
+   在 System.Data.DataRowCollection.Add(DataRow row)
+   在 Enterprise.IIS.business.Reports.SalaryDriver.BindDataGrid() 位置 E:\ffqserp\trunk\application\Enterprise.IIS\business\Reports\SalaryDriver.aspx.cs:行号 233
+   在 Enterprise.IIS.business.Reports.SalaryDriver.btnSearch_Click(Object sender, EventArgs e) 位置 E:\ffqserp\trunk\application\Enterprise.IIS\business\Reports\SalaryDriver.aspx.cs:行号 112
+   在 FineUI.Button.OnClick(EventArgs e)
+   在 FineUI.Button.RaisePostBackEvent(String eventArgument)
+   在 System.Web.UI.Page.RaisePostBackEvent(IPostBackEventHandler sourceControl, String eventArgument)
+   在 System.Web.UI.Page.RaisePostBackEvent(NameValueCollection postData)
+   在 System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   在 System.Web.UI.Page.HandleError(Exception e)
+   在 System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   在 System.Web.UI.Page.ProcessRequest(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   在 System.Web.UI.Page.ProcessRequest()
+   在 System.Web.UI.Page.ProcessRequestWithNoAssert(HttpContext context)
+   在 System.Web.UI.Page.ProcessRequest(HttpContext context)
+   在 ASP.business_reports_salarydriver_aspx.ProcessRequest(HttpContext context) 位置 c:\Windows\Microsoft.NET\Framework\v4.0.30319\Temporary ASP.NET Files\vs\acc0e68d\f6fd98d3\App_Web_salarydriver.aspx.3e9c9a95.xfwfarbd.0.cs:行号 0
+   在 System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   在 System.Web.HttpApplication.ExecuteStepImpl(IExecutionStep step)
+   在 System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+2019/07/31 +08:00 13:24:13     [18900] Enterprise.Framework.Log.LogUtil.ErrorLog(:0) Enterprise.Framework.Log.LogUtil.ErrorLog(:0) [(null)] - 该行已经属于此表。 e 
+System.ArgumentException: 该行已经属于此表。
+   在 System.Data.DataTable.InsertRow(DataRow row, Int64 proposedID, Int32 pos, Boolean fireEvent)
+   在 System.Data.DataRowCollection.Add(DataRow row)
+   在 Enterprise.IIS.business.Reports.SalaryDriver.BindDataGrid() 位置 E:\ffqserp\trunk\application\Enterprise.IIS\business\Reports\SalaryDriver.aspx.cs:行号 233
+   在 Enterprise.IIS.business.Reports.SalaryDriver.btnSearch_Click(Object sender, EventArgs e) 位置 E:\ffqserp\trunk\application\Enterprise.IIS\business\Reports\SalaryDriver.aspx.cs:行号 112
+   在 FineUI.Button.OnClick(EventArgs e)
+   在 FineUI.Button.RaisePostBackEvent(String eventArgument)
+   在 System.Web.UI.Page.RaisePostBackEvent(IPostBackEventHandler sourceControl, String eventArgument)
+   在 System.Web.UI.Page.RaisePostBackEvent(NameValueCollection postData)
+   在 System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+2019/07/31 +08:00 13:26:32     [15572] Enterprise.Framework.Log.LogUtil.ErrorLog(:0) Enterprise.Framework.Log.LogUtil.ErrorLog(:0) [(null)] - 
+错误开始===========================================
+客户机IP:::1
+错误地址:http://localhost:19008/business/Reports/SalaryDriver.aspx
+异常信息:引发类型为“System.Web.HttpUnhandledException”的异常。
+错误结束=========================================== e 
+System.Web.HttpUnhandledException (0x80004005): 引发类型为“System.Web.HttpUnhandledException”的异常。 ---> System.ArgumentOutOfRangeException: 索引超出范围。必须为非负值并小于集合大小。
+参数名: index
+   在 System.ThrowHelper.ThrowArgumentOutOfRangeException(ExceptionArgument argument, ExceptionResource resource)
+   在 System.Collections.Generic.List`1.get_Item(Int32 index)
+   在 Enterprise.IIS.business.Reports.SalaryDriver.BindDataGrid() 位置 E:\ffqserp\trunk\application\Enterprise.IIS\business\Reports\SalaryDriver.aspx.cs:行号 346
+   在 Enterprise.IIS.business.Reports.SalaryDriver.btnSearch_Click(Object sender, EventArgs e) 位置 E:\ffqserp\trunk\application\Enterprise.IIS\business\Reports\SalaryDriver.aspx.cs:行号 112
+   在 FineUI.Button.OnClick(EventArgs e)
+   在 FineUI.Button.RaisePostBackEvent(String eventArgument)
+   在 System.Web.UI.Page.RaisePostBackEvent(IPostBackEventHandler sourceControl, String eventArgument)
+   在 System.Web.UI.Page.RaisePostBackEvent(NameValueCollection postData)
+   在 System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   在 System.Web.UI.Page.HandleError(Exception e)
+   在 System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   在 System.Web.UI.Page.ProcessRequest(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   在 System.Web.UI.Page.ProcessRequest()
+   在 System.Web.UI.Page.ProcessRequestWithNoAssert(HttpContext context)
+   在 System.Web.UI.Page.ProcessRequest(HttpContext context)
+   在 ASP.business_reports_salarydriver_aspx.ProcessRequest(HttpContext context) 位置 c:\Windows\Microsoft.NET\Framework\v4.0.30319\Temporary ASP.NET Files\vs\acc0e68d\f6fd98d3\App_Web_ufhu2jyh.5.cs:行号 0
+   在 System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   在 System.Web.HttpApplication.ExecuteStepImpl(IExecutionStep step)
+   在 System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+2019/07/31 +08:00 13:26:32     [15572] Enterprise.Framework.Log.LogUtil.ErrorLog(:0) Enterprise.Framework.Log.LogUtil.ErrorLog(:0) [(null)] - 索引超出范围。必须为非负值并小于集合大小。
+参数名: index e 
+System.ArgumentOutOfRangeException: 索引超出范围。必须为非负值并小于集合大小。
+参数名: index
+   在 System.ThrowHelper.ThrowArgumentOutOfRangeException(ExceptionArgument argument, ExceptionResource resource)
+   在 System.Collections.Generic.List`1.get_Item(Int32 index)
+   在 Enterprise.IIS.business.Reports.SalaryDriver.BindDataGrid() 位置 E:\ffqserp\trunk\application\Enterprise.IIS\business\Reports\SalaryDriver.aspx.cs:行号 346
+   在 Enterprise.IIS.business.Reports.SalaryDriver.btnSearch_Click(Object sender, EventArgs e) 位置 E:\ffqserp\trunk\application\Enterprise.IIS\business\Reports\SalaryDriver.aspx.cs:行号 112
+   在 FineUI.Button.OnClick(EventArgs e)
+   在 FineUI.Button.RaisePostBackEvent(String eventArgument)
+   在 System.Web.UI.Page.RaisePostBackEvent(IPostBackEventHandler sourceControl, String eventArgument)
+   在 System.Web.UI.Page.RaisePostBackEvent(NameValueCollection postData)
+   在 System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+2019/07/31 +08:00 13:32:41     [2920] Enterprise.Framework.Log.LogUtil.ErrorLog(:0) Enterprise.Framework.Log.LogUtil.ErrorLog(:0) [(null)] - 
+错误开始===========================================
+客户机IP:::1
+错误地址:http://localhost:19008/business/Reports/SalaryDriver.aspx
+异常信息:引发类型为“System.Web.HttpUnhandledException”的异常。
+错误结束=========================================== e 
+System.Web.HttpUnhandledException (0x80004005): 引发类型为“System.Web.HttpUnhandledException”的异常。 ---> System.FormatException: 输入字符串的格式不正确。
+   在 System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   在 System.Number.ParseInt32(String s, NumberStyles style, NumberFormatInfo info)
+   在 System.Convert.ToInt32(String value)
+   在 Enterprise.IIS.business.Reports.SalaryDriver.<>c.<BindDataGrid>b__14_3(DataRow x) 位置 E:\ffqserp\trunk\application\Enterprise.IIS\business\Reports\SalaryDriver.aspx.cs:行号 333
+   在 System.Linq.Enumerable.WhereSelectEnumerableIterator`2.MoveNext()
+   在 System.Linq.Enumerable.Sum(IEnumerable`1 source)
+   在 System.Linq.Enumerable.Sum[TSource](IEnumerable`1 source, Func`2 selector)
+   在 Enterprise.IIS.business.Reports.SalaryDriver.<>c.<BindDataGrid>b__14_2(IGrouping`2 g) 位置 E:\ffqserp\trunk\application\Enterprise.IIS\business\Reports\SalaryDriver.aspx.cs:行号 329
+   在 System.Linq.Enumerable.WhereSelectEnumerableIterator`2.MoveNext()
+   在 System.Collections.Generic.List`1..ctor(IEnumerable`1 collection)
+   在 System.Linq.Enumerable.ToList[TSource](IEnumerable`1 source)
+   在 Enterprise.IIS.business.Reports.SalaryDriver.BindDataGrid() 位置 E:\ffqserp\trunk\application\Enterprise.IIS\business\Reports\SalaryDriver.aspx.cs:行号 344
+   在 Enterprise.IIS.business.Reports.SalaryDriver.btnSearch_Click(Object sender, EventArgs e) 位置 E:\ffqserp\trunk\application\Enterprise.IIS\business\Reports\SalaryDriver.aspx.cs:行号 112
+   在 FineUI.Button.OnClick(EventArgs e)
+   在 FineUI.Button.RaisePostBackEvent(String eventArgument)
+   在 System.Web.UI.Page.RaisePostBackEvent(IPostBackEventHandler sourceControl, String eventArgument)
+   在 System.Web.UI.Page.RaisePostBackEvent(NameValueCollection postData)
+   在 System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   在 System.Web.UI.Page.HandleError(Exception e)
+   在 System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   在 System.Web.UI.Page.ProcessRequest(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   在 System.Web.UI.Page.ProcessRequest()
+   在 System.Web.UI.Page.ProcessRequestWithNoAssert(HttpContext context)
+   在 System.Web.UI.Page.ProcessRequest(HttpContext context)
+   在 ASP.business_reports_salarydriver_aspx.ProcessRequest(HttpContext context) 位置 c:\Windows\Microsoft.NET\Framework\v4.0.30319\Temporary ASP.NET Files\vs\acc0e68d\f6fd98d3\App_Web_salarydriver.aspx.3e9c9a95.t25pw1cx.0.cs:行号 0
+   在 System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   在 System.Web.HttpApplication.ExecuteStepImpl(IExecutionStep step)
+   在 System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+2019/07/31 +08:00 13:32:41     [2920] Enterprise.Framework.Log.LogUtil.ErrorLog(:0) Enterprise.Framework.Log.LogUtil.ErrorLog(:0) [(null)] - 输入字符串的格式不正确。 e 
+System.FormatException: 输入字符串的格式不正确。
+   在 System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   在 System.Number.ParseInt32(String s, NumberStyles style, NumberFormatInfo info)
+   在 System.Convert.ToInt32(String value)
+   在 Enterprise.IIS.business.Reports.SalaryDriver.<>c.<BindDataGrid>b__14_3(DataRow x) 位置 E:\ffqserp\trunk\application\Enterprise.IIS\business\Reports\SalaryDriver.aspx.cs:行号 333
+   在 System.Linq.Enumerable.WhereSelectEnumerableIterator`2.MoveNext()
+   在 System.Linq.Enumerable.Sum(IEnumerable`1 source)
+   在 System.Linq.Enumerable.Sum[TSource](IEnumerable`1 source, Func`2 selector)
+   在 Enterprise.IIS.business.Reports.SalaryDriver.<>c.<BindDataGrid>b__14_2(IGrouping`2 g) 位置 E:\ffqserp\trunk\application\Enterprise.IIS\business\Reports\SalaryDriver.aspx.cs:行号 329
+   在 System.Linq.Enumerable.WhereSelectEnumerableIterator`2.MoveNext()
+   在 System.Collections.Generic.List`1..ctor(IEnumerable`1 collection)
+   在 System.Linq.Enumerable.ToList[TSource](IEnumerable`1 source)
+   在 Enterprise.IIS.business.Reports.SalaryDriver.BindDataGrid() 位置 E:\ffqserp\trunk\application\Enterprise.IIS\business\Reports\SalaryDriver.aspx.cs:行号 344
+   在 Enterprise.IIS.business.Reports.SalaryDriver.btnSearch_Click(Object sender, EventArgs e) 位置 E:\ffqserp\trunk\application\Enterprise.IIS\business\Reports\SalaryDriver.aspx.cs:行号 112
+   在 FineUI.Button.OnClick(EventArgs e)
+   在 FineUI.Button.RaisePostBackEvent(String eventArgument)
+   在 System.Web.UI.Page.RaisePostBackEvent(IPostBackEventHandler sourceControl, String eventArgument)
+   在 System.Web.UI.Page.RaisePostBackEvent(NameValueCollection postData)
+   在 System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+2019/07/31 +08:00 14:27:00     [11032] Enterprise.Framework.Log.LogUtil.ErrorLog(:0) Enterprise.Framework.Log.LogUtil.ErrorLog(:0) [(null)] - 
+错误开始===========================================
+客户机IP:::1
+错误地址:http://localhost:19008/business/Reports/SalaryDriver.aspx
+异常信息:引发类型为“System.Web.HttpUnhandledException”的异常。
+错误结束=========================================== e 
+System.Web.HttpUnhandledException (0x80004005): 引发类型为“System.Web.HttpUnhandledException”的异常。 ---> System.Data.EvaluateException: 未找到列 [milageprice]。
+   在 System.Data.AggregateNode.Bind(DataTable table, List`1 list)
+   在 System.Data.DataExpression.Bind(DataTable table)
+   在 System.Data.DataExpression..ctor(DataTable table, String expression, Type type)
+   在 System.Data.DataTable.Compute(String expression, String filter)
+   在 Enterprise.IIS.business.Reports.SalaryDriver.BindDataGrid() 位置 E:\ffqserp\trunk\application\Enterprise.IIS\business\Reports\SalaryDriver.aspx.cs:行号 486
+   在 Enterprise.IIS.business.Reports.SalaryDriver.btnSearch_Click(Object sender, EventArgs e) 位置 E:\ffqserp\trunk\application\Enterprise.IIS\business\Reports\SalaryDriver.aspx.cs:行号 112
+   在 FineUI.Button.OnClick(EventArgs e)
+   在 FineUI.Button.RaisePostBackEvent(String eventArgument)
+   在 System.Web.UI.Page.RaisePostBackEvent(IPostBackEventHandler sourceControl, String eventArgument)
+   在 System.Web.UI.Page.RaisePostBackEvent(NameValueCollection postData)
+   在 System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   在 System.Web.UI.Page.HandleError(Exception e)
+   在 System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   在 System.Web.UI.Page.ProcessRequest(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   在 System.Web.UI.Page.ProcessRequest()
+   在 System.Web.UI.Page.ProcessRequestWithNoAssert(HttpContext context)
+   在 System.Web.UI.Page.ProcessRequest(HttpContext context)
+   在 ASP.business_reports_salarydriver_aspx.ProcessRequest(HttpContext context) 位置 c:\Windows\Microsoft.NET\Framework\v4.0.30319\Temporary ASP.NET Files\vs\acc0e68d\f6fd98d3\App_Web_ds5n4lmp.0.cs:行号 0
+   在 System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   在 System.Web.HttpApplication.ExecuteStepImpl(IExecutionStep step)
+   在 System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+2019/07/31 +08:00 14:27:00     [11032] Enterprise.Framework.Log.LogUtil.ErrorLog(:0) Enterprise.Framework.Log.LogUtil.ErrorLog(:0) [(null)] - 未找到列 [milageprice]。 e 
+System.Data.EvaluateException: 未找到列 [milageprice]。
+   在 System.Data.AggregateNode.Bind(DataTable table, List`1 list)
+   在 System.Data.DataExpression.Bind(DataTable table)
+   在 System.Data.DataExpression..ctor(DataTable table, String expression, Type type)
+   在 System.Data.DataTable.Compute(String expression, String filter)
+   在 Enterprise.IIS.business.Reports.SalaryDriver.BindDataGrid() 位置 E:\ffqserp\trunk\application\Enterprise.IIS\business\Reports\SalaryDriver.aspx.cs:行号 486
+   在 Enterprise.IIS.business.Reports.SalaryDriver.btnSearch_Click(Object sender, EventArgs e) 位置 E:\ffqserp\trunk\application\Enterprise.IIS\business\Reports\SalaryDriver.aspx.cs:行号 112
+   在 FineUI.Button.OnClick(EventArgs e)
+   在 FineUI.Button.RaisePostBackEvent(String eventArgument)
+   在 System.Web.UI.Page.RaisePostBackEvent(IPostBackEventHandler sourceControl, String eventArgument)
+   在 System.Web.UI.Page.RaisePostBackEvent(NameValueCollection postData)
+   在 System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+2019/07/31 +08:00 14:28:12     [7332] Enterprise.Framework.Log.LogUtil.ErrorLog(:0) Enterprise.Framework.Log.LogUtil.ErrorLog(:0) [(null)] - 
+错误开始===========================================
+客户机IP:::1
+错误地址:http://localhost:19008/business/Reports/SalaryDriver.aspx
+异常信息:引发类型为“System.Web.HttpUnhandledException”的异常。
+错误结束=========================================== e 
+System.Web.HttpUnhandledException (0x80004005): 引发类型为“System.Web.HttpUnhandledException”的异常。 ---> System.Data.EvaluateException: 未找到列 [pointprice]。
+   在 System.Data.AggregateNode.Bind(DataTable table, List`1 list)
+   在 System.Data.DataExpression.Bind(DataTable table)
+   在 System.Data.DataExpression..ctor(DataTable table, String expression, Type type)
+   在 System.Data.DataTable.Compute(String expression, String filter)
+   在 Enterprise.IIS.business.Reports.SalaryDriver.BindDataGrid() 位置 E:\ffqserp\trunk\application\Enterprise.IIS\business\Reports\SalaryDriver.aspx.cs:行号 486
+   在 Enterprise.IIS.business.Reports.SalaryDriver.btnSearch_Click(Object sender, EventArgs e) 位置 E:\ffqserp\trunk\application\Enterprise.IIS\business\Reports\SalaryDriver.aspx.cs:行号 112
+   在 FineUI.Button.OnClick(EventArgs e)
+   在 FineUI.Button.RaisePostBackEvent(String eventArgument)
+   在 System.Web.UI.Page.RaisePostBackEvent(IPostBackEventHandler sourceControl, String eventArgument)
+   在 System.Web.UI.Page.RaisePostBackEvent(NameValueCollection postData)
+   在 System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   在 System.Web.UI.Page.HandleError(Exception e)
+   在 System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   在 System.Web.UI.Page.ProcessRequest(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   在 System.Web.UI.Page.ProcessRequest()
+   在 System.Web.UI.Page.ProcessRequestWithNoAssert(HttpContext context)
+   在 System.Web.UI.Page.ProcessRequest(HttpContext context)
+   在 ASP.business_reports_salarydriver_aspx.ProcessRequest(HttpContext context) 位置 c:\Windows\Microsoft.NET\Framework\v4.0.30319\Temporary ASP.NET Files\vs\acc0e68d\f6fd98d3\App_Web_salarydriver.aspx.3e9c9a95.vvpniauv.0.cs:行号 0
+   在 System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   在 System.Web.HttpApplication.ExecuteStepImpl(IExecutionStep step)
+   在 System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+2019/07/31 +08:00 14:28:12     [7332] Enterprise.Framework.Log.LogUtil.ErrorLog(:0) Enterprise.Framework.Log.LogUtil.ErrorLog(:0) [(null)] - 未找到列 [pointprice]。 e 
+System.Data.EvaluateException: 未找到列 [pointprice]。
+   在 System.Data.AggregateNode.Bind(DataTable table, List`1 list)
+   在 System.Data.DataExpression.Bind(DataTable table)
+   在 System.Data.DataExpression..ctor(DataTable table, String expression, Type type)
+   在 System.Data.DataTable.Compute(String expression, String filter)
+   在 Enterprise.IIS.business.Reports.SalaryDriver.BindDataGrid() 位置 E:\ffqserp\trunk\application\Enterprise.IIS\business\Reports\SalaryDriver.aspx.cs:行号 486
+   在 Enterprise.IIS.business.Reports.SalaryDriver.btnSearch_Click(Object sender, EventArgs e) 位置 E:\ffqserp\trunk\application\Enterprise.IIS\business\Reports\SalaryDriver.aspx.cs:行号 112
+   在 FineUI.Button.OnClick(EventArgs e)
+   在 FineUI.Button.RaisePostBackEvent(String eventArgument)
+   在 System.Web.UI.Page.RaisePostBackEvent(IPostBackEventHandler sourceControl, String eventArgument)
+   在 System.Web.UI.Page.RaisePostBackEvent(NameValueCollection postData)
+   在 System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+2019/07/31 +08:00 14:30:48     [12512] Enterprise.Framework.Log.LogUtil.ErrorLog(:0) Enterprise.Framework.Log.LogUtil.ErrorLog(:0) [(null)] - 
+错误开始===========================================
+客户机IP:::1
+错误地址:http://localhost:19008/business/Reports/SalaryDriver.aspx
+异常信息:引发类型为“System.Web.HttpUnhandledException”的异常。
+错误结束=========================================== e 
+System.Web.HttpUnhandledException (0x80004005): 引发类型为“System.Web.HttpUnhandledException”的异常。 ---> System.Data.EvaluateException: 未找到列 [Mileage]。
+   在 System.Data.AggregateNode.Bind(DataTable table, List`1 list)
+   在 System.Data.DataExpression.Bind(DataTable table)
+   在 System.Data.DataExpression..ctor(DataTable table, String expression, Type type)
+   在 System.Data.DataTable.Compute(String expression, String filter)
+   在 Enterprise.IIS.business.Reports.SalaryDriver.BindDataGrid() 位置 E:\ffqserp\trunk\application\Enterprise.IIS\business\Reports\SalaryDriver.aspx.cs:行号 486
+   在 Enterprise.IIS.business.Reports.SalaryDriver.btnSearch_Click(Object sender, EventArgs e) 位置 E:\ffqserp\trunk\application\Enterprise.IIS\business\Reports\SalaryDriver.aspx.cs:行号 112
+   在 FineUI.Button.OnClick(EventArgs e)
+   在 FineUI.Button.RaisePostBackEvent(String eventArgument)
+   在 System.Web.UI.Page.RaisePostBackEvent(IPostBackEventHandler sourceControl, String eventArgument)
+   在 System.Web.UI.Page.RaisePostBackEvent(NameValueCollection postData)
+   在 System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   在 System.Web.UI.Page.HandleError(Exception e)
+   在 System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   在 System.Web.UI.Page.ProcessRequest(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   在 System.Web.UI.Page.ProcessRequest()
+   在 System.Web.UI.Page.ProcessRequestWithNoAssert(HttpContext context)
+   在 System.Web.UI.Page.ProcessRequest(HttpContext context)
+   在 ASP.business_reports_salarydriver_aspx.ProcessRequest(HttpContext context) 位置 c:\Windows\Microsoft.NET\Framework\v4.0.30319\Temporary ASP.NET Files\vs\acc0e68d\f6fd98d3\App_Web_ddc24el4.8.cs:行号 0
+   在 System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   在 System.Web.HttpApplication.ExecuteStepImpl(IExecutionStep step)
+   在 System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+2019/07/31 +08:00 14:30:48     [12512] Enterprise.Framework.Log.LogUtil.ErrorLog(:0) Enterprise.Framework.Log.LogUtil.ErrorLog(:0) [(null)] - 未找到列 [Mileage]。 e 
+System.Data.EvaluateException: 未找到列 [Mileage]。
+   在 System.Data.AggregateNode.Bind(DataTable table, List`1 list)
+   在 System.Data.DataExpression.Bind(DataTable table)
+   在 System.Data.DataExpression..ctor(DataTable table, String expression, Type type)
+   在 System.Data.DataTable.Compute(String expression, String filter)
+   在 Enterprise.IIS.business.Reports.SalaryDriver.BindDataGrid() 位置 E:\ffqserp\trunk\application\Enterprise.IIS\business\Reports\SalaryDriver.aspx.cs:行号 486
+   在 Enterprise.IIS.business.Reports.SalaryDriver.btnSearch_Click(Object sender, EventArgs e) 位置 E:\ffqserp\trunk\application\Enterprise.IIS\business\Reports\SalaryDriver.aspx.cs:行号 112
+   在 FineUI.Button.OnClick(EventArgs e)
+   在 FineUI.Button.RaisePostBackEvent(String eventArgument)
+   在 System.Web.UI.Page.RaisePostBackEvent(IPostBackEventHandler sourceControl, String eventArgument)
+   在 System.Web.UI.Page.RaisePostBackEvent(NameValueCollection postData)
+   在 System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)

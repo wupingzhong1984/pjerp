@@ -1,0 +1,142 @@
+﻿2019/05/09 +08:00 11:21:01     [25500] Enterprise.Framework.Log.LogUtil.InfoLog(:0) Enterprise.Framework.Log.LogUtil.InfoLog(:0) [(null)] - ，发货单：XS-190509-0007，发货单详细单号：105398---G0588,105399---G0588,105400---G0588,，销售单：OC-190509-0004，销售单详细单号：79171---G0588,79172---G0588,79173---G0588, e 
+2019/05/09 +08:00 12:20:35     [13356] Enterprise.Framework.Log.LogUtil.InfoLog(:0) Enterprise.Framework.Log.LogUtil.InfoLog(:0) [(null)] - ，发货单：XS-190509-0004 e 
+2019/05/09 +08:00 16:14:57     [23880] Enterprise.Framework.Log.LogUtil.ErrorLog(:0) Enterprise.Framework.Log.LogUtil.ErrorLog(:0) [(null)] - 
+错误开始===========================================
+客户机IP:::1
+错误地址:http://localhost:19008/business/PurchasePlan/Index.aspx
+异常信息:引发类型为“System.Web.HttpUnhandledException”的异常。
+错误结束=========================================== e 
+System.Web.HttpUnhandledException (0x80004005): 引发类型为“System.Web.HttpUnhandledException”的异常。 ---> System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 Enterprise.Data.PageBase.SetPermissionButtons(ControlBase control)
+   在 Enterprise.IIS.business.PurchasePlan.Index.Page_Load(Object sender, EventArgs e) 位置 E:\ffqserp\trunk\application\Enterprise.IIS\business\PurchasePlan\Index.aspx.cs:行号 72
+   在 System.Web.Util.CalliEventHandlerDelegateProxy.Callback(Object sender, EventArgs e)
+   在 System.Web.UI.Control.OnLoad(EventArgs e)
+   在 System.Web.UI.Control.LoadRecursive()
+   在 System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   在 System.Web.UI.Page.HandleError(Exception e)
+   在 System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   在 System.Web.UI.Page.ProcessRequest(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   在 System.Web.UI.Page.ProcessRequest()
+   在 System.Web.UI.Page.ProcessRequestWithNoAssert(HttpContext context)
+   在 System.Web.UI.Page.ProcessRequest(HttpContext context)
+   在 ASP.business_purchaseplan_index_aspx.ProcessRequest(HttpContext context) 位置 c:\Windows\Microsoft.NET\Framework\v4.0.30319\Temporary ASP.NET Files\vs\acc0e68d\f6fd98d3\App_Web_l4ajn2mb.2.cs:行号 0
+   在 System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   在 System.Web.HttpApplication.ExecuteStepImpl(IExecutionStep step)
+   在 System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+2019/05/09 +08:00 16:14:58     [23880] Enterprise.Framework.Log.LogUtil.ErrorLog(:0) Enterprise.Framework.Log.LogUtil.ErrorLog(:0) [(null)] - 未将对象引用设置到对象的实例。 e 
+System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 Enterprise.Data.PageBase.SetPermissionButtons(ControlBase control)
+   在 Enterprise.IIS.business.PurchasePlan.Index.Page_Load(Object sender, EventArgs e) 位置 E:\ffqserp\trunk\application\Enterprise.IIS\business\PurchasePlan\Index.aspx.cs:行号 72
+   在 System.Web.Util.CalliEventHandlerDelegateProxy.Callback(Object sender, EventArgs e)
+   在 System.Web.UI.Control.OnLoad(EventArgs e)
+   在 System.Web.UI.Control.LoadRecursive()
+   在 System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+2019/05/09 +08:00 16:29:49     [31072] Enterprise.Framework.Log.LogUtil.ErrorLog(:0) Enterprise.Framework.Log.LogUtil.ErrorLog(:0) [(null)] - 
+错误开始===========================================
+客户机IP:::1
+错误地址:http://localhost:19008/business/Purchase/Index.aspx
+异常信息:引发类型为“System.Web.HttpUnhandledException”的异常。
+错误结束=========================================== e 
+System.Web.HttpUnhandledException (0x80004005): 引发类型为“System.Web.HttpUnhandledException”的异常。 ---> System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 Enterprise.Data.PageBase.SetPermissionButtons(ControlBase control)
+   在 Enterprise.IIS.business.Purchase.Index.Page_Load(Object sender, EventArgs e) 位置 E:\ffqserp\trunk\application\Enterprise.IIS\business\Purchase\Index.aspx.cs:行号 77
+   在 System.Web.Util.CalliEventHandlerDelegateProxy.Callback(Object sender, EventArgs e)
+   在 System.Web.UI.Control.OnLoad(EventArgs e)
+   在 System.Web.UI.Control.LoadRecursive()
+   在 System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   在 System.Web.UI.Page.HandleError(Exception e)
+   在 System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   在 System.Web.UI.Page.ProcessRequest(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   在 System.Web.UI.Page.ProcessRequest()
+   在 System.Web.UI.Page.ProcessRequestWithNoAssert(HttpContext context)
+   在 System.Web.UI.Page.ProcessRequest(HttpContext context)
+   在 ASP.business_purchase_index_aspx.ProcessRequest(HttpContext context) 位置 c:\Windows\Microsoft.NET\Framework\v4.0.30319\Temporary ASP.NET Files\vs\acc0e68d\f6fd98d3\App_Web_zbsk4pwd.0.cs:行号 0
+   在 System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   在 System.Web.HttpApplication.ExecuteStepImpl(IExecutionStep step)
+   在 System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+2019/05/09 +08:00 16:29:49     [31072] Enterprise.Framework.Log.LogUtil.ErrorLog(:0) Enterprise.Framework.Log.LogUtil.ErrorLog(:0) [(null)] - 未将对象引用设置到对象的实例。 e 
+System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 Enterprise.Data.PageBase.SetPermissionButtons(ControlBase control)
+   在 Enterprise.IIS.business.Purchase.Index.Page_Load(Object sender, EventArgs e) 位置 E:\ffqserp\trunk\application\Enterprise.IIS\business\Purchase\Index.aspx.cs:行号 77
+   在 System.Web.Util.CalliEventHandlerDelegateProxy.Callback(Object sender, EventArgs e)
+   在 System.Web.UI.Control.OnLoad(EventArgs e)
+   在 System.Web.UI.Control.LoadRecursive()
+   在 System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+2019/05/09 +08:00 17:24:11     [4628] Enterprise.Framework.Log.LogUtil.ErrorLog(:0) Enterprise.Framework.Log.LogUtil.ErrorLog(:0) [(null)] - 
+错误开始===========================================
+客户机IP:::1
+错误地址:http://localhost:19008/Business/Reports/ProducePlaceQty.aspx
+异常信息:引发类型为“System.Web.HttpUnhandledException”的异常。
+错误结束=========================================== e 
+System.Web.HttpUnhandledException (0x80004005): 引发类型为“System.Web.HttpUnhandledException”的异常。 ---> System.ArgumentException: 参数类型不匹配
+   在 System.Linq.Expressions.Expression.Constant(Object value, Type type)
+   在 Enterprise.IIS.business.Reports.ProducePlaceQty.BuildPredicate(Object& orderingSelector) 位置 E:\ffqserp\trunk\application\Enterprise.IIS\business\Reports\ProducePlaceQty.aspx.cs:行号 118
+   在 Enterprise.IIS.business.Reports.ProducePlaceQty.BindData() 位置 E:\ffqserp\trunk\application\Enterprise.IIS\business\Reports\ProducePlaceQty.aspx.cs:行号 75
+   在 Enterprise.IIS.business.Reports.ProducePlaceQty.Button1_Click(Object sender, EventArgs e) 位置 E:\ffqserp\trunk\application\Enterprise.IIS\business\Reports\ProducePlaceQty.aspx.cs:行号 86
+   在 FineUI.Button.OnClick(EventArgs e)
+   在 FineUI.Button.RaisePostBackEvent(String eventArgument)
+   在 System.Web.UI.Page.RaisePostBackEvent(IPostBackEventHandler sourceControl, String eventArgument)
+   在 System.Web.UI.Page.RaisePostBackEvent(NameValueCollection postData)
+   在 System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   在 System.Web.UI.Page.HandleError(Exception e)
+   在 System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   在 System.Web.UI.Page.ProcessRequest(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   在 System.Web.UI.Page.ProcessRequest()
+   在 System.Web.UI.Page.ProcessRequestWithNoAssert(HttpContext context)
+   在 System.Web.UI.Page.ProcessRequest(HttpContext context)
+   在 ASP.business_reports_produceplaceqty_aspx.ProcessRequest(HttpContext context) 位置 c:\Windows\Microsoft.NET\Framework\v4.0.30319\Temporary ASP.NET Files\vs\acc0e68d\f6fd98d3\App_Web_produceplaceqty.aspx.3e9c9a95.aagsnkjp.0.cs:行号 0
+   在 System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   在 System.Web.HttpApplication.ExecuteStepImpl(IExecutionStep step)
+   在 System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+2019/05/09 +08:00 17:24:11     [4628] Enterprise.Framework.Log.LogUtil.ErrorLog(:0) Enterprise.Framework.Log.LogUtil.ErrorLog(:0) [(null)] - 参数类型不匹配 e 
+System.ArgumentException: 参数类型不匹配
+   在 System.Linq.Expressions.Expression.Constant(Object value, Type type)
+   在 Enterprise.IIS.business.Reports.ProducePlaceQty.BuildPredicate(Object& orderingSelector) 位置 E:\ffqserp\trunk\application\Enterprise.IIS\business\Reports\ProducePlaceQty.aspx.cs:行号 118
+   在 Enterprise.IIS.business.Reports.ProducePlaceQty.BindData() 位置 E:\ffqserp\trunk\application\Enterprise.IIS\business\Reports\ProducePlaceQty.aspx.cs:行号 75
+   在 Enterprise.IIS.business.Reports.ProducePlaceQty.Button1_Click(Object sender, EventArgs e) 位置 E:\ffqserp\trunk\application\Enterprise.IIS\business\Reports\ProducePlaceQty.aspx.cs:行号 86
+   在 FineUI.Button.OnClick(EventArgs e)
+   在 FineUI.Button.RaisePostBackEvent(String eventArgument)
+   在 System.Web.UI.Page.RaisePostBackEvent(IPostBackEventHandler sourceControl, String eventArgument)
+   在 System.Web.UI.Page.RaisePostBackEvent(NameValueCollection postData)
+   在 System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+2019/05/09 +08:00 17:27:09     [4628] Enterprise.Framework.Log.LogUtil.ErrorLog(:0) Enterprise.Framework.Log.LogUtil.ErrorLog(:0) [(null)] - 
+错误开始===========================================
+客户机IP:::1
+错误地址:http://localhost:19008/Business/Reports/ProducePlaceQty.aspx
+异常信息:引发类型为“System.Web.HttpUnhandledException”的异常。
+错误结束=========================================== e 
+System.Web.HttpUnhandledException (0x80004005): 引发类型为“System.Web.HttpUnhandledException”的异常。 ---> System.InvalidOperationException: 没有为类型“System.String”和“System.DateTime”定义二进制运算符 Equal。
+   在 System.Linq.Expressions.Expression.GetEqualityComparisonOperator(ExpressionType binaryType, String opName, Expression left, Expression right, Boolean liftToNull)
+   在 System.Linq.Expressions.Expression.Equal(Expression left, Expression right, Boolean liftToNull, MethodInfo method)
+   在 System.Linq.Expressions.Expression.Equal(Expression left, Expression right)
+   在 Enterprise.IIS.business.Reports.ProducePlaceQty.BuildPredicate(Object& orderingSelector) 位置 E:\ffqserp\trunk\application\Enterprise.IIS\business\Reports\ProducePlaceQty.aspx.cs:行号 118
+   在 Enterprise.IIS.business.Reports.ProducePlaceQty.BindData() 位置 E:\ffqserp\trunk\application\Enterprise.IIS\business\Reports\ProducePlaceQty.aspx.cs:行号 75
+   在 Enterprise.IIS.business.Reports.ProducePlaceQty.Button1_Click(Object sender, EventArgs e) 位置 E:\ffqserp\trunk\application\Enterprise.IIS\business\Reports\ProducePlaceQty.aspx.cs:行号 86
+   在 FineUI.Button.OnClick(EventArgs e)
+   在 FineUI.Button.RaisePostBackEvent(String eventArgument)
+   在 System.Web.UI.Page.RaisePostBackEvent(IPostBackEventHandler sourceControl, String eventArgument)
+   在 System.Web.UI.Page.RaisePostBackEvent(NameValueCollection postData)
+   在 System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   在 System.Web.UI.Page.HandleError(Exception e)
+   在 System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   在 System.Web.UI.Page.ProcessRequest(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   在 System.Web.UI.Page.ProcessRequest()
+   在 System.Web.UI.Page.ProcessRequestWithNoAssert(HttpContext context)
+   在 System.Web.UI.Page.ProcessRequest(HttpContext context)
+   在 ASP.business_reports_produceplaceqty_aspx.ProcessRequest(HttpContext context) 位置 c:\Windows\Microsoft.NET\Framework\v4.0.30319\Temporary ASP.NET Files\vs\acc0e68d\f6fd98d3\App_Web_x2gufyie.2.cs:行号 0
+   在 System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   在 System.Web.HttpApplication.ExecuteStepImpl(IExecutionStep step)
+   在 System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+2019/05/09 +08:00 17:27:09     [4628] Enterprise.Framework.Log.LogUtil.ErrorLog(:0) Enterprise.Framework.Log.LogUtil.ErrorLog(:0) [(null)] - 没有为类型“System.String”和“System.DateTime”定义二进制运算符 Equal。 e 
+System.InvalidOperationException: 没有为类型“System.String”和“System.DateTime”定义二进制运算符 Equal。
+   在 System.Linq.Expressions.Expression.GetEqualityComparisonOperator(ExpressionType binaryType, String opName, Expression left, Expression right, Boolean liftToNull)
+   在 System.Linq.Expressions.Expression.Equal(Expression left, Expression right, Boolean liftToNull, MethodInfo method)
+   在 System.Linq.Expressions.Expression.Equal(Expression left, Expression right)
+   在 Enterprise.IIS.business.Reports.ProducePlaceQty.BuildPredicate(Object& orderingSelector) 位置 E:\ffqserp\trunk\application\Enterprise.IIS\business\Reports\ProducePlaceQty.aspx.cs:行号 118
+   在 Enterprise.IIS.business.Reports.ProducePlaceQty.BindData() 位置 E:\ffqserp\trunk\application\Enterprise.IIS\business\Reports\ProducePlaceQty.aspx.cs:行号 75
+   在 Enterprise.IIS.business.Reports.ProducePlaceQty.Button1_Click(Object sender, EventArgs e) 位置 E:\ffqserp\trunk\application\Enterprise.IIS\business\Reports\ProducePlaceQty.aspx.cs:行号 86
+   在 FineUI.Button.OnClick(EventArgs e)
+   在 FineUI.Button.RaisePostBackEvent(String eventArgument)
+   在 System.Web.UI.Page.RaisePostBackEvent(IPostBackEventHandler sourceControl, String eventArgument)
+   在 System.Web.UI.Page.RaisePostBackEvent(NameValueCollection postData)
+   在 System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)

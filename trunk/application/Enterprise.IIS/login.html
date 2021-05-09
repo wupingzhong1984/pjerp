@@ -1,0 +1,86 @@
+﻿<!DOCTYPE HTML PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+    <head>
+        <title>非凡通</title>
+        <link rel="shortcut icon" href="/Enterprise.ico" />
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+        <script type="text/javascript" src="images/jquery.js"></script>
+        
+        <link href="css/public.css" rel="stylesheet" type="text/css" />
+    </head>
+<body>
+    <div class="top_bg">
+        <div class="top"><a href="http://www.ffqs.com" target="_blank"><span>非凡通</span></a></div>
+    </div>
+    <div class="main_bg">
+        <div class="main">
+            <form method="post" id="loginForm">
+                <div class="loginbg">
+                    <p>用户名<span id="usernametips"></span></p>
+                    <div class="username"><input type="text" name="username" id="username" /></div>
+                    <p>密&nbsp;&nbsp;码<span id="pwdtips"></span></p>
+                    <div class="password"><input type="password" name="password" id="password" /></div>
+                    <div class="btn"><input onclick="login()" type="button" value="" /></div>
+                </div>
+            </form>
+        </div>
+    </div>
+    <div class="footer">COPYRIGHT © 非凡气市网络科技江苏有限公司 www.ffqs.com 苏ICP备14041116号</div>
+    <script src="js/footer.js" language="javascript" type="text/javascript"></script>
+    <script type="text/javascript">
+        $(function () {
+            //居中
+            document.getElementById("username").focus();
+            $("#username").keydown(function (event) {
+                if (event.keyCode == 13) {
+                    login();
+                }
+            });
+            $("#password").keydown(function (event) {
+                if (event.keyCode == 13) {
+                    login();
+                }
+            });
+        });
+
+        //登录
+        function login() {
+            var errorMsg1 = "";
+            var errorMsg2 = "";
+            var loginName = document.getElementById("username");
+            var password = document.getElementById("password");
+            if (!loginName.value) {
+                errorMsg1 += "&nbsp;&nbsp;用户名不能为空";
+            }
+            if (!password.value) {
+                errorMsg2 += "&nbsp;&nbsp;密码不能为空";
+            }
+            //alert(errorMsg1); alert(errorMsg2);
+            if (errorMsg1 != "") {
+                $("#usernametips").html(errorMsg1);
+                $("#usernametips").show();
+            }else if (errorMsg2 != "") {
+                $("#pwdtips").html(errorMsg2);
+                $("#pwdtips").show();
+            }
+            else {
+                $("#pwdtips").show();
+                $("#pwdtips").html("&nbsp;&nbsp;正在登录中...");
+                //登录处理
+                $.post("common/ajax.ashx?oper=ajaxLogin",
+				  { "name": loginName.value, "password": password.value },
+				  function (result) {
+				      if (result.result == "1" || result.result == true) {
+				          $("#pwdtips").html("&nbsp;&nbsp;登录成功，正在转到主页...");
+				          window.location = "../default.aspx";
+				      }
+				      else {
+				          $("#pwdtips").html("&nbsp;&nbsp;" + result.returnval);
+				      }
+
+				  }, "json");
+            };
+        };
+    </script>
+</body>
+</html>

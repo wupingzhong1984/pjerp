@@ -1,0 +1,12 @@
+﻿2019/05/16 11:33:26            ，销售单：OC-190517-0001，销售单详细单号：79192---G0450, 
+2019/05/16 11:33:48            错误OC-190517-0001,销售单详细单号：79192,错误信息：无法连接到远程服务器,错误堆栈：   在 System.Net.HttpWebRequest.GetRequestStream(TransportContext& context)
+   在 System.Net.HttpWebRequest.GetRequestStream()
+   在 Enterprise.IIS.Common.HttpRequest.httpRequest(tmsModel t, String uri) 位置 E:\ffqserp\trunk\application\Enterprise.IIS\Common\HttpRequest.cs:行号 61 
+2019/05/16 11:44:06            ，销售单：OC-190517-0002，销售单详细单号：79193---G0450, 
+2019/05/16 11:44:27            错误OC-190517-0002,销售单详细单号：79193,错误信息：无法连接到远程服务器,错误堆栈：   在 System.Net.HttpWebRequest.GetRequestStream(TransportContext& context)
+   在 System.Net.HttpWebRequest.GetRequestStream()
+   在 Enterprise.IIS.Common.HttpRequest.httpRequest(tmsModel t, String uri) 位置 E:\ffqserp\trunk\application\Enterprise.IIS\Common\HttpRequest.cs:行号 61 
+2019/05/16 12:53:35            ，销售单：OC-190517-0003，销售单详细单号：79194---G0450, 
+2019/05/16 12:53:56            错误OC-190517-0003,销售单详细单号：79194,错误信息：无法连接到远程服务器,错误堆栈：   在 System.Net.HttpWebRequest.GetRequestStream(TransportContext& context)
+   在 System.Net.HttpWebRequest.GetRequestStream()
+   在 Enterprise.IIS.Common.HttpRequest.httpRequest(tmsModel t, String uri) 位置 E:\ffqserp\trunk\application\Enterprise.IIS\Common\HttpRequest.cs:行号 61 

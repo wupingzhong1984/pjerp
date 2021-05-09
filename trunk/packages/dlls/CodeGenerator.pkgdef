@@ -1,0 +1,13 @@
+﻿[$RootKey$\Generators]
+[$RootKey$\Generators\{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}]
+[$RootKey$\Generators\{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}\EdmxModelCodeGenerator]
+@="Generates C# Code"
+"CLSID"="{5F5D546D-3410-49B2-BB02-FD850F36E117}"
+"GeneratesDesignTimeSource"=dword:00000001
+[$RootKey$\CLSID]
+[$RootKey$\CLSID\{5F5D546D-3410-49B2-BB02-FD850F36E117}]
+@="Generates C# Code"
+"Class"="HENANLUHENG.CodeGenerator.EdmxModelCodeGenerator"
+"InprocServer32"="$WinDir$\system32\mscoree.dll"
+"ThreadingModel"="Both"
+"CodeBase"="$PackageFolder$\HENANLUHENG.CodeGenerator.dll"

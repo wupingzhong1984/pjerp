@@ -1,0 +1,1368 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>8.0.30703</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{47C11E9C-80F2-4F5C-A89D-57AD518E8D63}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Enterprise.Service.Base</RootNamespace>
+    <AssemblyName>Enterprise.Service.Base</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <SccProjectName>
+    </SccProjectName>
+    <SccLocalPath>
+    </SccLocalPath>
+    <SccAuxPath>
+    </SccAuxPath>
+    <SccProvider>
+    </SccProvider>
+    <RunPostBuildEvent>OnOutputUpdated</RunPostBuildEvent>
+    <SolutionDir Condition="$(SolutionDir) == '' Or $(SolutionDir) == '*Undefined*'">..\..\</SolutionDir>
+    <RestorePackages>true</RestorePackages>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>..\bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>..\bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup>
+    <SignAssembly>false</SignAssembly>
+  </PropertyGroup>
+  <PropertyGroup>
+    <AssemblyOriginatorKeyFile>
+    </AssemblyOriginatorKeyFile>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Enterprise.Framework">
+      <HintPath>..\dlls\Enterprise.Dlls\Enterprise.Framework.dll</HintPath>
+    </Reference>
+    <Reference Include="Enterprise.Log4net">
+      <HintPath>..\dlls\Enterprise.Dlls\Enterprise.Log4net.dll</HintPath>
+    </Reference>
+    <Reference Include="EntityFramework">
+      <HintPath>..\dlls\Enterprise.Dlls\EntityFramework.dll</HintPath>
+    </Reference>
+    <Reference Include="EntityFramework.Extended">
+      <HintPath>..\dlls\Enterprise.Dlls\EntityFramework.Extended.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.ComponentModel.DataAnnotations" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data.Entity" />
+    <Reference Include="System.Runtime.Serialization" />
+    <Reference Include="System.Security" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="base_account.cs">
+      <DependentUpon>HNLH_BASE.tt</DependentUpon>
+    </Compile>
+    <Compile Include="base_aciton.cs">
+      <DependentUpon>HNLH_BASE.tt</DependentUpon>
+    </Compile>
+    <Compile Include="base_bulletin.cs">
+      <DependentUpon>HNLH_BASE.tt</DependentUpon>
+    </Compile>
+    <Compile Include="base_bulletin_items.cs">
+      <DependentUpon>HNLH_BASE.tt</DependentUpon>
+    </Compile>
+    <Compile Include="base_code.cs">
+      <DependentUpon>HNLH_BASE.tt</DependentUpon>
+    </Compile>
+    <Compile Include="base_company.cs">
+      <DependentUpon>HNLH_BASE.tt</DependentUpon>
+    </Compile>
+    <Compile Include="base_configset.cs">
+      <DependentUpon>HNLH_BASE.tt</DependentUpon>
+    </Compile>
+    <Compile Include="base_custom_function.cs">
+      <DependentUpon>HNLH_BASE.tt</DependentUpon>
+    </Compile>
+    <Compile Include="base_dictionary.cs">
+      <DependentUpon>HNLH_BASE.tt</DependentUpon>
+    </Compile>
+    <Compile Include="base_employee.cs">
+      <DependentUpon>HNLH_BASE.tt</DependentUpon>
+    </Compile>
+    <Compile Include="base_enclosure.cs">
+      <DependentUpon>HNLH_BASE.tt</DependentUpon>
+    </Compile>
+    <Compile Include="base_icon.cs">
+      <DependentUpon>HNLH_BASE.tt</DependentUpon>
+    </Compile>
+    <Compile Include="base_menu.cs">
+      <DependentUpon>HNLH_BASE.tt</DependentUpon>
+    </Compile>
+    <Compile Include="base_messagerie.cs">
+      <DependentUpon>HNLH_BASE.tt</DependentUpon>
+    </Compile>
+    <Compile Include="base_orgnization.cs">
+      <DependentUpon>HNLH_BASE.tt</DependentUpon>
+    </Compile>
+    <Compile Include="base_permission.cs">
+      <DependentUpon>HNLH_BASE.tt</DependentUpon>
+    </Compile>
+    <Compile Include="base_province.cs">
+      <DependentUpon>HNLH_BASE.tt</DependentUpon>
+    </Compile>
+    <Compile Include="base_role.cs">
+      <DependentUpon>HNLH_BASE.tt</DependentUpon>
+    </Compile>
+    <Compile Include="base_sequence.cs">
+      <DependentUpon>HNLH_BASE.tt</DependentUpon>
+    </Compile>
+    <Compile Include="ERP\AttachmentService.cs" />
+    <Compile Include="ERP\BottleDetectionDetailsService.cs" />
+    <Compile Include="ERP\BottleDetectionService.cs" />
+    <Compile Include="ERP\ContractDetailstServie.cs" />
+    <Compile Include="ERP\ContractServie.cs" />
+    <Compile Include="ERP\BillSafeCheckServie.cs" />
+    <Compile Include="ERP\CustomerItemPriceService.cs" />
+    <Compile Include="ERP\CustomerOrgService.cs" />
+    <Compile Include="ERP\CustomerPriceLogService.cs" />
+    <Compile Include="ERP\DispatchCommissionDetailsService.cs" />
+    <Compile Include="ERP\DispatchCommissionService.cs" />
+    <Compile Include="ERP\DispatchDetailsService.cs" />
+    <Compile Include="ERP\DispatchService.cs" />
+    <Compile Include="ERP\FactorService.cs" />
+    <Compile Include="ERP\FKOrderDetailsService.cs" />
+    <Compile Include="ERP\GasService.cs" />
+    <Compile Include="ERP\InitMonthDetailsService.cs" />
+    <Compile Include="ERP\InitMonthServie.cs" />
+    <Compile Include="ERP\ItemPurchaseService.cs" />
+    <Compile Include="ERP\LiquidPlanService.cs" />
+    <Compile Include="ERP\LiquidPlanTaskDetailsService.cs" />
+    <Compile Include="ERP\LiquidPlanTaskService.cs" />
+    <Compile Include="ERP\LiquidRefuelService.cs" />
+    <Compile Include="ERP\LiquidToService.cs" />
+    <Compile Include="ERP\NoteService.cs" />
+    <Compile Include="ERP\OilCardDetailsService.cs" />
+    <Compile Include="ERP\OilCardService.cs" />
+    <Compile Include="ERP\PassCardDetailsService.cs" />
+    <Compile Include="ERP\PassCardService.cs" />
+    <Compile Include="ERP\PlaceOrderQtyService.cs" />
+    <Compile Include="ERP\PlaceOrderService.cs" />
+    <Compile Include="ERP\SalaryDriverService.cs" />
+    <Compile Include="ERP\SalaryDriverSetService.cs" />
+    <Compile Include="ERP\SalaryProducerSetService.cs" />
+    <Compile Include="ERP\SalarySalesmanSetService.cs" />
+    <Compile Include="ERP\StockInLiquidService.cs" />
+    <Compile Include="ERP\StockoutDispatchServices.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="ERP\TransferAccountsService.cs" />
+    <Compile Include="ERP\TubeDetailsService.cs" />
+    <Compile Include="ERP\TubePlanService.cs" />
+    <Compile Include="ERP\TubePriceService.cs" />
+    <Compile Include="ERP\TubeService.cs" />
+    <Compile Include="ERP\VehicleEtcService.cs" />
+    <Compile Include="ERP\VehicleTireService.cs" />
+    <Compile Include="ERP\VeiwPriceHistoryService.cs" />
+    <Compile Include="ERP\ViewCustomerInfoService.cs" />
+    <Compile Include="ERP\ViewDispatchTaskService.cs" />
+    <Compile Include="ERP\ViewItemsPriceService.cs" />
+    <Compile Include="ERP\ViewMonthARService.cs" />
+    <Compile Include="ERP\VehicleCardService.cs" />
+    <Compile Include="ERP\BillFlowServie.cs" />
+    <Compile Include="ERP\BillStatusService.cs" />
+    <Compile Include="ERP\DeviceService.cs" />
+    <Compile Include="ERP\DispatchCenterService.cs" />
+    <Compile Include="ERP\FKOrderBanksService.cs" />
+    <Compile Include="ERP\FKOrderCheckedBanksService.cs" />
+    <Compile Include="ERP\FKOrderCheckedDetailsService.cs" />
+    <Compile Include="ERP\FKOrderCheckedService.cs" />
+    <Compile Include="ERP\FKOrderService.cs" />
+    <Compile Include="ERP\ItemsFormulaLogService.cs" />
+    <Compile Include="ERP\ItemsFormulaService.cs" />
+    <Compile Include="ERP\SKOrderCheckedBanksService.cs" />
+    <Compile Include="ERP\SKOrderCheckedDetailsService.cs" />
+    <Compile Include="ERP\SKOrderCheckedService.cs" />
+    <Compile Include="ERP\SKOrderBanksService.cs" />
+    <Compile Include="ERP\CollectionOrderService.cs" />
+    <Compile Include="ERP\CustomerLinkService.cs" />
+    <Compile Include="ERP\CustomerService.cs" />
+    <Compile Include="ERP\InitCustomerARService.cs" />
+    <Compile Include="ERP\InitCustomerService.cs" />
+    <Compile Include="ERP\InitCustomerSupplierBottleService.cs" />
+    <Compile Include="ERP\InitStockService.cs" />
+    <Compile Include="ERP\InitSupplierAPService.cs" />
+    <Compile Include="ERP\ItemsMapBottleService.cs" />
+    <Compile Include="ERP\ItemsService.cs" />
+    <Compile Include="ERP\CustomerPriceService.cs" />
+    <Compile Include="ERP\LeaseReturnDetailsLogService.cs" />
+    <Compile Include="ERP\SubjectService.cs" />
+    <Compile Include="ERP\ViewDispatchCenterService.cs" />
+    <Compile Include="ERP\ViewLeaseBottleARService.cs" />
+    <Compile Include="ERP\LeaseDetailsLogService.cs" />
+    <Compile Include="ERP\LeaseDetailsService.cs" />
+    <Compile Include="ERP\LeaseReturnDetailsService.cs" />
+    <Compile Include="ERP\LeaseReturnService.cs" />
+    <Compile Include="ERP\LeaseService.cs" />
+    <Compile Include="ERP\ProjectItemsService.cs" />
+    <Compile Include="ERP\ProjectService.cs" />
+    <Compile Include="ERP\StockInDetailsLogService.cs" />
+    <Compile Include="ERP\StockInDetailsService.cs" />
+    <Compile Include="ERP\StockInLogService.cs" />
+    <Compile Include="ERP\StockInService.cs" />
+    <Compile Include="ERP\StockOutDetailsLogService.cs" />
+    <Compile Include="ERP\StockOutDetailsService.cs" />
+    <Compile Include="ERP\StockOutLogService.cs" />
+    <Compile Include="ERP\StockOutService.cs" />
+    <Compile Include="ERP\ViewMonthAPService.cs" />
+    <Compile Include="ERP\ViewMonthBottleService.cs" />
+    <Compile Include="ERP\ViewMonthItemsService.cs" />
+    <Compile Include="ERP\ViewQuantitativeWorkService.cs" />
+    <Compile Include="ERP\ViewStockInService.cs" />
+    <Compile Include="ERP\ViewStockOutService.cs" />
+    <Compile Include="ERP\ViewSupercargoService.cs" />
+    <Compile Include="ERP\ViewSupplierPriceService.cs" />
+    <Compile Include="ERP\SupplierPriceService.cs" />
+    <Compile Include="ERP\SupplierService.cs" />
+    <Compile Include="ERP\ViewCustomerPriceService.cs" />
+    <Compile Include="ERP\VehicleService.cs" />
+    <Compile Include="ERP\ViewTimeoutCustomerService.cs" />
+    <Compile Include="ERP\ViewTimeoutSupplierService.cs" />
+    <Compile Include="ERP\ViewTubePriceService.cs" />
+    <Compile Include="ERP\ViewUnitAllService.cs" />
+    <Compile Include="ERP\ViewUnitService.cs" />
+    <Compile Include="ERP\VmInitDispatchCenter.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="ERP\WarehouseService.cs" />
+    <Compile Include="ERP\WaterSpaceService.cs" />
+    <Compile Include="FSalary_DriverExt_Result.cs">
+      <DependentUpon>HNLH_BASE.tt</DependentUpon>
+    </Compile>
+    <Compile Include="FSalary_Driver_Result.cs">
+      <DependentUpon>HNLH_BASE.tt</DependentUpon>
+    </Compile>
+    <Compile Include="FSalary_Shipper_Result.cs">
+      <DependentUpon>HNLH_BASE.tt</DependentUpon>
+    </Compile>
+    <Compile Include="HNLH_BASE.Context.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>HNLH_BASE.Context.tt</DependentUpon>
+    </Compile>
+    <Compile Include="HNLH_BASE.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>HNLH_BASE.tt</DependentUpon>
+    </Compile>
+    <Compile Include="HNLH_BASE.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>HNLH_BASE.edmx</DependentUpon>
+    </Compile>
+    <Compile Include="LHAttachment.cs">
+      <DependentUpon>HNLH_BASE.tt</DependentUpon>
+    </Compile>
+    <Compile Include="LHBillFlow.cs">
+      <DependentUpon>HNLH_BASE.tt</DependentUpon>
+    </Compile>
+    <Compile Include="LHBillStatus.cs">
+      <DependentUpon>HNLH_BASE.tt</DependentUpon>
+    </Compile>
+    <Compile Include="LHBottleDetection.cs">
+      <DependentUpon>HNLH_BASE.tt</DependentUpon>
+    </Compile>
+    <Compile Include="LHBottleDetectionDetails.cs">
+      <DependentUpon>HNLH_BASE.tt</DependentUpon>
+    </Compile>
+    <Compile Include="LHCommerceLogistics.cs">
+      <DependentUpon>HNLH_BASE.tt</DependentUpon>
+    </Compile>
+    <Compile Include="LHContract.cs">
+      <DependentUpon>HNLH_BASE.tt</DependentUpon>
+    </Compile>
+    <Compile Include="LHContractDetails.cs">
+      <DependentUpon>HNLH_BASE.tt</DependentUpon>
+    </Compile>
+    <Compile Include="LHCustomer.cs">
+      <DependentUpon>HNLH_BASE.tt</DependentUpon>
+    </Compile>
+    <Compile Include="LHCustomerAddress.cs">
+      <DependentUpon>HNLH_BASE.tt</DependentUpon>
+    </Compile>
+    <Compile Include="LHCustomerFlow.cs">
+      <DependentUpon>HNLH_BASE.tt</DependentUpon>
+    </Compile>
+    <Compile Include="LHCustomerLink.cs">
+      <DependentUpon>HNLH_BASE.tt</DependentUpon>
+    </Compile>
+    <Compile Include="LHCustomerOrg.cs">
+      <DependentUpon>HNLH_BASE.tt</DependentUpon>
+    </Compile>
+    <Compile Include="LHCustomerPrice.cs">
+      <DependentUpon>HNLH_BASE.tt</DependentUpon>
+    </Compile>
+    <Compile Include="LHCustomerPrice_Log.cs">
+      <DependentUpon>HNLH_BASE.tt</DependentUpon>
+    </Compile>
+    <Compile Include="LHDevice.cs">
+      <DependentUpon>HNLH_BASE.tt</DependentUpon>
+    </Compile>
+    <Compile Include="LHDeviceLog.cs">
+      <DependentUpon>HNLH_BASE.tt</DependentUpon>
+    </Compile>
+    <Compile Include="LHDispatch.cs">
+      <DependentUpon>HNLH_BASE.tt</DependentUpon>
+    </Compile>
+    <Compile Include="LHDispatchCenter.cs">
+      <DependentUpon>HNLH_BASE.tt</DependentUpon>
+    </Compile>
+    <Compile Include="LHDispatchCommission.cs">
+      <DependentUpon>HNLH_BASE.tt</DependentUpon>
+    </Compile>
+    <Compile Include="LHDispatchCommissionDetails.cs">
+      <DependentUpon>HNLH_BASE.tt</DependentUpon>
+    </Compile>
+    <Compile Include="LHDispatchDetails.cs">
+      <DependentUpon>HNLH_BASE.tt</DependentUpon>
+    </Compile>
+    <Compile Include="LHFactor.cs">
+      <DependentUpon>HNLH_BASE.tt</DependentUpon>
+    </Compile>
+    <Compile Include="LHFKOrder.cs">
+      <DependentUpon>HNLH_BASE.tt</DependentUpon>
+    </Compile>
+    <Compile Include="LHFKOrderBanks.cs">
+      <DependentUpon>HNLH_BASE.tt</DependentUpon>
+    </Compile>
+    <Compile Include="LHFKOrderChecked.cs">
+      <DependentUpon>HNLH_BASE.tt</DependentUpon>
+    </Compile>
+    <Compile Include="LHFKOrderCheckedBanks.cs">
+      <DependentUpon>HNLH_BASE.tt</DependentUpon>
+    </Compile>
+    <Compile Include="LHFKOrderCheckedDetails.cs">
+      <DependentUpon>HNLH_BASE.tt</DependentUpon>
+    </Compile>
+    <Compile Include="LHFKOrderDetails.cs">
+      <DependentUpon>HNLH_BASE.tt</DependentUpon>
+    </Compile>
+    <Compile Include="LHFSalarySet.cs">
+      <DependentUpon>HNLH_BASE.tt</DependentUpon>
+    </Compile>
+    <Compile Include="LHInitCustomerAR.cs">
+      <DependentUpon>HNLH_BASE.tt</DependentUpon>
+    </Compile>
+    <Compile Include="LHInitCustomerSupplierBottle.cs">
+      <DependentUpon>HNLH_BASE.tt</DependentUpon>
+    </Compile>
+    <Compile Include="LHInitMonth.cs">
+      <DependentUpon>HNLH_BASE.tt</DependentUpon>
+    </Compile>
+    <Compile Include="LHInitMonthDetails.cs">
+      <DependentUpon>HNLH_BASE.tt</DependentUpon>
+    </Compile>
+    <Compile Include="LHInitMonth_Log.cs">
+      <DependentUpon>HNLH_BASE.tt</DependentUpon>
+    </Compile>
+    <Compile Include="LHInitStock.cs">
+      <DependentUpon>HNLH_BASE.tt</DependentUpon>
+    </Compile>
+    <Compile Include="LHInitStock20171120.cs">
+      <DependentUpon>HNLH_BASE.tt</DependentUpon>
+    </Compile>
+    <Compile Include="LHInitStockExpenses.cs">
+      <DependentUpon>HNLH_BASE.tt</DependentUpon>
+    </Compile>
+    <Compile Include="LHInitStockQty.cs">
+      <DependentUpon>HNLH_BASE.tt</DependentUpon>
+    </Compile>
+    <Compile Include="LHInitSupplierAP.cs">
+      <DependentUpon>HNLH_BASE.tt</DependentUpon>
+    </Compile>
+    <Compile Include="LHItems.cs">
+      <DependentUpon>HNLH_BASE.tt</DependentUpon>
+    </Compile>
+    <Compile Include="LHItemsFormula.cs">
+      <DependentUpon>HNLH_BASE.tt</DependentUpon>
+    </Compile>
+    <Compile Include="LHItemsFormula_Log.cs">
+      <DependentUpon>HNLH_BASE.tt</DependentUpon>
+    </Compile>
+    <Compile Include="LHItemsMapBottle.cs">
+      <DependentUpon>HNLH_BASE.tt</DependentUpon>
+    </Compile>
+    <Compile Include="LHLease.cs">
+      <DependentUpon>HNLH_BASE.tt</DependentUpon>
+    </Compile>
+    <Compile Include="LHLeaseDetails.cs">
+      <DependentUpon>HNLH_BASE.tt</DependentUpon>
+    </Compile>
+    <Compile Include="LHLeaseDetails_Log.cs">
+      <DependentUpon>HNLH_BASE.tt</DependentUpon>
+    </Compile>
+    <Compile Include="LHLeaseReturn.cs">
+      <DependentUpon>HNLH_BASE.tt</DependentUpon>
+    </Compile>
+    <Compile Include="LHLeaseReturnDetails.cs">
+      <DependentUpon>HNLH_BASE.tt</DependentUpon>
+    </Compile>
+    <Compile Include="LHLeaseReturnDetails_Log.cs">
+      <DependentUpon>HNLH_BASE.tt</DependentUpon>
+    </Compile>
+    <Compile Include="LHLiquidNote.cs">
+      <DependentUpon>HNLH_BASE.tt</DependentUpon>
+    </Compile>
+    <Compile Include="LHLiquidPlan.cs">
+      <DependentUpon>HNLH_BASE.tt</DependentUpon>
+    </Compile>
+    <Compile Include="LHLiquidPlanTask.cs">
+      <DependentUpon>HNLH_BASE.tt</DependentUpon>
+    </Compile>
+    <Compile Include="LHLiquidPlanTaskDetails.cs">
+      <DependentUpon>HNLH_BASE.tt</DependentUpon>
+    </Compile>
+    <Compile Include="LHLiquidRefuel.cs">
+      <DependentUpon>HNLH_BASE.tt</DependentUpon>
+    </Compile>
+    <Compile Include="LHLiquidTo.cs">
+      <DependentUpon>HNLH_BASE.tt</DependentUpon>
+    </Compile>
+    <Compile Include="LHMonth.cs">
+      <DependentUpon>HNLH_BASE.tt</DependentUpon>
+    </Compile>
+    <Compile Include="LHName.cs">
+      <DependentUpon>HNLH_BASE.tt</DependentUpon>
+    </Compile>
+    <Compile Include="LHNote.cs">
+      <DependentUpon>HNLH_BASE.tt</DependentUpon>
+    </Compile>
+    <Compile Include="LHOilCard.cs">
+      <DependentUpon>HNLH_BASE.tt</DependentUpon>
+    </Compile>
+    <Compile Include="LHOilCardDetails.cs">
+      <DependentUpon>HNLH_BASE.tt</DependentUpon>
+    </Compile>
+    <Compile Include="LHPassCard.cs">
+      <DependentUpon>HNLH_BASE.tt</DependentUpon>
+    </Compile>
+    <Compile Include="LHPassCardDetails.cs">
+      <DependentUpon>HNLH_BASE.tt</DependentUpon>
+    </Compile>
+    <Compile Include="LHPassCardDetails_trigger.cs">
+      <DependentUpon>HNLH_BASE.tt</DependentUpon>
+    </Compile>
+    <Compile Include="LHPassCard_trigger.cs">
+      <DependentUpon>HNLH_BASE.tt</DependentUpon>
+    </Compile>
+    <Compile Include="LHProject.cs">
+      <DependentUpon>HNLH_BASE.tt</DependentUpon>
+    </Compile>
+    <Compile Include="LHProjectItems.cs">
+      <DependentUpon>HNLH_BASE.tt</DependentUpon>
+    </Compile>
+    <Compile Include="LHSafeCheck.cs">
+      <DependentUpon>HNLH_BASE.tt</DependentUpon>
+    </Compile>
+    <Compile Include="LHSalaryDriver.cs">
+      <DependentUpon>HNLH_BASE.tt</DependentUpon>
+    </Compile>
+    <Compile Include="LHSalaryDriverSet.cs">
+      <DependentUpon>HNLH_BASE.tt</DependentUpon>
+    </Compile>
+    <Compile Include="LHSalaryProducerSet.cs">
+      <DependentUpon>HNLH_BASE.tt</DependentUpon>
+    </Compile>
+    <Compile Include="LHSalarySalesmanSet.cs">
+      <DependentUpon>HNLH_BASE.tt</DependentUpon>
+    </Compile>
+    <Compile Include="LHSKOrder.cs">
+      <DependentUpon>HNLH_BASE.tt</DependentUpon>
+    </Compile>
+    <Compile Include="LHSKOrderBanks.cs">
+      <DependentUpon>HNLH_BASE.tt</DependentUpon>
+    </Compile>
+    <Compile Include="LHSKOrderChecked.cs">
+      <DependentUpon>HNLH_BASE.tt</DependentUpon>
+    </Compile>
+    <Compile Include="LHSKOrderCheckedBanks.cs">
+      <DependentUpon>HNLH_BASE.tt</DependentUpon>
+    </Compile>
+    <Compile Include="LHSKOrderCheckedDetails.cs">
+      <DependentUpon>HNLH_BASE.tt</DependentUpon>
+    </Compile>
+    <Compile Include="LHStockIn.cs">
+      <DependentUpon>HNLH_BASE.tt</DependentUpon>
+    </Compile>
+    <Compile Include="LHStockInDetails.cs">
+      <DependentUpon>HNLH_BASE.tt</DependentUpon>
+    </Compile>
+    <Compile Include="LHStockInDetails_Log.cs">
+      <DependentUpon>HNLH_BASE.tt</DependentUpon>
+    </Compile>
+    <Compile Include="LHStockInLiquid.cs">
+      <DependentUpon>HNLH_BASE.tt</DependentUpon>
+    </Compile>
+    <Compile Include="LHStockIn_Log.cs">
+      <DependentUpon>HNLH_BASE.tt</DependentUpon>
+    </Compile>
+    <Compile Include="LHStockOut.cs">
+      <DependentUpon>HNLH_BASE.tt</DependentUpon>
+    </Compile>
+    <Compile Include="LHStockOutDetails.cs">
+      <DependentUpon>HNLH_BASE.tt</DependentUpon>
+    </Compile>
+    <Compile Include="LHStockOutDetails_Log.cs">
+      <DependentUpon>HNLH_BASE.tt</DependentUpon>
+    </Compile>
+    <Compile Include="LHStockOutDetails_trigger.cs">
+      <DependentUpon>HNLH_BASE.tt</DependentUpon>
+    </Compile>
+    <Compile Include="LHStockOutDispatch.cs">
+      <DependentUpon>HNLH_BASE.tt</DependentUpon>
+    </Compile>
+    <Compile Include="LHStockOutT6.cs">
+      <DependentUpon>HNLH_BASE.tt</DependentUpon>
+    </Compile>
+    <Compile Include="LHStockOut_Log.cs">
+      <DependentUpon>HNLH_BASE.tt</DependentUpon>
+    </Compile>
+    <Compile Include="LHStockOut_trigger.cs">
+      <DependentUpon>HNLH_BASE.tt</DependentUpon>
+    </Compile>
+    <Compile Include="LHSubject.cs">
+      <DependentUpon>HNLH_BASE.tt</DependentUpon>
+    </Compile>
+    <Compile Include="LHSupplier.cs">
+      <DependentUpon>HNLH_BASE.tt</DependentUpon>
+    </Compile>
+    <Compile Include="LHSupplierPrice.cs">
+      <DependentUpon>HNLH_BASE.tt</DependentUpon>
+    </Compile>
+    <Compile Include="LHSupplierPrice_Log.cs">
+      <DependentUpon>HNLH_BASE.tt</DependentUpon>
+    </Compile>
+    <Compile Include="LHTransferAccounts.cs">
+      <DependentUpon>HNLH_BASE.tt</DependentUpon>
+    </Compile>
+    <Compile Include="LHTube.cs">
+      <DependentUpon>HNLH_BASE.tt</DependentUpon>
+    </Compile>
+    <Compile Include="LHTubeDetails.cs">
+      <DependentUpon>HNLH_BASE.tt</DependentUpon>
+    </Compile>
+    <Compile Include="LHTubePlan.cs">
+      <DependentUpon>HNLH_BASE.tt</DependentUpon>
+    </Compile>
+    <Compile Include="LHTubePrice.cs">
+      <DependentUpon>HNLH_BASE.tt</DependentUpon>
+    </Compile>
+    <Compile Include="LHVehicle.cs">
+      <DependentUpon>HNLH_BASE.tt</DependentUpon>
+    </Compile>
+    <Compile Include="LHVehicleCard.cs">
+      <DependentUpon>HNLH_BASE.tt</DependentUpon>
+    </Compile>
+    <Compile Include="LHVehicleEtc.cs">
+      <DependentUpon>HNLH_BASE.tt</DependentUpon>
+    </Compile>
+    <Compile Include="LHVehicleTire.cs">
+      <DependentUpon>HNLH_BASE.tt</DependentUpon>
+    </Compile>
+    <Compile Include="LHWarehouse.cs">
+      <DependentUpon>HNLH_BASE.tt</DependentUpon>
+    </Compile>
+    <Compile Include="LHWaterSpace.cs">
+      <DependentUpon>HNLH_BASE.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Platform\BaseCodeService.cs" />
+    <Compile Include="Platform\CustomFunctionService.cs" />
+    <Compile Include="proc_AccountDetails_Result.cs">
+      <DependentUpon>HNLH_BASE.tt</DependentUpon>
+    </Compile>
+    <Compile Include="proc_Analyse_Result.cs">
+      <DependentUpon>HNLH_BASE.tt</DependentUpon>
+    </Compile>
+    <Compile Include="proc_AuditDetails_Result.cs">
+      <DependentUpon>HNLH_BASE.tt</DependentUpon>
+    </Compile>
+    <Compile Include="proc_BottleFlow1_bak_Result.cs">
+      <DependentUpon>HNLH_BASE.tt</DependentUpon>
+    </Compile>
+    <Compile Include="proc_BottleFlow1_Result.cs">
+      <DependentUpon>HNLH_BASE.tt</DependentUpon>
+    </Compile>
+    <Compile Include="proc_CustomerARDetails_Result.cs">
+      <DependentUpon>HNLH_BASE.tt</DependentUpon>
+    </Compile>
+    <Compile Include="proc_CustomerBottleFlowQty_Result.cs">
+      <DependentUpon>HNLH_BASE.tt</DependentUpon>
+    </Compile>
+    <Compile Include="proc_CustomerMonthBottle_Result.cs">
+      <DependentUpon>HNLH_BASE.tt</DependentUpon>
+    </Compile>
+    <Compile Include="proc_CustomerMonthProc_Result.cs">
+      <DependentUpon>HNLH_BASE.tt</DependentUpon>
+    </Compile>
+    <Compile Include="proc_CustomerStatement_Result.cs">
+      <DependentUpon>HNLH_BASE.tt</DependentUpon>
+    </Compile>
+    <Compile Include="proc_DispachDetails_Result.cs">
+      <DependentUpon>HNLH_BASE.tt</DependentUpon>
+    </Compile>
+    <Compile Include="proc_DispachXml_Result.cs">
+      <DependentUpon>HNLH_BASE.tt</DependentUpon>
+    </Compile>
+    <Compile Include="proc_DispatchCenterDetails_Result.cs">
+      <DependentUpon>HNLH_BASE.tt</DependentUpon>
+    </Compile>
+    <Compile Include="proc_DispatchCommission_Result.cs">
+      <DependentUpon>HNLH_BASE.tt</DependentUpon>
+    </Compile>
+    <Compile Include="proc_DispatchDetails_Result.cs">
+      <DependentUpon>HNLH_BASE.tt</DependentUpon>
+    </Compile>
+    <Compile Include="proc_DispatchDoc_Result.cs">
+      <DependentUpon>HNLH_BASE.tt</DependentUpon>
+    </Compile>
+    <Compile Include="proc_DispatchTaskDetails_Result.cs">
+      <DependentUpon>HNLH_BASE.tt</DependentUpon>
+    </Compile>
+    <Compile Include="proc_FinanceAP_Result.cs">
+      <DependentUpon>HNLH_BASE.tt</DependentUpon>
+    </Compile>
+    <Compile Include="proc_FinanceBankSubject_Result.cs">
+      <DependentUpon>HNLH_BASE.tt</DependentUpon>
+    </Compile>
+    <Compile Include="proc_FinanceFKChecked_Result.cs">
+      <DependentUpon>HNLH_BASE.tt</DependentUpon>
+    </Compile>
+    <Compile Include="proc_FinancePurchaseChecked_Result.cs">
+      <DependentUpon>HNLH_BASE.tt</DependentUpon>
+    </Compile>
+    <Compile Include="proc_FinanceSaleChecked_Result.cs">
+      <DependentUpon>HNLH_BASE.tt</DependentUpon>
+    </Compile>
+    <Compile Include="proc_FinanceSKChecked_Result.cs">
+      <DependentUpon>HNLH_BASE.tt</DependentUpon>
+    </Compile>
+    <Compile Include="proc_FMonthAP_Result.cs">
+      <DependentUpon>HNLH_BASE.tt</DependentUpon>
+    </Compile>
+    <Compile Include="proc_FMonthAR_Result.cs">
+      <DependentUpon>HNLH_BASE.tt</DependentUpon>
+    </Compile>
+    <Compile Include="proc_FPieceWork1_Result.cs">
+      <DependentUpon>HNLH_BASE.tt</DependentUpon>
+    </Compile>
+    <Compile Include="proc_FPieceWork2_Result.cs">
+      <DependentUpon>HNLH_BASE.tt</DependentUpon>
+    </Compile>
+    <Compile Include="proc_FPieceWork_Result.cs">
+      <DependentUpon>HNLH_BASE.tt</DependentUpon>
+    </Compile>
+    <Compile Include="proc_GetTableSize_Result.cs">
+      <DependentUpon>HNLH_BASE.tt</DependentUpon>
+    </Compile>
+    <Compile Include="proc_GetTableStructure_Result.cs">
+      <DependentUpon>HNLH_BASE.tt</DependentUpon>
+    </Compile>
+    <Compile Include="proc_GetTables_Result.cs">
+      <DependentUpon>HNLH_BASE.tt</DependentUpon>
+    </Compile>
+    <Compile Include="proc_InitCustomerAR_Result.cs">
+      <DependentUpon>HNLH_BASE.tt</DependentUpon>
+    </Compile>
+    <Compile Include="proc_Inventory_Result.cs">
+      <DependentUpon>HNLH_BASE.tt</DependentUpon>
+    </Compile>
+    <Compile Include="proc_LeaseBottleARByFCode_Result.cs">
+      <DependentUpon>HNLH_BASE.tt</DependentUpon>
+    </Compile>
+    <Compile Include="proc_LeaseBottleAR_Result.cs">
+      <DependentUpon>HNLH_BASE.tt</DependentUpon>
+    </Compile>
+    <Compile Include="proc_LeaseBottleRec_Result.cs">
+      <DependentUpon>HNLH_BASE.tt</DependentUpon>
+    </Compile>
+    <Compile Include="proc_LeaseKill_Result.cs">
+      <DependentUpon>HNLH_BASE.tt</DependentUpon>
+    </Compile>
+    <Compile Include="proc_LeaseQtyDetails_Result.cs">
+      <DependentUpon>HNLH_BASE.tt</DependentUpon>
+    </Compile>
+    <Compile Include="proc_LeaseReturnAmt_Result.cs">
+      <DependentUpon>HNLH_BASE.tt</DependentUpon>
+    </Compile>
+    <Compile Include="proc_LiquidPlanList_Result.cs">
+      <DependentUpon>HNLH_BASE.tt</DependentUpon>
+    </Compile>
+    <Compile Include="proc_LiquidPlanMerge_Result.cs">
+      <DependentUpon>HNLH_BASE.tt</DependentUpon>
+    </Compile>
+    <Compile Include="proc_LoadingValuation_Result.cs">
+      <DependentUpon>HNLH_BASE.tt</DependentUpon>
+    </Compile>
+    <Compile Include="proc_MonthAccount_Result.cs">
+      <DependentUpon>HNLH_BASE.tt</DependentUpon>
+    </Compile>
+    <Compile Include="proc_MonthBottleFlow2_Result.cs">
+      <DependentUpon>HNLH_BASE.tt</DependentUpon>
+    </Compile>
+    <Compile Include="proc_MonthBottleFlow_Result.cs">
+      <DependentUpon>HNLH_BASE.tt</DependentUpon>
+    </Compile>
+    <Compile Include="proc_MonthEndBottle_Result.cs">
+      <DependentUpon>HNLH_BASE.tt</DependentUpon>
+    </Compile>
+    <Compile Include="proc_MonthStock_Result.cs">
+      <DependentUpon>HNLH_BASE.tt</DependentUpon>
+    </Compile>
+    <Compile Include="proc_OnBootleFlowQty_Result.cs">
+      <DependentUpon>HNLH_BASE.tt</DependentUpon>
+    </Compile>
+    <Compile Include="proc_PrintAllotDept_Result.cs">
+      <DependentUpon>HNLH_BASE.tt</DependentUpon>
+    </Compile>
+    <Compile Include="proc_PrintAllotPlan_Result.cs">
+      <DependentUpon>HNLH_BASE.tt</DependentUpon>
+    </Compile>
+    <Compile Include="proc_PrintAllotTrans_Result.cs">
+      <DependentUpon>HNLH_BASE.tt</DependentUpon>
+    </Compile>
+    <Compile Include="proc_PrintAllot_Result.cs">
+      <DependentUpon>HNLH_BASE.tt</DependentUpon>
+    </Compile>
+    <Compile Include="proc_PrintLeaseReturn_Result.cs">
+      <DependentUpon>HNLH_BASE.tt</DependentUpon>
+    </Compile>
+    <Compile Include="proc_PrintLease_Result.cs">
+      <DependentUpon>HNLH_BASE.tt</DependentUpon>
+    </Compile>
+    <Compile Include="proc_PrintLosses_Result.cs">
+      <DependentUpon>HNLH_BASE.tt</DependentUpon>
+    </Compile>
+    <Compile Include="proc_PrintPassCard_Result.cs">
+      <DependentUpon>HNLH_BASE.tt</DependentUpon>
+    </Compile>
+    <Compile Include="proc_PrintProduction_Result.cs">
+      <DependentUpon>HNLH_BASE.tt</DependentUpon>
+    </Compile>
+    <Compile Include="proc_PrintProfit_Result.cs">
+      <DependentUpon>HNLH_BASE.tt</DependentUpon>
+    </Compile>
+    <Compile Include="proc_PrintPurchaseReturn_Result.cs">
+      <DependentUpon>HNLH_BASE.tt</DependentUpon>
+    </Compile>
+    <Compile Include="proc_PrintPurchase_Result.cs">
+      <DependentUpon>HNLH_BASE.tt</DependentUpon>
+    </Compile>
+    <Compile Include="proc_PrintSalesReturn_Result.cs">
+      <DependentUpon>HNLH_BASE.tt</DependentUpon>
+    </Compile>
+    <Compile Include="proc_PrintSales_Result.cs">
+      <DependentUpon>HNLH_BASE.tt</DependentUpon>
+    </Compile>
+    <Compile Include="proc_PrintTubeSales_Result.cs">
+      <DependentUpon>HNLH_BASE.tt</DependentUpon>
+    </Compile>
+    <Compile Include="proc_ProductionCost_Result.cs">
+      <DependentUpon>HNLH_BASE.tt</DependentUpon>
+    </Compile>
+    <Compile Include="proc_ProductionMaterial_Result.cs">
+      <DependentUpon>HNLH_BASE.tt</DependentUpon>
+    </Compile>
+    <Compile Include="proc_Product_Result.cs">
+      <DependentUpon>HNLH_BASE.tt</DependentUpon>
+    </Compile>
+    <Compile Include="proc_PurchaseItem_Result.cs">
+      <DependentUpon>HNLH_BASE.tt</DependentUpon>
+    </Compile>
+    <Compile Include="proc_RealtimeExpensesBottle_Result.cs">
+      <DependentUpon>HNLH_BASE.tt</DependentUpon>
+    </Compile>
+    <Compile Include="proc_RealtimeInventoryBottle_details_Result.cs">
+      <DependentUpon>HNLH_BASE.tt</DependentUpon>
+    </Compile>
+    <Compile Include="proc_RealtimeInventoryBottle_Result.cs">
+      <DependentUpon>HNLH_BASE.tt</DependentUpon>
+    </Compile>
+    <Compile Include="proc_RealtimeInventoryGas_details_Result.cs">
+      <DependentUpon>HNLH_BASE.tt</DependentUpon>
+    </Compile>
+    <Compile Include="proc_RealtimeInventoryGas_Result.cs">
+      <DependentUpon>HNLH_BASE.tt</DependentUpon>
+    </Compile>
+    <Compile Include="proc_ReconciliationAR_Result.cs">
+      <DependentUpon>HNLH_BASE.tt</DependentUpon>
+    </Compile>
+    <Compile Include="proc_SalaryDaySettlement_Result.cs">
+      <DependentUpon>HNLH_BASE.tt</DependentUpon>
+    </Compile>
+    <Compile Include="proc_SaleNotChecked_Result.cs">
+      <DependentUpon>HNLH_BASE.tt</DependentUpon>
+    </Compile>
+    <Compile Include="proc_SalesAuditDetails_Result.cs">
+      <DependentUpon>HNLH_BASE.tt</DependentUpon>
+    </Compile>
+    <Compile Include="proc_SalesAudit_Result.cs">
+      <DependentUpon>HNLH_BASE.tt</DependentUpon>
+    </Compile>
+    <Compile Include="proc_SalesItemByCodes_Result.cs">
+      <DependentUpon>HNLH_BASE.tt</DependentUpon>
+    </Compile>
+    <Compile Include="proc_SalesItem_Result.cs">
+      <DependentUpon>HNLH_BASE.tt</DependentUpon>
+    </Compile>
+    <Compile Include="proc_SelectorBottle_Result.cs">
+      <DependentUpon>HNLH_BASE.tt</DependentUpon>
+    </Compile>
+    <Compile Include="proc_Statement1_Result.cs">
+      <DependentUpon>HNLH_BASE.tt</DependentUpon>
+    </Compile>
+    <Compile Include="proc_StockGas_Result.cs">
+      <DependentUpon>HNLH_BASE.tt</DependentUpon>
+    </Compile>
+    <Compile Include="proc_StockInDetails_Result.cs">
+      <DependentUpon>HNLH_BASE.tt</DependentUpon>
+    </Compile>
+    <Compile Include="proc_StockOutDetails_Result.cs">
+      <DependentUpon>HNLH_BASE.tt</DependentUpon>
+    </Compile>
+    <Compile Include="proc_StockoutDispatch_Result.cs">
+      <DependentUpon>HNLH_BASE.tt</DependentUpon>
+    </Compile>
+    <Compile Include="proc_SupplierAPDetails_Result.cs">
+      <DependentUpon>HNLH_BASE.tt</DependentUpon>
+    </Compile>
+    <Compile Include="proc_SupplierAP_Result.cs">
+      <DependentUpon>HNLH_BASE.tt</DependentUpon>
+    </Compile>
+    <Compile Include="proc_SupplierMonthProc1_Result.cs">
+      <DependentUpon>HNLH_BASE.tt</DependentUpon>
+    </Compile>
+    <Compile Include="proc_SupplierMonthProc_Result.cs">
+      <DependentUpon>HNLH_BASE.tt</DependentUpon>
+    </Compile>
+    <Compile Include="proc_TubePlanList_Result.cs">
+      <DependentUpon>HNLH_BASE.tt</DependentUpon>
+    </Compile>
+    <Compile Include="proc_WorkProducer_Result.cs">
+      <DependentUpon>HNLH_BASE.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Platform\AccountService.cs" />
+    <Compile Include="Platform\AcitonService.cs" />
+    <Compile Include="Platform\BulletinItemService.cs" />
+    <Compile Include="Platform\BulletinService.cs" />
+    <Compile Include="Platform\CompanyService.cs" />
+    <Compile Include="Platform\ConfigsetService.cs" />
+    <Compile Include="Platform\DictionaryService.cs" />
+    <Compile Include="Platform\EmployeeService.cs" />
+    <Compile Include="Platform\IconService.cs" />
+    <Compile Include="Platform\MenuService.cs" />
+    <Compile Include="Platform\OrgnizationService.cs" />
+    <Compile Include="Platform\PermissionService.cs" />
+    <Compile Include="Platform\ProcedureService.cs" />
+    <Compile Include="Platform\ProvinceService.cs" />
+    <Compile Include="Platform\RoleService.cs" />
+    <Compile Include="Platform\SequenceService.cs" />
+    <Compile Include="P_Check_Result.cs">
+      <DependentUpon>HNLH_BASE.tt</DependentUpon>
+    </Compile>
+    <Compile Include="p_VechlieCost_Result.cs">
+      <DependentUpon>HNLH_BASE.tt</DependentUpon>
+    </Compile>
+    <Compile Include="report_dayInventory_Result.cs">
+      <DependentUpon>HNLH_BASE.tt</DependentUpon>
+    </Compile>
+    <Compile Include="report_jxcDetails_Result.cs">
+      <DependentUpon>HNLH_BASE.tt</DependentUpon>
+    </Compile>
+    <Compile Include="rpt_AccountDetails_Result.cs">
+      <DependentUpon>HNLH_BASE.tt</DependentUpon>
+    </Compile>
+    <Compile Include="rpt_Account_Result.cs">
+      <DependentUpon>HNLH_BASE.tt</DependentUpon>
+    </Compile>
+    <Compile Include="rpt_BankAmtDetails_Result.cs">
+      <DependentUpon>HNLH_BASE.tt</DependentUpon>
+    </Compile>
+    <Compile Include="rpt_BankAmt_Result.cs">
+      <DependentUpon>HNLH_BASE.tt</DependentUpon>
+    </Compile>
+    <Compile Include="rpt_BankCheak_Result.cs">
+      <DependentUpon>HNLH_BASE.tt</DependentUpon>
+    </Compile>
+    <Compile Include="rpt_Bottle_Result.cs">
+      <DependentUpon>HNLH_BASE.tt</DependentUpon>
+    </Compile>
+    <Compile Include="rpt_Cost_Result.cs">
+      <DependentUpon>HNLH_BASE.tt</DependentUpon>
+    </Compile>
+    <Compile Include="rpt_DailyCash_Result.cs">
+      <DependentUpon>HNLH_BASE.tt</DependentUpon>
+    </Compile>
+    <Compile Include="rpt_dayInventory2_Result.cs">
+      <DependentUpon>HNLH_BASE.tt</DependentUpon>
+    </Compile>
+    <Compile Include="rpt_dayInventoryDetails_Result.cs">
+      <DependentUpon>HNLH_BASE.tt</DependentUpon>
+    </Compile>
+    <Compile Include="rpt_dayInventory_Result.cs">
+      <DependentUpon>HNLH_BASE.tt</DependentUpon>
+    </Compile>
+    <Compile Include="rpt_DispathCenterList_Result.cs">
+      <DependentUpon>HNLH_BASE.tt</DependentUpon>
+    </Compile>
+    <Compile Include="rpt_DispathList2_Result.cs">
+      <DependentUpon>HNLH_BASE.tt</DependentUpon>
+    </Compile>
+    <Compile Include="rpt_DispathList_Result.cs">
+      <DependentUpon>HNLH_BASE.tt</DependentUpon>
+    </Compile>
+    <Compile Include="rpt_DispathLog_Result.cs">
+      <DependentUpon>HNLH_BASE.tt</DependentUpon>
+    </Compile>
+    <Compile Include="rpt_DynamicBottle_Result.cs">
+      <DependentUpon>HNLH_BASE.tt</DependentUpon>
+    </Compile>
+    <Compile Include="rpt_DynamicGas_Result.cs">
+      <DependentUpon>HNLH_BASE.tt</DependentUpon>
+    </Compile>
+    <Compile Include="rpt_ElectronGas_Result.cs">
+      <DependentUpon>HNLH_BASE.tt</DependentUpon>
+    </Compile>
+    <Compile Include="rpt_FMonthAllotDetails_Result.cs">
+      <DependentUpon>HNLH_BASE.tt</DependentUpon>
+    </Compile>
+    <Compile Include="rpt_FMonthLeaseDetails_Result.cs">
+      <DependentUpon>HNLH_BASE.tt</DependentUpon>
+    </Compile>
+    <Compile Include="rpt_FMonthPurchaseDetails_Result.cs">
+      <DependentUpon>HNLH_BASE.tt</DependentUpon>
+    </Compile>
+    <Compile Include="rpt_FMonthSalaryDetails_Result.cs">
+      <DependentUpon>HNLH_BASE.tt</DependentUpon>
+    </Compile>
+    <Compile Include="rpt_FMonthSalary_Result.cs">
+      <DependentUpon>HNLH_BASE.tt</DependentUpon>
+    </Compile>
+    <Compile Include="rpt_FSalesPlanCompare_Result.cs">
+      <DependentUpon>HNLH_BASE.tt</DependentUpon>
+    </Compile>
+    <Compile Include="rpt_InventoryBottle_Result.cs">
+      <DependentUpon>HNLH_BASE.tt</DependentUpon>
+    </Compile>
+    <Compile Include="rpt_InventoryGas_Result.cs">
+      <DependentUpon>HNLH_BASE.tt</DependentUpon>
+    </Compile>
+    <Compile Include="rpt_InventoryParts_Result.cs">
+      <DependentUpon>HNLH_BASE.tt</DependentUpon>
+    </Compile>
+    <Compile Include="rpt_Inventory_Result.cs">
+      <DependentUpon>HNLH_BASE.tt</DependentUpon>
+    </Compile>
+    <Compile Include="rpt_JustintimeInventory_Result.cs">
+      <DependentUpon>HNLH_BASE.tt</DependentUpon>
+    </Compile>
+    <Compile Include="rpt_jxcDetails_Result.cs">
+      <DependentUpon>HNLH_BASE.tt</DependentUpon>
+    </Compile>
+    <Compile Include="rpt_lastitemprice_Result.cs">
+      <DependentUpon>HNLH_BASE.tt</DependentUpon>
+    </Compile>
+    <Compile Include="rpt_LiquidMargin_Result.cs">
+      <DependentUpon>HNLH_BASE.tt</DependentUpon>
+    </Compile>
+    <Compile Include="rpt_LiquidPurchase_Result.cs">
+      <DependentUpon>HNLH_BASE.tt</DependentUpon>
+    </Compile>
+    <Compile Include="rpt_LiquidSales_Result.cs">
+      <DependentUpon>HNLH_BASE.tt</DependentUpon>
+    </Compile>
+    <Compile Include="rpt_ParsMonthDetails_Result.cs">
+      <DependentUpon>HNLH_BASE.tt</DependentUpon>
+    </Compile>
+    <Compile Include="rpt_PassCardDetails_Result.cs">
+      <DependentUpon>HNLH_BASE.tt</DependentUpon>
+    </Compile>
+    <Compile Include="rpt_PaymentCheck_Result.cs">
+      <DependentUpon>HNLH_BASE.tt</DependentUpon>
+    </Compile>
+    <Compile Include="rpt_PipeCar_Result.cs">
+      <DependentUpon>HNLH_BASE.tt</DependentUpon>
+    </Compile>
+    <Compile Include="rpt_ProducePlace_Result.cs">
+      <DependentUpon>HNLH_BASE.tt</DependentUpon>
+    </Compile>
+    <Compile Include="rpt_producePrice_Result.cs">
+      <DependentUpon>HNLH_BASE.tt</DependentUpon>
+    </Compile>
+    <Compile Include="rpt_ProductMake_Result.cs">
+      <DependentUpon>HNLH_BASE.tt</DependentUpon>
+    </Compile>
+    <Compile Include="rpt_SalaryDayCheck_Result.cs">
+      <DependentUpon>HNLH_BASE.tt</DependentUpon>
+    </Compile>
+    <Compile Include="rpt_SalaryDay_Result.cs">
+      <DependentUpon>HNLH_BASE.tt</DependentUpon>
+    </Compile>
+    <Compile Include="rpt_SalaryMonthDetail_Result.cs">
+      <DependentUpon>HNLH_BASE.tt</DependentUpon>
+    </Compile>
+    <Compile Include="rpt_SalaryMonth_Result.cs">
+      <DependentUpon>HNLH_BASE.tt</DependentUpon>
+    </Compile>
+    <Compile Include="rpt_SalaryRetrunDay_Result.cs">
+      <DependentUpon>HNLH_BASE.tt</DependentUpon>
+    </Compile>
+    <Compile Include="rpt_SalarySKDay_Result.cs">
+      <DependentUpon>HNLH_BASE.tt</DependentUpon>
+    </Compile>
+    <Compile Include="rpt_SalaryV2_Result.cs">
+      <DependentUpon>HNLH_BASE.tt</DependentUpon>
+    </Compile>
+    <Compile Include="rpt_SalesPlanDetails_Result.cs">
+      <DependentUpon>HNLH_BASE.tt</DependentUpon>
+    </Compile>
+    <Compile Include="rpt_SKDay_Result.cs">
+      <DependentUpon>HNLH_BASE.tt</DependentUpon>
+    </Compile>
+    <Compile Include="rpt_StockInDetails_Result.cs">
+      <DependentUpon>HNLH_BASE.tt</DependentUpon>
+    </Compile>
+    <Compile Include="rpt_StockinGroup_Result.cs">
+      <DependentUpon>HNLH_BASE.tt</DependentUpon>
+    </Compile>
+    <Compile Include="rpt_StockIn_Result.cs">
+      <DependentUpon>HNLH_BASE.tt</DependentUpon>
+    </Compile>
+    <Compile Include="rpt_StockOutDetails_Result.cs">
+      <DependentUpon>HNLH_BASE.tt</DependentUpon>
+    </Compile>
+    <Compile Include="rpt_StockOutGroup_Result.cs">
+      <DependentUpon>HNLH_BASE.tt</DependentUpon>
+    </Compile>
+    <Compile Include="rpt_StockOut_Result.cs">
+      <DependentUpon>HNLH_BASE.tt</DependentUpon>
+    </Compile>
+    <Compile Include="rpt_SupercargoDay_Result.cs">
+      <DependentUpon>HNLH_BASE.tt</DependentUpon>
+    </Compile>
+    <Compile Include="sp_helpdiagramdefinition_Result.cs">
+      <DependentUpon>HNLH_BASE.tt</DependentUpon>
+    </Compile>
+    <Compile Include="sp_helpdiagrams_Result.cs">
+      <DependentUpon>HNLH_BASE.tt</DependentUpon>
+    </Compile>
+    <Compile Include="sysdiagrams.cs">
+      <DependentUpon>HNLH_BASE.tt</DependentUpon>
+    </Compile>
+    <Compile Include="u8_AllotList_Result.cs">
+      <DependentUpon>HNLH_BASE.tt</DependentUpon>
+    </Compile>
+    <Compile Include="u8_Allot_Result.cs">
+      <DependentUpon>HNLH_BASE.tt</DependentUpon>
+    </Compile>
+    <Compile Include="u8_LossessList_Result.cs">
+      <DependentUpon>HNLH_BASE.tt</DependentUpon>
+    </Compile>
+    <Compile Include="u8_Lossess_Result.cs">
+      <DependentUpon>HNLH_BASE.tt</DependentUpon>
+    </Compile>
+    <Compile Include="u8_MaterialStockOutList_Result.cs">
+      <DependentUpon>HNLH_BASE.tt</DependentUpon>
+    </Compile>
+    <Compile Include="u8_MaterialStockOut_Result.cs">
+      <DependentUpon>HNLH_BASE.tt</DependentUpon>
+    </Compile>
+    <Compile Include="u8_ProductStockInList_Result.cs">
+      <DependentUpon>HNLH_BASE.tt</DependentUpon>
+    </Compile>
+    <Compile Include="u8_ProductStockIn_Result.cs">
+      <DependentUpon>HNLH_BASE.tt</DependentUpon>
+    </Compile>
+    <Compile Include="u8_ProfitList_Result.cs">
+      <DependentUpon>HNLH_BASE.tt</DependentUpon>
+    </Compile>
+    <Compile Include="u8_Profit_Result.cs">
+      <DependentUpon>HNLH_BASE.tt</DependentUpon>
+    </Compile>
+    <Compile Include="u8_PurchaseList_Result.cs">
+      <DependentUpon>HNLH_BASE.tt</DependentUpon>
+    </Compile>
+    <Compile Include="u8_PurchaseReturnList_Result.cs">
+      <DependentUpon>HNLH_BASE.tt</DependentUpon>
+    </Compile>
+    <Compile Include="u8_PurchaseReturn_Result.cs">
+      <DependentUpon>HNLH_BASE.tt</DependentUpon>
+    </Compile>
+    <Compile Include="u8_Purchase_Result.cs">
+      <DependentUpon>HNLH_BASE.tt</DependentUpon>
+    </Compile>
+    <Compile Include="u8_SalesList_Result.cs">
+      <DependentUpon>HNLH_BASE.tt</DependentUpon>
+    </Compile>
+    <Compile Include="u8_SalesReturnList_Result.cs">
+      <DependentUpon>HNLH_BASE.tt</DependentUpon>
+    </Compile>
+    <Compile Include="u8_SalesReturn_Result.cs">
+      <DependentUpon>HNLH_BASE.tt</DependentUpon>
+    </Compile>
+    <Compile Include="u8_Sales_Result.cs">
+      <DependentUpon>HNLH_BASE.tt</DependentUpon>
+    </Compile>
+    <Compile Include="u8_StockInList_Result.cs">
+      <DependentUpon>HNLH_BASE.tt</DependentUpon>
+    </Compile>
+    <Compile Include="u8_StockIn_Result.cs">
+      <DependentUpon>HNLH_BASE.tt</DependentUpon>
+    </Compile>
+    <Compile Include="u8_StockOutList_Result.cs">
+      <DependentUpon>HNLH_BASE.tt</DependentUpon>
+    </Compile>
+    <Compile Include="u8_StockOut_Result.cs">
+      <DependentUpon>HNLH_BASE.tt</DependentUpon>
+    </Compile>
+    <Compile Include="vm_Bank.cs">
+      <DependentUpon>HNLH_BASE.tt</DependentUpon>
+    </Compile>
+    <Compile Include="vm_BankCheakDetails.cs">
+      <DependentUpon>HNLH_BASE.tt</DependentUpon>
+    </Compile>
+    <Compile Include="vm_BankDetails.cs">
+      <DependentUpon>HNLH_BASE.tt</DependentUpon>
+    </Compile>
+    <Compile Include="vm_BankFlow.cs">
+      <DependentUpon>HNLH_BASE.tt</DependentUpon>
+    </Compile>
+    <Compile Include="vm_Bottle.cs">
+      <DependentUpon>HNLH_BASE.tt</DependentUpon>
+    </Compile>
+    <Compile Include="vm_BottlePlant.cs">
+      <DependentUpon>HNLH_BASE.tt</DependentUpon>
+    </Compile>
+    <Compile Include="vm_CheckedBanks.cs">
+      <DependentUpon>HNLH_BASE.tt</DependentUpon>
+    </Compile>
+    <Compile Include="vm_ContractDetails.cs">
+      <DependentUpon>HNLH_BASE.tt</DependentUpon>
+    </Compile>
+    <Compile Include="vm_contractList.cs">
+      <DependentUpon>HNLH_BASE.tt</DependentUpon>
+    </Compile>
+    <Compile Include="vm_CustomerInfo.cs">
+      <DependentUpon>HNLH_BASE.tt</DependentUpon>
+    </Compile>
+    <Compile Include="vm_CustomerPriceHistory.cs">
+      <DependentUpon>HNLH_BASE.tt</DependentUpon>
+    </Compile>
+    <Compile Include="vm_CustomerSell.cs">
+      <DependentUpon>HNLH_BASE.tt</DependentUpon>
+    </Compile>
+    <Compile Include="vm_DispatchCenter.cs">
+      <DependentUpon>HNLH_BASE.tt</DependentUpon>
+    </Compile>
+    <Compile Include="vm_DispatchTask.cs">
+      <DependentUpon>HNLH_BASE.tt</DependentUpon>
+    </Compile>
+    <Compile Include="vm_ElectronGas.cs">
+      <DependentUpon>HNLH_BASE.tt</DependentUpon>
+    </Compile>
+    <Compile Include="vm_Formula.cs">
+      <DependentUpon>HNLH_BASE.tt</DependentUpon>
+    </Compile>
+    <Compile Include="vm_Gas.cs">
+      <DependentUpon>HNLH_BASE.tt</DependentUpon>
+    </Compile>
+    <Compile Include="vm_InitCustomerBottle.cs">
+      <DependentUpon>HNLH_BASE.tt</DependentUpon>
+    </Compile>
+    <Compile Include="vm_InitDispatchCenter.cs">
+      <DependentUpon>HNLH_BASE.tt</DependentUpon>
+    </Compile>
+    <Compile Include="vm_ItemsPrice.cs">
+      <DependentUpon>HNLH_BASE.tt</DependentUpon>
+    </Compile>
+    <Compile Include="vm_ItemsPurchasePrice.cs">
+      <DependentUpon>HNLH_BASE.tt</DependentUpon>
+    </Compile>
+    <Compile Include="vm_LeaseBottleAR.cs">
+      <DependentUpon>HNLH_BASE.tt</DependentUpon>
+    </Compile>
+    <Compile Include="vm_LeaseDetails.cs">
+      <DependentUpon>HNLH_BASE.tt</DependentUpon>
+    </Compile>
+    <Compile Include="vm_LeaseDetailsLog.cs">
+      <DependentUpon>HNLH_BASE.tt</DependentUpon>
+    </Compile>
+    <Compile Include="vm_LeaseReturnDetails.cs">
+      <DependentUpon>HNLH_BASE.tt</DependentUpon>
+    </Compile>
+    <Compile Include="vm_LeaseReturnDetailsLog.cs">
+      <DependentUpon>HNLH_BASE.tt</DependentUpon>
+    </Compile>
+    <Compile Include="vm_LiquidMarginRpt.cs">
+      <DependentUpon>HNLH_BASE.tt</DependentUpon>
+    </Compile>
+    <Compile Include="vm_LiquidPlanList.cs">
+      <DependentUpon>HNLH_BASE.tt</DependentUpon>
+    </Compile>
+    <Compile Include="vm_MonthAP.cs">
+      <DependentUpon>HNLH_BASE.tt</DependentUpon>
+    </Compile>
+    <Compile Include="vm_MonthAR.cs">
+      <DependentUpon>HNLH_BASE.tt</DependentUpon>
+    </Compile>
+    <Compile Include="vm_MonthBottle.cs">
+      <DependentUpon>HNLH_BASE.tt</DependentUpon>
+    </Compile>
+    <Compile Include="vm_MonthBottleQty.cs">
+      <DependentUpon>HNLH_BASE.tt</DependentUpon>
+    </Compile>
+    <Compile Include="vm_MonthInitDetails.cs">
+      <DependentUpon>HNLH_BASE.tt</DependentUpon>
+    </Compile>
+    <Compile Include="vm_MonthItems.cs">
+      <DependentUpon>HNLH_BASE.tt</DependentUpon>
+    </Compile>
+    <Compile Include="vm_MonthStock.cs">
+      <DependentUpon>HNLH_BASE.tt</DependentUpon>
+    </Compile>
+    <Compile Include="vm_PassCardDetails.cs">
+      <DependentUpon>HNLH_BASE.tt</DependentUpon>
+    </Compile>
+    <Compile Include="vm_PaymentCheakDetails.cs">
+      <DependentUpon>HNLH_BASE.tt</DependentUpon>
+    </Compile>
+    <Compile Include="vm_PurchaseDetails.cs">
+      <DependentUpon>HNLH_BASE.tt</DependentUpon>
+    </Compile>
+    <Compile Include="vm_PurchaseItem.cs">
+      <DependentUpon>HNLH_BASE.tt</DependentUpon>
+    </Compile>
+    <Compile Include="vm_QuantitativeWork.cs">
+      <DependentUpon>HNLH_BASE.tt</DependentUpon>
+    </Compile>
+    <Compile Include="vm_SalesDetails.cs">
+      <DependentUpon>HNLH_BASE.tt</DependentUpon>
+    </Compile>
+    <Compile Include="vm_SalesDetailsLog.cs">
+      <DependentUpon>HNLH_BASE.tt</DependentUpon>
+    </Compile>
+    <Compile Include="vm_SalesItem.cs">
+      <DependentUpon>HNLH_BASE.tt</DependentUpon>
+    </Compile>
+    <Compile Include="vm_SalesReturnDetails.cs">
+      <DependentUpon>HNLH_BASE.tt</DependentUpon>
+    </Compile>
+    <Compile Include="vm_SalesReturnDetailsLog.cs">
+      <DependentUpon>HNLH_BASE.tt</DependentUpon>
+    </Compile>
+    <Compile Include="vm_SetCustomerPrice.cs">
+      <DependentUpon>HNLH_BASE.tt</DependentUpon>
+    </Compile>
+    <Compile Include="vm_SetSupplierPrice.cs">
+      <DependentUpon>HNLH_BASE.tt</DependentUpon>
+    </Compile>
+    <Compile Include="vm_StockIn.cs">
+      <DependentUpon>HNLH_BASE.tt</DependentUpon>
+    </Compile>
+    <Compile Include="vm_StockInDetails.cs">
+      <DependentUpon>HNLH_BASE.tt</DependentUpon>
+    </Compile>
+    <Compile Include="vm_StockOut.cs">
+      <DependentUpon>HNLH_BASE.tt</DependentUpon>
+    </Compile>
+    <Compile Include="vm_StockOutDetails.cs">
+      <DependentUpon>HNLH_BASE.tt</DependentUpon>
+    </Compile>
+    <Compile Include="vm_Subject.cs">
+      <DependentUpon>HNLH_BASE.tt</DependentUpon>
+    </Compile>
+    <Compile Include="vm_Supercargo.cs">
+      <DependentUpon>HNLH_BASE.tt</DependentUpon>
+    </Compile>
+    <Compile Include="vm_TimeoutCustomer.cs">
+      <DependentUpon>HNLH_BASE.tt</DependentUpon>
+    </Compile>
+    <Compile Include="vm_TimeoutSupplier.cs">
+      <DependentUpon>HNLH_BASE.tt</DependentUpon>
+    </Compile>
+    <Compile Include="vm_TubePlanList.cs">
+      <DependentUpon>HNLH_BASE.tt</DependentUpon>
+    </Compile>
+    <Compile Include="vm_TubePrice.cs">
+      <DependentUpon>HNLH_BASE.tt</DependentUpon>
+    </Compile>
+    <Compile Include="vm_Unit.cs">
+      <DependentUpon>HNLH_BASE.tt</DependentUpon>
+    </Compile>
+    <Compile Include="vm_UnitAll.cs">
+      <DependentUpon>HNLH_BASE.tt</DependentUpon>
+    </Compile>
+    <Compile Include="V_CustomerItemPrice.cs">
+      <DependentUpon>HNLH_BASE.tt</DependentUpon>
+    </Compile>
+    <Compile Include="V_ProducePlacePrice.cs">
+      <DependentUpon>HNLH_BASE.tt</DependentUpon>
+    </Compile>
+    <Compile Include="V_ProducePlacePriceByMonth.cs">
+      <DependentUpon>HNLH_BASE.tt</DependentUpon>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.Config">
+      <SubType>Designer</SubType>
+    </None>
+    <EntityDeploy Include="HNLH_BASE.edmx">
+      <Generator>EntityModelCodeGenerator</Generator>
+      <LastGenOutput>HNLH_BASE.Designer.cs</LastGenOutput>
+    </EntityDeploy>
+    <None Include="HNLH_BASE.Context.tt">
+      <Generator>TextTemplatingFileGenerator</Generator>
+      <DependentUpon>HNLH_BASE.edmx</DependentUpon>
+      <LastGenOutput>HNLH_BASE.Context1.cs</LastGenOutput>
+    </None>
+    <None Include="HNLH_BASE.edmx.diagram">
+      <DependentUpon>HNLH_BASE.edmx</DependentUpon>
+    </None>
+    <None Include="HNLH_BASE.tt">
+      <Generator>TextTemplatingFileGenerator</Generator>
+      <DependentUpon>HNLH_BASE.edmx</DependentUpon>
+      <LastGenOutput>HNLH_BASE.cs</LastGenOutput>
+    </None>
+    <None Include="packages.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Service Include="{508349B6-6B84-4DF5-91F0-309BEEBAD82D}" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+  <PropertyGroup>
+    <PostBuildEvent>
+    </PostBuildEvent>
+  </PropertyGroup>
+  <Import Project="$(SolutionDir)\.nuget\NuGet.targets" Condition="Exists('$(SolutionDir)\.nuget\NuGet.targets')" />
+</Project>

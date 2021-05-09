@@ -1,0 +1,279 @@
+﻿2020/10/28 +08:00 08:50:10     [19752] Enterprise.Framework.Log.LogUtil.ErrorLog(:0) Enterprise.Framework.Log.LogUtil.ErrorLog(:0) [(null)] - 
+错误开始===========================================
+客户机IP:::1
+错误地址:http://localhost:19008/business/Vehicle/InitDispatchCenter.aspx
+异常信息:引发类型为“System.Web.HttpUnhandledException”的异常。
+错误结束=========================================== e 
+System.Web.HttpUnhandledException (0x80004005): 引发类型为“System.Web.HttpUnhandledException”的异常。 ---> System.Exception: Region control must be included in RegionPanel control.
+   在 FineUI.Region.OnInit(EventArgs e)
+   在 System.Web.UI.Control.InitRecursive(Control namingContainer)
+   在 System.Web.UI.Control.InitRecursive(Control namingContainer)
+   在 System.Web.UI.Control.InitRecursive(Control namingContainer)
+   在 System.Web.UI.Control.InitRecursive(Control namingContainer)
+   在 System.Web.UI.Control.InitRecursive(Control namingContainer)
+   在 System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   在 System.Web.UI.Page.HandleError(Exception e)
+   在 System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   在 System.Web.UI.Page.ProcessRequest(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   在 System.Web.UI.Page.ProcessRequest()
+   在 System.Web.UI.Page.ProcessRequestWithNoAssert(HttpContext context)
+   在 System.Web.UI.Page.ProcessRequest(HttpContext context)
+   在 ASP.business_vehicle_initdispatchcenter_aspx.ProcessRequest(HttpContext context) 位置 c:\Windows\Microsoft.NET\Framework\v4.0.30319\Temporary ASP.NET Files\vs\b3079d60\a8129d37\App_Web_frka11t1.1.cs:行号 0
+   在 System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   在 System.Web.HttpApplication.ExecuteStepImpl(IExecutionStep step)
+   在 System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+2020/10/28 +08:00 08:50:10     [19752] Enterprise.Framework.Log.LogUtil.ErrorLog(:0) Enterprise.Framework.Log.LogUtil.ErrorLog(:0) [(null)] - Region control must be included in RegionPanel control. e 
+System.Exception: Region control must be included in RegionPanel control.
+   在 FineUI.Region.OnInit(EventArgs e)
+   在 System.Web.UI.Control.InitRecursive(Control namingContainer)
+   在 System.Web.UI.Control.InitRecursive(Control namingContainer)
+   在 System.Web.UI.Control.InitRecursive(Control namingContainer)
+   在 System.Web.UI.Control.InitRecursive(Control namingContainer)
+   在 System.Web.UI.Control.InitRecursive(Control namingContainer)
+   在 System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+2020/10/28 +08:00 08:58:22     [18576] Enterprise.Framework.Log.LogUtil.ErrorLog(:0) Enterprise.Framework.Log.LogUtil.ErrorLog(:0) [(null)] - 
+错误开始===========================================
+客户机IP:::1
+错误地址:http://localhost:19008/business/Vehicle/InitDispatchCenter.aspx
+异常信息:引发类型为“System.Web.HttpUnhandledException”的异常。
+错误结束=========================================== e 
+System.Web.HttpUnhandledException (0x80004005): 引发类型为“System.Web.HttpUnhandledException”的异常。 ---> System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 Enterprise.Data.PageBase.SetPermissionButtons(ControlBase control)
+   在 Enterprise.IIS.business.Vehicle.InitDispatchCenter.Page_Load(Object sender, EventArgs e) 位置 h:\ffqserp\trunk\application\Enterprise.IIS\business\Vehicle\InitDispatchCenter.aspx.cs:行号 90
+   在 System.Web.Util.CalliEventHandlerDelegateProxy.Callback(Object sender, EventArgs e)
+   在 System.Web.UI.Control.OnLoad(EventArgs e)
+   在 System.Web.UI.Control.LoadRecursive()
+   在 System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   在 System.Web.UI.Page.HandleError(Exception e)
+   在 System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   在 System.Web.UI.Page.ProcessRequest(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   在 System.Web.UI.Page.ProcessRequest()
+   在 System.Web.UI.Page.ProcessRequestWithNoAssert(HttpContext context)
+   在 System.Web.UI.Page.ProcessRequest(HttpContext context)
+   在 ASP.business_vehicle_initdispatchcenter_aspx.ProcessRequest(HttpContext context) 位置 c:\Windows\Microsoft.NET\Framework\v4.0.30319\Temporary ASP.NET Files\vs\b3079d60\a8129d37\App_Web_h3zpylzy.4.cs:行号 0
+   在 System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   在 System.Web.HttpApplication.ExecuteStepImpl(IExecutionStep step)
+   在 System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+2020/10/28 +08:00 08:58:23     [18576] Enterprise.Framework.Log.LogUtil.ErrorLog(:0) Enterprise.Framework.Log.LogUtil.ErrorLog(:0) [(null)] - 未将对象引用设置到对象的实例。 e 
+System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 Enterprise.Data.PageBase.SetPermissionButtons(ControlBase control)
+   在 Enterprise.IIS.business.Vehicle.InitDispatchCenter.Page_Load(Object sender, EventArgs e) 位置 h:\ffqserp\trunk\application\Enterprise.IIS\business\Vehicle\InitDispatchCenter.aspx.cs:行号 90
+   在 System.Web.Util.CalliEventHandlerDelegateProxy.Callback(Object sender, EventArgs e)
+   在 System.Web.UI.Control.OnLoad(EventArgs e)
+   在 System.Web.UI.Control.LoadRecursive()
+   在 System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+2020/10/28 +08:00 09:16:08     [24472] Enterprise.Framework.Log.LogUtil.ErrorLog(:0) Enterprise.Framework.Log.LogUtil.ErrorLog(:0) [(null)] - 
+错误开始===========================================
+客户机IP:::1
+错误地址:http://localhost:19008/business/Vehicle/InitDispatchCenter.aspx
+异常信息:ID“FormRow1”已被其他控件使用。
+错误结束=========================================== e 
+System.Web.HttpParseException (0x80004005): ID“FormRow1”已被其他控件使用。 ---> System.Web.HttpParseException (0x80004005): ID“FormRow1”已被其他控件使用。 ---> System.Web.HttpException (0x80004005): ID“FormRow1”已被其他控件使用。
+   在 System.Web.UI.TemplateParser.ProcessError(String message)
+   在 System.Web.UI.TemplateParser.ProcessBeginTag(Match match, String inputText)
+   在 System.Web.UI.TemplateParser.ParseStringInternal(String text, Encoding fileEncoding)
+   在 System.Web.UI.TemplateParser.ProcessException(Exception ex)
+   在 System.Web.UI.TemplateParser.ParseStringInternal(String text, Encoding fileEncoding)
+   在 System.Web.UI.TemplateParser.ParseString(String text, VirtualPath virtualPath, Encoding fileEncoding)
+   在 System.Web.UI.TemplateParser.ParseString(String text, VirtualPath virtualPath, Encoding fileEncoding)
+   在 System.Web.UI.TemplateParser.ParseReader(StreamReader reader, VirtualPath virtualPath)
+   在 System.Web.UI.TemplateParser.ParseFile(String physicalPath, VirtualPath virtualPath)
+   在 System.Web.UI.TemplateParser.ParseFile(String physicalPath, String virtualPath)
+   在 System.Web.UI.TemplateParser.ParseInternal()
+   在 System.Web.UI.TemplateParser.Parse()
+   在 System.Web.UI.TemplateParser.Parse(ICollection referencedAssemblies, VirtualPath virtualPath)
+   在 System.Web.Compilation.BaseTemplateBuildProvider.get_CodeCompilerType()
+   在 System.Web.Compilation.BuildProvider.GetCompilerTypeFromBuildProvider(BuildProvider buildProvider)
+   在 System.Web.Compilation.BuildProvidersCompiler.ProcessBuildProviders()
+   在 System.Web.Compilation.BuildProvidersCompiler.PerformBuild()
+   在 System.Web.Compilation.BuildManager.CompileWebFile(VirtualPath virtualPath)
+   在 System.Web.Compilation.BuildManager.GetVPathBuildResultInternal(VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   在 System.Web.Compilation.BuildManager.GetVPathBuildResultWithNoAssert(HttpContext context, VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   在 System.Web.Compilation.BuildManager.GetVirtualPathObjectFactory(VirtualPath virtualPath, HttpContext context, Boolean allowCrossApp, Boolean throwIfNotFound)
+   在 System.Web.Compilation.BuildManager.GetVirtualPathObjectFactory(VirtualPath virtualPath, HttpContext context, Boolean allowCrossApp)
+   在 System.Web.Compilation.BuildManager.CreateInstanceFromVirtualPath(VirtualPath virtualPath, Type requiredBaseType, HttpContext context, Boolean allowCrossApp)
+   在 System.Web.UI.PageHandlerFactory.GetHandlerHelper(HttpContext context, String requestType, VirtualPath virtualPath, String physicalPath)
+   在 System.Web.UI.PageHandlerFactory.GetHandler(HttpContext context, String requestType, String virtualPath, String path)
+   在 System.Web.HttpApplication.MaterializeHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   在 System.Web.HttpApplication.ExecuteStepImpl(IExecutionStep step)
+   在 System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+2020/10/28 +08:00 09:16:08     [24472] Enterprise.Framework.Log.LogUtil.ErrorLog(:0) Enterprise.Framework.Log.LogUtil.ErrorLog(:0) [(null)] - ID“FormRow1”已被其他控件使用。 e 
+System.Web.HttpException (0x80004005): ID“FormRow1”已被其他控件使用。
+   在 System.Web.UI.TemplateParser.ProcessError(String message)
+   在 System.Web.UI.TemplateParser.ProcessBeginTag(Match match, String inputText)
+   在 System.Web.UI.TemplateParser.ParseStringInternal(String text, Encoding fileEncoding)
+2020/10/28 +08:00 09:16:45     [7552] Enterprise.Framework.Log.LogUtil.ErrorLog(:0) Enterprise.Framework.Log.LogUtil.ErrorLog(:0) [(null)] - 
+错误开始===========================================
+客户机IP:::1
+错误地址:http://localhost:19008/business/Vehicle/InitDispatchCenter.aspx
+异常信息:h:\ffqserp\trunk\application\Enterprise.IIS\business\Vehicle\InitDispatchCenter.aspx(67): error CS1061: “ASP.business_vehicle_initdispatchcenter_aspx”不包含“btnDispatch_Click”的定义，并且找不到可接受类型为“ASP.business_vehicle_initdispatchcenter_aspx”的第一个参数的扩展方法“btnDispatch_Click”(是否缺少 using 指令或程序集引用?)
+错误结束=========================================== e 
+System.Web.HttpCompileException (0x80004005): h:\ffqserp\trunk\application\Enterprise.IIS\business\Vehicle\InitDispatchCenter.aspx(67): error CS1061: “ASP.business_vehicle_initdispatchcenter_aspx”不包含“btnDispatch_Click”的定义，并且找不到可接受类型为“ASP.business_vehicle_initdispatchcenter_aspx”的第一个参数的扩展方法“btnDispatch_Click”(是否缺少 using 指令或程序集引用?)
+   在 System.Web.Compilation.BuildManager.CompileWebFile(VirtualPath virtualPath)
+   在 System.Web.Compilation.BuildManager.GetVPathBuildResultInternal(VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   在 System.Web.Compilation.BuildManager.GetVPathBuildResultWithNoAssert(HttpContext context, VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   在 System.Web.Compilation.BuildManager.GetVirtualPathObjectFactory(VirtualPath virtualPath, HttpContext context, Boolean allowCrossApp, Boolean throwIfNotFound)
+   在 System.Web.Compilation.BuildManager.GetVirtualPathObjectFactory(VirtualPath virtualPath, HttpContext context, Boolean allowCrossApp)
+   在 System.Web.Compilation.BuildManager.CreateInstanceFromVirtualPath(VirtualPath virtualPath, Type requiredBaseType, HttpContext context, Boolean allowCrossApp)
+   在 System.Web.UI.PageHandlerFactory.GetHandlerHelper(HttpContext context, String requestType, VirtualPath virtualPath, String physicalPath)
+   在 System.Web.UI.PageHandlerFactory.GetHandler(HttpContext context, String requestType, String virtualPath, String path)
+   在 System.Web.HttpApplication.MaterializeHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   在 System.Web.HttpApplication.ExecuteStepImpl(IExecutionStep step)
+   在 System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+2020/10/28 +08:00 09:16:45     [7552] Enterprise.Framework.Log.LogUtil.ErrorLog(:0) Enterprise.Framework.Log.LogUtil.ErrorLog(:0) [(null)] - h:\ffqserp\trunk\application\Enterprise.IIS\business\Vehicle\InitDispatchCenter.aspx(67): error CS1061: “ASP.business_vehicle_initdispatchcenter_aspx”不包含“btnDispatch_Click”的定义，并且找不到可接受类型为“ASP.business_vehicle_initdispatchcenter_aspx”的第一个参数的扩展方法“btnDispatch_Click”(是否缺少 using 指令或程序集引用?) e 
+System.Web.HttpCompileException (0x80004005): h:\ffqserp\trunk\application\Enterprise.IIS\business\Vehicle\InitDispatchCenter.aspx(67): error CS1061: “ASP.business_vehicle_initdispatchcenter_aspx”不包含“btnDispatch_Click”的定义，并且找不到可接受类型为“ASP.business_vehicle_initdispatchcenter_aspx”的第一个参数的扩展方法“btnDispatch_Click”(是否缺少 using 指令或程序集引用?)
+   在 System.Web.Compilation.BuildManager.CompileWebFile(VirtualPath virtualPath)
+   在 System.Web.Compilation.BuildManager.GetVPathBuildResultInternal(VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   在 System.Web.Compilation.BuildManager.GetVPathBuildResultWithNoAssert(HttpContext context, VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   在 System.Web.Compilation.BuildManager.GetVirtualPathObjectFactory(VirtualPath virtualPath, HttpContext context, Boolean allowCrossApp, Boolean throwIfNotFound)
+   在 System.Web.Compilation.BuildManager.GetVirtualPathObjectFactory(VirtualPath virtualPath, HttpContext context, Boolean allowCrossApp)
+   在 System.Web.Compilation.BuildManager.CreateInstanceFromVirtualPath(VirtualPath virtualPath, Type requiredBaseType, HttpContext context, Boolean allowCrossApp)
+   在 System.Web.UI.PageHandlerFactory.GetHandlerHelper(HttpContext context, String requestType, VirtualPath virtualPath, String physicalPath)
+   在 System.Web.UI.PageHandlerFactory.GetHandler(HttpContext context, String requestType, String virtualPath, String path)
+   在 System.Web.HttpApplication.MaterializeHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   在 System.Web.HttpApplication.ExecuteStepImpl(IExecutionStep step)
+   在 System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+2020/10/28 +08:00 09:17:25     [13304] Enterprise.Framework.Log.LogUtil.ErrorLog(:0) Enterprise.Framework.Log.LogUtil.ErrorLog(:0) [(null)] - 
+错误开始===========================================
+客户机IP:::1
+错误地址:http://localhost:19008/business/Vehicle/InitDispatchCenter.aspx
+异常信息:h:\ffqserp\trunk\application\Enterprise.IIS\business\Vehicle\InitDispatchCenter.aspx(70): error CS1061: “ASP.business_vehicle_initdispatchcenter_aspx”不包含“btnReturn_Click”的定义，并且找不到可接受类型为“ASP.business_vehicle_initdispatchcenter_aspx”的第一个参数的扩展方法“btnReturn_Click”(是否缺少 using 指令或程序集引用?)
+错误结束=========================================== e 
+System.Web.HttpCompileException (0x80004005): h:\ffqserp\trunk\application\Enterprise.IIS\business\Vehicle\InitDispatchCenter.aspx(70): error CS1061: “ASP.business_vehicle_initdispatchcenter_aspx”不包含“btnReturn_Click”的定义，并且找不到可接受类型为“ASP.business_vehicle_initdispatchcenter_aspx”的第一个参数的扩展方法“btnReturn_Click”(是否缺少 using 指令或程序集引用?)
+   在 System.Web.Compilation.BuildManager.CompileWebFile(VirtualPath virtualPath)
+   在 System.Web.Compilation.BuildManager.GetVPathBuildResultInternal(VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   在 System.Web.Compilation.BuildManager.GetVPathBuildResultWithNoAssert(HttpContext context, VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   在 System.Web.Compilation.BuildManager.GetVirtualPathObjectFactory(VirtualPath virtualPath, HttpContext context, Boolean allowCrossApp, Boolean throwIfNotFound)
+   在 System.Web.Compilation.BuildManager.GetVirtualPathObjectFactory(VirtualPath virtualPath, HttpContext context, Boolean allowCrossApp)
+   在 System.Web.Compilation.BuildManager.CreateInstanceFromVirtualPath(VirtualPath virtualPath, Type requiredBaseType, HttpContext context, Boolean allowCrossApp)
+   在 System.Web.UI.PageHandlerFactory.GetHandlerHelper(HttpContext context, String requestType, VirtualPath virtualPath, String physicalPath)
+   在 System.Web.UI.PageHandlerFactory.GetHandler(HttpContext context, String requestType, String virtualPath, String path)
+   在 System.Web.HttpApplication.MaterializeHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   在 System.Web.HttpApplication.ExecuteStepImpl(IExecutionStep step)
+   在 System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+2020/10/28 +08:00 09:17:25     [13304] Enterprise.Framework.Log.LogUtil.ErrorLog(:0) Enterprise.Framework.Log.LogUtil.ErrorLog(:0) [(null)] - h:\ffqserp\trunk\application\Enterprise.IIS\business\Vehicle\InitDispatchCenter.aspx(70): error CS1061: “ASP.business_vehicle_initdispatchcenter_aspx”不包含“btnReturn_Click”的定义，并且找不到可接受类型为“ASP.business_vehicle_initdispatchcenter_aspx”的第一个参数的扩展方法“btnReturn_Click”(是否缺少 using 指令或程序集引用?) e 
+System.Web.HttpCompileException (0x80004005): h:\ffqserp\trunk\application\Enterprise.IIS\business\Vehicle\InitDispatchCenter.aspx(70): error CS1061: “ASP.business_vehicle_initdispatchcenter_aspx”不包含“btnReturn_Click”的定义，并且找不到可接受类型为“ASP.business_vehicle_initdispatchcenter_aspx”的第一个参数的扩展方法“btnReturn_Click”(是否缺少 using 指令或程序集引用?)
+   在 System.Web.Compilation.BuildManager.CompileWebFile(VirtualPath virtualPath)
+   在 System.Web.Compilation.BuildManager.GetVPathBuildResultInternal(VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   在 System.Web.Compilation.BuildManager.GetVPathBuildResultWithNoAssert(HttpContext context, VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   在 System.Web.Compilation.BuildManager.GetVirtualPathObjectFactory(VirtualPath virtualPath, HttpContext context, Boolean allowCrossApp, Boolean throwIfNotFound)
+   在 System.Web.Compilation.BuildManager.GetVirtualPathObjectFactory(VirtualPath virtualPath, HttpContext context, Boolean allowCrossApp)
+   在 System.Web.Compilation.BuildManager.CreateInstanceFromVirtualPath(VirtualPath virtualPath, Type requiredBaseType, HttpContext context, Boolean allowCrossApp)
+   在 System.Web.UI.PageHandlerFactory.GetHandlerHelper(HttpContext context, String requestType, VirtualPath virtualPath, String physicalPath)
+   在 System.Web.UI.PageHandlerFactory.GetHandler(HttpContext context, String requestType, String virtualPath, String path)
+   在 System.Web.HttpApplication.MaterializeHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   在 System.Web.HttpApplication.ExecuteStepImpl(IExecutionStep step)
+   在 System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+2020/10/28 +08:00 09:17:41     [7552] Enterprise.Framework.Log.LogUtil.ErrorLog(:0) Enterprise.Framework.Log.LogUtil.ErrorLog(:0) [(null)] - 
+错误开始===========================================
+客户机IP:::1
+错误地址:http://localhost:19008/business/Vehicle/InitDispatchCenter.aspx
+异常信息:h:\ffqserp\trunk\application\Enterprise.IIS\business\Vehicle\InitDispatchCenter.aspx(73): error CS1061: “ASP.business_vehicle_initdispatchcenter_aspx”不包含“btnResase_Click”的定义，并且找不到可接受类型为“ASP.business_vehicle_initdispatchcenter_aspx”的第一个参数的扩展方法“btnResase_Click”(是否缺少 using 指令或程序集引用?)
+错误结束=========================================== e 
+System.Web.HttpCompileException (0x80004005): h:\ffqserp\trunk\application\Enterprise.IIS\business\Vehicle\InitDispatchCenter.aspx(73): error CS1061: “ASP.business_vehicle_initdispatchcenter_aspx”不包含“btnResase_Click”的定义，并且找不到可接受类型为“ASP.business_vehicle_initdispatchcenter_aspx”的第一个参数的扩展方法“btnResase_Click”(是否缺少 using 指令或程序集引用?)
+   在 System.Web.Compilation.BuildManager.CompileWebFile(VirtualPath virtualPath)
+   在 System.Web.Compilation.BuildManager.GetVPathBuildResultInternal(VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   在 System.Web.Compilation.BuildManager.GetVPathBuildResultWithNoAssert(HttpContext context, VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   在 System.Web.Compilation.BuildManager.GetVirtualPathObjectFactory(VirtualPath virtualPath, HttpContext context, Boolean allowCrossApp, Boolean throwIfNotFound)
+   在 System.Web.Compilation.BuildManager.GetVirtualPathObjectFactory(VirtualPath virtualPath, HttpContext context, Boolean allowCrossApp)
+   在 System.Web.Compilation.BuildManager.CreateInstanceFromVirtualPath(VirtualPath virtualPath, Type requiredBaseType, HttpContext context, Boolean allowCrossApp)
+   在 System.Web.UI.PageHandlerFactory.GetHandlerHelper(HttpContext context, String requestType, VirtualPath virtualPath, String physicalPath)
+   在 System.Web.UI.PageHandlerFactory.GetHandler(HttpContext context, String requestType, String virtualPath, String path)
+   在 System.Web.HttpApplication.MaterializeHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   在 System.Web.HttpApplication.ExecuteStepImpl(IExecutionStep step)
+   在 System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+2020/10/28 +08:00 09:17:41     [7552] Enterprise.Framework.Log.LogUtil.ErrorLog(:0) Enterprise.Framework.Log.LogUtil.ErrorLog(:0) [(null)] - h:\ffqserp\trunk\application\Enterprise.IIS\business\Vehicle\InitDispatchCenter.aspx(73): error CS1061: “ASP.business_vehicle_initdispatchcenter_aspx”不包含“btnResase_Click”的定义，并且找不到可接受类型为“ASP.business_vehicle_initdispatchcenter_aspx”的第一个参数的扩展方法“btnResase_Click”(是否缺少 using 指令或程序集引用?) e 
+System.Web.HttpCompileException (0x80004005): h:\ffqserp\trunk\application\Enterprise.IIS\business\Vehicle\InitDispatchCenter.aspx(73): error CS1061: “ASP.business_vehicle_initdispatchcenter_aspx”不包含“btnResase_Click”的定义，并且找不到可接受类型为“ASP.business_vehicle_initdispatchcenter_aspx”的第一个参数的扩展方法“btnResase_Click”(是否缺少 using 指令或程序集引用?)
+   在 System.Web.Compilation.BuildManager.CompileWebFile(VirtualPath virtualPath)
+   在 System.Web.Compilation.BuildManager.GetVPathBuildResultInternal(VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   在 System.Web.Compilation.BuildManager.GetVPathBuildResultWithNoAssert(HttpContext context, VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   在 System.Web.Compilation.BuildManager.GetVirtualPathObjectFactory(VirtualPath virtualPath, HttpContext context, Boolean allowCrossApp, Boolean throwIfNotFound)
+   在 System.Web.Compilation.BuildManager.GetVirtualPathObjectFactory(VirtualPath virtualPath, HttpContext context, Boolean allowCrossApp)
+   在 System.Web.Compilation.BuildManager.CreateInstanceFromVirtualPath(VirtualPath virtualPath, Type requiredBaseType, HttpContext context, Boolean allowCrossApp)
+   在 System.Web.UI.PageHandlerFactory.GetHandlerHelper(HttpContext context, String requestType, VirtualPath virtualPath, String physicalPath)
+   在 System.Web.UI.PageHandlerFactory.GetHandler(HttpContext context, String requestType, String virtualPath, String path)
+   在 System.Web.HttpApplication.MaterializeHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   在 System.Web.HttpApplication.ExecuteStepImpl(IExecutionStep step)
+   在 System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+2020/10/28 +08:00 09:18:09     [24472] Enterprise.Framework.Log.LogUtil.ErrorLog(:0) Enterprise.Framework.Log.LogUtil.ErrorLog(:0) [(null)] - 
+错误开始===========================================
+客户机IP:::1
+错误地址:http://localhost:19008/business/Vehicle/InitDispatchCenter.aspx
+异常信息:h:\ffqserp\trunk\application\Enterprise.IIS\business\Vehicle\InitDispatchCenter.aspx(122): error CS1061: “ASP.business_vehicle_initdispatchcenter_aspx”不包含“ddlFDistributionPoint_SelectedIndexChanged”的定义，并且找不到可接受类型为“ASP.business_vehicle_initdispatchcenter_aspx”的第一个参数的扩展方法“ddlFDistributionPoint_SelectedIndexChanged”(是否缺少 using 指令或程序集引用?)
+错误结束=========================================== e 
+System.Web.HttpCompileException (0x80004005): h:\ffqserp\trunk\application\Enterprise.IIS\business\Vehicle\InitDispatchCenter.aspx(122): error CS1061: “ASP.business_vehicle_initdispatchcenter_aspx”不包含“ddlFDistributionPoint_SelectedIndexChanged”的定义，并且找不到可接受类型为“ASP.business_vehicle_initdispatchcenter_aspx”的第一个参数的扩展方法“ddlFDistributionPoint_SelectedIndexChanged”(是否缺少 using 指令或程序集引用?)
+   在 System.Web.Compilation.BuildManager.CompileWebFile(VirtualPath virtualPath)
+   在 System.Web.Compilation.BuildManager.GetVPathBuildResultInternal(VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   在 System.Web.Compilation.BuildManager.GetVPathBuildResultWithNoAssert(HttpContext context, VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   在 System.Web.Compilation.BuildManager.GetVirtualPathObjectFactory(VirtualPath virtualPath, HttpContext context, Boolean allowCrossApp, Boolean throwIfNotFound)
+   在 System.Web.Compilation.BuildManager.GetVirtualPathObjectFactory(VirtualPath virtualPath, HttpContext context, Boolean allowCrossApp)
+   在 System.Web.Compilation.BuildManager.CreateInstanceFromVirtualPath(VirtualPath virtualPath, Type requiredBaseType, HttpContext context, Boolean allowCrossApp)
+   在 System.Web.UI.PageHandlerFactory.GetHandlerHelper(HttpContext context, String requestType, VirtualPath virtualPath, String physicalPath)
+   在 System.Web.UI.PageHandlerFactory.GetHandler(HttpContext context, String requestType, String virtualPath, String path)
+   在 System.Web.HttpApplication.MaterializeHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   在 System.Web.HttpApplication.ExecuteStepImpl(IExecutionStep step)
+   在 System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+2020/10/28 +08:00 09:18:09     [24472] Enterprise.Framework.Log.LogUtil.ErrorLog(:0) Enterprise.Framework.Log.LogUtil.ErrorLog(:0) [(null)] - h:\ffqserp\trunk\application\Enterprise.IIS\business\Vehicle\InitDispatchCenter.aspx(122): error CS1061: “ASP.business_vehicle_initdispatchcenter_aspx”不包含“ddlFDistributionPoint_SelectedIndexChanged”的定义，并且找不到可接受类型为“ASP.business_vehicle_initdispatchcenter_aspx”的第一个参数的扩展方法“ddlFDistributionPoint_SelectedIndexChanged”(是否缺少 using 指令或程序集引用?) e 
+System.Web.HttpCompileException (0x80004005): h:\ffqserp\trunk\application\Enterprise.IIS\business\Vehicle\InitDispatchCenter.aspx(122): error CS1061: “ASP.business_vehicle_initdispatchcenter_aspx”不包含“ddlFDistributionPoint_SelectedIndexChanged”的定义，并且找不到可接受类型为“ASP.business_vehicle_initdispatchcenter_aspx”的第一个参数的扩展方法“ddlFDistributionPoint_SelectedIndexChanged”(是否缺少 using 指令或程序集引用?)
+   在 System.Web.Compilation.BuildManager.CompileWebFile(VirtualPath virtualPath)
+   在 System.Web.Compilation.BuildManager.GetVPathBuildResultInternal(VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   在 System.Web.Compilation.BuildManager.GetVPathBuildResultWithNoAssert(HttpContext context, VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   在 System.Web.Compilation.BuildManager.GetVirtualPathObjectFactory(VirtualPath virtualPath, HttpContext context, Boolean allowCrossApp, Boolean throwIfNotFound)
+   在 System.Web.Compilation.BuildManager.GetVirtualPathObjectFactory(VirtualPath virtualPath, HttpContext context, Boolean allowCrossApp)
+   在 System.Web.Compilation.BuildManager.CreateInstanceFromVirtualPath(VirtualPath virtualPath, Type requiredBaseType, HttpContext context, Boolean allowCrossApp)
+   在 System.Web.UI.PageHandlerFactory.GetHandlerHelper(HttpContext context, String requestType, VirtualPath virtualPath, String physicalPath)
+   在 System.Web.UI.PageHandlerFactory.GetHandler(HttpContext context, String requestType, String virtualPath, String path)
+   在 System.Web.HttpApplication.MaterializeHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   在 System.Web.HttpApplication.ExecuteStepImpl(IExecutionStep step)
+   在 System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+2020/10/28 +08:00 10:19:34     [13560] Enterprise.Framework.Log.LogUtil.ErrorLog(:0) Enterprise.Framework.Log.LogUtil.ErrorLog(:0) [(null)] - 
+错误开始===========================================
+客户机IP:::1
+错误地址:http://localhost:19008/business/Vehicle/InitDispatchCenter.aspx
+异常信息:引发类型为“System.Web.HttpUnhandledException”的异常。
+错误结束=========================================== e 
+System.Web.HttpUnhandledException (0x80004005): 引发类型为“System.Web.HttpUnhandledException”的异常。 ---> System.InvalidOperationException: 没有为类型“System.Int32”和“System.Nullable`1[System.Int32]”定义二进制运算符 Equal。
+   在 System.Linq.Expressions.Expression.GetEqualityComparisonOperator(ExpressionType binaryType, String opName, Expression left, Expression right, Boolean liftToNull)
+   在 System.Linq.Expressions.Expression.Equal(Expression left, Expression right, Boolean liftToNull, MethodInfo method)
+   在 System.Linq.Expressions.Expression.Equal(Expression left, Expression right)
+   在 Enterprise.IIS.business.Vehicle.InitDispatchCenter.BuildPredicate(Object& orderingSelector) 位置 h:\ffqserp\trunk\application\Enterprise.IIS\business\Vehicle\InitDispatchCenter.aspx.cs:行号 590
+   在 Enterprise.IIS.business.Vehicle.InitDispatchCenter.BindDataGrid() 位置 h:\ffqserp\trunk\application\Enterprise.IIS\business\Vehicle\InitDispatchCenter.aspx.cs:行号 558
+   在 Enterprise.IIS.business.Vehicle.InitDispatchCenter.Page_Load(Object sender, EventArgs e) 位置 h:\ffqserp\trunk\application\Enterprise.IIS\business\Vehicle\InitDispatchCenter.aspx.cs:行号 104
+   在 System.Web.Util.CalliEventHandlerDelegateProxy.Callback(Object sender, EventArgs e)
+   在 System.Web.UI.Control.OnLoad(EventArgs e)
+   在 System.Web.UI.Control.LoadRecursive()
+   在 System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   在 System.Web.UI.Page.HandleError(Exception e)
+   在 System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   在 System.Web.UI.Page.ProcessRequest(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   在 System.Web.UI.Page.ProcessRequest()
+   在 System.Web.UI.Page.ProcessRequestWithNoAssert(HttpContext context)
+   在 System.Web.UI.Page.ProcessRequest(HttpContext context)
+   在 ASP.business_vehicle_initdispatchcenter_aspx.ProcessRequest(HttpContext context) 位置 c:\Windows\Microsoft.NET\Framework\v4.0.30319\Temporary ASP.NET Files\vs\b3079d60\a8129d37\App_Web_uhyo3ohf.3.cs:行号 0
+   在 System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   在 System.Web.HttpApplication.ExecuteStepImpl(IExecutionStep step)
+   在 System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+2020/10/28 +08:00 10:19:34     [13560] Enterprise.Framework.Log.LogUtil.ErrorLog(:0) Enterprise.Framework.Log.LogUtil.ErrorLog(:0) [(null)] - 没有为类型“System.Int32”和“System.Nullable`1[System.Int32]”定义二进制运算符 Equal。 e 
+System.InvalidOperationException: 没有为类型“System.Int32”和“System.Nullable`1[System.Int32]”定义二进制运算符 Equal。
+   在 System.Linq.Expressions.Expression.GetEqualityComparisonOperator(ExpressionType binaryType, String opName, Expression left, Expression right, Boolean liftToNull)
+   在 System.Linq.Expressions.Expression.Equal(Expression left, Expression right, Boolean liftToNull, MethodInfo method)
+   在 System.Linq.Expressions.Expression.Equal(Expression left, Expression right)
+   在 Enterprise.IIS.business.Vehicle.InitDispatchCenter.BuildPredicate(Object& orderingSelector) 位置 h:\ffqserp\trunk\application\Enterprise.IIS\business\Vehicle\InitDispatchCenter.aspx.cs:行号 590
+   在 Enterprise.IIS.business.Vehicle.InitDispatchCenter.BindDataGrid() 位置 h:\ffqserp\trunk\application\Enterprise.IIS\business\Vehicle\InitDispatchCenter.aspx.cs:行号 558
+   在 Enterprise.IIS.business.Vehicle.InitDispatchCenter.Page_Load(Object sender, EventArgs e) 位置 h:\ffqserp\trunk\application\Enterprise.IIS\business\Vehicle\InitDispatchCenter.aspx.cs:行号 104
+   在 System.Web.Util.CalliEventHandlerDelegateProxy.Callback(Object sender, EventArgs e)
+   在 System.Web.UI.Control.OnLoad(EventArgs e)
+   在 System.Web.UI.Control.LoadRecursive()
+   在 System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+2020/10/28 +08:00 10:47:39     [7528] Enterprise.Framework.Log.LogUtil.InfoLog(:0) Enterprise.Framework.Log.LogUtil.InfoLog(:0) [(null)] - ，销售单：OC-201029-0001，销售单详细单号：94129---G1141, e 
+2020/10/28 +08:00 10:48:01     [7528] Enterprise.Framework.Log.LogUtil.InfoLog(:0) Enterprise.Framework.Log.LogUtil.InfoLog(:0) [(null)] - ，销售单：OC-201029-0001，销售单详细单号：94129---G1141,错误：，销售单：OC-201029-0001，销售单详细单号：94129---G1141,,错误信息：无法连接到远程服务器,错误堆栈：   在 System.Net.HttpWebRequest.GetRequestStream(TransportContext& context)
+   在 System.Net.HttpWebRequest.GetRequestStream()
+   在 Enterprise.IIS.Common.HttpRequest.httpRequest(tmsModel t, String uri) 位置 h:\ffqserp\trunk\application\Enterprise.IIS\Common\HttpRequest.cs:行号 61 e 
+2020/10/28 +08:00 16:02:01     [14456] Enterprise.Framework.Log.LogUtil.InfoLog(:0) Enterprise.Framework.Log.LogUtil.InfoLog(:0) [(null)] - ，发货单：XS-201027-0001，发货单详细单号：120867---G4900,，销售单：OC-201028-0001，销售单详细单号：94128---G4900, e 
+2020/10/28 +08:00 16:02:23     [14456] Enterprise.Framework.Log.LogUtil.InfoLog(:0) Enterprise.Framework.Log.LogUtil.InfoLog(:0) [(null)] - ，发货单：XS-201027-0001，发货单详细单号：120867---G4900,，销售单：OC-201028-0001，销售单详细单号：94128---G4900,错误：，发货单：XS-201027-0001，发货单详细单号：120867---G4900,，销售单：OC-201028-0001，销售单详细单号：94128---G4900,,错误信息：无法连接到远程服务器,错误堆栈：   在 System.Net.HttpWebRequest.GetRequestStream(TransportContext& context)
+   在 System.Net.HttpWebRequest.GetRequestStream()
+   在 Enterprise.IIS.Common.HttpRequest.httpRequest(tmsModel t, String uri) 位置 h:\ffqserp\trunk\application\Enterprise.IIS\Common\HttpRequest.cs:行号 61 e 
+2020/10/28 +08:00 16:03:14     [12984] Enterprise.Framework.Log.LogUtil.InfoLog(:0) Enterprise.Framework.Log.LogUtil.InfoLog(:0) [(null)] - ，发货单：XS-201026-0001，发货单详细单号：120866---G1141,，销售单：OC-201027-0001，销售单详细单号：94126---G1141, e 
+2020/10/28 +08:00 16:03:35     [12984] Enterprise.Framework.Log.LogUtil.InfoLog(:0) Enterprise.Framework.Log.LogUtil.InfoLog(:0) [(null)] - ，发货单：XS-201026-0001，发货单详细单号：120866---G1141,，销售单：OC-201027-0001，销售单详细单号：94126---G1141,错误：，发货单：XS-201026-0001，发货单详细单号：120866---G1141,，销售单：OC-201027-0001，销售单详细单号：94126---G1141,,错误信息：无法连接到远程服务器,错误堆栈：   在 System.Net.HttpWebRequest.GetRequestStream(TransportContext& context)
+   在 System.Net.HttpWebRequest.GetRequestStream()
+   在 Enterprise.IIS.Common.HttpRequest.httpRequest(tmsModel t, String uri) 位置 h:\ffqserp\trunk\application\Enterprise.IIS\Common\HttpRequest.cs:行号 61 e 

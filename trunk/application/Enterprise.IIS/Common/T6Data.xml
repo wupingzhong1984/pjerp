@@ -1,0 +1,330 @@
+﻿<sets >
+  <vouch vouchtype="05" name="销售发货单"
+  checksql="select dlid,cdlcode from dispatchlist with (nolock)  where cdefine11=@ccode" ccode ="单据号"
+  strgetu8code="select cdlcode from dispatchlist with (nolock) where dlid  =@id " bhavred="1" su8codename="cdlcode" >
+    <u8set >
+      <hset>
+        <fld cu8name ="cbustype" cname="业务类型" cvalue ="" bcheck ="0" bsql="0" />
+        <fld cu8name ="cvouchtype" cname="" cvalue ="05" bcheck ="0" bsql="0" />
+        <fld cu8name ="ddate" cname="单据日期" cvalue ="" bcheck ="1" bsql="0" />
+        <fld cu8name ="cdlcode" cname="单据号" cvalue ="" bcheck ="0" bsql="0" />
+        <fld cu8name ="ccusabbname" cname="客户代码" cvalue ="" bcheck ="1" bsql="0" />
+        <fld cu8name ="cstcode" cname="销售类型编码" cvalue ="" bcheck ="1" bsql="0" />
+        <fld cu8name ="cdepcode" cname="部门编码" cvalue ="" bcheck ="1" bsql="0" />
+        <fld cu8name ="cdepname" cname="部门编码" cvalue ="" bcheck ="1" bsql="0" />
+        <fld cu8name ="cpersoncode" cname="业务员编码" cvalue ="" bcheck ="1" bsql="0" />
+        <fld cu8name ="cpersonname" cname="业务员编码" cvalue ="" bcheck ="1" bsql="0" />
+        <fld cu8name ="cexch_name" cname="币种" cvalue ="" bcheck ="0" bsql="0" />
+        <fld cu8name ="iexchrate" cname="汇率" cvalue ="" bcheck ="0" bsql="0" />
+        <fld cu8name ="itaxrate" cname="税率" cvalue ="" bcheck ="0" bsql="0" />
+        <fld cu8name ="cdefine11" cname="单据号" cvalue ="" bcheck ="0" bsql="0" />
+        <fld cu8name ="cdefine12" cname="外部唯一id" cvalue ="" bcheck ="0" bsql="0" />
+        <fld cu8name ="cmemo" cname="备注" cvalue ="" bcheck ="0" bsql="0" />
+        <fld cu8name ="cmaker" cname="制单人" cvalue ="" bcheck ="0" bsql="0" />
+      </hset>
+      <bset>
+        <fld cu8name ="cwhcode" cname="仓库编码" cvalue ="" bcheck ="1" bsql="0" />
+        <fld cu8name ="cwhname" cname="仓库编码" cvalue ="" bcheck ="1" bsql="0" />
+        <fld cu8name ="cinvcode" cname="存货编码" cvalue ="" bcheck ="1" bsql="0" />
+        <fld cu8name ="cbatch" cname="批次" cvalue ="" bcheck ="0" bsql="0" />
+        <fld cu8name ="cfree1" cname="自由项1" cvalue ="" bcheck ="0" bsql="0" />
+        <fld cu8name ="cfree2" cname="自由项2" cvalue ="" bcheck ="0" bsql="0" />
+        <fld cu8name ="cfree3" cname="自由项3" cvalue ="" bcheck ="0" bsql="0" />
+        <fld cu8name ="cfree4" cname="自由项4" cvalue ="" bcheck ="0" bsql="0" />
+        <fld cu8name ="cfree5" cname="自由项5" cvalue ="" bcheck ="0" bsql="0" />
+        <fld cu8name ="cfree6" cname="自由项6" cvalue ="" bcheck ="0" bsql="0" />
+        <fld cu8name ="cfree7" cname="自由项7" cvalue ="" bcheck ="0" bsql="0" />
+        <fld cu8name ="cfree8" cname="自由项8" cvalue ="" bcheck ="0" bsql="0" />
+        <fld cu8name ="cfree9" cname="自由项9" cvalue ="" bcheck ="0" bsql="0" />
+        <fld cu8name ="cfree10" cname="自由项10" cvalue ="" bcheck ="0" bsql="0" />
+        <fld cu8name ="iquantity" cname="数量" cvalue ="" bcheck ="1" bsql="0" />
+        <fld cu8name ="irowno" cname="行号" cvalue ="" bcheck ="0" bsql="0" />
+        <fld cu8name ="itaxrate" cname="税率" cvalue ="" bcheck ="0" bsql="0" />
+        <fld cu8name ="itaxunitprice" cname="含税单价" cvalue ="" bcheck ="1" bsql="0" />
+        <fld cu8name ="isum" cname="价税合计" cvalue ="" bcheck ="1" bsql="0" />
+      </bset>
+    </u8set>
+  </vouch>
+  <vouch vouchtype="01" name="采购入库单" vo="USERPVO.PurchaseIn" pst="USERPDMO.PurchaseInPst"
+  checksql="select id,ccode from rdrecord01 where cdefine11=@ccode" ccode ="单据号"
+  strgetu8code="select ccode from rdrecord01 with (nolock) where id =@id " bhavred="1" su8codename="ccode" >
+    <u8set >
+      <hset>
+        <fld cu8name ="cbustype" cname="业务类型" cvalue ="" bcheck ="0" bsql="0" />
+        <fld cu8name ="csource" cname="" cvalue ="库存" bcheck ="0" bsql="0" />
+        <fld cu8name ="cvouchtype" cname="" cvalue ="01" bcheck ="0" bsql="0" />
+        <fld cu8name ="ddate" cname="单据日期" cvalue ="" bcheck ="0" bsql="0" />
+        <fld cu8name ="cwhcode" cname="仓库编码" cvalue ="" bcheck ="1" bsql="0" />
+        <fld cu8name ="cwhname" cname="仓库编码" cvalue ="" bcheck ="1" bsql="0" />
+        <fld cu8name ="cvencode" cname="供应商编码" cvalue ="" bcheck ="1" bsql="0" />
+        <fld cu8name ="cvenabbname" cname="供应商编码" cvalue ="" bcheck ="1" bsql="0" />
+        <fld cu8name ="crdcode" cname="收发类别编码" cvalue ="" bcheck ="1" bsql="0" />
+        <fld cu8name ="cptcode" cname="采购类型编码" cvalue ="" bcheck ="1" bsql="0" />
+        <fld cu8name ="cdepcode" cname="部门编码" cvalue ="" bcheck ="1" bsql="0" />
+        <fld cu8name ="cdepname" cname="部门编码" cvalue ="" bcheck ="1" bsql="0" />
+        <fld cu8name ="cpersoncode" cname="业务员编码" cvalue ="" bcheck ="1" bsql="0" />
+        <fld cu8name ="cpersonname" cname="业务员编码" cvalue ="" bcheck ="1" bsql="0" />
+        <fld cu8name ="cexch_name" cname="币种" cvalue ="" bcheck ="0" bsql="0" />
+        <fld cu8name ="iexchrate" cname="汇率" cvalue ="" bcheck ="0" bsql="0" />
+        <fld cu8name ="cdefine11" cname="单据号" cvalue ="" bcheck ="0" bsql="0" />
+        <fld cu8name ="cdefine12" cname="外部唯一id" cvalue ="" bcheck ="0" bsql="0" />
+        <fld cu8name ="cmemo" cname="备注" cvalue ="" bcheck ="0" bsql="0" />
+        <fld cu8name ="cmaker" cname="制单人" cvalue ="" bcheck ="0" bsql="0" />
+        <fld cu8name ="ccode" cname="单据号" cvalue ="" bcheck ="0" bsql="0" />
+      </hset>
+      <bset>
+        <fld cu8name ="cinvcode" cname="存货编码" cvalue ="" bcheck ="1" bsql="0" />
+        <fld cu8name ="cbatch" cname="批次" cvalue ="" bcheck ="0" bsql="0" />
+        <fld cu8name ="cfree1" cname="自由项1" cvalue ="" bcheck ="0" bsql="0" />
+        <fld cu8name ="cfree2" cname="自由项2" cvalue ="" bcheck ="0" bsql="0" />
+        <fld cu8name ="cfree3" cname="自由项3" cvalue ="" bcheck ="0" bsql="0" />
+        <fld cu8name ="cfree4" cname="自由项4" cvalue ="" bcheck ="0" bsql="0" />
+        <fld cu8name ="cfree5" cname="自由项5" cvalue ="" bcheck ="0" bsql="0" />
+        <fld cu8name ="cfree6" cname="自由项6" cvalue ="" bcheck ="0" bsql="0" />
+        <fld cu8name ="cfree7" cname="自由项7" cvalue ="" bcheck ="0" bsql="0" />
+        <fld cu8name ="cfree8" cname="自由项8" cvalue ="" bcheck ="0" bsql="0" />
+        <fld cu8name ="cfree9" cname="自由项9" cvalue ="" bcheck ="0" bsql="0" />
+        <fld cu8name ="cfree10" cname="自由项10" cvalue ="" bcheck ="0" bsql="0" />
+        <fld cu8name ="iquantity" cname="数量" cvalue ="" bcheck ="1" bsql="0" />
+        <fld cu8name ="irowno" cname="行号" cvalue ="" bcheck ="0" bsql="0" />
+        <fld cu8name ="itaxrate" cname="税率" cvalue ="" bcheck ="0" bsql="0" />
+        <fld cu8name ="ioritaxcost" cname="含税单价" cvalue ="" bcheck ="1" bsql="0" />
+        <fld cu8name ="iorisum" cname="价税合计" cvalue ="" bcheck ="1" bsql="0" />
+      </bset>
+    </u8set>
+  </vouch>
+  <vouch vouchtype="08" name="其他入库单" vo="USERPVO.OtherIn" pst="USERPDMO.OtherInPst"        checksql="select id,ccode from rdrecord08 where cdefine11=@ccode" ccode ="单据号"     strgetu8code="select ccode from rdrecord08 with (nolock) where id =@id " bhavred="1" su8codename="ccode" >
+    <u8set >
+      <hset>
+        <fld cu8name ="cbustype" cname="业务类型" cvalue ="" bcheck ="0" bsql="0" />
+        <fld cu8name ="csource" cname="" cvalue ="库存" bcheck ="0" bsql="0" />
+        <fld cu8name ="cvouchtype" cname="" cvalue ="08" bcheck ="0" bsql="0" />
+        <fld cu8name ="ddate" cname="单据日期" cvalue ="" bcheck ="0" bsql="0" />
+        <fld cu8name ="cwhcode" cname="仓库编码" cvalue ="" bcheck ="1" bsql="0" />
+        <fld cu8name ="cwhname" cname="仓库编码" cvalue ="" bcheck ="1" bsql="0" />
+        <fld cu8name ="crdcode" cname="收发类别编码" cvalue ="" bcheck ="1" bsql="0" />
+        <fld cu8name ="cdepcode" cname="部门编码" cvalue ="" bcheck ="1" bsql="0" />
+        <fld cu8name ="cdepname" cname="部门编码" cvalue ="" bcheck ="1" bsql="0" />
+        <fld cu8name ="cpersoncode" cname="业务员编码" cvalue ="" bcheck ="1" bsql="0" />
+        <fld cu8name ="cpersonname" cname="业务员编码" cvalue ="" bcheck ="1" bsql="0" />
+        <fld cu8name ="cdefine11" cname="单据号" cvalue ="" bcheck ="0" bsql="0" />
+        <fld cu8name ="cdefine12" cname="外部唯一id" cvalue ="" bcheck ="0" bsql="0" />
+        <fld cu8name ="cmaker" cname="制单人" cvalue ="" bcheck ="0" bsql="0" />
+        <fld cu8name ="cmemo" cname="备注" cvalue ="" bcheck ="0" bsql="0" />
+        <fld cu8name ="ccode" cname="单据号" cvalue ="" bcheck ="0" bsql="0" />
+      </hset>
+      <bset>
+        <fld cu8name ="cinvcode" cname="存货编码" cvalue ="" bcheck ="1" bsql="0" />
+        <fld cu8name ="cbatch" cname="批次" cvalue ="" bcheck ="0" bsql="0" />
+        <fld cu8name ="cfree1" cname="自由项1" cvalue ="" bcheck ="0" bsql="0" />
+        <fld cu8name ="cfree2" cname="自由项2" cvalue ="" bcheck ="0" bsql="0" />
+        <fld cu8name ="cfree3" cname="自由项3" cvalue ="" bcheck ="0" bsql="0" />
+        <fld cu8name ="cfree4" cname="自由项4" cvalue ="" bcheck ="0" bsql="0" />
+        <fld cu8name ="cfree5" cname="自由项5" cvalue ="" bcheck ="0" bsql="0" />
+        <fld cu8name ="cfree6" cname="自由项6" cvalue ="" bcheck ="0" bsql="0" />
+        <fld cu8name ="cfree7" cname="自由项7" cvalue ="" bcheck ="0" bsql="0" />
+        <fld cu8name ="cfree8" cname="自由项8" cvalue ="" bcheck ="0" bsql="0" />
+        <fld cu8name ="cfree9" cname="自由项9" cvalue ="" bcheck ="0" bsql="0" />
+        <fld cu8name ="cfree10" cname="自由项10" cvalue ="" bcheck ="0" bsql="0" />
+        <fld cu8name ="iquantity" cname="数量" cvalue ="" bcheck ="1" bsql="0" />
+        <fld cu8name ="irowno" cname="行号" cvalue ="" bcheck ="0" bsql="0" />
+      </bset>
+    </u8set>
+  </vouch>
+  <vouch vouchtype="09" name="其他出库单" vo="USERPVO.OtherOut" pst="USERPDMO.OtherOutPst"       checksql="select id,ccode from rdrecord09 where cdefine11=@ccode" ccode ="单据号"     strgetu8code="select ccode from rdrecord09 with (nolock) where id =@id " bhavred="1" su8codename="ccode" >
+    <u8set >
+      <hset>
+        <fld cu8name ="cbustype" cname="业务类型" cvalue ="" bcheck ="0" bsql="0" />
+        <fld cu8name ="csource" cname="" cvalue ="库存" bcheck ="0" bsql="0" />
+        <fld cu8name ="cvouchtype" cname="" cvalue ="09" bcheck ="0" bsql="0" />
+        <fld cu8name ="ddate" cname="单据日期" cvalue ="" bcheck ="0" bsql="0" />
+        <fld cu8name ="cwhcode" cname="仓库编码" cvalue ="" bcheck ="1" bsql="0" />
+        <fld cu8name ="cwhname" cname="仓库编码" cvalue ="" bcheck ="1" bsql="0" />
+        <fld cu8name ="crdcode" cname="收发类别编码" cvalue ="" bcheck ="1" bsql="0" />
+        <fld cu8name ="cdepcode" cname="部门编码" cvalue ="" bcheck ="1" bsql="0" />
+        <fld cu8name ="cdepname" cname="部门编码" cvalue ="" bcheck ="1" bsql="0" />
+        <fld cu8name ="cpersoncode" cname="业务员编码" cvalue ="" bcheck ="1" bsql="0" />
+        <fld cu8name ="cpersonname" cname="业务员编码" cvalue ="" bcheck ="1" bsql="0" />
+        <fld cu8name ="cdefine11" cname="单据号" cvalue ="" bcheck ="0" bsql="0" />
+        <fld cu8name ="cdefine12" cname="外部唯一id" cvalue ="" bcheck ="0" bsql="0" />
+        <fld cu8name ="cmaker" cname="制单人" cvalue ="" bcheck ="0" bsql="0" />
+        <fld cu8name ="cmemo" cname="备注" cvalue ="" bcheck ="0" bsql="0" />
+        <fld cu8name ="ccode" cname="单据号" cvalue ="" bcheck ="0" bsql="0" />
+      </hset>
+      <bset>
+        <fld cu8name ="cinvcode" cname="存货编码" cvalue ="" bcheck ="1" bsql="0" />
+        <fld cu8name ="cbatch" cname="批次" cvalue ="" bcheck ="0" bsql="0" />
+        <fld cu8name ="cfree1" cname="自由项1" cvalue ="" bcheck ="0" bsql="0" />
+        <fld cu8name ="cfree2" cname="自由项2" cvalue ="" bcheck ="0" bsql="0" />
+        <fld cu8name ="cfree3" cname="自由项3" cvalue ="" bcheck ="0" bsql="0" />
+        <fld cu8name ="cfree4" cname="自由项4" cvalue ="" bcheck ="0" bsql="0" />
+        <fld cu8name ="cfree5" cname="自由项5" cvalue ="" bcheck ="0" bsql="0" />
+        <fld cu8name ="cfree6" cname="自由项6" cvalue ="" bcheck ="0" bsql="0" />
+        <fld cu8name ="cfree7" cname="自由项7" cvalue ="" bcheck ="0" bsql="0" />
+        <fld cu8name ="cfree8" cname="自由项8" cvalue ="" bcheck ="0" bsql="0" />
+        <fld cu8name ="cfree9" cname="自由项9" cvalue ="" bcheck ="0" bsql="0" />
+        <fld cu8name ="cfree10" cname="自由项10" cvalue ="" bcheck ="0" bsql="0" />
+        <fld cu8name ="iquantity" cname="数量" cvalue ="" bcheck ="1" bsql="0" />
+        <fld cu8name ="irowno" cname="行号" cvalue ="" bcheck ="0" bsql="0" />
+      </bset>
+    </u8set>
+  </vouch>
+  <vouch vouchtype="10" name="产品入库单" vo="USERPVO.ProductIn" pst="USERPDMO.ProductInPst"        checksql="select id,ccode from rdrecord10 where cdefine11=@ccode" ccode ="单据号"     strgetu8code="select ccode from rdrecord10 with (nolock) where id =@id " bhavred="1" su8codename="ccode" >
+    <u8set >
+      <hset>
+        <fld cu8name ="cbustype" cname="业务类型" cvalue ="" bcheck ="0" bsql="0" />
+        <fld cu8name ="csource" cname="" cvalue ="库存" bcheck ="0" bsql="0" />
+        <fld cu8name ="cvouchtype" cname="" cvalue ="10" bcheck ="0" bsql="0" />
+        <fld cu8name ="ddate" cname="单据日期" cvalue ="" bcheck ="0" bsql="0" />
+        <fld cu8name ="cwhcode" cname="仓库编码" cvalue ="" bcheck ="1" bsql="0" />
+        <fld cu8name ="cwhname" cname="仓库编码" cvalue ="" bcheck ="1" bsql="0" />
+        <fld cu8name ="crdcode" cname="收发类别编码" cvalue ="" bcheck ="1" bsql="0" />
+        <fld cu8name ="cdepcode" cname="部门编码" cvalue ="" bcheck ="1" bsql="0" />
+        <fld cu8name ="cdepname" cname="部门编码" cvalue ="" bcheck ="1" bsql="0" />
+        <fld cu8name ="cpersoncode" cname="业务员编码" cvalue ="" bcheck ="1" bsql="0" />
+        <fld cu8name ="cpersonname" cname="业务员编码" cvalue ="" bcheck ="1" bsql="0" />
+        <fld cu8name ="cdefine11" cname="单据号" cvalue ="" bcheck ="0" bsql="0" />
+        <fld cu8name ="cdefine12" cname="外部唯一id" cvalue ="" bcheck ="0" bsql="0" />
+        <fld cu8name ="cmaker" cname="制单人" cvalue ="" bcheck ="0" bsql="0" />
+        <fld cu8name ="cmemo" cname="备注" cvalue ="" bcheck ="0" bsql="0" />
+        <fld cu8name ="ccode" cname="单据号" cvalue ="" bcheck ="0" bsql="0" />
+      </hset>
+      <bset>
+        <fld cu8name ="cinvcode" cname="存货编码" cvalue ="" bcheck ="1" bsql="0" />
+        <fld cu8name ="cbatch" cname="批次" cvalue ="" bcheck ="0" bsql="0" />
+        <fld cu8name ="cfree1" cname="自由项1" cvalue ="" bcheck ="0" bsql="0" />
+        <fld cu8name ="cfree2" cname="自由项2" cvalue ="" bcheck ="0" bsql="0" />
+        <fld cu8name ="cfree3" cname="自由项3" cvalue ="" bcheck ="0" bsql="0" />
+        <fld cu8name ="cfree4" cname="自由项4" cvalue ="" bcheck ="0" bsql="0" />
+        <fld cu8name ="cfree5" cname="自由项5" cvalue ="" bcheck ="0" bsql="0" />
+        <fld cu8name ="cfree6" cname="自由项6" cvalue ="" bcheck ="0" bsql="0" />
+        <fld cu8name ="cfree7" cname="自由项7" cvalue ="" bcheck ="0" bsql="0" />
+        <fld cu8name ="cfree8" cname="自由项8" cvalue ="" bcheck ="0" bsql="0" />
+        <fld cu8name ="cfree9" cname="自由项9" cvalue ="" bcheck ="0" bsql="0" />
+        <fld cu8name ="cfree10" cname="自由项10" cvalue ="" bcheck ="0" bsql="0" />
+        <fld cu8name ="iquantity" cname="数量" cvalue ="" bcheck ="1" bsql="0" />
+        <fld cu8name ="irowno" cname="行号" cvalue ="" bcheck ="0" bsql="0" />
+      </bset>
+    </u8set>
+  </vouch>
+  <vouch vouchtype="11" name="材料出库单" vo="USERPVO.MaterialOut" pst="USERPDMO.MaterialOutPst"       checksql="select id,ccode from rdrecord11 where cdefine11=@ccode" ccode ="单据号"     strgetu8code="select ccode from rdrecord11 with (nolock) where id =@id " bhavred="1" su8codename="ccode" >
+    <u8set >
+      <hset>
+        <fld cu8name ="cbustype" cname="业务类型" cvalue ="" bcheck ="0" bsql="0" />
+        <fld cu8name ="csource" cname="" cvalue ="库存" bcheck ="0" bsql="0" />
+        <fld cu8name ="cvouchtype" cname="" cvalue ="11" bcheck ="0" bsql="0" />
+        <fld cu8name ="ddate" cname="单据日期" cvalue ="" bcheck ="0" bsql="0" />
+        <fld cu8name ="cwhcode" cname="仓库编码" cvalue ="" bcheck ="1" bsql="0" />
+        <fld cu8name ="cwhname" cname="仓库编码" cvalue ="" bcheck ="1" bsql="0" />
+        <fld cu8name ="crdcode" cname="收发类别编码" cvalue ="" bcheck ="1" bsql="0" />
+        <fld cu8name ="cdepcode" cname="部门编码" cvalue ="" bcheck ="1" bsql="0" />
+        <fld cu8name ="cdepname" cname="部门编码" cvalue ="" bcheck ="1" bsql="0" />
+        <fld cu8name ="cpersoncode" cname="业务员编码" cvalue ="" bcheck ="1" bsql="0" />
+        <fld cu8name ="cpersonname" cname="业务员编码" cvalue ="" bcheck ="1" bsql="0" />
+        <fld cu8name ="cdefine11" cname="单据号" cvalue ="" bcheck ="0" bsql="0" />
+        <fld cu8name ="cdefine12" cname="外部唯一id" cvalue ="" bcheck ="0" bsql="0" />
+        <fld cu8name ="cmaker" cname="制单人" cvalue ="" bcheck ="0" bsql="0" />
+        <fld cu8name ="cmemo" cname="备注" cvalue ="" bcheck ="0" bsql="0" />
+        <fld cu8name ="ccode" cname="单据号" cvalue ="" bcheck ="0" bsql="0" />
+      </hset>
+      <bset>
+        <fld cu8name ="cinvcode" cname="存货编码" cvalue ="" bcheck ="1" bsql="0" />
+        <fld cu8name ="cbatch" cname="批次" cvalue ="" bcheck ="0" bsql="0" />
+        <fld cu8name ="cfree1" cname="自由项1" cvalue ="" bcheck ="0" bsql="0" />
+        <fld cu8name ="cfree2" cname="自由项2" cvalue ="" bcheck ="0" bsql="0" />
+        <fld cu8name ="cfree3" cname="自由项3" cvalue ="" bcheck ="0" bsql="0" />
+        <fld cu8name ="cfree4" cname="自由项4" cvalue ="" bcheck ="0" bsql="0" />
+        <fld cu8name ="cfree5" cname="自由项5" cvalue ="" bcheck ="0" bsql="0" />
+        <fld cu8name ="cfree6" cname="自由项6" cvalue ="" bcheck ="0" bsql="0" />
+        <fld cu8name ="cfree7" cname="自由项7" cvalue ="" bcheck ="0" bsql="0" />
+        <fld cu8name ="cfree8" cname="自由项8" cvalue ="" bcheck ="0" bsql="0" />
+        <fld cu8name ="cfree9" cname="自由项9" cvalue ="" bcheck ="0" bsql="0" />
+        <fld cu8name ="cfree10" cname="自由项10" cvalue ="" bcheck ="0" bsql="0" />
+        <fld cu8name ="iquantity" cname="数量" cvalue ="" bcheck ="1" bsql="0" />
+        <fld cu8name ="irowno" cname="行号" cvalue ="" bcheck ="0" bsql="0" />
+      </bset>
+    </u8set>
+  </vouch>
+  <vouch vouchtype="18" name="盘点单" vo="USERPVO.CheckVouch" pst="USERPDMO.CheckVouchPst"       checksql="select id,ccvcode from checkvouch where cdefine11=@ccode" ccode ="单据号"     strgetu8code="select ccvcode from checkvouch with (nolock) where id =@id " bhavred="0" su8codename="ccvcode" >
+    <u8set >
+      <hset>
+        <fld cu8name ="ccvtype" cname="盘点类型" cvalue ="" bcheck ="0" bsql="0" />
+        <fld cu8name ="dacdate" cname="账面日期" cvalue ="" bcheck ="0" bsql="0" />
+        <fld cu8name ="dcvdate" cname="盘点日期" cvalue ="" bcheck ="1" bsql="0" />
+        <fld cu8name ="cwhcode" cname="仓库编码" cvalue ="" bcheck ="1" bsql="0" />
+        <fld cu8name ="cwhname" cname="仓库编码" cvalue ="" bcheck ="1" bsql="0" />
+        <fld cu8name ="crdname" cname="入库类别编码" cvalue ="" bcheck ="1" bsql="0" />
+        <fld cu8name ="cirdcode" cname="入库类别编码" cvalue ="" bcheck ="1" bsql="0" />
+        <fld cu8name ="crdname_1" cname="出库类别编码" cvalue ="" bcheck ="1" bsql="0" />
+        <fld cu8name ="cordcode" cname="出库类别编码" cvalue ="" bcheck ="1" bsql="0" />
+        <fld cu8name ="cdepcode" cname="部门编码" cvalue ="" bcheck ="1" bsql="0" />
+        <fld cu8name ="cdepname" cname="部门编码" cvalue ="" bcheck ="1" bsql="0" />
+        <fld cu8name ="cpersoncode" cname="业务员编码" cvalue ="" bcheck ="1" bsql="0" />
+        <fld cu8name ="cpersonname" cname="业务员编码" cvalue ="" bcheck ="1" bsql="0" />
+        <fld cu8name ="cdefine11" cname="单据号" cvalue ="" bcheck ="0" bsql="0" />
+        <fld cu8name ="cdefine12" cname="外部唯一id" cvalue ="" bcheck ="0" bsql="0" />
+        <fld cu8name ="cmaker" cname="制单人" cvalue ="" bcheck ="0" bsql="0" />
+        <fld cu8name ="ccvmemo" cname="备注" cvalue ="" bcheck ="0" bsql="0" />
+        <fld cu8name ="ccvcode" cname="单据号" cvalue ="" bcheck ="0" bsql="0" />
+      </hset>
+      <bset>
+        <fld cu8name ="cinvcode" cname="存货编码" cvalue ="" bcheck ="1" bsql="0" />
+        <fld cu8name ="ccvbatch" cname="批次" cvalue ="" bcheck ="0" bsql="0" />
+        <fld cu8name ="cfree1" cname="自由项1" cvalue ="" bcheck ="0" bsql="0" />
+        <fld cu8name ="cfree2" cname="自由项2" cvalue ="" bcheck ="0" bsql="0" />
+        <fld cu8name ="cfree3" cname="自由项3" cvalue ="" bcheck ="0" bsql="0" />
+        <fld cu8name ="cfree4" cname="自由项4" cvalue ="" bcheck ="0" bsql="0" />
+        <fld cu8name ="cfree5" cname="自由项5" cvalue ="" bcheck ="0" bsql="0" />
+        <fld cu8name ="cfree6" cname="自由项6" cvalue ="" bcheck ="0" bsql="0" />
+        <fld cu8name ="cfree7" cname="自由项7" cvalue ="" bcheck ="0" bsql="0" />
+        <fld cu8name ="cfree8" cname="自由项8" cvalue ="" bcheck ="0" bsql="0" />
+        <fld cu8name ="cfree9" cname="自由项9" cvalue ="" bcheck ="0" bsql="0" />
+        <fld cu8name ="cfree10" cname="自由项10" cvalue ="" bcheck ="0" bsql="0" />
+        <fld cu8name ="icvquantity" cname="账面数量" cvalue ="" bcheck ="0" bsql="0" />
+        <fld cu8name ="irowno" cname="行号" cvalue ="" bcheck ="0" bsql="0" />
+        <fld cu8name ="icvcquantity" cname="盘点数量" cvalue ="" bcheck ="1" bsql="0" />
+        <fld cu8name ="ccvreason" cname="原因" cvalue ="" bcheck ="0" bsql="0" />
+      </bset>
+    </u8set>
+  </vouch>
+  <vouch vouchtype="12" name="调拨单" vo="USERPVO.TransVouch" pst="USERPDMO.TransVouchPst"       checksql="select id,ctvcode from transvouch where cdefine11=@ccode" ccode ="单据号"     strgetu8code="select ctvcode from transvouch with (nolock) where id =@id " bhavred="0" su8codename="ctvcode" >
+    <u8set >
+      <hset>
+        <fld cu8name ="csource" cname="" cvalue ="1" bcheck ="0" bsql="0" />
+        <fld cu8name ="itransflag" cname="" cvalue ="正向" bcheck ="0" bsql="0" />
+        <fld cu8name ="dtvdate" cname="单据日期" cvalue ="" bcheck ="1" bsql="0" />
+        <fld cu8name ="cwhname" cname="转出仓库编码" cvalue ="" bcheck ="1" bsql="0" />
+        <fld cu8name ="cwhname_1" cname="转入仓库编码" cvalue ="" bcheck ="1" bsql="0" />
+        <fld cu8name ="cdepname" cname="转入部门编码" cvalue ="" bcheck ="1" bsql="0" />
+        <fld cu8name ="cdepname_1" cname="转出部门编码" cvalue ="" bcheck ="1" bsql="0" />
+        <fld cu8name ="crdname" cname="入库类别编码" cvalue ="" bcheck ="1" bsql="0" />
+        <fld cu8name ="cirdcode" cname="入库类别编码" cvalue ="" bcheck ="1" bsql="0" />
+        <fld cu8name ="crdname_1" cname="出库类别编码" cvalue ="" bcheck ="1" bsql="0" />
+        <fld cu8name ="cordcode" cname="出库类别编码" cvalue ="" bcheck ="1" bsql="0" />
+        <fld cu8name ="cpersoncode" cname="业务员编码" cvalue ="" bcheck ="1" bsql="0" />
+        <fld cu8name ="cpersonname" cname="业务员编码" cvalue ="" bcheck ="1" bsql="0" />
+        <fld cu8name ="cdefine11" cname="单据号" cvalue ="" bcheck ="0" bsql="0" />
+        <fld cu8name ="cdefine12" cname="外部唯一id" cvalue ="" bcheck ="0" bsql="0" />
+        <fld cu8name ="cmaker" cname="制单人" cvalue ="" bcheck ="0" bsql="0" />
+        <fld cu8name ="ctvmemo" cname="备注" cvalue ="" bcheck ="0" bsql="0" />
+        <fld cu8name ="ctvcode" cname="单据号" cvalue ="" bcheck ="0" bsql="0" />
+      </hset>
+      <bset>
+        <fld cu8name ="cinvcode" cname="存货编码" cvalue ="" bcheck ="1" bsql="0" />
+        <fld cu8name ="ctvbatch" cname="批次" cvalue ="" bcheck ="0" bsql="0" />
+        <fld cu8name ="cfree1" cname="自由项1" cvalue ="" bcheck ="0" bsql="0" />
+        <fld cu8name ="cfree2" cname="自由项2" cvalue ="" bcheck ="0" bsql="0" />
+        <fld cu8name ="cfree3" cname="自由项3" cvalue ="" bcheck ="0" bsql="0" />
+        <fld cu8name ="cfree4" cname="自由项4" cvalue ="" bcheck ="0" bsql="0" />
+        <fld cu8name ="cfree5" cname="自由项5" cvalue ="" bcheck ="0" bsql="0" />
+        <fld cu8name ="cfree6" cname="自由项6" cvalue ="" bcheck ="0" bsql="0" />
+        <fld cu8name ="cfree7" cname="自由项7" cvalue ="" bcheck ="0" bsql="0" />
+        <fld cu8name ="cfree8" cname="自由项8" cvalue ="" bcheck ="0" bsql="0" />
+        <fld cu8name ="cfree9" cname="自由项9" cvalue ="" bcheck ="0" bsql="0" />
+        <fld cu8name ="cfree10" cname="自由项10" cvalue ="" bcheck ="0" bsql="0" />
+        <fld cu8name ="itvquantity" cname="数量" cvalue ="" bcheck ="1" bsql="0" />
+        <fld cu8name ="irowno" cname="行号" cvalue ="" bcheck ="0" bsql="0" />
+      </bset>
+    </u8set>
+  </vouch>
+</sets>

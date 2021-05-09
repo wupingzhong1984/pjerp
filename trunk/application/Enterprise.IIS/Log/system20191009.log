@@ -1,0 +1,43 @@
+﻿2019/10/09 +08:00 14:44:52     [17828] Enterprise.Framework.Log.LogUtil.ErrorLog(:0) Enterprise.Framework.Log.LogUtil.ErrorLog(:0) [(null)] - 
+错误开始===========================================
+客户机IP:::1
+错误地址:http://localhost:19008/Business/Factor/PipeCarSalesVolume.aspx
+异常信息:引发类型为“System.Web.HttpUnhandledException”的异常。
+错误结束=========================================== e 
+System.Web.HttpUnhandledException (0x80004005): 引发类型为“System.Web.HttpUnhandledException”的异常。 ---> System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 Enterprise.IIS.business.Factor.PipeCarSalesVolume.Grid1_RowDataBound(Object sender, GridRowEventArgs e) 位置 h:\ffqserp\trunk\application\Enterprise.IIS\business\Factor\PipeCarSalesVolume.aspx.cs:行号 250
+   在 FineUI.Grid.OnRowDataBound(GridRowEventArgs e)
+   在 FineUI.Grid.DataBindRow(Int32 rowIndex, Object rowObj)
+   在 FineUI.Grid.DataBindToDataTable(DataTable dataTable)
+   在 FineUI.Grid.DataBind()
+   在 Enterprise.IIS.business.Factor.PipeCarSalesVolume.BindData() 位置 h:\ffqserp\trunk\application\Enterprise.IIS\business\Factor\PipeCarSalesVolume.aspx.cs:行号 147
+   在 Enterprise.IIS.business.Factor.PipeCarSalesVolume.btnSearch_Click(Object sender, EventArgs e) 位置 h:\ffqserp\trunk\application\Enterprise.IIS\business\Factor\PipeCarSalesVolume.aspx.cs:行号 153
+   在 FineUI.Button.OnClick(EventArgs e)
+   在 FineUI.Button.RaisePostBackEvent(String eventArgument)
+   在 System.Web.UI.Page.RaisePostBackEvent(IPostBackEventHandler sourceControl, String eventArgument)
+   在 System.Web.UI.Page.RaisePostBackEvent(NameValueCollection postData)
+   在 System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   在 System.Web.UI.Page.HandleError(Exception e)
+   在 System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   在 System.Web.UI.Page.ProcessRequest(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   在 System.Web.UI.Page.ProcessRequest()
+   在 System.Web.UI.Page.ProcessRequestWithNoAssert(HttpContext context)
+   在 System.Web.UI.Page.ProcessRequest(HttpContext context)
+   在 ASP.business_factor_pipecarsalesvolume_aspx.ProcessRequest(HttpContext context) 位置 c:\Windows\Microsoft.NET\Framework\v4.0.30319\Temporary ASP.NET Files\vs\b3079d60\a8129d37\App_Web_fsex0xc3.1.cs:行号 0
+   在 System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   在 System.Web.HttpApplication.ExecuteStepImpl(IExecutionStep step)
+   在 System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+2019/10/09 +08:00 14:44:53     [17828] Enterprise.Framework.Log.LogUtil.ErrorLog(:0) Enterprise.Framework.Log.LogUtil.ErrorLog(:0) [(null)] - 未将对象引用设置到对象的实例。 e 
+System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 Enterprise.IIS.business.Factor.PipeCarSalesVolume.Grid1_RowDataBound(Object sender, GridRowEventArgs e) 位置 h:\ffqserp\trunk\application\Enterprise.IIS\business\Factor\PipeCarSalesVolume.aspx.cs:行号 250
+   在 FineUI.Grid.OnRowDataBound(GridRowEventArgs e)
+   在 FineUI.Grid.DataBindRow(Int32 rowIndex, Object rowObj)
+   在 FineUI.Grid.DataBindToDataTable(DataTable dataTable)
+   在 FineUI.Grid.DataBind()
+   在 Enterprise.IIS.business.Factor.PipeCarSalesVolume.BindData() 位置 h:\ffqserp\trunk\application\Enterprise.IIS\business\Factor\PipeCarSalesVolume.aspx.cs:行号 147
+   在 Enterprise.IIS.business.Factor.PipeCarSalesVolume.btnSearch_Click(Object sender, EventArgs e) 位置 h:\ffqserp\trunk\application\Enterprise.IIS\business\Factor\PipeCarSalesVolume.aspx.cs:行号 153
+   在 FineUI.Button.OnClick(EventArgs e)
+   在 FineUI.Button.RaisePostBackEvent(String eventArgument)
+   在 System.Web.UI.Page.RaisePostBackEvent(IPostBackEventHandler sourceControl, String eventArgument)
+   在 System.Web.UI.Page.RaisePostBackEvent(NameValueCollection postData)
+   在 System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)

@@ -1,0 +1,558 @@
+﻿2020/10/27 +08:00 10:47:18     [20188] Enterprise.Framework.Log.LogUtil.ErrorLog(:0) Enterprise.Framework.Log.LogUtil.ErrorLog(:0) [(null)] - 
+错误开始===========================================
+客户机IP:::1
+错误地址:http://localhost:19008/default.aspx
+异常信息:引发类型为“System.Web.HttpUnhandledException”的异常。
+错误结束=========================================== e 
+System.Web.HttpUnhandledException (0x80004005): 引发类型为“System.Web.HttpUnhandledException”的异常。 ---> System.Data.EntityCommandCompilationException: 准备命令定义时出错。有关详细信息，请参阅内部异常。 ---> System.Data.MappingException: 
+HNLH_BASE.msl(3,4) : 错误 3027: 没有为以下 EntitySet/AssociationSet 指定映射 - V_ProducePlacePrice, V_ProducePlacePriceByMonth。
+   在 System.Data.Mapping.StorageMappingItemCollection.ViewDictionary.SerializedGenerateViews(StorageEntityContainerMapping entityContainerMap, Dictionary`2 resultDictionary)
+   在 System.Data.Mapping.StorageMappingItemCollection.ViewDictionary.SerializedGetGeneratedViews(EntityContainer container)
+   在 System.Data.Common.Utils.Memoizer`2.<>c__DisplayClass4_0.<Evaluate>b__0()
+   在 System.Data.Common.Utils.Memoizer`2.Result.GetValue()
+   在 System.Data.Common.Utils.Memoizer`2.Evaluate(TArg arg)
+   在 System.Data.Mapping.StorageMappingItemCollection.ViewDictionary.GetGeneratedView(EntitySetBase extent, MetadataWorkspace workspace, StorageMappingItemCollection storageMappingItemCollection)
+   在 System.Data.Mapping.StorageMappingItemCollection.GetGeneratedView(EntitySetBase extent, MetadataWorkspace workspace)
+   在 System.Data.Metadata.Edm.MetadataWorkspace.GetGeneratedView(EntitySetBase extent)
+   在 System.Data.Query.PlanCompiler.PreProcessor.ExpandView(Node node, ScanTableOp scanTableOp, IsOfOp& typeFilter)
+   在 System.Data.Query.PlanCompiler.PreProcessor.ProcessScanTable(Node scanTableNode, ScanTableOp scanTableOp, IsOfOp& typeFilter)
+   在 System.Data.Query.PlanCompiler.PreProcessor.Visit(ScanTableOp op, Node n)
+   在 System.Data.Query.InternalTrees.ScanTableOp.Accept[TResultType](BasicOpVisitorOfT`1 v, Node n)
+   在 System.Data.Query.InternalTrees.BasicOpVisitorOfT`1.VisitNode(Node n)
+   在 System.Data.Query.PlanCompiler.SubqueryTrackingVisitor.VisitChildren(Node n)
+   在 System.Data.Query.PlanCompiler.SubqueryTrackingVisitor.VisitRelOpDefault(RelOp op, Node n)
+   在 System.Data.Query.PlanCompiler.PreProcessor.Visit(FilterOp op, Node n)
+   在 System.Data.Query.InternalTrees.FilterOp.Accept[TResultType](BasicOpVisitorOfT`1 v, Node n)
+   在 System.Data.Query.InternalTrees.BasicOpVisitorOfT`1.VisitNode(Node n)
+   在 System.Data.Query.PlanCompiler.SubqueryTrackingVisitor.VisitChildren(Node n)
+   在 System.Data.Query.PlanCompiler.SubqueryTrackingVisitor.VisitRelOpDefault(RelOp op, Node n)
+   在 System.Data.Query.InternalTrees.BasicOpVisitorOfT`1.VisitSortOp(SortBaseOp op, Node n)
+   在 System.Data.Query.InternalTrees.BasicOpVisitorOfT`1.Visit(ConstrainedSortOp op, Node n)
+   在 System.Data.Query.InternalTrees.ConstrainedSortOp.Accept[TResultType](BasicOpVisitorOfT`1 v, Node n)
+   在 System.Data.Query.InternalTrees.BasicOpVisitorOfT`1.VisitNode(Node n)
+   在 System.Data.Query.PlanCompiler.SubqueryTrackingVisitor.VisitChildren(Node n)
+   在 System.Data.Query.InternalTrees.BasicOpVisitorOfNode.VisitDefault(Node n)
+   在 System.Data.Query.InternalTrees.BasicOpVisitorOfNode.VisitPhysicalOpDefault(PhysicalOp op, Node n)
+   在 System.Data.Query.InternalTrees.BasicOpVisitorOfT`1.Visit(PhysicalProjectOp op, Node n)
+   在 System.Data.Query.InternalTrees.PhysicalProjectOp.Accept[TResultType](BasicOpVisitorOfT`1 v, Node n)
+   在 System.Data.Query.InternalTrees.BasicOpVisitorOfT`1.VisitNode(Node n)
+   在 System.Data.Query.PlanCompiler.PreProcessor.Process(Dictionary`2& tvfResultKeys)
+   在 System.Data.Query.PlanCompiler.PreProcessor.Process(PlanCompiler planCompilerState, StructuredTypeInfo& typeInfo, Dictionary`2& tvfResultKeys)
+   在 System.Data.Query.PlanCompiler.PlanCompiler.Compile(List`1& providerCommands, ColumnMap& resultColumnMap, Int32& columnCount, Set`1& entitySets)
+   在 System.Data.Query.PlanCompiler.PlanCompiler.Compile(DbCommandTree ctree, List`1& providerCommands, ColumnMap& resultColumnMap, Int32& columnCount, Set`1& entitySets)
+   在 System.Data.EntityClient.EntityCommandDefinition..ctor(DbProviderFactory storeProviderFactory, DbCommandTree commandTree)
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 System.Data.EntityClient.EntityCommandDefinition..ctor(DbProviderFactory storeProviderFactory, DbCommandTree commandTree)
+   在 System.Data.EntityClient.EntityProviderServices.CreateCommandDefinition(DbProviderFactory storeProviderFactory, DbCommandTree commandTree)
+   在 System.Data.EntityClient.EntityProviderServices.CreateDbCommandDefinition(DbProviderManifest providerManifest, DbCommandTree commandTree)
+   在 System.Data.Common.DbProviderServices.CreateCommandDefinition(DbCommandTree commandTree)
+   在 System.Data.Objects.Internal.ObjectQueryExecutionPlan.Prepare(ObjectContext context, DbQueryCommandTree tree, Type elementType, MergeOption mergeOption, Span span, ReadOnlyCollection`1 compiledQueryParameters, AliasGenerator aliasGenerator)
+   在 System.Data.Objects.ELinq.ELinqQueryState.GetExecutionPlan(Nullable`1 forMergeOption)
+   在 System.Data.Objects.ObjectQuery`1.GetResults(Nullable`1 forMergeOption)
+   在 System.Data.Objects.ObjectQuery`1.System.Collections.Generic.IEnumerable<T>.GetEnumerator()
+   在 System.Linq.Enumerable.FirstOrDefault[TSource](IEnumerable`1 source)
+   在 System.Data.Objects.ELinq.ObjectQueryProvider.<>c__11`1.<GetElementFunction>b__11_1(IEnumerable`1 sequence)
+   在 System.Data.Objects.ELinq.ObjectQueryProvider.ExecuteSingle[TResult](IEnumerable`1 query, Expression queryRoot)
+   在 System.Data.Objects.ELinq.ObjectQueryProvider.System.Linq.IQueryProvider.Execute[S](Expression expression)
+   在 System.Data.Entity.Internal.Linq.DbQueryProvider.Execute[TResult](Expression expression)
+   在 System.Linq.Queryable.FirstOrDefault[TSource](IQueryable`1 source, Expression`1 predicate)
+   在 Enterprise.Framework.EntityRepository.EntityRepositoryBase`2.FirstOrDefault(Expression`1 predicate)
+   在 Enterprise.IIS._default.InitTreeMenu() 位置 h:\ffqserp\trunk\application\Enterprise.IIS\default.aspx.cs:行号 333
+   在 Enterprise.IIS._default.Page_Init(Object sender, EventArgs e) 位置 h:\ffqserp\trunk\application\Enterprise.IIS\default.aspx.cs:行号 147
+   在 System.Web.Util.CalliEventHandlerDelegateProxy.Callback(Object sender, EventArgs e)
+   在 System.Web.UI.Control.OnInit(EventArgs e)
+   在 System.Web.UI.Page.OnInit(EventArgs e)
+   在 Enterprise.Data.PageBase.OnInit(EventArgs e)
+   在 System.Web.UI.Control.InitRecursive(Control namingContainer)
+   在 System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   在 System.Web.UI.Page.HandleError(Exception e)
+   在 System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   在 System.Web.UI.Page.ProcessRequest(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   在 System.Web.UI.Page.ProcessRequest()
+   在 System.Web.UI.Page.ProcessRequestWithNoAssert(HttpContext context)
+   在 System.Web.UI.Page.ProcessRequest(HttpContext context)
+   在 ASP.default_aspx.ProcessRequest(HttpContext context) 位置 c:\Windows\Microsoft.NET\Framework\v4.0.30319\Temporary ASP.NET Files\vs\b3079d60\a8129d37\App_Web_yne24nyu.0.cs:行号 0
+   在 System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   在 System.Web.HttpApplication.ExecuteStepImpl(IExecutionStep step)
+   在 System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+2020/10/27 +08:00 10:47:18     [20188] Enterprise.Framework.Log.LogUtil.ErrorLog(:0) Enterprise.Framework.Log.LogUtil.ErrorLog(:0) [(null)] - 
+HNLH_BASE.msl(3,4) : 错误 3027: 没有为以下 EntitySet/AssociationSet 指定映射 - V_ProducePlacePrice, V_ProducePlacePriceByMonth。 e 
+System.Data.MappingException: 
+HNLH_BASE.msl(3,4) : 错误 3027: 没有为以下 EntitySet/AssociationSet 指定映射 - V_ProducePlacePrice, V_ProducePlacePriceByMonth。
+   在 System.Data.Mapping.StorageMappingItemCollection.ViewDictionary.SerializedGenerateViews(StorageEntityContainerMapping entityContainerMap, Dictionary`2 resultDictionary)
+   在 System.Data.Mapping.StorageMappingItemCollection.ViewDictionary.SerializedGetGeneratedViews(EntityContainer container)
+   在 System.Data.Common.Utils.Memoizer`2.<>c__DisplayClass4_0.<Evaluate>b__0()
+   在 System.Data.Common.Utils.Memoizer`2.Result.GetValue()
+   在 System.Data.Common.Utils.Memoizer`2.Evaluate(TArg arg)
+   在 System.Data.Mapping.StorageMappingItemCollection.ViewDictionary.GetGeneratedView(EntitySetBase extent, MetadataWorkspace workspace, StorageMappingItemCollection storageMappingItemCollection)
+   在 System.Data.Mapping.StorageMappingItemCollection.GetGeneratedView(EntitySetBase extent, MetadataWorkspace workspace)
+   在 System.Data.Metadata.Edm.MetadataWorkspace.GetGeneratedView(EntitySetBase extent)
+   在 System.Data.Query.PlanCompiler.PreProcessor.ExpandView(Node node, ScanTableOp scanTableOp, IsOfOp& typeFilter)
+   在 System.Data.Query.PlanCompiler.PreProcessor.ProcessScanTable(Node scanTableNode, ScanTableOp scanTableOp, IsOfOp& typeFilter)
+   在 System.Data.Query.PlanCompiler.PreProcessor.Visit(ScanTableOp op, Node n)
+   在 System.Data.Query.InternalTrees.ScanTableOp.Accept[TResultType](BasicOpVisitorOfT`1 v, Node n)
+   在 System.Data.Query.InternalTrees.BasicOpVisitorOfT`1.VisitNode(Node n)
+   在 System.Data.Query.PlanCompiler.SubqueryTrackingVisitor.VisitChildren(Node n)
+   在 System.Data.Query.PlanCompiler.SubqueryTrackingVisitor.VisitRelOpDefault(RelOp op, Node n)
+   在 System.Data.Query.PlanCompiler.PreProcessor.Visit(FilterOp op, Node n)
+   在 System.Data.Query.InternalTrees.FilterOp.Accept[TResultType](BasicOpVisitorOfT`1 v, Node n)
+   在 System.Data.Query.InternalTrees.BasicOpVisitorOfT`1.VisitNode(Node n)
+   在 System.Data.Query.PlanCompiler.SubqueryTrackingVisitor.VisitChildren(Node n)
+   在 System.Data.Query.PlanCompiler.SubqueryTrackingVisitor.VisitRelOpDefault(RelOp op, Node n)
+   在 System.Data.Query.InternalTrees.BasicOpVisitorOfT`1.VisitSortOp(SortBaseOp op, Node n)
+   在 System.Data.Query.InternalTrees.BasicOpVisitorOfT`1.Visit(ConstrainedSortOp op, Node n)
+   在 System.Data.Query.InternalTrees.ConstrainedSortOp.Accept[TResultType](BasicOpVisitorOfT`1 v, Node n)
+   在 System.Data.Query.InternalTrees.BasicOpVisitorOfT`1.VisitNode(Node n)
+   在 System.Data.Query.PlanCompiler.SubqueryTrackingVisitor.VisitChildren(Node n)
+   在 System.Data.Query.InternalTrees.BasicOpVisitorOfNode.VisitDefault(Node n)
+   在 System.Data.Query.InternalTrees.BasicOpVisitorOfNode.VisitPhysicalOpDefault(PhysicalOp op, Node n)
+   在 System.Data.Query.InternalTrees.BasicOpVisitorOfT`1.Visit(PhysicalProjectOp op, Node n)
+   在 System.Data.Query.InternalTrees.PhysicalProjectOp.Accept[TResultType](BasicOpVisitorOfT`1 v, Node n)
+   在 System.Data.Query.InternalTrees.BasicOpVisitorOfT`1.VisitNode(Node n)
+   在 System.Data.Query.PlanCompiler.PreProcessor.Process(Dictionary`2& tvfResultKeys)
+   在 System.Data.Query.PlanCompiler.PreProcessor.Process(PlanCompiler planCompilerState, StructuredTypeInfo& typeInfo, Dictionary`2& tvfResultKeys)
+   在 System.Data.Query.PlanCompiler.PlanCompiler.Compile(List`1& providerCommands, ColumnMap& resultColumnMap, Int32& columnCount, Set`1& entitySets)
+   在 System.Data.Query.PlanCompiler.PlanCompiler.Compile(DbCommandTree ctree, List`1& providerCommands, ColumnMap& resultColumnMap, Int32& columnCount, Set`1& entitySets)
+   在 System.Data.EntityClient.EntityCommandDefinition..ctor(DbProviderFactory storeProviderFactory, DbCommandTree commandTree)
+2020/10/27 +08:00 12:26:23     [14420] Enterprise.Framework.Log.LogUtil.ErrorLog(:0) Enterprise.Framework.Log.LogUtil.ErrorLog(:0) [(null)] - 
+错误开始===========================================
+客户机IP:::1
+错误地址:http://localhost:19008/business/Vehicle/InitEdit.aspx?action=1
+异常信息:引发类型为“System.Web.HttpUnhandledException”的异常。
+错误结束=========================================== e 
+System.Web.HttpUnhandledException (0x80004005): 引发类型为“System.Web.HttpUnhandledException”的异常。 ---> System.NotSupportedException: LINQ to Entities 不支持 LINQ 表达式节点类型“ArrayIndex”。
+   在 System.Data.Objects.ELinq.ExpressionConverter.NotSupportedTranslator.Translate(ExpressionConverter parent, Expression linq)
+   在 System.Data.Objects.ELinq.ExpressionConverter.TranslateExpression(Expression linq)
+   在 System.Data.Objects.ELinq.ExpressionConverter.EqualsTranslator.TypedTranslate(ExpressionConverter parent, BinaryExpression linq)
+   在 System.Data.Objects.ELinq.ExpressionConverter.TypedTranslator`1.Translate(ExpressionConverter parent, Expression linq)
+   在 System.Data.Objects.ELinq.ExpressionConverter.TranslateExpression(Expression linq)
+   在 System.Data.Objects.ELinq.ExpressionConverter.TranslateLambda(LambdaExpression lambda, DbExpression input)
+   在 System.Data.Objects.ELinq.ExpressionConverter.TranslateLambda(LambdaExpression lambda, DbExpression input, DbExpressionBinding& binding)
+   在 System.Data.Objects.ELinq.ExpressionConverter.MethodCallTranslator.OneLambdaTranslator.Translate(ExpressionConverter parent, MethodCallExpression call, DbExpression& source, DbExpressionBinding& sourceBinding, DbExpression& lambda)
+   在 System.Data.Objects.ELinq.ExpressionConverter.MethodCallTranslator.OneLambdaTranslator.Translate(ExpressionConverter parent, MethodCallExpression call)
+   在 System.Data.Objects.ELinq.ExpressionConverter.MethodCallTranslator.SequenceMethodTranslator.Translate(ExpressionConverter parent, MethodCallExpression call, SequenceMethod sequenceMethod)
+   在 System.Data.Objects.ELinq.ExpressionConverter.MethodCallTranslator.TypedTranslate(ExpressionConverter parent, MethodCallExpression linq)
+   在 System.Data.Objects.ELinq.ExpressionConverter.TypedTranslator`1.Translate(ExpressionConverter parent, Expression linq)
+   在 System.Data.Objects.ELinq.ExpressionConverter.TranslateExpression(Expression linq)
+   在 System.Data.Objects.ELinq.ExpressionConverter.TranslateSet(Expression linq)
+   在 System.Data.Objects.ELinq.ExpressionConverter.MethodCallTranslator.UnarySequenceMethodTranslator.Translate(ExpressionConverter parent, MethodCallExpression call)
+   在 System.Data.Objects.ELinq.ExpressionConverter.MethodCallTranslator.SequenceMethodTranslator.Translate(ExpressionConverter parent, MethodCallExpression call, SequenceMethod sequenceMethod)
+   在 System.Data.Objects.ELinq.ExpressionConverter.MethodCallTranslator.TypedTranslate(ExpressionConverter parent, MethodCallExpression linq)
+   在 System.Data.Objects.ELinq.ExpressionConverter.TypedTranslator`1.Translate(ExpressionConverter parent, Expression linq)
+   在 System.Data.Objects.ELinq.ExpressionConverter.TranslateExpression(Expression linq)
+   在 System.Data.Objects.ELinq.ExpressionConverter.Convert()
+   在 System.Data.Objects.ELinq.ELinqQueryState.GetExecutionPlan(Nullable`1 forMergeOption)
+   在 System.Data.Objects.ObjectQuery`1.GetResults(Nullable`1 forMergeOption)
+   在 System.Data.Objects.ObjectQuery`1.System.Collections.Generic.IEnumerable<T>.GetEnumerator()
+   在 System.Linq.Enumerable.FirstOrDefault[TSource](IEnumerable`1 source)
+   在 System.Data.Objects.ELinq.ObjectQueryProvider.<>c__11`1.<GetElementFunction>b__11_1(IEnumerable`1 sequence)
+   在 System.Data.Objects.ELinq.ObjectQueryProvider.ExecuteSingle[TResult](IEnumerable`1 query, Expression queryRoot)
+   在 System.Data.Objects.ELinq.ObjectQueryProvider.System.Linq.IQueryProvider.Execute[S](Expression expression)
+   在 System.Data.Entity.Internal.Linq.DbQueryProvider.Execute[TResult](Expression expression)
+   在 System.Linq.Queryable.FirstOrDefault[TSource](IQueryable`1 source)
+   在 Enterprise.IIS.business.Vehicle.InitEdit.Page_Load(Object sender, EventArgs e) 位置 h:\ffqserp\trunk\application\Enterprise.IIS\business\Vehicle\InitEdit.aspx.cs:行号 268
+   在 System.Web.Util.CalliEventHandlerDelegateProxy.Callback(Object sender, EventArgs e)
+   在 System.Web.UI.Control.OnLoad(EventArgs e)
+   在 System.Web.UI.Control.LoadRecursive()
+   在 System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   在 System.Web.UI.Page.HandleError(Exception e)
+   在 System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   在 System.Web.UI.Page.ProcessRequest(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   在 System.Web.UI.Page.ProcessRequest()
+   在 System.Web.UI.Page.ProcessRequestWithNoAssert(HttpContext context)
+   在 System.Web.UI.Page.ProcessRequest(HttpContext context)
+   在 ASP.business_vehicle_initedit_aspx.ProcessRequest(HttpContext context) 位置 c:\Windows\Microsoft.NET\Framework\v4.0.30319\Temporary ASP.NET Files\vs\b3079d60\a8129d37\App_Web_myxq3imr.3.cs:行号 0
+   在 System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   在 System.Web.HttpApplication.ExecuteStepImpl(IExecutionStep step)
+   在 System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+2020/10/27 +08:00 12:26:23     [14420] Enterprise.Framework.Log.LogUtil.ErrorLog(:0) Enterprise.Framework.Log.LogUtil.ErrorLog(:0) [(null)] - LINQ to Entities 不支持 LINQ 表达式节点类型“ArrayIndex”。 e 
+System.NotSupportedException: LINQ to Entities 不支持 LINQ 表达式节点类型“ArrayIndex”。
+   在 System.Data.Objects.ELinq.ExpressionConverter.NotSupportedTranslator.Translate(ExpressionConverter parent, Expression linq)
+   在 System.Data.Objects.ELinq.ExpressionConverter.TranslateExpression(Expression linq)
+   在 System.Data.Objects.ELinq.ExpressionConverter.EqualsTranslator.TypedTranslate(ExpressionConverter parent, BinaryExpression linq)
+   在 System.Data.Objects.ELinq.ExpressionConverter.TypedTranslator`1.Translate(ExpressionConverter parent, Expression linq)
+   在 System.Data.Objects.ELinq.ExpressionConverter.TranslateExpression(Expression linq)
+   在 System.Data.Objects.ELinq.ExpressionConverter.TranslateLambda(LambdaExpression lambda, DbExpression input)
+   在 System.Data.Objects.ELinq.ExpressionConverter.TranslateLambda(LambdaExpression lambda, DbExpression input, DbExpressionBinding& binding)
+   在 System.Data.Objects.ELinq.ExpressionConverter.MethodCallTranslator.OneLambdaTranslator.Translate(ExpressionConverter parent, MethodCallExpression call, DbExpression& source, DbExpressionBinding& sourceBinding, DbExpression& lambda)
+   在 System.Data.Objects.ELinq.ExpressionConverter.MethodCallTranslator.OneLambdaTranslator.Translate(ExpressionConverter parent, MethodCallExpression call)
+   在 System.Data.Objects.ELinq.ExpressionConverter.MethodCallTranslator.SequenceMethodTranslator.Translate(ExpressionConverter parent, MethodCallExpression call, SequenceMethod sequenceMethod)
+   在 System.Data.Objects.ELinq.ExpressionConverter.MethodCallTranslator.TypedTranslate(ExpressionConverter parent, MethodCallExpression linq)
+   在 System.Data.Objects.ELinq.ExpressionConverter.TypedTranslator`1.Translate(ExpressionConverter parent, Expression linq)
+   在 System.Data.Objects.ELinq.ExpressionConverter.TranslateExpression(Expression linq)
+   在 System.Data.Objects.ELinq.ExpressionConverter.TranslateSet(Expression linq)
+   在 System.Data.Objects.ELinq.ExpressionConverter.MethodCallTranslator.UnarySequenceMethodTranslator.Translate(ExpressionConverter parent, MethodCallExpression call)
+   在 System.Data.Objects.ELinq.ExpressionConverter.MethodCallTranslator.SequenceMethodTranslator.Translate(ExpressionConverter parent, MethodCallExpression call, SequenceMethod sequenceMethod)
+   在 System.Data.Objects.ELinq.ExpressionConverter.MethodCallTranslator.TypedTranslate(ExpressionConverter parent, MethodCallExpression linq)
+   在 System.Data.Objects.ELinq.ExpressionConverter.TypedTranslator`1.Translate(ExpressionConverter parent, Expression linq)
+   在 System.Data.Objects.ELinq.ExpressionConverter.TranslateExpression(Expression linq)
+   在 System.Data.Objects.ELinq.ExpressionConverter.Convert()
+   在 System.Data.Objects.ELinq.ELinqQueryState.GetExecutionPlan(Nullable`1 forMergeOption)
+   在 System.Data.Objects.ObjectQuery`1.GetResults(Nullable`1 forMergeOption)
+   在 System.Data.Objects.ObjectQuery`1.System.Collections.Generic.IEnumerable<T>.GetEnumerator()
+   在 System.Linq.Enumerable.FirstOrDefault[TSource](IEnumerable`1 source)
+   在 System.Data.Objects.ELinq.ObjectQueryProvider.<>c__11`1.<GetElementFunction>b__11_1(IEnumerable`1 sequence)
+   在 System.Data.Objects.ELinq.ObjectQueryProvider.ExecuteSingle[TResult](IEnumerable`1 query, Expression queryRoot)
+   在 System.Data.Objects.ELinq.ObjectQueryProvider.System.Linq.IQueryProvider.Execute[S](Expression expression)
+   在 System.Data.Entity.Internal.Linq.DbQueryProvider.Execute[TResult](Expression expression)
+   在 System.Linq.Queryable.FirstOrDefault[TSource](IQueryable`1 source)
+   在 Enterprise.IIS.business.Vehicle.InitEdit.Page_Load(Object sender, EventArgs e) 位置 h:\ffqserp\trunk\application\Enterprise.IIS\business\Vehicle\InitEdit.aspx.cs:行号 268
+   在 System.Web.Util.CalliEventHandlerDelegateProxy.Callback(Object sender, EventArgs e)
+   在 System.Web.UI.Control.OnLoad(EventArgs e)
+   在 System.Web.UI.Control.LoadRecursive()
+   在 System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+2020/10/27 +08:00 12:29:07     [22260] Enterprise.Framework.Log.LogUtil.ErrorLog(:0) Enterprise.Framework.Log.LogUtil.ErrorLog(:0) [(null)] - 
+错误开始===========================================
+客户机IP:::1
+错误地址:http://localhost:19008/business/Vehicle/InitEdit.aspx?action=1
+异常信息:引发类型为“System.Web.HttpUnhandledException”的异常。
+错误结束=========================================== e 
+System.Web.HttpUnhandledException (0x80004005): 引发类型为“System.Web.HttpUnhandledException”的异常。 ---> System.Data.SqlClient.SqlException (0x80131904): 过程或函数 'proc_SalesOrder' 需要参数 '@keyid'，但未提供该参数。
+   在 Enterprise.DataAccess.SQLServer.Enterprise.ExecuteProcedureCommand(String procedureName, Dictionary`2 parameter)
+   在 Enterprise.DataAccess.SQLServer.SqlService.ExecuteProcedureCommand(String procedureName, Dictionary`2 dictParameterParameter)
+   在 Enterprise.IIS.business.Vehicle.InitEdit.BindDataGrid() 位置 h:\ffqserp\trunk\application\Enterprise.IIS\business\Vehicle\InitEdit.aspx.cs:行号 587
+   在 Enterprise.IIS.business.Vehicle.InitEdit.Page_Load(Object sender, EventArgs e) 位置 h:\ffqserp\trunk\application\Enterprise.IIS\business\Vehicle\InitEdit.aspx.cs:行号 277
+   在 System.Web.Util.CalliEventHandlerDelegateProxy.Callback(Object sender, EventArgs e)
+   在 System.Web.UI.Control.OnLoad(EventArgs e)
+   在 System.Web.UI.Control.LoadRecursive()
+   在 System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+ClientConnectionId:a938988d-0ab9-471a-9dbe-a600d2febdbe
+Error Number:201,State:4,Class:16
+   在 System.Web.UI.Page.HandleError(Exception e)
+   在 System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   在 System.Web.UI.Page.ProcessRequest(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   在 System.Web.UI.Page.ProcessRequest()
+   在 System.Web.UI.Page.ProcessRequestWithNoAssert(HttpContext context)
+   在 System.Web.UI.Page.ProcessRequest(HttpContext context)
+   在 ASP.business_vehicle_initedit_aspx.ProcessRequest(HttpContext context) 位置 c:\Windows\Microsoft.NET\Framework\v4.0.30319\Temporary ASP.NET Files\vs\b3079d60\a8129d37\App_Web_cqumxyse.2.cs:行号 0
+   在 System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   在 System.Web.HttpApplication.ExecuteStepImpl(IExecutionStep step)
+   在 System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+2020/10/27 +08:00 12:29:07     [22260] Enterprise.Framework.Log.LogUtil.ErrorLog(:0) Enterprise.Framework.Log.LogUtil.ErrorLog(:0) [(null)] - 过程或函数 'proc_SalesOrder' 需要参数 '@keyid'，但未提供该参数。 e 
+System.Data.SqlClient.SqlException (0x80131904): 过程或函数 'proc_SalesOrder' 需要参数 '@keyid'，但未提供该参数。
+   在 Enterprise.DataAccess.SQLServer.Enterprise.ExecuteProcedureCommand(String procedureName, Dictionary`2 parameter)
+   在 Enterprise.DataAccess.SQLServer.SqlService.ExecuteProcedureCommand(String procedureName, Dictionary`2 dictParameterParameter)
+   在 Enterprise.IIS.business.Vehicle.InitEdit.BindDataGrid() 位置 h:\ffqserp\trunk\application\Enterprise.IIS\business\Vehicle\InitEdit.aspx.cs:行号 587
+   在 Enterprise.IIS.business.Vehicle.InitEdit.Page_Load(Object sender, EventArgs e) 位置 h:\ffqserp\trunk\application\Enterprise.IIS\business\Vehicle\InitEdit.aspx.cs:行号 277
+   在 System.Web.Util.CalliEventHandlerDelegateProxy.Callback(Object sender, EventArgs e)
+   在 System.Web.UI.Control.OnLoad(EventArgs e)
+   在 System.Web.UI.Control.LoadRecursive()
+   在 System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+ClientConnectionId:a938988d-0ab9-471a-9dbe-a600d2febdbe
+Error Number:201,State:4,Class:16
+2020/10/27 +08:00 13:36:22     [1804] Enterprise.Framework.Log.LogUtil.ErrorLog(:0) Enterprise.Framework.Log.LogUtil.ErrorLog(:0) [(null)] - 
+错误开始===========================================
+客户机IP:::1
+错误地址:http://localhost:19008/Common/WinSalesTask.aspx?FType=1
+异常信息:引发类型为“System.Web.HttpUnhandledException”的异常。
+错误结束=========================================== e 
+System.Web.HttpUnhandledException (0x80004005): 引发类型为“System.Web.HttpUnhandledException”的异常。 ---> System.ArgumentException: 用户定义的运算符方法“Boolean Contains(System.String)”必须是静态的。
+   在 System.Linq.Expressions.Expression.ValidateOperator(MethodInfo method)
+   在 System.Linq.Expressions.Expression.GetMethodBasedBinaryOperator(ExpressionType binaryType, Expression left, Expression right, MethodInfo method, Boolean liftToNull)
+   在 System.Linq.Expressions.Expression.And(Expression left, Expression right, MethodInfo method)
+   在 Enterprise.IIS.Common.WinSalesTask.BuildPredicate(Object& orderingSelector) 位置 h:\ffqserp\trunk\application\Enterprise.IIS\Common\WinSalesTask.aspx.cs:行号 384
+   在 Enterprise.IIS.Common.WinSalesTask.BindDataGrid() 位置 h:\ffqserp\trunk\application\Enterprise.IIS\Common\WinSalesTask.aspx.cs:行号 352
+   在 Enterprise.IIS.Common.WinSalesTask.Page_Load(Object sender, EventArgs e) 位置 h:\ffqserp\trunk\application\Enterprise.IIS\Common\WinSalesTask.aspx.cs:行号 90
+   在 System.Web.Util.CalliEventHandlerDelegateProxy.Callback(Object sender, EventArgs e)
+   在 System.Web.UI.Control.OnLoad(EventArgs e)
+   在 System.Web.UI.Control.LoadRecursive()
+   在 System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   在 System.Web.UI.Page.HandleError(Exception e)
+   在 System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   在 System.Web.UI.Page.ProcessRequest(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   在 System.Web.UI.Page.ProcessRequest()
+   在 System.Web.UI.Page.ProcessRequestWithNoAssert(HttpContext context)
+   在 System.Web.UI.Page.ProcessRequest(HttpContext context)
+   在 ASP.common_winsalestask_aspx.ProcessRequest(HttpContext context) 位置 c:\Windows\Microsoft.NET\Framework\v4.0.30319\Temporary ASP.NET Files\vs\b3079d60\a8129d37\App_Web_3mdxodn0.7.cs:行号 0
+   在 System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   在 System.Web.HttpApplication.ExecuteStepImpl(IExecutionStep step)
+   在 System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+2020/10/27 +08:00 13:36:22     [1804] Enterprise.Framework.Log.LogUtil.ErrorLog(:0) Enterprise.Framework.Log.LogUtil.ErrorLog(:0) [(null)] - 用户定义的运算符方法“Boolean Contains(System.String)”必须是静态的。 e 
+System.ArgumentException: 用户定义的运算符方法“Boolean Contains(System.String)”必须是静态的。
+   在 System.Linq.Expressions.Expression.ValidateOperator(MethodInfo method)
+   在 System.Linq.Expressions.Expression.GetMethodBasedBinaryOperator(ExpressionType binaryType, Expression left, Expression right, MethodInfo method, Boolean liftToNull)
+   在 System.Linq.Expressions.Expression.And(Expression left, Expression right, MethodInfo method)
+   在 Enterprise.IIS.Common.WinSalesTask.BuildPredicate(Object& orderingSelector) 位置 h:\ffqserp\trunk\application\Enterprise.IIS\Common\WinSalesTask.aspx.cs:行号 384
+   在 Enterprise.IIS.Common.WinSalesTask.BindDataGrid() 位置 h:\ffqserp\trunk\application\Enterprise.IIS\Common\WinSalesTask.aspx.cs:行号 352
+   在 Enterprise.IIS.Common.WinSalesTask.Page_Load(Object sender, EventArgs e) 位置 h:\ffqserp\trunk\application\Enterprise.IIS\Common\WinSalesTask.aspx.cs:行号 90
+   在 System.Web.Util.CalliEventHandlerDelegateProxy.Callback(Object sender, EventArgs e)
+   在 System.Web.UI.Control.OnLoad(EventArgs e)
+   在 System.Web.UI.Control.LoadRecursive()
+   在 System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+2020/10/27 +08:00 14:13:11     [16452] Enterprise.Framework.Log.LogUtil.ErrorLog(:0) Enterprise.Framework.Log.LogUtil.ErrorLog(:0) [(null)] - 
+错误开始===========================================
+客户机IP:::1
+错误地址:http://localhost:19008/Common/WinSalesTask.aspx?FType=1
+异常信息:引发类型为“System.Web.HttpUnhandledException”的异常。
+错误结束=========================================== e 
+System.Web.HttpUnhandledException (0x80004005): 引发类型为“System.Web.HttpUnhandledException”的异常。 ---> System.InvalidOperationException: 没有为类型“System.Nullable`1[System.Int32]”和“System.Int32”定义二进制运算符 Equal。
+   在 System.Linq.Expressions.Expression.GetEqualityComparisonOperator(ExpressionType binaryType, String opName, Expression left, Expression right, Boolean liftToNull)
+   在 System.Linq.Expressions.Expression.Equal(Expression left, Expression right, Boolean liftToNull, MethodInfo method)
+   在 System.Linq.Expressions.Expression.Equal(Expression left, Expression right)
+   在 Enterprise.IIS.Common.WinSalesTask.BuildPredicate(Object& orderingSelector) 位置 h:\ffqserp\trunk\application\Enterprise.IIS\Common\WinSalesTask.aspx.cs:行号 384
+   在 Enterprise.IIS.Common.WinSalesTask.BindDataGrid() 位置 h:\ffqserp\trunk\application\Enterprise.IIS\Common\WinSalesTask.aspx.cs:行号 352
+   在 Enterprise.IIS.Common.WinSalesTask.Page_Load(Object sender, EventArgs e) 位置 h:\ffqserp\trunk\application\Enterprise.IIS\Common\WinSalesTask.aspx.cs:行号 90
+   在 System.Web.Util.CalliEventHandlerDelegateProxy.Callback(Object sender, EventArgs e)
+   在 System.Web.UI.Control.OnLoad(EventArgs e)
+   在 System.Web.UI.Control.LoadRecursive()
+   在 System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   在 System.Web.UI.Page.HandleError(Exception e)
+   在 System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   在 System.Web.UI.Page.ProcessRequest(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   在 System.Web.UI.Page.ProcessRequest()
+   在 System.Web.UI.Page.ProcessRequestWithNoAssert(HttpContext context)
+   在 System.Web.UI.Page.ProcessRequest(HttpContext context)
+   在 ASP.common_winsalestask_aspx.ProcessRequest(HttpContext context) 位置 c:\Windows\Microsoft.NET\Framework\v4.0.30319\Temporary ASP.NET Files\vs\b3079d60\a8129d37\App_Web_3jcirit1.1.cs:行号 0
+   在 System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   在 System.Web.HttpApplication.ExecuteStepImpl(IExecutionStep step)
+   在 System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+2020/10/27 +08:00 14:13:11     [16452] Enterprise.Framework.Log.LogUtil.ErrorLog(:0) Enterprise.Framework.Log.LogUtil.ErrorLog(:0) [(null)] - 没有为类型“System.Nullable`1[System.Int32]”和“System.Int32”定义二进制运算符 Equal。 e 
+System.InvalidOperationException: 没有为类型“System.Nullable`1[System.Int32]”和“System.Int32”定义二进制运算符 Equal。
+   在 System.Linq.Expressions.Expression.GetEqualityComparisonOperator(ExpressionType binaryType, String opName, Expression left, Expression right, Boolean liftToNull)
+   在 System.Linq.Expressions.Expression.Equal(Expression left, Expression right, Boolean liftToNull, MethodInfo method)
+   在 System.Linq.Expressions.Expression.Equal(Expression left, Expression right)
+   在 Enterprise.IIS.Common.WinSalesTask.BuildPredicate(Object& orderingSelector) 位置 h:\ffqserp\trunk\application\Enterprise.IIS\Common\WinSalesTask.aspx.cs:行号 384
+   在 Enterprise.IIS.Common.WinSalesTask.BindDataGrid() 位置 h:\ffqserp\trunk\application\Enterprise.IIS\Common\WinSalesTask.aspx.cs:行号 352
+   在 Enterprise.IIS.Common.WinSalesTask.Page_Load(Object sender, EventArgs e) 位置 h:\ffqserp\trunk\application\Enterprise.IIS\Common\WinSalesTask.aspx.cs:行号 90
+   在 System.Web.Util.CalliEventHandlerDelegateProxy.Callback(Object sender, EventArgs e)
+   在 System.Web.UI.Control.OnLoad(EventArgs e)
+   在 System.Web.UI.Control.LoadRecursive()
+   在 System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+2020/10/27 +08:00 14:15:04     [11812] Enterprise.Framework.Log.LogUtil.ErrorLog(:0) Enterprise.Framework.Log.LogUtil.ErrorLog(:0) [(null)] - 
+错误开始===========================================
+客户机IP:::1
+错误地址:http://localhost:19008/Common/WinSalesTask.aspx?FType=1
+异常信息:引发类型为“System.Web.HttpUnhandledException”的异常。
+错误结束=========================================== e 
+System.Web.HttpUnhandledException (0x80004005): 引发类型为“System.Web.HttpUnhandledException”的异常。 ---> System.InvalidOperationException: 没有为类型“System.Nullable`1[System.Int32]”和“System.Int32”定义二进制运算符 Equal。
+   在 System.Linq.Expressions.Expression.GetEqualityComparisonOperator(ExpressionType binaryType, String opName, Expression left, Expression right, Boolean liftToNull)
+   在 System.Linq.Expressions.Expression.Equal(Expression left, Expression right, Boolean liftToNull, MethodInfo method)
+   在 System.Linq.Expressions.Expression.Equal(Expression left, Expression right)
+   在 Enterprise.IIS.Common.WinSalesTask.BuildPredicate(Object& orderingSelector) 位置 h:\ffqserp\trunk\application\Enterprise.IIS\Common\WinSalesTask.aspx.cs:行号 384
+   在 Enterprise.IIS.Common.WinSalesTask.BindDataGrid() 位置 h:\ffqserp\trunk\application\Enterprise.IIS\Common\WinSalesTask.aspx.cs:行号 352
+   在 Enterprise.IIS.Common.WinSalesTask.Page_Load(Object sender, EventArgs e) 位置 h:\ffqserp\trunk\application\Enterprise.IIS\Common\WinSalesTask.aspx.cs:行号 90
+   在 System.Web.Util.CalliEventHandlerDelegateProxy.Callback(Object sender, EventArgs e)
+   在 System.Web.UI.Control.OnLoad(EventArgs e)
+   在 System.Web.UI.Control.LoadRecursive()
+   在 System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   在 System.Web.UI.Page.HandleError(Exception e)
+   在 System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   在 System.Web.UI.Page.ProcessRequest(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   在 System.Web.UI.Page.ProcessRequest()
+   在 System.Web.UI.Page.ProcessRequestWithNoAssert(HttpContext context)
+   在 System.Web.UI.Page.ProcessRequest(HttpContext context)
+   在 ASP.common_winsalestask_aspx.ProcessRequest(HttpContext context) 位置 c:\Windows\Microsoft.NET\Framework\v4.0.30319\Temporary ASP.NET Files\vs\b3079d60\a8129d37\App_Web_3jcirit1.1.cs:行号 0
+   在 System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   在 System.Web.HttpApplication.ExecuteStepImpl(IExecutionStep step)
+   在 System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+2020/10/27 +08:00 14:15:04     [11812] Enterprise.Framework.Log.LogUtil.ErrorLog(:0) Enterprise.Framework.Log.LogUtil.ErrorLog(:0) [(null)] - 没有为类型“System.Nullable`1[System.Int32]”和“System.Int32”定义二进制运算符 Equal。 e 
+System.InvalidOperationException: 没有为类型“System.Nullable`1[System.Int32]”和“System.Int32”定义二进制运算符 Equal。
+   在 System.Linq.Expressions.Expression.GetEqualityComparisonOperator(ExpressionType binaryType, String opName, Expression left, Expression right, Boolean liftToNull)
+   在 System.Linq.Expressions.Expression.Equal(Expression left, Expression right, Boolean liftToNull, MethodInfo method)
+   在 System.Linq.Expressions.Expression.Equal(Expression left, Expression right)
+   在 Enterprise.IIS.Common.WinSalesTask.BuildPredicate(Object& orderingSelector) 位置 h:\ffqserp\trunk\application\Enterprise.IIS\Common\WinSalesTask.aspx.cs:行号 384
+   在 Enterprise.IIS.Common.WinSalesTask.BindDataGrid() 位置 h:\ffqserp\trunk\application\Enterprise.IIS\Common\WinSalesTask.aspx.cs:行号 352
+   在 Enterprise.IIS.Common.WinSalesTask.Page_Load(Object sender, EventArgs e) 位置 h:\ffqserp\trunk\application\Enterprise.IIS\Common\WinSalesTask.aspx.cs:行号 90
+   在 System.Web.Util.CalliEventHandlerDelegateProxy.Callback(Object sender, EventArgs e)
+   在 System.Web.UI.Control.OnLoad(EventArgs e)
+   在 System.Web.UI.Control.LoadRecursive()
+   在 System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+2020/10/27 +08:00 14:15:29     [11812] Enterprise.Framework.Log.LogUtil.ErrorLog(:0) Enterprise.Framework.Log.LogUtil.ErrorLog(:0) [(null)] - 
+错误开始===========================================
+客户机IP:::1
+错误地址:http://localhost:19008/Common/WinSalesTask.aspx?FType=1
+异常信息:引发类型为“System.Web.HttpUnhandledException”的异常。
+错误结束=========================================== e 
+System.Web.HttpUnhandledException (0x80004005): 引发类型为“System.Web.HttpUnhandledException”的异常。 ---> System.InvalidOperationException: 没有为类型“System.Nullable`1[System.Int32]”和“System.Int32”定义二进制运算符 Equal。
+   在 System.Linq.Expressions.Expression.GetEqualityComparisonOperator(ExpressionType binaryType, String opName, Expression left, Expression right, Boolean liftToNull)
+   在 System.Linq.Expressions.Expression.Equal(Expression left, Expression right, Boolean liftToNull, MethodInfo method)
+   在 System.Linq.Expressions.Expression.Equal(Expression left, Expression right)
+   在 Enterprise.IIS.Common.WinSalesTask.BuildPredicate(Object& orderingSelector) 位置 h:\ffqserp\trunk\application\Enterprise.IIS\Common\WinSalesTask.aspx.cs:行号 384
+   在 Enterprise.IIS.Common.WinSalesTask.BindDataGrid() 位置 h:\ffqserp\trunk\application\Enterprise.IIS\Common\WinSalesTask.aspx.cs:行号 352
+   在 Enterprise.IIS.Common.WinSalesTask.Page_Load(Object sender, EventArgs e) 位置 h:\ffqserp\trunk\application\Enterprise.IIS\Common\WinSalesTask.aspx.cs:行号 90
+   在 System.Web.Util.CalliEventHandlerDelegateProxy.Callback(Object sender, EventArgs e)
+   在 System.Web.UI.Control.OnLoad(EventArgs e)
+   在 System.Web.UI.Control.LoadRecursive()
+   在 System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   在 System.Web.UI.Page.HandleError(Exception e)
+   在 System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   在 System.Web.UI.Page.ProcessRequest(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   在 System.Web.UI.Page.ProcessRequest()
+   在 System.Web.UI.Page.ProcessRequestWithNoAssert(HttpContext context)
+   在 System.Web.UI.Page.ProcessRequest(HttpContext context)
+   在 ASP.common_winsalestask_aspx.ProcessRequest(HttpContext context) 位置 c:\Windows\Microsoft.NET\Framework\v4.0.30319\Temporary ASP.NET Files\vs\b3079d60\a8129d37\App_Web_3jcirit1.1.cs:行号 0
+   在 System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   在 System.Web.HttpApplication.ExecuteStepImpl(IExecutionStep step)
+   在 System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+2020/10/27 +08:00 14:15:29     [11812] Enterprise.Framework.Log.LogUtil.ErrorLog(:0) Enterprise.Framework.Log.LogUtil.ErrorLog(:0) [(null)] - 没有为类型“System.Nullable`1[System.Int32]”和“System.Int32”定义二进制运算符 Equal。 e 
+System.InvalidOperationException: 没有为类型“System.Nullable`1[System.Int32]”和“System.Int32”定义二进制运算符 Equal。
+   在 System.Linq.Expressions.Expression.GetEqualityComparisonOperator(ExpressionType binaryType, String opName, Expression left, Expression right, Boolean liftToNull)
+   在 System.Linq.Expressions.Expression.Equal(Expression left, Expression right, Boolean liftToNull, MethodInfo method)
+   在 System.Linq.Expressions.Expression.Equal(Expression left, Expression right)
+   在 Enterprise.IIS.Common.WinSalesTask.BuildPredicate(Object& orderingSelector) 位置 h:\ffqserp\trunk\application\Enterprise.IIS\Common\WinSalesTask.aspx.cs:行号 384
+   在 Enterprise.IIS.Common.WinSalesTask.BindDataGrid() 位置 h:\ffqserp\trunk\application\Enterprise.IIS\Common\WinSalesTask.aspx.cs:行号 352
+   在 Enterprise.IIS.Common.WinSalesTask.Page_Load(Object sender, EventArgs e) 位置 h:\ffqserp\trunk\application\Enterprise.IIS\Common\WinSalesTask.aspx.cs:行号 90
+   在 System.Web.Util.CalliEventHandlerDelegateProxy.Callback(Object sender, EventArgs e)
+   在 System.Web.UI.Control.OnLoad(EventArgs e)
+   在 System.Web.UI.Control.LoadRecursive()
+   在 System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+2020/10/27 +08:00 14:34:11     [18684] Enterprise.Framework.Log.LogUtil.ErrorLog(:0) Enterprise.Framework.Log.LogUtil.ErrorLog(:0) [(null)] - 
+错误开始===========================================
+客户机IP:::1
+错误地址:http://localhost:19008/business/Vehicle/InitDispatchCenter.aspx
+异常信息:引发类型为“System.Web.HttpUnhandledException”的异常。
+错误结束=========================================== e 
+System.Web.HttpUnhandledException (0x80004005): 引发类型为“System.Web.HttpUnhandledException”的异常。 ---> System.InvalidOperationException: 没有为类型“System.Nullable`1[System.Int32]”和“System.Int32”定义二进制运算符 Equal。
+   在 System.Linq.Expressions.Expression.GetEqualityComparisonOperator(ExpressionType binaryType, String opName, Expression left, Expression right, Boolean liftToNull)
+   在 System.Linq.Expressions.Expression.Equal(Expression left, Expression right, Boolean liftToNull, MethodInfo method)
+   在 System.Linq.Expressions.Expression.Equal(Expression left, Expression right)
+   在 Enterprise.IIS.business.Vehicle.InitDispatchCenter.BuildPredicate(Object& orderingSelector) 位置 h:\ffqserp\trunk\application\Enterprise.IIS\business\Vehicle\InitDispatchCenter.aspx.cs:行号 601
+   在 Enterprise.IIS.business.Vehicle.InitDispatchCenter.BindDataGrid() 位置 h:\ffqserp\trunk\application\Enterprise.IIS\business\Vehicle\InitDispatchCenter.aspx.cs:行号 572
+   在 Enterprise.IIS.business.Vehicle.InitDispatchCenter.Page_Load(Object sender, EventArgs e) 位置 h:\ffqserp\trunk\application\Enterprise.IIS\business\Vehicle\InitDispatchCenter.aspx.cs:行号 102
+   在 System.Web.Util.CalliEventHandlerDelegateProxy.Callback(Object sender, EventArgs e)
+   在 System.Web.UI.Control.OnLoad(EventArgs e)
+   在 System.Web.UI.Control.LoadRecursive()
+   在 System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   在 System.Web.UI.Page.HandleError(Exception e)
+   在 System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   在 System.Web.UI.Page.ProcessRequest(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   在 System.Web.UI.Page.ProcessRequest()
+   在 System.Web.UI.Page.ProcessRequestWithNoAssert(HttpContext context)
+   在 System.Web.UI.Page.ProcessRequest(HttpContext context)
+   在 ASP.business_vehicle_initdispatchcenter_aspx.ProcessRequest(HttpContext context) 位置 c:\Windows\Microsoft.NET\Framework\v4.0.30319\Temporary ASP.NET Files\vs\b3079d60\a8129d37\App_Web_2ivp0yge.0.cs:行号 0
+   在 System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   在 System.Web.HttpApplication.ExecuteStepImpl(IExecutionStep step)
+   在 System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+2020/10/27 +08:00 14:34:11     [18684] Enterprise.Framework.Log.LogUtil.ErrorLog(:0) Enterprise.Framework.Log.LogUtil.ErrorLog(:0) [(null)] - 没有为类型“System.Nullable`1[System.Int32]”和“System.Int32”定义二进制运算符 Equal。 e 
+System.InvalidOperationException: 没有为类型“System.Nullable`1[System.Int32]”和“System.Int32”定义二进制运算符 Equal。
+   在 System.Linq.Expressions.Expression.GetEqualityComparisonOperator(ExpressionType binaryType, String opName, Expression left, Expression right, Boolean liftToNull)
+   在 System.Linq.Expressions.Expression.Equal(Expression left, Expression right, Boolean liftToNull, MethodInfo method)
+   在 System.Linq.Expressions.Expression.Equal(Expression left, Expression right)
+   在 Enterprise.IIS.business.Vehicle.InitDispatchCenter.BuildPredicate(Object& orderingSelector) 位置 h:\ffqserp\trunk\application\Enterprise.IIS\business\Vehicle\InitDispatchCenter.aspx.cs:行号 601
+   在 Enterprise.IIS.business.Vehicle.InitDispatchCenter.BindDataGrid() 位置 h:\ffqserp\trunk\application\Enterprise.IIS\business\Vehicle\InitDispatchCenter.aspx.cs:行号 572
+   在 Enterprise.IIS.business.Vehicle.InitDispatchCenter.Page_Load(Object sender, EventArgs e) 位置 h:\ffqserp\trunk\application\Enterprise.IIS\business\Vehicle\InitDispatchCenter.aspx.cs:行号 102
+   在 System.Web.Util.CalliEventHandlerDelegateProxy.Callback(Object sender, EventArgs e)
+   在 System.Web.UI.Control.OnLoad(EventArgs e)
+   在 System.Web.UI.Control.LoadRecursive()
+   在 System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+2020/10/27 +08:00 15:16:57     [24376] Enterprise.Framework.Log.LogUtil.ErrorLog(:0) Enterprise.Framework.Log.LogUtil.ErrorLog(:0) [(null)] - 
+错误开始===========================================
+客户机IP:::1
+错误地址:http://localhost:19008/business/Vehicle/InitDispatchCenter.aspx
+异常信息:引发类型为“System.Web.HttpUnhandledException”的异常。
+错误结束=========================================== e 
+System.Web.HttpUnhandledException (0x80004005): 引发类型为“System.Web.HttpUnhandledException”的异常。 ---> System.InvalidOperationException: 没有为类型“System.DateTime”和“System.Nullable`1[System.DateTime]”定义二进制运算符 GreaterThanOrEqual。
+   在 System.Linq.Expressions.Expression.GetUserDefinedBinaryOperatorOrThrow(ExpressionType binaryType, String name, Expression left, Expression right, Boolean liftToNull)
+   在 System.Linq.Expressions.Expression.GetComparisonOperator(ExpressionType binaryType, String opName, Expression left, Expression right, Boolean liftToNull)
+   在 System.Linq.Expressions.Expression.GreaterThanOrEqual(Expression left, Expression right)
+   在 Enterprise.IIS.business.Vehicle.InitDispatchCenter.BuildPredicate(Object& orderingSelector) 位置 h:\ffqserp\trunk\application\Enterprise.IIS\business\Vehicle\InitDispatchCenter.aspx.cs:行号 606
+   在 Enterprise.IIS.business.Vehicle.InitDispatchCenter.BindDataGrid() 位置 h:\ffqserp\trunk\application\Enterprise.IIS\business\Vehicle\InitDispatchCenter.aspx.cs:行号 572
+   在 Enterprise.IIS.business.Vehicle.InitDispatchCenter.Page_Load(Object sender, EventArgs e) 位置 h:\ffqserp\trunk\application\Enterprise.IIS\business\Vehicle\InitDispatchCenter.aspx.cs:行号 102
+   在 System.Web.Util.CalliEventHandlerDelegateProxy.Callback(Object sender, EventArgs e)
+   在 System.Web.UI.Control.OnLoad(EventArgs e)
+   在 System.Web.UI.Control.LoadRecursive()
+   在 System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   在 System.Web.UI.Page.HandleError(Exception e)
+   在 System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   在 System.Web.UI.Page.ProcessRequest(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   在 System.Web.UI.Page.ProcessRequest()
+   在 System.Web.UI.Page.ProcessRequestWithNoAssert(HttpContext context)
+   在 System.Web.UI.Page.ProcessRequest(HttpContext context)
+   在 ASP.business_vehicle_initdispatchcenter_aspx.ProcessRequest(HttpContext context) 位置 c:\Windows\Microsoft.NET\Framework\v4.0.30319\Temporary ASP.NET Files\vs\b3079d60\a8129d37\App_Web_fknzwe00.0.cs:行号 0
+   在 System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   在 System.Web.HttpApplication.ExecuteStepImpl(IExecutionStep step)
+   在 System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+2020/10/27 +08:00 15:16:57     [24376] Enterprise.Framework.Log.LogUtil.ErrorLog(:0) Enterprise.Framework.Log.LogUtil.ErrorLog(:0) [(null)] - 没有为类型“System.DateTime”和“System.Nullable`1[System.DateTime]”定义二进制运算符 GreaterThanOrEqual。 e 
+System.InvalidOperationException: 没有为类型“System.DateTime”和“System.Nullable`1[System.DateTime]”定义二进制运算符 GreaterThanOrEqual。
+   在 System.Linq.Expressions.Expression.GetUserDefinedBinaryOperatorOrThrow(ExpressionType binaryType, String name, Expression left, Expression right, Boolean liftToNull)
+   在 System.Linq.Expressions.Expression.GetComparisonOperator(ExpressionType binaryType, String opName, Expression left, Expression right, Boolean liftToNull)
+   在 System.Linq.Expressions.Expression.GreaterThanOrEqual(Expression left, Expression right)
+   在 Enterprise.IIS.business.Vehicle.InitDispatchCenter.BuildPredicate(Object& orderingSelector) 位置 h:\ffqserp\trunk\application\Enterprise.IIS\business\Vehicle\InitDispatchCenter.aspx.cs:行号 606
+   在 Enterprise.IIS.business.Vehicle.InitDispatchCenter.BindDataGrid() 位置 h:\ffqserp\trunk\application\Enterprise.IIS\business\Vehicle\InitDispatchCenter.aspx.cs:行号 572
+   在 Enterprise.IIS.business.Vehicle.InitDispatchCenter.Page_Load(Object sender, EventArgs e) 位置 h:\ffqserp\trunk\application\Enterprise.IIS\business\Vehicle\InitDispatchCenter.aspx.cs:行号 102
+   在 System.Web.Util.CalliEventHandlerDelegateProxy.Callback(Object sender, EventArgs e)
+   在 System.Web.UI.Control.OnLoad(EventArgs e)
+   在 System.Web.UI.Control.LoadRecursive()
+   在 System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+2020/10/27 +08:00 15:17:41     [24376] Enterprise.Framework.Log.LogUtil.ErrorLog(:0) Enterprise.Framework.Log.LogUtil.ErrorLog(:0) [(null)] - 
+错误开始===========================================
+客户机IP:::1
+错误地址:http://localhost:19008/business/Vehicle/InitDispatchCenter.aspx
+异常信息:引发类型为“System.Web.HttpUnhandledException”的异常。
+错误结束=========================================== e 
+System.Web.HttpUnhandledException (0x80004005): 引发类型为“System.Web.HttpUnhandledException”的异常。 ---> System.InvalidOperationException: 没有为类型“System.DateTime”和“System.Nullable`1[System.DateTime]”定义二进制运算符 GreaterThanOrEqual。
+   在 System.Linq.Expressions.Expression.GetUserDefinedBinaryOperatorOrThrow(ExpressionType binaryType, String name, Expression left, Expression right, Boolean liftToNull)
+   在 System.Linq.Expressions.Expression.GetComparisonOperator(ExpressionType binaryType, String opName, Expression left, Expression right, Boolean liftToNull)
+   在 System.Linq.Expressions.Expression.GreaterThanOrEqual(Expression left, Expression right)
+   在 Enterprise.IIS.business.Vehicle.InitDispatchCenter.BuildPredicate(Object& orderingSelector) 位置 h:\ffqserp\trunk\application\Enterprise.IIS\business\Vehicle\InitDispatchCenter.aspx.cs:行号 606
+   在 Enterprise.IIS.business.Vehicle.InitDispatchCenter.BindDataGrid() 位置 h:\ffqserp\trunk\application\Enterprise.IIS\business\Vehicle\InitDispatchCenter.aspx.cs:行号 572
+   在 Enterprise.IIS.business.Vehicle.InitDispatchCenter.Page_Load(Object sender, EventArgs e) 位置 h:\ffqserp\trunk\application\Enterprise.IIS\business\Vehicle\InitDispatchCenter.aspx.cs:行号 102
+   在 System.Web.Util.CalliEventHandlerDelegateProxy.Callback(Object sender, EventArgs e)
+   在 System.Web.UI.Control.OnLoad(EventArgs e)
+   在 System.Web.UI.Control.LoadRecursive()
+   在 System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   在 System.Web.UI.Page.HandleError(Exception e)
+   在 System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   在 System.Web.UI.Page.ProcessRequest(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   在 System.Web.UI.Page.ProcessRequest()
+   在 System.Web.UI.Page.ProcessRequestWithNoAssert(HttpContext context)
+   在 System.Web.UI.Page.ProcessRequest(HttpContext context)
+   在 ASP.business_vehicle_initdispatchcenter_aspx.ProcessRequest(HttpContext context) 位置 c:\Windows\Microsoft.NET\Framework\v4.0.30319\Temporary ASP.NET Files\vs\b3079d60\a8129d37\App_Web_fknzwe00.0.cs:行号 0
+   在 System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   在 System.Web.HttpApplication.ExecuteStepImpl(IExecutionStep step)
+   在 System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+2020/10/27 +08:00 15:17:41     [24376] Enterprise.Framework.Log.LogUtil.ErrorLog(:0) Enterprise.Framework.Log.LogUtil.ErrorLog(:0) [(null)] - 没有为类型“System.DateTime”和“System.Nullable`1[System.DateTime]”定义二进制运算符 GreaterThanOrEqual。 e 
+System.InvalidOperationException: 没有为类型“System.DateTime”和“System.Nullable`1[System.DateTime]”定义二进制运算符 GreaterThanOrEqual。
+   在 System.Linq.Expressions.Expression.GetUserDefinedBinaryOperatorOrThrow(ExpressionType binaryType, String name, Expression left, Expression right, Boolean liftToNull)
+   在 System.Linq.Expressions.Expression.GetComparisonOperator(ExpressionType binaryType, String opName, Expression left, Expression right, Boolean liftToNull)
+   在 System.Linq.Expressions.Expression.GreaterThanOrEqual(Expression left, Expression right)
+   在 Enterprise.IIS.business.Vehicle.InitDispatchCenter.BuildPredicate(Object& orderingSelector) 位置 h:\ffqserp\trunk\application\Enterprise.IIS\business\Vehicle\InitDispatchCenter.aspx.cs:行号 606
+   在 Enterprise.IIS.business.Vehicle.InitDispatchCenter.BindDataGrid() 位置 h:\ffqserp\trunk\application\Enterprise.IIS\business\Vehicle\InitDispatchCenter.aspx.cs:行号 572
+   在 Enterprise.IIS.business.Vehicle.InitDispatchCenter.Page_Load(Object sender, EventArgs e) 位置 h:\ffqserp\trunk\application\Enterprise.IIS\business\Vehicle\InitDispatchCenter.aspx.cs:行号 102
+   在 System.Web.Util.CalliEventHandlerDelegateProxy.Callback(Object sender, EventArgs e)
+   在 System.Web.UI.Control.OnLoad(EventArgs e)
+   在 System.Web.UI.Control.LoadRecursive()
+   在 System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+2020/10/27 +08:00 15:21:05     [20180] Enterprise.Framework.Log.LogUtil.ErrorLog(:0) Enterprise.Framework.Log.LogUtil.ErrorLog(:0) [(null)] - 
+错误开始===========================================
+客户机IP:::1
+错误地址:http://localhost:19008/business/Vehicle/InitDispatchCenter.aspx
+异常信息:引发类型为“System.Web.HttpUnhandledException”的异常。
+错误结束=========================================== e 
+System.Web.HttpUnhandledException (0x80004005): 引发类型为“System.Web.HttpUnhandledException”的异常。 ---> System.InvalidOperationException: 没有为类型“System.DateTime”和“System.Nullable`1[System.DateTime]”定义二进制运算符 GreaterThanOrEqual。
+   在 System.Linq.Expressions.Expression.GetUserDefinedBinaryOperatorOrThrow(ExpressionType binaryType, String name, Expression left, Expression right, Boolean liftToNull)
+   在 System.Linq.Expressions.Expression.GetComparisonOperator(ExpressionType binaryType, String opName, Expression left, Expression right, Boolean liftToNull)
+   在 System.Linq.Expressions.Expression.GreaterThanOrEqual(Expression left, Expression right)
+   在 Enterprise.IIS.business.Vehicle.InitDispatchCenter.BuildPredicate(Object& orderingSelector) 位置 h:\ffqserp\trunk\application\Enterprise.IIS\business\Vehicle\InitDispatchCenter.aspx.cs:行号 606
+   在 Enterprise.IIS.business.Vehicle.InitDispatchCenter.BindDataGrid() 位置 h:\ffqserp\trunk\application\Enterprise.IIS\business\Vehicle\InitDispatchCenter.aspx.cs:行号 572
+   在 Enterprise.IIS.business.Vehicle.InitDispatchCenter.Page_Load(Object sender, EventArgs e) 位置 h:\ffqserp\trunk\application\Enterprise.IIS\business\Vehicle\InitDispatchCenter.aspx.cs:行号 102
+   在 System.Web.Util.CalliEventHandlerDelegateProxy.Callback(Object sender, EventArgs e)
+   在 System.Web.UI.Control.OnLoad(EventArgs e)
+   在 System.Web.UI.Control.LoadRecursive()
+   在 System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   在 System.Web.UI.Page.HandleError(Exception e)
+   在 System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   在 System.Web.UI.Page.ProcessRequest(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   在 System.Web.UI.Page.ProcessRequest()
+   在 System.Web.UI.Page.ProcessRequestWithNoAssert(HttpContext context)
+   在 System.Web.UI.Page.ProcessRequest(HttpContext context)
+   在 ASP.business_vehicle_initdispatchcenter_aspx.ProcessRequest(HttpContext context) 位置 c:\Windows\Microsoft.NET\Framework\v4.0.30319\Temporary ASP.NET Files\vs\b3079d60\a8129d37\App_Web_fknzwe00.0.cs:行号 0
+   在 System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   在 System.Web.HttpApplication.ExecuteStepImpl(IExecutionStep step)
+   在 System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+2020/10/27 +08:00 15:21:05     [20180] Enterprise.Framework.Log.LogUtil.ErrorLog(:0) Enterprise.Framework.Log.LogUtil.ErrorLog(:0) [(null)] - 没有为类型“System.DateTime”和“System.Nullable`1[System.DateTime]”定义二进制运算符 GreaterThanOrEqual。 e 
+System.InvalidOperationException: 没有为类型“System.DateTime”和“System.Nullable`1[System.DateTime]”定义二进制运算符 GreaterThanOrEqual。
+   在 System.Linq.Expressions.Expression.GetUserDefinedBinaryOperatorOrThrow(ExpressionType binaryType, String name, Expression left, Expression right, Boolean liftToNull)
+   在 System.Linq.Expressions.Expression.GetComparisonOperator(ExpressionType binaryType, String opName, Expression left, Expression right, Boolean liftToNull)
+   在 System.Linq.Expressions.Expression.GreaterThanOrEqual(Expression left, Expression right)
+   在 Enterprise.IIS.business.Vehicle.InitDispatchCenter.BuildPredicate(Object& orderingSelector) 位置 h:\ffqserp\trunk\application\Enterprise.IIS\business\Vehicle\InitDispatchCenter.aspx.cs:行号 606
+   在 Enterprise.IIS.business.Vehicle.InitDispatchCenter.BindDataGrid() 位置 h:\ffqserp\trunk\application\Enterprise.IIS\business\Vehicle\InitDispatchCenter.aspx.cs:行号 572
+   在 Enterprise.IIS.business.Vehicle.InitDispatchCenter.Page_Load(Object sender, EventArgs e) 位置 h:\ffqserp\trunk\application\Enterprise.IIS\business\Vehicle\InitDispatchCenter.aspx.cs:行号 102
+   在 System.Web.Util.CalliEventHandlerDelegateProxy.Callback(Object sender, EventArgs e)
+   在 System.Web.UI.Control.OnLoad(EventArgs e)
+   在 System.Web.UI.Control.LoadRecursive()
+   在 System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+2020/10/27 +08:00 15:40:05     [21748] Enterprise.Framework.Log.LogUtil.InfoLog(:0) Enterprise.Framework.Log.LogUtil.InfoLog(:0) [(null)] - ，销售单：OC-201028-0001，销售单详细单号：94128---G4900, e 
+2020/10/27 +08:00 15:40:27     [21748] Enterprise.Framework.Log.LogUtil.InfoLog(:0) Enterprise.Framework.Log.LogUtil.InfoLog(:0) [(null)] - ，销售单：OC-201028-0001，销售单详细单号：94128---G4900,错误：，销售单：OC-201028-0001，销售单详细单号：94128---G4900,,错误信息：无法连接到远程服务器,错误堆栈：   在 System.Net.HttpWebRequest.GetRequestStream(TransportContext& context)
+   在 System.Net.HttpWebRequest.GetRequestStream()
+   在 Enterprise.IIS.Common.HttpRequest.httpRequest(tmsModel t, String uri) 位置 h:\ffqserp\trunk\application\Enterprise.IIS\Common\HttpRequest.cs:行号 61 e 

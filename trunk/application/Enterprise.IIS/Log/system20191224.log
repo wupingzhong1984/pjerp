@@ -1,0 +1,52 @@
+﻿2019/12/24 +08:00 09:42:18     [15400] Enterprise.Framework.Log.LogUtil.ErrorLog(:0) Enterprise.Framework.Log.LogUtil.ErrorLog(:0) [(null)] - 
+错误开始===========================================
+客户机IP:::1
+错误地址:http://localhost:19008/common/AjaxPrinter.ashx?oper=ajaxPrintSales
+异常信息:列“FEmptyBottle”不属于表 Table。
+错误结束=========================================== e 
+System.ArgumentException: 列“FEmptyBottle”不属于表 Table。
+   在 System.Data.DataRow.GetDataColumn(String columnName)
+   在 System.Data.DataRow.get_Item(String columnName)
+   在 Enterprise.IIS.Common.AjaxPrinter.AjaxPrintSales(HttpContext context) 位置 h:\ffqserp\trunk\application\Enterprise.IIS\Common\AjaxPrinter.ashx.cs:行号 1724
+   在 Enterprise.IIS.Common.AjaxPrinter.ProcessRequest(HttpContext context) 位置 h:\ffqserp\trunk\application\Enterprise.IIS\Common\AjaxPrinter.ashx.cs:行号 210
+   在 System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   在 System.Web.HttpApplication.ExecuteStepImpl(IExecutionStep step)
+   在 System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+2019/12/24 +08:00 09:42:18     [15400] Enterprise.Framework.Log.LogUtil.ErrorLog(:0) Enterprise.Framework.Log.LogUtil.ErrorLog(:0) [(null)] - 列“FEmptyBottle”不属于表 Table。 e 
+System.ArgumentException: 列“FEmptyBottle”不属于表 Table。
+   在 System.Data.DataRow.GetDataColumn(String columnName)
+   在 System.Data.DataRow.get_Item(String columnName)
+   在 Enterprise.IIS.Common.AjaxPrinter.AjaxPrintSales(HttpContext context) 位置 h:\ffqserp\trunk\application\Enterprise.IIS\Common\AjaxPrinter.ashx.cs:行号 1724
+   在 Enterprise.IIS.Common.AjaxPrinter.ProcessRequest(HttpContext context) 位置 h:\ffqserp\trunk\application\Enterprise.IIS\Common\AjaxPrinter.ashx.cs:行号 210
+   在 System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   在 System.Web.HttpApplication.ExecuteStepImpl(IExecutionStep step)
+   在 System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+2019/12/24 +08:00 09:42:53     [15400] Enterprise.Framework.Log.LogUtil.ErrorLog(:0) Enterprise.Framework.Log.LogUtil.ErrorLog(:0) [(null)] - 
+错误开始===========================================
+客户机IP:::1
+错误地址:http://localhost:19008/common/AjaxPrinter.ashx?oper=ajaxPrintSales
+异常信息:无效的聚合函数 Sum()和类型 String 的用法。
+错误结束=========================================== e 
+System.Data.DataException: 无效的聚合函数 Sum()和类型 String 的用法。
+   在 System.Data.Common.StringStorage.Aggregate(Int32[] recordNos, AggregateType kind)
+   在 System.Data.DataColumn.GetAggregateValue(Int32[] records, AggregateType kind)
+   在 System.Data.AggregateNode.Eval(Int32[] records)
+   在 System.Data.DataExpression.Evaluate(DataRow[] rows, DataRowVersion version)
+   在 System.Data.DataTable.Compute(String expression, String filter)
+   在 Enterprise.IIS.Common.AjaxPrinter.AjaxPrintSales(HttpContext context) 位置 h:\ffqserp\trunk\application\Enterprise.IIS\Common\AjaxPrinter.ashx.cs:行号 1786
+   在 Enterprise.IIS.Common.AjaxPrinter.ProcessRequest(HttpContext context) 位置 h:\ffqserp\trunk\application\Enterprise.IIS\Common\AjaxPrinter.ashx.cs:行号 210
+   在 System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   在 System.Web.HttpApplication.ExecuteStepImpl(IExecutionStep step)
+   在 System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+2019/12/24 +08:00 09:42:53     [15400] Enterprise.Framework.Log.LogUtil.ErrorLog(:0) Enterprise.Framework.Log.LogUtil.ErrorLog(:0) [(null)] - 无效的聚合函数 Sum()和类型 String 的用法。 e 
+System.Data.DataException: 无效的聚合函数 Sum()和类型 String 的用法。
+   在 System.Data.Common.StringStorage.Aggregate(Int32[] recordNos, AggregateType kind)
+   在 System.Data.DataColumn.GetAggregateValue(Int32[] records, AggregateType kind)
+   在 System.Data.AggregateNode.Eval(Int32[] records)
+   在 System.Data.DataExpression.Evaluate(DataRow[] rows, DataRowVersion version)
+   在 System.Data.DataTable.Compute(String expression, String filter)
+   在 Enterprise.IIS.Common.AjaxPrinter.AjaxPrintSales(HttpContext context) 位置 h:\ffqserp\trunk\application\Enterprise.IIS\Common\AjaxPrinter.ashx.cs:行号 1786
+   在 Enterprise.IIS.Common.AjaxPrinter.ProcessRequest(HttpContext context) 位置 h:\ffqserp\trunk\application\Enterprise.IIS\Common\AjaxPrinter.ashx.cs:行号 210
+   在 System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   在 System.Web.HttpApplication.ExecuteStepImpl(IExecutionStep step)
+   在 System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)

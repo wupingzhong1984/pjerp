@@ -1,0 +1,396 @@
+﻿2019/05/16 +08:00 11:33:26     [17800] Enterprise.Framework.Log.LogUtil.InfoLog(:0) Enterprise.Framework.Log.LogUtil.InfoLog(:0) [(null)] - ，销售单：OC-190517-0001，销售单详细单号：79192---G0450, e 
+2019/05/16 +08:00 11:33:48     [17800] Enterprise.Framework.Log.LogUtil.InfoLog(:0) Enterprise.Framework.Log.LogUtil.InfoLog(:0) [(null)] - 错误OC-190517-0001,销售单详细单号：79192,错误信息：无法连接到远程服务器,错误堆栈：   在 System.Net.HttpWebRequest.GetRequestStream(TransportContext& context)
+   在 System.Net.HttpWebRequest.GetRequestStream()
+   在 Enterprise.IIS.Common.HttpRequest.httpRequest(tmsModel t, String uri) 位置 E:\ffqserp\trunk\application\Enterprise.IIS\Common\HttpRequest.cs:行号 61 e 
+2019/05/16 +08:00 11:44:06     [26056] Enterprise.Framework.Log.LogUtil.InfoLog(:0) Enterprise.Framework.Log.LogUtil.InfoLog(:0) [(null)] - ，销售单：OC-190517-0002，销售单详细单号：79193---G0450, e 
+2019/05/16 +08:00 11:44:27     [26056] Enterprise.Framework.Log.LogUtil.InfoLog(:0) Enterprise.Framework.Log.LogUtil.InfoLog(:0) [(null)] - 错误OC-190517-0002,销售单详细单号：79193,错误信息：无法连接到远程服务器,错误堆栈：   在 System.Net.HttpWebRequest.GetRequestStream(TransportContext& context)
+   在 System.Net.HttpWebRequest.GetRequestStream()
+   在 Enterprise.IIS.Common.HttpRequest.httpRequest(tmsModel t, String uri) 位置 E:\ffqserp\trunk\application\Enterprise.IIS\Common\HttpRequest.cs:行号 61 e 
+2019/05/16 +08:00 12:53:35     [22240] Enterprise.Framework.Log.LogUtil.InfoLog(:0) Enterprise.Framework.Log.LogUtil.InfoLog(:0) [(null)] - ，销售单：OC-190517-0003，销售单详细单号：79194---G0450, e 
+2019/05/16 +08:00 12:53:56     [22240] Enterprise.Framework.Log.LogUtil.InfoLog(:0) Enterprise.Framework.Log.LogUtil.InfoLog(:0) [(null)] - 错误OC-190517-0003,销售单详细单号：79194,错误信息：无法连接到远程服务器,错误堆栈：   在 System.Net.HttpWebRequest.GetRequestStream(TransportContext& context)
+   在 System.Net.HttpWebRequest.GetRequestStream()
+   在 Enterprise.IIS.Common.HttpRequest.httpRequest(tmsModel t, String uri) 位置 E:\ffqserp\trunk\application\Enterprise.IIS\Common\HttpRequest.cs:行号 61 e 
+2019/05/16 +08:00 15:34:12     [7248] Enterprise.Framework.Log.LogUtil.ErrorLog(:0) Enterprise.Framework.Log.LogUtil.ErrorLog(:0) [(null)] - 
+错误开始===========================================
+客户机IP:::1
+错误地址:http://localhost:19008/Business/Reports/primeCost.aspx
+异常信息:e:\ffqserp\trunk\application\Enterprise.IIS\business\Reports\primeCost.aspx(23): error CS1061: “ASP.business_reports_primecost_aspx”不包含“btnSearch_Click”的定义，并且找不到可接受类型为“ASP.business_reports_primecost_aspx”的第一个参数的扩展方法“btnSearch_Click”(是否缺少 using 指令或程序集引用?)
+错误结束=========================================== e 
+System.Web.HttpCompileException (0x80004005): e:\ffqserp\trunk\application\Enterprise.IIS\business\Reports\primeCost.aspx(23): error CS1061: “ASP.business_reports_primecost_aspx”不包含“btnSearch_Click”的定义，并且找不到可接受类型为“ASP.business_reports_primecost_aspx”的第一个参数的扩展方法“btnSearch_Click”(是否缺少 using 指令或程序集引用?)
+   在 System.Web.Compilation.AssemblyBuilder.Compile()
+   在 System.Web.Compilation.BuildProvidersCompiler.PerformBuild()
+   在 System.Web.Compilation.BuildManager.CompileWebFile(VirtualPath virtualPath)
+   在 System.Web.Compilation.BuildManager.GetVPathBuildResultInternal(VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   在 System.Web.Compilation.BuildManager.GetVPathBuildResultWithNoAssert(HttpContext context, VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   在 System.Web.Compilation.BuildManager.GetVirtualPathObjectFactory(VirtualPath virtualPath, HttpContext context, Boolean allowCrossApp, Boolean throwIfNotFound)
+   在 System.Web.Compilation.BuildManager.CreateInstanceFromVirtualPath(VirtualPath virtualPath, Type requiredBaseType, HttpContext context, Boolean allowCrossApp)
+   在 System.Web.UI.PageHandlerFactory.GetHandlerHelper(HttpContext context, String requestType, VirtualPath virtualPath, String physicalPath)
+   在 System.Web.UI.PageHandlerFactory.GetHandler(HttpContext context, String requestType, String virtualPath, String path)
+   在 System.Web.HttpApplication.MaterializeHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   在 System.Web.HttpApplication.ExecuteStepImpl(IExecutionStep step)
+   在 System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+2019/05/16 +08:00 15:34:12     [7248] Enterprise.Framework.Log.LogUtil.ErrorLog(:0) Enterprise.Framework.Log.LogUtil.ErrorLog(:0) [(null)] - e:\ffqserp\trunk\application\Enterprise.IIS\business\Reports\primeCost.aspx(23): error CS1061: “ASP.business_reports_primecost_aspx”不包含“btnSearch_Click”的定义，并且找不到可接受类型为“ASP.business_reports_primecost_aspx”的第一个参数的扩展方法“btnSearch_Click”(是否缺少 using 指令或程序集引用?) e 
+System.Web.HttpCompileException (0x80004005): e:\ffqserp\trunk\application\Enterprise.IIS\business\Reports\primeCost.aspx(23): error CS1061: “ASP.business_reports_primecost_aspx”不包含“btnSearch_Click”的定义，并且找不到可接受类型为“ASP.business_reports_primecost_aspx”的第一个参数的扩展方法“btnSearch_Click”(是否缺少 using 指令或程序集引用?)
+   在 System.Web.Compilation.AssemblyBuilder.Compile()
+   在 System.Web.Compilation.BuildProvidersCompiler.PerformBuild()
+   在 System.Web.Compilation.BuildManager.CompileWebFile(VirtualPath virtualPath)
+   在 System.Web.Compilation.BuildManager.GetVPathBuildResultInternal(VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   在 System.Web.Compilation.BuildManager.GetVPathBuildResultWithNoAssert(HttpContext context, VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   在 System.Web.Compilation.BuildManager.GetVirtualPathObjectFactory(VirtualPath virtualPath, HttpContext context, Boolean allowCrossApp, Boolean throwIfNotFound)
+   在 System.Web.Compilation.BuildManager.CreateInstanceFromVirtualPath(VirtualPath virtualPath, Type requiredBaseType, HttpContext context, Boolean allowCrossApp)
+   在 System.Web.UI.PageHandlerFactory.GetHandlerHelper(HttpContext context, String requestType, VirtualPath virtualPath, String physicalPath)
+   在 System.Web.UI.PageHandlerFactory.GetHandler(HttpContext context, String requestType, String virtualPath, String path)
+   在 System.Web.HttpApplication.MaterializeHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   在 System.Web.HttpApplication.ExecuteStepImpl(IExecutionStep step)
+   在 System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+2019/05/16 +08:00 15:35:56     [7248] Enterprise.Framework.Log.LogUtil.ErrorLog(:0) Enterprise.Framework.Log.LogUtil.ErrorLog(:0) [(null)] - 
+错误开始===========================================
+客户机IP:::1
+错误地址:http://localhost:19008/Business/Reports/primeCost.aspx
+异常信息:引发类型为“System.Web.HttpUnhandledException”的异常。
+错误结束=========================================== e 
+System.Web.HttpUnhandledException (0x80004005): 引发类型为“System.Web.HttpUnhandledException”的异常。 ---> System.Data.SqlClient.SqlException (0x80131904): 过程或函数 'rpt_Cost' 需要参数 '@BeginDate'，但未提供该参数。
+   在 Enterprise.DataAccess.SQLServer.Enterprise.ExecuteProcedureCommand(String procedureName, Dictionary`2 parameter)
+   在 Enterprise.DataAccess.SQLServer.SqlService.ExecuteProcedureCommand(String procedureName, Dictionary`2 dictParameterParameter)
+   在 Enterprise.IIS.business.Reports.primeCost.BindData() 位置 E:\ffqserp\trunk\application\Enterprise.IIS\business\Reports\primeCost.aspx.cs:行号 29
+   在 Enterprise.IIS.business.Reports.primeCost.Page_Load(Object sender, EventArgs e) 位置 E:\ffqserp\trunk\application\Enterprise.IIS\business\Reports\primeCost.aspx.cs:行号 17
+   在 System.Web.Util.CalliEventHandlerDelegateProxy.Callback(Object sender, EventArgs e)
+   在 System.Web.UI.Control.OnLoad(EventArgs e)
+   在 System.Web.UI.Control.LoadRecursive()
+   在 System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+ClientConnectionId:06f20e5a-e9dc-43cf-a2bf-66f100eba387
+Error Number:201,State:4,Class:16
+   在 System.Web.UI.Page.HandleError(Exception e)
+   在 System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   在 System.Web.UI.Page.ProcessRequest(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   在 System.Web.UI.Page.ProcessRequest()
+   在 System.Web.UI.Page.ProcessRequestWithNoAssert(HttpContext context)
+   在 System.Web.UI.Page.ProcessRequest(HttpContext context)
+   在 ASP.business_reports_primecost_aspx.ProcessRequest(HttpContext context) 位置 c:\Windows\Microsoft.NET\Framework\v4.0.30319\Temporary ASP.NET Files\vs\acc0e68d\f6fd98d3\App_Web_ol2olo4b.0.cs:行号 0
+   在 System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   在 System.Web.HttpApplication.ExecuteStepImpl(IExecutionStep step)
+   在 System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+2019/05/16 +08:00 15:35:56     [7248] Enterprise.Framework.Log.LogUtil.ErrorLog(:0) Enterprise.Framework.Log.LogUtil.ErrorLog(:0) [(null)] - 过程或函数 'rpt_Cost' 需要参数 '@BeginDate'，但未提供该参数。 e 
+System.Data.SqlClient.SqlException (0x80131904): 过程或函数 'rpt_Cost' 需要参数 '@BeginDate'，但未提供该参数。
+   在 Enterprise.DataAccess.SQLServer.Enterprise.ExecuteProcedureCommand(String procedureName, Dictionary`2 parameter)
+   在 Enterprise.DataAccess.SQLServer.SqlService.ExecuteProcedureCommand(String procedureName, Dictionary`2 dictParameterParameter)
+   在 Enterprise.IIS.business.Reports.primeCost.BindData() 位置 E:\ffqserp\trunk\application\Enterprise.IIS\business\Reports\primeCost.aspx.cs:行号 29
+   在 Enterprise.IIS.business.Reports.primeCost.Page_Load(Object sender, EventArgs e) 位置 E:\ffqserp\trunk\application\Enterprise.IIS\business\Reports\primeCost.aspx.cs:行号 17
+   在 System.Web.Util.CalliEventHandlerDelegateProxy.Callback(Object sender, EventArgs e)
+   在 System.Web.UI.Control.OnLoad(EventArgs e)
+   在 System.Web.UI.Control.LoadRecursive()
+   在 System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+ClientConnectionId:06f20e5a-e9dc-43cf-a2bf-66f100eba387
+Error Number:201,State:4,Class:16
+2019/05/16 +08:00 15:37:35     [30360] Enterprise.Framework.Log.LogUtil.ErrorLog(:0) Enterprise.Framework.Log.LogUtil.ErrorLog(:0) [(null)] - 
+错误开始===========================================
+客户机IP:::1
+错误地址:http://localhost:19008/Business/Reports/primeCost.aspx
+异常信息:引发类型为“System.Web.HttpUnhandledException”的异常。
+错误结束=========================================== e 
+System.Web.HttpUnhandledException (0x80004005): 引发类型为“System.Web.HttpUnhandledException”的异常。 ---> System.Data.SqlClient.SqlException (0x80131904): 过程或函数 'rpt_Cost' 需要参数 '@BeginDate'，但未提供该参数。
+   在 Enterprise.DataAccess.SQLServer.Enterprise.ExecuteProcedureCommand(String procedureName, Dictionary`2 parameter)
+   在 Enterprise.DataAccess.SQLServer.SqlService.ExecuteProcedureCommand(String procedureName, Dictionary`2 dictParameterParameter)
+   在 Enterprise.IIS.business.Reports.primeCost.BindData() 位置 E:\ffqserp\trunk\application\Enterprise.IIS\business\Reports\primeCost.aspx.cs:行号 29
+   在 Enterprise.IIS.business.Reports.primeCost.Page_Load(Object sender, EventArgs e) 位置 E:\ffqserp\trunk\application\Enterprise.IIS\business\Reports\primeCost.aspx.cs:行号 17
+   在 System.Web.Util.CalliEventHandlerDelegateProxy.Callback(Object sender, EventArgs e)
+   在 System.Web.UI.Control.OnLoad(EventArgs e)
+   在 System.Web.UI.Control.LoadRecursive()
+   在 System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+ClientConnectionId:06f20e5a-e9dc-43cf-a2bf-66f100eba387
+Error Number:201,State:4,Class:16
+   在 System.Web.UI.Page.HandleError(Exception e)
+   在 System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   在 System.Web.UI.Page.ProcessRequest(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   在 System.Web.UI.Page.ProcessRequest()
+   在 System.Web.UI.Page.ProcessRequestWithNoAssert(HttpContext context)
+   在 System.Web.UI.Page.ProcessRequest(HttpContext context)
+   在 ASP.business_reports_primecost_aspx.ProcessRequest(HttpContext context) 位置 c:\Windows\Microsoft.NET\Framework\v4.0.30319\Temporary ASP.NET Files\vs\acc0e68d\f6fd98d3\App_Web_ol2olo4b.0.cs:行号 0
+   在 System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   在 System.Web.HttpApplication.ExecuteStepImpl(IExecutionStep step)
+   在 System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+2019/05/16 +08:00 15:37:35     [30360] Enterprise.Framework.Log.LogUtil.ErrorLog(:0) Enterprise.Framework.Log.LogUtil.ErrorLog(:0) [(null)] - 过程或函数 'rpt_Cost' 需要参数 '@BeginDate'，但未提供该参数。 e 
+System.Data.SqlClient.SqlException (0x80131904): 过程或函数 'rpt_Cost' 需要参数 '@BeginDate'，但未提供该参数。
+   在 Enterprise.DataAccess.SQLServer.Enterprise.ExecuteProcedureCommand(String procedureName, Dictionary`2 parameter)
+   在 Enterprise.DataAccess.SQLServer.SqlService.ExecuteProcedureCommand(String procedureName, Dictionary`2 dictParameterParameter)
+   在 Enterprise.IIS.business.Reports.primeCost.BindData() 位置 E:\ffqserp\trunk\application\Enterprise.IIS\business\Reports\primeCost.aspx.cs:行号 29
+   在 Enterprise.IIS.business.Reports.primeCost.Page_Load(Object sender, EventArgs e) 位置 E:\ffqserp\trunk\application\Enterprise.IIS\business\Reports\primeCost.aspx.cs:行号 17
+   在 System.Web.Util.CalliEventHandlerDelegateProxy.Callback(Object sender, EventArgs e)
+   在 System.Web.UI.Control.OnLoad(EventArgs e)
+   在 System.Web.UI.Control.LoadRecursive()
+   在 System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+ClientConnectionId:06f20e5a-e9dc-43cf-a2bf-66f100eba387
+Error Number:201,State:4,Class:16
+2019/05/16 +08:00 15:38:29     [7248] Enterprise.Framework.Log.LogUtil.ErrorLog(:0) Enterprise.Framework.Log.LogUtil.ErrorLog(:0) [(null)] - 
+错误开始===========================================
+客户机IP:::1
+错误地址:http://localhost:19008/Business/Reports/primeCost.aspx
+异常信息:引发类型为“System.Web.HttpUnhandledException”的异常。
+错误结束=========================================== e 
+System.Web.HttpUnhandledException (0x80004005): 引发类型为“System.Web.HttpUnhandledException”的异常。 ---> System.Data.SqlClient.SqlException (0x80131904): 过程或函数 'rpt_Cost' 需要参数 '@BeginDate'，但未提供该参数。
+   在 Enterprise.DataAccess.SQLServer.Enterprise.ExecuteProcedureCommand(String procedureName, Dictionary`2 parameter)
+   在 Enterprise.DataAccess.SQLServer.SqlService.ExecuteProcedureCommand(String procedureName, Dictionary`2 dictParameterParameter)
+   在 Enterprise.IIS.business.Reports.primeCost.BindData() 位置 E:\ffqserp\trunk\application\Enterprise.IIS\business\Reports\primeCost.aspx.cs:行号 29
+   在 Enterprise.IIS.business.Reports.primeCost.Page_Load(Object sender, EventArgs e) 位置 E:\ffqserp\trunk\application\Enterprise.IIS\business\Reports\primeCost.aspx.cs:行号 17
+   在 System.Web.Util.CalliEventHandlerDelegateProxy.Callback(Object sender, EventArgs e)
+   在 System.Web.UI.Control.OnLoad(EventArgs e)
+   在 System.Web.UI.Control.LoadRecursive()
+   在 System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+ClientConnectionId:52557b2f-fb1a-484f-850c-58db479e66e8
+Error Number:201,State:4,Class:16
+   在 System.Web.UI.Page.HandleError(Exception e)
+   在 System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   在 System.Web.UI.Page.ProcessRequest(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   在 System.Web.UI.Page.ProcessRequest()
+   在 System.Web.UI.Page.ProcessRequestWithNoAssert(HttpContext context)
+   在 System.Web.UI.Page.ProcessRequest(HttpContext context)
+   在 ASP.business_reports_primecost_aspx.ProcessRequest(HttpContext context) 位置 c:\Windows\Microsoft.NET\Framework\v4.0.30319\Temporary ASP.NET Files\vs\acc0e68d\f6fd98d3\App_Web_mfzbo0s2.0.cs:行号 0
+   在 System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   在 System.Web.HttpApplication.ExecuteStepImpl(IExecutionStep step)
+   在 System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+2019/05/16 +08:00 15:38:29     [7248] Enterprise.Framework.Log.LogUtil.ErrorLog(:0) Enterprise.Framework.Log.LogUtil.ErrorLog(:0) [(null)] - 过程或函数 'rpt_Cost' 需要参数 '@BeginDate'，但未提供该参数。 e 
+System.Data.SqlClient.SqlException (0x80131904): 过程或函数 'rpt_Cost' 需要参数 '@BeginDate'，但未提供该参数。
+   在 Enterprise.DataAccess.SQLServer.Enterprise.ExecuteProcedureCommand(String procedureName, Dictionary`2 parameter)
+   在 Enterprise.DataAccess.SQLServer.SqlService.ExecuteProcedureCommand(String procedureName, Dictionary`2 dictParameterParameter)
+   在 Enterprise.IIS.business.Reports.primeCost.BindData() 位置 E:\ffqserp\trunk\application\Enterprise.IIS\business\Reports\primeCost.aspx.cs:行号 29
+   在 Enterprise.IIS.business.Reports.primeCost.Page_Load(Object sender, EventArgs e) 位置 E:\ffqserp\trunk\application\Enterprise.IIS\business\Reports\primeCost.aspx.cs:行号 17
+   在 System.Web.Util.CalliEventHandlerDelegateProxy.Callback(Object sender, EventArgs e)
+   在 System.Web.UI.Control.OnLoad(EventArgs e)
+   在 System.Web.UI.Control.LoadRecursive()
+   在 System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+ClientConnectionId:52557b2f-fb1a-484f-850c-58db479e66e8
+Error Number:201,State:4,Class:16
+2019/05/16 +08:00 15:46:21     [4384] Enterprise.Framework.Log.LogUtil.ErrorLog(:0) Enterprise.Framework.Log.LogUtil.ErrorLog(:0) [(null)] - 
+错误开始===========================================
+客户机IP:::1
+错误地址:http://localhost:19008/Business/Reports/primeCost.aspx
+异常信息:引发类型为“System.Web.HttpUnhandledException”的异常。
+错误结束=========================================== e 
+System.Web.HttpUnhandledException (0x80004005): 引发类型为“System.Web.HttpUnhandledException”的异常。 ---> System.Data.SqlClient.SqlException (0x80131904): 过程或函数 'rpt_Cost' 需要参数 '@BeginDate'，但未提供该参数。
+   在 Enterprise.DataAccess.SQLServer.Enterprise.ExecuteProcedureCommand(String procedureName, Dictionary`2 parameter)
+   在 Enterprise.DataAccess.SQLServer.SqlService.ExecuteProcedureCommand(String procedureName, Dictionary`2 dictParameterParameter)
+   在 Enterprise.IIS.business.Reports.primeCost.BindData() 位置 E:\ffqserp\trunk\application\Enterprise.IIS\business\Reports\primeCost.aspx.cs:行号 29
+   在 Enterprise.IIS.business.Reports.primeCost.Page_Load(Object sender, EventArgs e) 位置 E:\ffqserp\trunk\application\Enterprise.IIS\business\Reports\primeCost.aspx.cs:行号 17
+   在 System.Web.Util.CalliEventHandlerDelegateProxy.Callback(Object sender, EventArgs e)
+   在 System.Web.UI.Control.OnLoad(EventArgs e)
+   在 System.Web.UI.Control.LoadRecursive()
+   在 System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+ClientConnectionId:34537ef1-21da-42ab-9444-7cf8fb5782d9
+Error Number:201,State:4,Class:16
+   在 System.Web.UI.Page.HandleError(Exception e)
+   在 System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   在 System.Web.UI.Page.ProcessRequest(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   在 System.Web.UI.Page.ProcessRequest()
+   在 System.Web.UI.Page.ProcessRequestWithNoAssert(HttpContext context)
+   在 System.Web.UI.Page.ProcessRequest(HttpContext context)
+   在 ASP.business_reports_primecost_aspx.ProcessRequest(HttpContext context) 位置 c:\Windows\Microsoft.NET\Framework\v4.0.30319\Temporary ASP.NET Files\vs\acc0e68d\f6fd98d3\App_Web_primecost.aspx.3e9c9a95.8gcix2zk.0.cs:行号 0
+   在 System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   在 System.Web.HttpApplication.ExecuteStepImpl(IExecutionStep step)
+   在 System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+2019/05/16 +08:00 15:46:21     [4384] Enterprise.Framework.Log.LogUtil.ErrorLog(:0) Enterprise.Framework.Log.LogUtil.ErrorLog(:0) [(null)] - 过程或函数 'rpt_Cost' 需要参数 '@BeginDate'，但未提供该参数。 e 
+System.Data.SqlClient.SqlException (0x80131904): 过程或函数 'rpt_Cost' 需要参数 '@BeginDate'，但未提供该参数。
+   在 Enterprise.DataAccess.SQLServer.Enterprise.ExecuteProcedureCommand(String procedureName, Dictionary`2 parameter)
+   在 Enterprise.DataAccess.SQLServer.SqlService.ExecuteProcedureCommand(String procedureName, Dictionary`2 dictParameterParameter)
+   在 Enterprise.IIS.business.Reports.primeCost.BindData() 位置 E:\ffqserp\trunk\application\Enterprise.IIS\business\Reports\primeCost.aspx.cs:行号 29
+   在 Enterprise.IIS.business.Reports.primeCost.Page_Load(Object sender, EventArgs e) 位置 E:\ffqserp\trunk\application\Enterprise.IIS\business\Reports\primeCost.aspx.cs:行号 17
+   在 System.Web.Util.CalliEventHandlerDelegateProxy.Callback(Object sender, EventArgs e)
+   在 System.Web.UI.Control.OnLoad(EventArgs e)
+   在 System.Web.UI.Control.LoadRecursive()
+   在 System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+ClientConnectionId:34537ef1-21da-42ab-9444-7cf8fb5782d9
+Error Number:201,State:4,Class:16
+2019/05/16 +08:00 15:46:50     [30360] Enterprise.Framework.Log.LogUtil.ErrorLog(:0) Enterprise.Framework.Log.LogUtil.ErrorLog(:0) [(null)] - 
+错误开始===========================================
+客户机IP:::1
+错误地址:http://localhost:19008/Business/Reports/primeCost.aspx
+异常信息:引发类型为“System.Web.HttpUnhandledException”的异常。
+错误结束=========================================== e 
+System.Web.HttpUnhandledException (0x80004005): 引发类型为“System.Web.HttpUnhandledException”的异常。 ---> System.Data.SqlClient.SqlException (0x80131904): 过程或函数 'rpt_Cost' 需要参数 '@BeginDate'，但未提供该参数。
+   在 Enterprise.DataAccess.SQLServer.Enterprise.ExecuteProcedureCommand(String procedureName, Dictionary`2 parameter)
+   在 Enterprise.DataAccess.SQLServer.SqlService.ExecuteProcedureCommand(String procedureName, Dictionary`2 dictParameterParameter)
+   在 Enterprise.IIS.business.Reports.primeCost.BindData() 位置 E:\ffqserp\trunk\application\Enterprise.IIS\business\Reports\primeCost.aspx.cs:行号 29
+   在 Enterprise.IIS.business.Reports.primeCost.Page_Load(Object sender, EventArgs e) 位置 E:\ffqserp\trunk\application\Enterprise.IIS\business\Reports\primeCost.aspx.cs:行号 17
+   在 System.Web.Util.CalliEventHandlerDelegateProxy.Callback(Object sender, EventArgs e)
+   在 System.Web.UI.Control.OnLoad(EventArgs e)
+   在 System.Web.UI.Control.LoadRecursive()
+   在 System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+ClientConnectionId:34537ef1-21da-42ab-9444-7cf8fb5782d9
+Error Number:201,State:4,Class:16
+   在 System.Web.UI.Page.HandleError(Exception e)
+   在 System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   在 System.Web.UI.Page.ProcessRequest(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   在 System.Web.UI.Page.ProcessRequest()
+   在 System.Web.UI.Page.ProcessRequestWithNoAssert(HttpContext context)
+   在 System.Web.UI.Page.ProcessRequest(HttpContext context)
+   在 ASP.business_reports_primecost_aspx.ProcessRequest(HttpContext context) 位置 c:\Windows\Microsoft.NET\Framework\v4.0.30319\Temporary ASP.NET Files\vs\acc0e68d\f6fd98d3\App_Web_primecost.aspx.3e9c9a95.8gcix2zk.0.cs:行号 0
+   在 System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   在 System.Web.HttpApplication.ExecuteStepImpl(IExecutionStep step)
+   在 System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+2019/05/16 +08:00 15:46:50     [30360] Enterprise.Framework.Log.LogUtil.ErrorLog(:0) Enterprise.Framework.Log.LogUtil.ErrorLog(:0) [(null)] - 过程或函数 'rpt_Cost' 需要参数 '@BeginDate'，但未提供该参数。 e 
+System.Data.SqlClient.SqlException (0x80131904): 过程或函数 'rpt_Cost' 需要参数 '@BeginDate'，但未提供该参数。
+   在 Enterprise.DataAccess.SQLServer.Enterprise.ExecuteProcedureCommand(String procedureName, Dictionary`2 parameter)
+   在 Enterprise.DataAccess.SQLServer.SqlService.ExecuteProcedureCommand(String procedureName, Dictionary`2 dictParameterParameter)
+   在 Enterprise.IIS.business.Reports.primeCost.BindData() 位置 E:\ffqserp\trunk\application\Enterprise.IIS\business\Reports\primeCost.aspx.cs:行号 29
+   在 Enterprise.IIS.business.Reports.primeCost.Page_Load(Object sender, EventArgs e) 位置 E:\ffqserp\trunk\application\Enterprise.IIS\business\Reports\primeCost.aspx.cs:行号 17
+   在 System.Web.Util.CalliEventHandlerDelegateProxy.Callback(Object sender, EventArgs e)
+   在 System.Web.UI.Control.OnLoad(EventArgs e)
+   在 System.Web.UI.Control.LoadRecursive()
+   在 System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+ClientConnectionId:34537ef1-21da-42ab-9444-7cf8fb5782d9
+Error Number:201,State:4,Class:16
+2019/05/16 +08:00 15:51:59     [22240] Enterprise.Framework.Log.LogUtil.ErrorLog(:0) Enterprise.Framework.Log.LogUtil.ErrorLog(:0) [(null)] - 
+错误开始===========================================
+客户机IP:::1
+错误地址:http://localhost:19008/Business/Reports/primeCost.aspx
+异常信息:引发类型为“System.Web.HttpUnhandledException”的异常。
+错误结束=========================================== e 
+System.Web.HttpUnhandledException (0x80004005): 引发类型为“System.Web.HttpUnhandledException”的异常。 ---> System.Data.SqlClient.SqlException (0x80131904): 过程或函数 'rpt_Cost' 需要参数 '@BeginDate'，但未提供该参数。
+   在 Enterprise.DataAccess.SQLServer.Enterprise.ExecuteProcedureCommand(String procedureName, Dictionary`2 parameter)
+   在 Enterprise.DataAccess.SQLServer.SqlService.ExecuteProcedureCommand(String procedureName, Dictionary`2 dictParameterParameter)
+   在 Enterprise.IIS.business.Reports.primeCost.BindData() 位置 E:\ffqserp\trunk\application\Enterprise.IIS\business\Reports\primeCost.aspx.cs:行号 29
+   在 Enterprise.IIS.business.Reports.primeCost.Page_Load(Object sender, EventArgs e) 位置 E:\ffqserp\trunk\application\Enterprise.IIS\business\Reports\primeCost.aspx.cs:行号 17
+   在 System.Web.Util.CalliEventHandlerDelegateProxy.Callback(Object sender, EventArgs e)
+   在 System.Web.UI.Control.OnLoad(EventArgs e)
+   在 System.Web.UI.Control.LoadRecursive()
+   在 System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+ClientConnectionId:25f8ccb3-0a1e-4334-99c7-ec3e373cfe05
+Error Number:201,State:4,Class:16
+   在 System.Web.UI.Page.HandleError(Exception e)
+   在 System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   在 System.Web.UI.Page.ProcessRequest(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   在 System.Web.UI.Page.ProcessRequest()
+   在 System.Web.UI.Page.ProcessRequestWithNoAssert(HttpContext context)
+   在 System.Web.UI.Page.ProcessRequest(HttpContext context)
+   在 ASP.business_reports_primecost_aspx.ProcessRequest(HttpContext context) 位置 c:\Windows\Microsoft.NET\Framework\v4.0.30319\Temporary ASP.NET Files\vs\acc0e68d\f6fd98d3\App_Web_zsxkgtvx.5.cs:行号 0
+   在 System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   在 System.Web.HttpApplication.ExecuteStepImpl(IExecutionStep step)
+   在 System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+2019/05/16 +08:00 15:51:59     [22240] Enterprise.Framework.Log.LogUtil.ErrorLog(:0) Enterprise.Framework.Log.LogUtil.ErrorLog(:0) [(null)] - 过程或函数 'rpt_Cost' 需要参数 '@BeginDate'，但未提供该参数。 e 
+System.Data.SqlClient.SqlException (0x80131904): 过程或函数 'rpt_Cost' 需要参数 '@BeginDate'，但未提供该参数。
+   在 Enterprise.DataAccess.SQLServer.Enterprise.ExecuteProcedureCommand(String procedureName, Dictionary`2 parameter)
+   在 Enterprise.DataAccess.SQLServer.SqlService.ExecuteProcedureCommand(String procedureName, Dictionary`2 dictParameterParameter)
+   在 Enterprise.IIS.business.Reports.primeCost.BindData() 位置 E:\ffqserp\trunk\application\Enterprise.IIS\business\Reports\primeCost.aspx.cs:行号 29
+   在 Enterprise.IIS.business.Reports.primeCost.Page_Load(Object sender, EventArgs e) 位置 E:\ffqserp\trunk\application\Enterprise.IIS\business\Reports\primeCost.aspx.cs:行号 17
+   在 System.Web.Util.CalliEventHandlerDelegateProxy.Callback(Object sender, EventArgs e)
+   在 System.Web.UI.Control.OnLoad(EventArgs e)
+   在 System.Web.UI.Control.LoadRecursive()
+   在 System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+ClientConnectionId:25f8ccb3-0a1e-4334-99c7-ec3e373cfe05
+Error Number:201,State:4,Class:16
+2019/05/16 +08:00 15:59:39     [3724] Enterprise.Framework.Log.LogUtil.ErrorLog(:0) Enterprise.Framework.Log.LogUtil.ErrorLog(:0) [(null)] - 
+错误开始===========================================
+客户机IP:::1
+错误地址:http://localhost:19008/Business/Reports/primeCost.aspx
+异常信息:引发类型为“System.Web.HttpUnhandledException”的异常。
+错误结束=========================================== e 
+System.Web.HttpUnhandledException (0x80004005): 引发类型为“System.Web.HttpUnhandledException”的异常。 ---> System.Data.SqlClient.SqlException (0x80131904): 过程或函数 'rpt_Cost' 需要参数 '@BeginDate'，但未提供该参数。
+   在 Enterprise.DataAccess.SQLServer.Enterprise.ExecuteProcedureCommand(String procedureName, Dictionary`2 parameter)
+   在 Enterprise.DataAccess.SQLServer.SqlService.ExecuteProcedureCommand(String procedureName, Dictionary`2 dictParameterParameter)
+   在 Enterprise.IIS.business.Reports.primeCost.BindData() 位置 E:\ffqserp\trunk\application\Enterprise.IIS\business\Reports\primeCost.aspx.cs:行号 29
+   在 Enterprise.IIS.business.Reports.primeCost.Page_Load(Object sender, EventArgs e) 位置 E:\ffqserp\trunk\application\Enterprise.IIS\business\Reports\primeCost.aspx.cs:行号 17
+   在 System.Web.Util.CalliEventHandlerDelegateProxy.Callback(Object sender, EventArgs e)
+   在 System.Web.UI.Control.OnLoad(EventArgs e)
+   在 System.Web.UI.Control.LoadRecursive()
+   在 System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+ClientConnectionId:87ce421e-c3ae-4f8e-91e6-844142929642
+Error Number:201,State:4,Class:16
+   在 System.Web.UI.Page.HandleError(Exception e)
+   在 System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   在 System.Web.UI.Page.ProcessRequest(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   在 System.Web.UI.Page.ProcessRequest()
+   在 System.Web.UI.Page.ProcessRequestWithNoAssert(HttpContext context)
+   在 System.Web.UI.Page.ProcessRequest(HttpContext context)
+   在 ASP.business_reports_primecost_aspx.ProcessRequest(HttpContext context) 位置 c:\Windows\Microsoft.NET\Framework\v4.0.30319\Temporary ASP.NET Files\vs\acc0e68d\f6fd98d3\App_Web_zsxkgtvx.5.cs:行号 0
+   在 System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   在 System.Web.HttpApplication.ExecuteStepImpl(IExecutionStep step)
+   在 System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+2019/05/16 +08:00 15:59:39     [3724] Enterprise.Framework.Log.LogUtil.ErrorLog(:0) Enterprise.Framework.Log.LogUtil.ErrorLog(:0) [(null)] - 过程或函数 'rpt_Cost' 需要参数 '@BeginDate'，但未提供该参数。 e 
+System.Data.SqlClient.SqlException (0x80131904): 过程或函数 'rpt_Cost' 需要参数 '@BeginDate'，但未提供该参数。
+   在 Enterprise.DataAccess.SQLServer.Enterprise.ExecuteProcedureCommand(String procedureName, Dictionary`2 parameter)
+   在 Enterprise.DataAccess.SQLServer.SqlService.ExecuteProcedureCommand(String procedureName, Dictionary`2 dictParameterParameter)
+   在 Enterprise.IIS.business.Reports.primeCost.BindData() 位置 E:\ffqserp\trunk\application\Enterprise.IIS\business\Reports\primeCost.aspx.cs:行号 29
+   在 Enterprise.IIS.business.Reports.primeCost.Page_Load(Object sender, EventArgs e) 位置 E:\ffqserp\trunk\application\Enterprise.IIS\business\Reports\primeCost.aspx.cs:行号 17
+   在 System.Web.Util.CalliEventHandlerDelegateProxy.Callback(Object sender, EventArgs e)
+   在 System.Web.UI.Control.OnLoad(EventArgs e)
+   在 System.Web.UI.Control.LoadRecursive()
+   在 System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+ClientConnectionId:87ce421e-c3ae-4f8e-91e6-844142929642
+Error Number:201,State:4,Class:16
+2019/05/16 +08:00 16:00:33     [23624] Enterprise.Framework.Log.LogUtil.ErrorLog(:0) Enterprise.Framework.Log.LogUtil.ErrorLog(:0) [(null)] - 
+错误开始===========================================
+客户机IP:::1
+错误地址:http://localhost:19008/Business/Reports/primeCost.aspx
+异常信息:引发类型为“System.Web.HttpUnhandledException”的异常。
+错误结束=========================================== e 
+System.Web.HttpUnhandledException (0x80004005): 引发类型为“System.Web.HttpUnhandledException”的异常。 ---> System.Data.SqlClient.SqlException (0x80131904): 过程或函数 'rpt_Cost' 需要参数 '@BeginDate'，但未提供该参数。
+   在 Enterprise.DataAccess.SQLServer.Enterprise.ExecuteProcedureCommand(String procedureName, Dictionary`2 parameter)
+   在 Enterprise.DataAccess.SQLServer.SqlService.ExecuteProcedureCommand(String procedureName, Dictionary`2 dictParameterParameter)
+   在 Enterprise.IIS.business.Reports.primeCost.BindData() 位置 E:\ffqserp\trunk\application\Enterprise.IIS\business\Reports\primeCost.aspx.cs:行号 29
+   在 Enterprise.IIS.business.Reports.primeCost.Page_Load(Object sender, EventArgs e) 位置 E:\ffqserp\trunk\application\Enterprise.IIS\business\Reports\primeCost.aspx.cs:行号 17
+   在 System.Web.Util.CalliEventHandlerDelegateProxy.Callback(Object sender, EventArgs e)
+   在 System.Web.UI.Control.OnLoad(EventArgs e)
+   在 System.Web.UI.Control.LoadRecursive()
+   在 System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+ClientConnectionId:2ea2df3a-2be4-4cc5-a334-300e77625c80
+Error Number:201,State:4,Class:16
+   在 System.Web.UI.Page.HandleError(Exception e)
+   在 System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   在 System.Web.UI.Page.ProcessRequest(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   在 System.Web.UI.Page.ProcessRequest()
+   在 System.Web.UI.Page.ProcessRequestWithNoAssert(HttpContext context)
+   在 System.Web.UI.Page.ProcessRequest(HttpContext context)
+   在 ASP.business_reports_primecost_aspx.ProcessRequest(HttpContext context) 位置 c:\Windows\Microsoft.NET\Framework\v4.0.30319\Temporary ASP.NET Files\vs\acc0e68d\f6fd98d3\App_Web_primecost.aspx.3e9c9a95._tckmsl2.0.cs:行号 0
+   在 System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   在 System.Web.HttpApplication.ExecuteStepImpl(IExecutionStep step)
+   在 System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+2019/05/16 +08:00 16:00:33     [23624] Enterprise.Framework.Log.LogUtil.ErrorLog(:0) Enterprise.Framework.Log.LogUtil.ErrorLog(:0) [(null)] - 过程或函数 'rpt_Cost' 需要参数 '@BeginDate'，但未提供该参数。 e 
+System.Data.SqlClient.SqlException (0x80131904): 过程或函数 'rpt_Cost' 需要参数 '@BeginDate'，但未提供该参数。
+   在 Enterprise.DataAccess.SQLServer.Enterprise.ExecuteProcedureCommand(String procedureName, Dictionary`2 parameter)
+   在 Enterprise.DataAccess.SQLServer.SqlService.ExecuteProcedureCommand(String procedureName, Dictionary`2 dictParameterParameter)
+   在 Enterprise.IIS.business.Reports.primeCost.BindData() 位置 E:\ffqserp\trunk\application\Enterprise.IIS\business\Reports\primeCost.aspx.cs:行号 29
+   在 Enterprise.IIS.business.Reports.primeCost.Page_Load(Object sender, EventArgs e) 位置 E:\ffqserp\trunk\application\Enterprise.IIS\business\Reports\primeCost.aspx.cs:行号 17
+   在 System.Web.Util.CalliEventHandlerDelegateProxy.Callback(Object sender, EventArgs e)
+   在 System.Web.UI.Control.OnLoad(EventArgs e)
+   在 System.Web.UI.Control.LoadRecursive()
+   在 System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+ClientConnectionId:2ea2df3a-2be4-4cc5-a334-300e77625c80
+Error Number:201,State:4,Class:16
+2019/05/16 +08:00 16:17:54     [31812] Enterprise.Framework.Log.LogUtil.ErrorLog(:0) Enterprise.Framework.Log.LogUtil.ErrorLog(:0) [(null)] - 
+错误开始===========================================
+客户机IP:::1
+错误地址:http://localhost:19008/Business/Reports/primeCost.aspx
+异常信息:引发类型为“System.Web.HttpUnhandledException”的异常。
+错误结束=========================================== e 
+System.Web.HttpUnhandledException (0x80004005): 引发类型为“System.Web.HttpUnhandledException”的异常。 ---> System.Data.SqlClient.SqlException (0x80131904): 过程或函数 'rpt_Cost' 需要参数 '@BeginDate'，但未提供该参数。
+   在 Enterprise.DataAccess.SQLServer.Enterprise.ExecuteProcedureCommand(String procedureName, Dictionary`2 parameter)
+   在 Enterprise.DataAccess.SQLServer.SqlService.ExecuteProcedureCommand(String procedureName, Dictionary`2 dictParameterParameter)
+   在 Enterprise.IIS.business.Reports.primeCost.BindData() 位置 E:\ffqserp\trunk\application\Enterprise.IIS\business\Reports\primeCost.aspx.cs:行号 29
+   在 Enterprise.IIS.business.Reports.primeCost.Page_Load(Object sender, EventArgs e) 位置 E:\ffqserp\trunk\application\Enterprise.IIS\business\Reports\primeCost.aspx.cs:行号 17
+   在 System.Web.Util.CalliEventHandlerDelegateProxy.Callback(Object sender, EventArgs e)
+   在 System.Web.UI.Control.OnLoad(EventArgs e)
+   在 System.Web.UI.Control.LoadRecursive()
+   在 System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+ClientConnectionId:3ae45c91-eca9-41fe-a50e-03c4ef405781
+Error Number:201,State:4,Class:16
+   在 System.Web.UI.Page.HandleError(Exception e)
+   在 System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   在 System.Web.UI.Page.ProcessRequest(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   在 System.Web.UI.Page.ProcessRequest()
+   在 System.Web.UI.Page.ProcessRequestWithNoAssert(HttpContext context)
+   在 System.Web.UI.Page.ProcessRequest(HttpContext context)
+   在 ASP.business_reports_primecost_aspx.ProcessRequest(HttpContext context) 位置 c:\Windows\Microsoft.NET\Framework\v4.0.30319\Temporary ASP.NET Files\vs\acc0e68d\f6fd98d3\App_Web_primecost.aspx.3e9c9a95.yylmql51.0.cs:行号 0
+   在 System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   在 System.Web.HttpApplication.ExecuteStepImpl(IExecutionStep step)
+   在 System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+2019/05/16 +08:00 16:17:54     [31812] Enterprise.Framework.Log.LogUtil.ErrorLog(:0) Enterprise.Framework.Log.LogUtil.ErrorLog(:0) [(null)] - 过程或函数 'rpt_Cost' 需要参数 '@BeginDate'，但未提供该参数。 e 
+System.Data.SqlClient.SqlException (0x80131904): 过程或函数 'rpt_Cost' 需要参数 '@BeginDate'，但未提供该参数。
+   在 Enterprise.DataAccess.SQLServer.Enterprise.ExecuteProcedureCommand(String procedureName, Dictionary`2 parameter)
+   在 Enterprise.DataAccess.SQLServer.SqlService.ExecuteProcedureCommand(String procedureName, Dictionary`2 dictParameterParameter)
+   在 Enterprise.IIS.business.Reports.primeCost.BindData() 位置 E:\ffqserp\trunk\application\Enterprise.IIS\business\Reports\primeCost.aspx.cs:行号 29
+   在 Enterprise.IIS.business.Reports.primeCost.Page_Load(Object sender, EventArgs e) 位置 E:\ffqserp\trunk\application\Enterprise.IIS\business\Reports\primeCost.aspx.cs:行号 17
+   在 System.Web.Util.CalliEventHandlerDelegateProxy.Callback(Object sender, EventArgs e)
+   在 System.Web.UI.Control.OnLoad(EventArgs e)
+   在 System.Web.UI.Control.LoadRecursive()
+   在 System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+ClientConnectionId:3ae45c91-eca9-41fe-a50e-03c4ef405781
+Error Number:201,State:4,Class:16

@@ -1,0 +1,4 @@
+﻿2019/09/02 09:03:00            ，发货单：XS-190902-0027，发货单详细单号：122371---G0448, 
+2019/09/02 09:03:21            ，发货单：XS-190902-0027，发货单详细单号：122371---G0448,错误：，发货单：XS-190902-0027，发货单详细单号：122371---G0448,,错误信息：无法连接到远程服务器,错误堆栈：   在 System.Net.HttpWebRequest.GetRequestStream(TransportContext& context)
+   在 System.Net.HttpWebRequest.GetRequestStream()
+   在 Enterprise.IIS.Common.HttpRequest.httpRequest(tmsModel t, String uri) 位置 E:\ffqserp\trunk\application\Enterprise.IIS\Common\HttpRequest.cs:行号 61 

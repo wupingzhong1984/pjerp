@@ -1,0 +1,12 @@
+﻿2020/10/28 10:47:39            ，销售单：OC-201029-0001，销售单详细单号：94129---G1141, 
+2020/10/28 10:48:01            ，销售单：OC-201029-0001，销售单详细单号：94129---G1141,错误：，销售单：OC-201029-0001，销售单详细单号：94129---G1141,,错误信息：无法连接到远程服务器,错误堆栈：   在 System.Net.HttpWebRequest.GetRequestStream(TransportContext& context)
+   在 System.Net.HttpWebRequest.GetRequestStream()
+   在 Enterprise.IIS.Common.HttpRequest.httpRequest(tmsModel t, String uri) 位置 h:\ffqserp\trunk\application\Enterprise.IIS\Common\HttpRequest.cs:行号 61 
+2020/10/28 16:02:01            ，发货单：XS-201027-0001，发货单详细单号：120867---G4900,，销售单：OC-201028-0001，销售单详细单号：94128---G4900, 
+2020/10/28 16:02:23            ，发货单：XS-201027-0001，发货单详细单号：120867---G4900,，销售单：OC-201028-0001，销售单详细单号：94128---G4900,错误：，发货单：XS-201027-0001，发货单详细单号：120867---G4900,，销售单：OC-201028-0001，销售单详细单号：94128---G4900,,错误信息：无法连接到远程服务器,错误堆栈：   在 System.Net.HttpWebRequest.GetRequestStream(TransportContext& context)
+   在 System.Net.HttpWebRequest.GetRequestStream()
+   在 Enterprise.IIS.Common.HttpRequest.httpRequest(tmsModel t, String uri) 位置 h:\ffqserp\trunk\application\Enterprise.IIS\Common\HttpRequest.cs:行号 61 
+2020/10/28 16:03:14            ，发货单：XS-201026-0001，发货单详细单号：120866---G1141,，销售单：OC-201027-0001，销售单详细单号：94126---G1141, 
+2020/10/28 16:03:35            ，发货单：XS-201026-0001，发货单详细单号：120866---G1141,，销售单：OC-201027-0001，销售单详细单号：94126---G1141,错误：，发货单：XS-201026-0001，发货单详细单号：120866---G1141,，销售单：OC-201027-0001，销售单详细单号：94126---G1141,,错误信息：无法连接到远程服务器,错误堆栈：   在 System.Net.HttpWebRequest.GetRequestStream(TransportContext& context)
+   在 System.Net.HttpWebRequest.GetRequestStream()
+   在 Enterprise.IIS.Common.HttpRequest.httpRequest(tmsModel t, String uri) 位置 h:\ffqserp\trunk\application\Enterprise.IIS\Common\HttpRequest.cs:行号 61 

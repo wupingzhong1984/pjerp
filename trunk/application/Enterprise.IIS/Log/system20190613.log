@@ -1,0 +1,1191 @@
+﻿2019/06/13 +08:00 10:56:08     [23672] Enterprise.Framework.Log.LogUtil.ErrorLog(:0) Enterprise.Framework.Log.LogUtil.ErrorLog(:0) [(null)] - 
+错误开始===========================================
+客户机IP:::1
+错误地址:http://localhost:19008/Business/Factor/PipeCarSalesVolume.aspx
+异常信息:引发类型为“System.Web.HttpUnhandledException”的异常。
+错误结束=========================================== e 
+System.Web.HttpUnhandledException (0x80004005): 引发类型为“System.Web.HttpUnhandledException”的异常。 ---> System.Data.SqlClient.SqlException (0x80131904): 在将 varchar 值 'PJ324' 转换成数据类型 int 时失败。
+   在 Enterprise.DataAccess.SQLServer.Enterprise.ExecuteProcedureCommand(String procedureName, Dictionary`2 parameter)
+   在 Enterprise.DataAccess.SQLServer.SqlService.ExecuteProcedureCommand(String procedureName, Dictionary`2 dictParameterParameter)
+   在 Enterprise.IIS.business.Factor.PipeCarSalesVolume.BindData() 位置 E:\ffqserp\trunk\application\Enterprise.IIS\business\Factor\PipeCarSalesVolume.aspx.cs:行号 74
+   在 Enterprise.IIS.business.Factor.PipeCarSalesVolume.btnSearch_Click(Object sender, EventArgs e) 位置 E:\ffqserp\trunk\application\Enterprise.IIS\business\Factor\PipeCarSalesVolume.aspx.cs:行号 83
+   在 FineUI.Button.OnClick(EventArgs e)
+   在 FineUI.Button.RaisePostBackEvent(String eventArgument)
+   在 System.Web.UI.Page.RaisePostBackEvent(IPostBackEventHandler sourceControl, String eventArgument)
+   在 System.Web.UI.Page.RaisePostBackEvent(NameValueCollection postData)
+   在 System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+ClientConnectionId:4e2d77a6-0fb1-4664-b511-36a0367560dc
+Error Number:245,State:1,Class:16
+   在 System.Web.UI.Page.HandleError(Exception e)
+   在 System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   在 System.Web.UI.Page.ProcessRequest(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   在 System.Web.UI.Page.ProcessRequest()
+   在 System.Web.UI.Page.ProcessRequestWithNoAssert(HttpContext context)
+   在 System.Web.UI.Page.ProcessRequest(HttpContext context)
+   在 ASP.business_factor_pipecarsalesvolume_aspx.ProcessRequest(HttpContext context) 位置 c:\Windows\Microsoft.NET\Framework\v4.0.30319\Temporary ASP.NET Files\vs\acc0e68d\f6fd98d3\App_Web_o0qowlxk.1.cs:行号 0
+   在 System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   在 System.Web.HttpApplication.ExecuteStepImpl(IExecutionStep step)
+   在 System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+2019/06/13 +08:00 10:56:09     [23672] Enterprise.Framework.Log.LogUtil.ErrorLog(:0) Enterprise.Framework.Log.LogUtil.ErrorLog(:0) [(null)] - 在将 varchar 值 'PJ324' 转换成数据类型 int 时失败。 e 
+System.Data.SqlClient.SqlException (0x80131904): 在将 varchar 值 'PJ324' 转换成数据类型 int 时失败。
+   在 Enterprise.DataAccess.SQLServer.Enterprise.ExecuteProcedureCommand(String procedureName, Dictionary`2 parameter)
+   在 Enterprise.DataAccess.SQLServer.SqlService.ExecuteProcedureCommand(String procedureName, Dictionary`2 dictParameterParameter)
+   在 Enterprise.IIS.business.Factor.PipeCarSalesVolume.BindData() 位置 E:\ffqserp\trunk\application\Enterprise.IIS\business\Factor\PipeCarSalesVolume.aspx.cs:行号 74
+   在 Enterprise.IIS.business.Factor.PipeCarSalesVolume.btnSearch_Click(Object sender, EventArgs e) 位置 E:\ffqserp\trunk\application\Enterprise.IIS\business\Factor\PipeCarSalesVolume.aspx.cs:行号 83
+   在 FineUI.Button.OnClick(EventArgs e)
+   在 FineUI.Button.RaisePostBackEvent(String eventArgument)
+   在 System.Web.UI.Page.RaisePostBackEvent(IPostBackEventHandler sourceControl, String eventArgument)
+   在 System.Web.UI.Page.RaisePostBackEvent(NameValueCollection postData)
+   在 System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+ClientConnectionId:4e2d77a6-0fb1-4664-b511-36a0367560dc
+Error Number:245,State:1,Class:16
+2019/06/13 +08:00 10:59:37     [14956] Enterprise.Framework.Log.LogUtil.ErrorLog(:0) Enterprise.Framework.Log.LogUtil.ErrorLog(:0) [(null)] - 
+错误开始===========================================
+客户机IP:::1
+错误地址:http://localhost:19008/Business/Factor/PipeCarSalesVolume.aspx
+异常信息:引发类型为“System.Web.HttpUnhandledException”的异常。
+错误结束=========================================== e 
+System.Web.HttpUnhandledException (0x80004005): 引发类型为“System.Web.HttpUnhandledException”的异常。 ---> System.Data.SqlClient.SqlException (0x80131904): 在将 varchar 值 'PJ324' 转换成数据类型 int 时失败。
+   在 Enterprise.DataAccess.SQLServer.Enterprise.ExecuteProcedureCommand(String procedureName, Dictionary`2 parameter)
+   在 Enterprise.DataAccess.SQLServer.SqlService.ExecuteProcedureCommand(String procedureName, Dictionary`2 dictParameterParameter)
+   在 Enterprise.IIS.business.Factor.PipeCarSalesVolume.BindData() 位置 E:\ffqserp\trunk\application\Enterprise.IIS\business\Factor\PipeCarSalesVolume.aspx.cs:行号 74
+   在 Enterprise.IIS.business.Factor.PipeCarSalesVolume.btnSearch_Click(Object sender, EventArgs e) 位置 E:\ffqserp\trunk\application\Enterprise.IIS\business\Factor\PipeCarSalesVolume.aspx.cs:行号 83
+   在 FineUI.Button.OnClick(EventArgs e)
+   在 FineUI.Button.RaisePostBackEvent(String eventArgument)
+   在 System.Web.UI.Page.RaisePostBackEvent(IPostBackEventHandler sourceControl, String eventArgument)
+   在 System.Web.UI.Page.RaisePostBackEvent(NameValueCollection postData)
+   在 System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+ClientConnectionId:4e2d77a6-0fb1-4664-b511-36a0367560dc
+Error Number:245,State:1,Class:16
+   在 System.Web.UI.Page.HandleError(Exception e)
+   在 System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   在 System.Web.UI.Page.ProcessRequest(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   在 System.Web.UI.Page.ProcessRequest()
+   在 System.Web.UI.Page.ProcessRequestWithNoAssert(HttpContext context)
+   在 System.Web.UI.Page.ProcessRequest(HttpContext context)
+   在 ASP.business_factor_pipecarsalesvolume_aspx.ProcessRequest(HttpContext context) 位置 c:\Windows\Microsoft.NET\Framework\v4.0.30319\Temporary ASP.NET Files\vs\acc0e68d\f6fd98d3\App_Web_fc2ebvd0.2.cs:行号 0
+   在 System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   在 System.Web.HttpApplication.ExecuteStepImpl(IExecutionStep step)
+   在 System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+2019/06/13 +08:00 10:59:37     [14956] Enterprise.Framework.Log.LogUtil.ErrorLog(:0) Enterprise.Framework.Log.LogUtil.ErrorLog(:0) [(null)] - 在将 varchar 值 'PJ324' 转换成数据类型 int 时失败。 e 
+System.Data.SqlClient.SqlException (0x80131904): 在将 varchar 值 'PJ324' 转换成数据类型 int 时失败。
+   在 Enterprise.DataAccess.SQLServer.Enterprise.ExecuteProcedureCommand(String procedureName, Dictionary`2 parameter)
+   在 Enterprise.DataAccess.SQLServer.SqlService.ExecuteProcedureCommand(String procedureName, Dictionary`2 dictParameterParameter)
+   在 Enterprise.IIS.business.Factor.PipeCarSalesVolume.BindData() 位置 E:\ffqserp\trunk\application\Enterprise.IIS\business\Factor\PipeCarSalesVolume.aspx.cs:行号 74
+   在 Enterprise.IIS.business.Factor.PipeCarSalesVolume.btnSearch_Click(Object sender, EventArgs e) 位置 E:\ffqserp\trunk\application\Enterprise.IIS\business\Factor\PipeCarSalesVolume.aspx.cs:行号 83
+   在 FineUI.Button.OnClick(EventArgs e)
+   在 FineUI.Button.RaisePostBackEvent(String eventArgument)
+   在 System.Web.UI.Page.RaisePostBackEvent(IPostBackEventHandler sourceControl, String eventArgument)
+   在 System.Web.UI.Page.RaisePostBackEvent(NameValueCollection postData)
+   在 System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+ClientConnectionId:4e2d77a6-0fb1-4664-b511-36a0367560dc
+Error Number:245,State:1,Class:16
+2019/06/13 +08:00 14:15:40     [18204] Enterprise.Framework.Log.LogUtil.InfoLog(:0) Enterprise.Framework.Log.LogUtil.InfoLog(:0) [(null)] - ，发货单：TS-190320-0013，发货单详细单号：100655---G1159,，销售单：OC-190320-0057，销售单详细单号：75262---G1159, e 
+2019/06/13 +08:00 14:16:04     [18204] Enterprise.Framework.Log.LogUtil.InfoLog(:0) Enterprise.Framework.Log.LogUtil.InfoLog(:0) [(null)] - ，发货单：TS-190320-0013，发货单详细单号：100655---G1159,，销售单：OC-190320-0057，销售单详细单号：75262---G1159,错误：，发货单：TS-190320-0013，发货单详细单号：100655---G1159,，销售单：OC-190320-0057，销售单详细单号：75262---G1159,,错误信息：无法连接到远程服务器,错误堆栈：   在 System.Net.HttpWebRequest.GetRequestStream(TransportContext& context)
+   在 System.Net.HttpWebRequest.GetRequestStream()
+   在 Enterprise.IIS.Common.HttpRequest.httpRequest(tmsModel t, String uri) 位置 E:\ffqserp\trunk\application\Enterprise.IIS\Common\HttpRequest.cs:行号 61 e 
+2019/06/13 +08:00 14:39:31     [31528] Enterprise.Framework.Log.LogUtil.ErrorLog(:0) Enterprise.Framework.Log.LogUtil.ErrorLog(:0) [(null)] - 
+错误开始===========================================
+客户机IP:::1
+错误地址:http://localhost:19008/Business/Factor/PipeCarSalesVolume.aspx
+异常信息:引发类型为“System.Web.HttpUnhandledException”的异常。
+错误结束=========================================== e 
+System.Web.HttpUnhandledException (0x80004005): 引发类型为“System.Web.HttpUnhandledException”的异常。 ---> System.NotSupportedException: LINQ to Entities 不识别方法“System.String ToString()”，因此该方法无法转换为存储表达式。
+   在 System.Data.Objects.ELinq.ExpressionConverter.MethodCallTranslator.DefaultTranslator.Translate(ExpressionConverter parent, MethodCallExpression call)
+   在 System.Data.Objects.ELinq.ExpressionConverter.MethodCallTranslator.TypedTranslate(ExpressionConverter parent, MethodCallExpression linq)
+   在 System.Data.Objects.ELinq.ExpressionConverter.TypedTranslator`1.Translate(ExpressionConverter parent, Expression linq)
+   在 System.Data.Objects.ELinq.ExpressionConverter.TranslateExpression(Expression linq)
+   在 System.Data.Objects.ELinq.ExpressionConverter.EqualsTranslator.TypedTranslate(ExpressionConverter parent, BinaryExpression linq)
+   在 System.Data.Objects.ELinq.ExpressionConverter.TypedTranslator`1.Translate(ExpressionConverter parent, Expression linq)
+   在 System.Data.Objects.ELinq.ExpressionConverter.TranslateExpression(Expression linq)
+   在 System.Data.Objects.ELinq.ExpressionConverter.BinaryTranslator.TypedTranslate(ExpressionConverter parent, BinaryExpression linq)
+   在 System.Data.Objects.ELinq.ExpressionConverter.TypedTranslator`1.Translate(ExpressionConverter parent, Expression linq)
+   在 System.Data.Objects.ELinq.ExpressionConverter.TranslateExpression(Expression linq)
+   在 System.Data.Objects.ELinq.ExpressionConverter.BinaryTranslator.TypedTranslate(ExpressionConverter parent, BinaryExpression linq)
+   在 System.Data.Objects.ELinq.ExpressionConverter.TypedTranslator`1.Translate(ExpressionConverter parent, Expression linq)
+   在 System.Data.Objects.ELinq.ExpressionConverter.TranslateExpression(Expression linq)
+   在 System.Data.Objects.ELinq.ExpressionConverter.TranslateLambda(LambdaExpression lambda, DbExpression input)
+   在 System.Data.Objects.ELinq.ExpressionConverter.TranslateLambda(LambdaExpression lambda, DbExpression input, DbExpressionBinding& binding)
+   在 System.Data.Objects.ELinq.ExpressionConverter.MethodCallTranslator.OneLambdaTranslator.Translate(ExpressionConverter parent, MethodCallExpression call, DbExpression& source, DbExpressionBinding& sourceBinding, DbExpression& lambda)
+   在 System.Data.Objects.ELinq.ExpressionConverter.MethodCallTranslator.OneLambdaTranslator.Translate(ExpressionConverter parent, MethodCallExpression call)
+   在 System.Data.Objects.ELinq.ExpressionConverter.MethodCallTranslator.SequenceMethodTranslator.Translate(ExpressionConverter parent, MethodCallExpression call, SequenceMethod sequenceMethod)
+   在 System.Data.Objects.ELinq.ExpressionConverter.MethodCallTranslator.TypedTranslate(ExpressionConverter parent, MethodCallExpression linq)
+   在 System.Data.Objects.ELinq.ExpressionConverter.TypedTranslator`1.Translate(ExpressionConverter parent, Expression linq)
+   在 System.Data.Objects.ELinq.ExpressionConverter.TranslateExpression(Expression linq)
+   在 System.Data.Objects.ELinq.ExpressionConverter.MethodCallTranslator.UnarySequenceMethodTranslator.Translate(ExpressionConverter parent, MethodCallExpression call)
+   在 System.Data.Objects.ELinq.ExpressionConverter.MethodCallTranslator.SequenceMethodTranslator.Translate(ExpressionConverter parent, MethodCallExpression call, SequenceMethod sequenceMethod)
+   在 System.Data.Objects.ELinq.ExpressionConverter.MethodCallTranslator.TypedTranslate(ExpressionConverter parent, MethodCallExpression linq)
+   在 System.Data.Objects.ELinq.ExpressionConverter.TypedTranslator`1.Translate(ExpressionConverter parent, Expression linq)
+   在 System.Data.Objects.ELinq.ExpressionConverter.TranslateExpression(Expression linq)
+   在 System.Data.Objects.ELinq.ExpressionConverter.Convert()
+   在 System.Data.Objects.ELinq.ELinqQueryState.GetExecutionPlan(Nullable`1 forMergeOption)
+   在 System.Data.Objects.ObjectQuery`1.GetResults(Nullable`1 forMergeOption)
+   在 System.Data.Objects.ObjectQuery`1.System.Collections.Generic.IEnumerable<T>.GetEnumerator()
+   在 System.Linq.Enumerable.FirstOrDefault[TSource](IEnumerable`1 source)
+   在 System.Data.Objects.ELinq.ObjectQueryProvider.<>c__11`1.<GetElementFunction>b__11_1(IEnumerable`1 sequence)
+   在 System.Data.Objects.ELinq.ObjectQueryProvider.ExecuteSingle[TResult](IEnumerable`1 query, Expression queryRoot)
+   在 System.Data.Objects.ELinq.ObjectQueryProvider.System.Linq.IQueryProvider.Execute[S](Expression expression)
+   在 System.Data.Entity.Internal.Linq.DbQueryProvider.Execute[TResult](Expression expression)
+   在 System.Linq.Queryable.FirstOrDefault[TSource](IQueryable`1 source)
+   在 Enterprise.IIS.business.Factor.PipeCarSalesVolume.Grid1_RowDataBound(Object sender, GridRowEventArgs e) 位置 E:\ffqserp\trunk\application\Enterprise.IIS\business\Factor\PipeCarSalesVolume.aspx.cs:行号 168
+   在 FineUI.Grid.OnRowDataBound(GridRowEventArgs e)
+   在 FineUI.Grid.DataBindRow(Int32 rowIndex, Object rowObj)
+   在 FineUI.Grid.DataBindToDataTable(DataTable dataTable)
+   在 FineUI.Grid.DataBind()
+   在 Enterprise.IIS.business.Factor.PipeCarSalesVolume.BindData() 位置 E:\ffqserp\trunk\application\Enterprise.IIS\business\Factor\PipeCarSalesVolume.aspx.cs:行号 124
+   在 Enterprise.IIS.business.Factor.PipeCarSalesVolume.btnSearch_Click(Object sender, EventArgs e) 位置 E:\ffqserp\trunk\application\Enterprise.IIS\business\Factor\PipeCarSalesVolume.aspx.cs:行号 130
+   在 FineUI.Button.OnClick(EventArgs e)
+   在 FineUI.Button.RaisePostBackEvent(String eventArgument)
+   在 System.Web.UI.Page.RaisePostBackEvent(IPostBackEventHandler sourceControl, String eventArgument)
+   在 System.Web.UI.Page.RaisePostBackEvent(NameValueCollection postData)
+   在 System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   在 System.Web.UI.Page.HandleError(Exception e)
+   在 System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   在 System.Web.UI.Page.ProcessRequest(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   在 System.Web.UI.Page.ProcessRequest()
+   在 System.Web.UI.Page.ProcessRequestWithNoAssert(HttpContext context)
+   在 System.Web.UI.Page.ProcessRequest(HttpContext context)
+   在 ASP.business_factor_pipecarsalesvolume_aspx.ProcessRequest(HttpContext context) 位置 c:\Windows\Microsoft.NET\Framework\v4.0.30319\Temporary ASP.NET Files\vs\acc0e68d\f6fd98d3\App_Web_wy55aj2p.0.cs:行号 0
+   在 System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   在 System.Web.HttpApplication.ExecuteStepImpl(IExecutionStep step)
+   在 System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+2019/06/13 +08:00 14:39:31     [31528] Enterprise.Framework.Log.LogUtil.ErrorLog(:0) Enterprise.Framework.Log.LogUtil.ErrorLog(:0) [(null)] - LINQ to Entities 不识别方法“System.String ToString()”，因此该方法无法转换为存储表达式。 e 
+System.NotSupportedException: LINQ to Entities 不识别方法“System.String ToString()”，因此该方法无法转换为存储表达式。
+   在 System.Data.Objects.ELinq.ExpressionConverter.MethodCallTranslator.DefaultTranslator.Translate(ExpressionConverter parent, MethodCallExpression call)
+   在 System.Data.Objects.ELinq.ExpressionConverter.MethodCallTranslator.TypedTranslate(ExpressionConverter parent, MethodCallExpression linq)
+   在 System.Data.Objects.ELinq.ExpressionConverter.TypedTranslator`1.Translate(ExpressionConverter parent, Expression linq)
+   在 System.Data.Objects.ELinq.ExpressionConverter.TranslateExpression(Expression linq)
+   在 System.Data.Objects.ELinq.ExpressionConverter.EqualsTranslator.TypedTranslate(ExpressionConverter parent, BinaryExpression linq)
+   在 System.Data.Objects.ELinq.ExpressionConverter.TypedTranslator`1.Translate(ExpressionConverter parent, Expression linq)
+   在 System.Data.Objects.ELinq.ExpressionConverter.TranslateExpression(Expression linq)
+   在 System.Data.Objects.ELinq.ExpressionConverter.BinaryTranslator.TypedTranslate(ExpressionConverter parent, BinaryExpression linq)
+   在 System.Data.Objects.ELinq.ExpressionConverter.TypedTranslator`1.Translate(ExpressionConverter parent, Expression linq)
+   在 System.Data.Objects.ELinq.ExpressionConverter.TranslateExpression(Expression linq)
+   在 System.Data.Objects.ELinq.ExpressionConverter.BinaryTranslator.TypedTranslate(ExpressionConverter parent, BinaryExpression linq)
+   在 System.Data.Objects.ELinq.ExpressionConverter.TypedTranslator`1.Translate(ExpressionConverter parent, Expression linq)
+   在 System.Data.Objects.ELinq.ExpressionConverter.TranslateExpression(Expression linq)
+   在 System.Data.Objects.ELinq.ExpressionConverter.TranslateLambda(LambdaExpression lambda, DbExpression input)
+   在 System.Data.Objects.ELinq.ExpressionConverter.TranslateLambda(LambdaExpression lambda, DbExpression input, DbExpressionBinding& binding)
+   在 System.Data.Objects.ELinq.ExpressionConverter.MethodCallTranslator.OneLambdaTranslator.Translate(ExpressionConverter parent, MethodCallExpression call, DbExpression& source, DbExpressionBinding& sourceBinding, DbExpression& lambda)
+   在 System.Data.Objects.ELinq.ExpressionConverter.MethodCallTranslator.OneLambdaTranslator.Translate(ExpressionConverter parent, MethodCallExpression call)
+   在 System.Data.Objects.ELinq.ExpressionConverter.MethodCallTranslator.SequenceMethodTranslator.Translate(ExpressionConverter parent, MethodCallExpression call, SequenceMethod sequenceMethod)
+   在 System.Data.Objects.ELinq.ExpressionConverter.MethodCallTranslator.TypedTranslate(ExpressionConverter parent, MethodCallExpression linq)
+   在 System.Data.Objects.ELinq.ExpressionConverter.TypedTranslator`1.Translate(ExpressionConverter parent, Expression linq)
+   在 System.Data.Objects.ELinq.ExpressionConverter.TranslateExpression(Expression linq)
+   在 System.Data.Objects.ELinq.ExpressionConverter.MethodCallTranslator.UnarySequenceMethodTranslator.Translate(ExpressionConverter parent, MethodCallExpression call)
+   在 System.Data.Objects.ELinq.ExpressionConverter.MethodCallTranslator.SequenceMethodTranslator.Translate(ExpressionConverter parent, MethodCallExpression call, SequenceMethod sequenceMethod)
+   在 System.Data.Objects.ELinq.ExpressionConverter.MethodCallTranslator.TypedTranslate(ExpressionConverter parent, MethodCallExpression linq)
+   在 System.Data.Objects.ELinq.ExpressionConverter.TypedTranslator`1.Translate(ExpressionConverter parent, Expression linq)
+   在 System.Data.Objects.ELinq.ExpressionConverter.TranslateExpression(Expression linq)
+   在 System.Data.Objects.ELinq.ExpressionConverter.Convert()
+   在 System.Data.Objects.ELinq.ELinqQueryState.GetExecutionPlan(Nullable`1 forMergeOption)
+   在 System.Data.Objects.ObjectQuery`1.GetResults(Nullable`1 forMergeOption)
+   在 System.Data.Objects.ObjectQuery`1.System.Collections.Generic.IEnumerable<T>.GetEnumerator()
+   在 System.Linq.Enumerable.FirstOrDefault[TSource](IEnumerable`1 source)
+   在 System.Data.Objects.ELinq.ObjectQueryProvider.<>c__11`1.<GetElementFunction>b__11_1(IEnumerable`1 sequence)
+   在 System.Data.Objects.ELinq.ObjectQueryProvider.ExecuteSingle[TResult](IEnumerable`1 query, Expression queryRoot)
+   在 System.Data.Objects.ELinq.ObjectQueryProvider.System.Linq.IQueryProvider.Execute[S](Expression expression)
+   在 System.Data.Entity.Internal.Linq.DbQueryProvider.Execute[TResult](Expression expression)
+   在 System.Linq.Queryable.FirstOrDefault[TSource](IQueryable`1 source)
+   在 Enterprise.IIS.business.Factor.PipeCarSalesVolume.Grid1_RowDataBound(Object sender, GridRowEventArgs e) 位置 E:\ffqserp\trunk\application\Enterprise.IIS\business\Factor\PipeCarSalesVolume.aspx.cs:行号 168
+   在 FineUI.Grid.OnRowDataBound(GridRowEventArgs e)
+   在 FineUI.Grid.DataBindRow(Int32 rowIndex, Object rowObj)
+   在 FineUI.Grid.DataBindToDataTable(DataTable dataTable)
+   在 FineUI.Grid.DataBind()
+   在 Enterprise.IIS.business.Factor.PipeCarSalesVolume.BindData() 位置 E:\ffqserp\trunk\application\Enterprise.IIS\business\Factor\PipeCarSalesVolume.aspx.cs:行号 124
+   在 Enterprise.IIS.business.Factor.PipeCarSalesVolume.btnSearch_Click(Object sender, EventArgs e) 位置 E:\ffqserp\trunk\application\Enterprise.IIS\business\Factor\PipeCarSalesVolume.aspx.cs:行号 130
+   在 FineUI.Button.OnClick(EventArgs e)
+   在 FineUI.Button.RaisePostBackEvent(String eventArgument)
+   在 System.Web.UI.Page.RaisePostBackEvent(IPostBackEventHandler sourceControl, String eventArgument)
+   在 System.Web.UI.Page.RaisePostBackEvent(NameValueCollection postData)
+   在 System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+2019/06/13 +08:00 14:41:14     [22928] Enterprise.Framework.Log.LogUtil.ErrorLog(:0) Enterprise.Framework.Log.LogUtil.ErrorLog(:0) [(null)] - 
+错误开始===========================================
+客户机IP:::1
+错误地址:http://localhost:19008/Business/Factor/PipeCarSalesVolume.aspx
+异常信息:引发类型为“System.Web.HttpUnhandledException”的异常。
+错误结束=========================================== e 
+System.Web.HttpUnhandledException (0x80004005): 引发类型为“System.Web.HttpUnhandledException”的异常。 ---> System.NotSupportedException: LINQ to Entities 不识别方法“System.String ToString()”，因此该方法无法转换为存储表达式。
+   在 System.Data.Objects.ELinq.ExpressionConverter.MethodCallTranslator.DefaultTranslator.Translate(ExpressionConverter parent, MethodCallExpression call)
+   在 System.Data.Objects.ELinq.ExpressionConverter.MethodCallTranslator.TypedTranslate(ExpressionConverter parent, MethodCallExpression linq)
+   在 System.Data.Objects.ELinq.ExpressionConverter.TypedTranslator`1.Translate(ExpressionConverter parent, Expression linq)
+   在 System.Data.Objects.ELinq.ExpressionConverter.TranslateExpression(Expression linq)
+   在 System.Data.Objects.ELinq.ExpressionConverter.EqualsTranslator.TypedTranslate(ExpressionConverter parent, BinaryExpression linq)
+   在 System.Data.Objects.ELinq.ExpressionConverter.TypedTranslator`1.Translate(ExpressionConverter parent, Expression linq)
+   在 System.Data.Objects.ELinq.ExpressionConverter.TranslateExpression(Expression linq)
+   在 System.Data.Objects.ELinq.ExpressionConverter.BinaryTranslator.TypedTranslate(ExpressionConverter parent, BinaryExpression linq)
+   在 System.Data.Objects.ELinq.ExpressionConverter.TypedTranslator`1.Translate(ExpressionConverter parent, Expression linq)
+   在 System.Data.Objects.ELinq.ExpressionConverter.TranslateExpression(Expression linq)
+   在 System.Data.Objects.ELinq.ExpressionConverter.BinaryTranslator.TypedTranslate(ExpressionConverter parent, BinaryExpression linq)
+   在 System.Data.Objects.ELinq.ExpressionConverter.TypedTranslator`1.Translate(ExpressionConverter parent, Expression linq)
+   在 System.Data.Objects.ELinq.ExpressionConverter.TranslateExpression(Expression linq)
+   在 System.Data.Objects.ELinq.ExpressionConverter.TranslateLambda(LambdaExpression lambda, DbExpression input)
+   在 System.Data.Objects.ELinq.ExpressionConverter.TranslateLambda(LambdaExpression lambda, DbExpression input, DbExpressionBinding& binding)
+   在 System.Data.Objects.ELinq.ExpressionConverter.MethodCallTranslator.OneLambdaTranslator.Translate(ExpressionConverter parent, MethodCallExpression call, DbExpression& source, DbExpressionBinding& sourceBinding, DbExpression& lambda)
+   在 System.Data.Objects.ELinq.ExpressionConverter.MethodCallTranslator.OneLambdaTranslator.Translate(ExpressionConverter parent, MethodCallExpression call)
+   在 System.Data.Objects.ELinq.ExpressionConverter.MethodCallTranslator.SequenceMethodTranslator.Translate(ExpressionConverter parent, MethodCallExpression call, SequenceMethod sequenceMethod)
+   在 System.Data.Objects.ELinq.ExpressionConverter.MethodCallTranslator.TypedTranslate(ExpressionConverter parent, MethodCallExpression linq)
+   在 System.Data.Objects.ELinq.ExpressionConverter.TypedTranslator`1.Translate(ExpressionConverter parent, Expression linq)
+   在 System.Data.Objects.ELinq.ExpressionConverter.TranslateExpression(Expression linq)
+   在 System.Data.Objects.ELinq.ExpressionConverter.MethodCallTranslator.UnarySequenceMethodTranslator.Translate(ExpressionConverter parent, MethodCallExpression call)
+   在 System.Data.Objects.ELinq.ExpressionConverter.MethodCallTranslator.SequenceMethodTranslator.Translate(ExpressionConverter parent, MethodCallExpression call, SequenceMethod sequenceMethod)
+   在 System.Data.Objects.ELinq.ExpressionConverter.MethodCallTranslator.TypedTranslate(ExpressionConverter parent, MethodCallExpression linq)
+   在 System.Data.Objects.ELinq.ExpressionConverter.TypedTranslator`1.Translate(ExpressionConverter parent, Expression linq)
+   在 System.Data.Objects.ELinq.ExpressionConverter.TranslateExpression(Expression linq)
+   在 System.Data.Objects.ELinq.ExpressionConverter.Convert()
+   在 System.Data.Objects.ELinq.ELinqQueryState.GetExecutionPlan(Nullable`1 forMergeOption)
+   在 System.Data.Objects.ObjectQuery`1.GetResults(Nullable`1 forMergeOption)
+   在 System.Data.Objects.ObjectQuery`1.System.Collections.Generic.IEnumerable<T>.GetEnumerator()
+   在 System.Linq.Enumerable.FirstOrDefault[TSource](IEnumerable`1 source)
+   在 System.Data.Objects.ELinq.ObjectQueryProvider.<>c__11`1.<GetElementFunction>b__11_1(IEnumerable`1 sequence)
+   在 System.Data.Objects.ELinq.ObjectQueryProvider.ExecuteSingle[TResult](IEnumerable`1 query, Expression queryRoot)
+   在 System.Data.Objects.ELinq.ObjectQueryProvider.System.Linq.IQueryProvider.Execute[S](Expression expression)
+   在 System.Data.Entity.Internal.Linq.DbQueryProvider.Execute[TResult](Expression expression)
+   在 System.Linq.Queryable.FirstOrDefault[TSource](IQueryable`1 source)
+   在 Enterprise.IIS.business.Factor.PipeCarSalesVolume.Grid1_RowDataBound(Object sender, GridRowEventArgs e) 位置 E:\ffqserp\trunk\application\Enterprise.IIS\business\Factor\PipeCarSalesVolume.aspx.cs:行号 168
+   在 FineUI.Grid.OnRowDataBound(GridRowEventArgs e)
+   在 FineUI.Grid.DataBindRow(Int32 rowIndex, Object rowObj)
+   在 FineUI.Grid.DataBindToDataTable(DataTable dataTable)
+   在 FineUI.Grid.DataBind()
+   在 Enterprise.IIS.business.Factor.PipeCarSalesVolume.BindData() 位置 E:\ffqserp\trunk\application\Enterprise.IIS\business\Factor\PipeCarSalesVolume.aspx.cs:行号 124
+   在 Enterprise.IIS.business.Factor.PipeCarSalesVolume.btnSearch_Click(Object sender, EventArgs e) 位置 E:\ffqserp\trunk\application\Enterprise.IIS\business\Factor\PipeCarSalesVolume.aspx.cs:行号 130
+   在 FineUI.Button.OnClick(EventArgs e)
+   在 FineUI.Button.RaisePostBackEvent(String eventArgument)
+   在 System.Web.UI.Page.RaisePostBackEvent(IPostBackEventHandler sourceControl, String eventArgument)
+   在 System.Web.UI.Page.RaisePostBackEvent(NameValueCollection postData)
+   在 System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   在 System.Web.UI.Page.HandleError(Exception e)
+   在 System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   在 System.Web.UI.Page.ProcessRequest(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   在 System.Web.UI.Page.ProcessRequest()
+   在 System.Web.UI.Page.ProcessRequestWithNoAssert(HttpContext context)
+   在 System.Web.UI.Page.ProcessRequest(HttpContext context)
+   在 ASP.business_factor_pipecarsalesvolume_aspx.ProcessRequest(HttpContext context) 位置 c:\Windows\Microsoft.NET\Framework\v4.0.30319\Temporary ASP.NET Files\vs\acc0e68d\f6fd98d3\App_Web_xqywzh2i.1.cs:行号 0
+   在 System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   在 System.Web.HttpApplication.ExecuteStepImpl(IExecutionStep step)
+   在 System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+2019/06/13 +08:00 14:41:14     [22928] Enterprise.Framework.Log.LogUtil.ErrorLog(:0) Enterprise.Framework.Log.LogUtil.ErrorLog(:0) [(null)] - LINQ to Entities 不识别方法“System.String ToString()”，因此该方法无法转换为存储表达式。 e 
+System.NotSupportedException: LINQ to Entities 不识别方法“System.String ToString()”，因此该方法无法转换为存储表达式。
+   在 System.Data.Objects.ELinq.ExpressionConverter.MethodCallTranslator.DefaultTranslator.Translate(ExpressionConverter parent, MethodCallExpression call)
+   在 System.Data.Objects.ELinq.ExpressionConverter.MethodCallTranslator.TypedTranslate(ExpressionConverter parent, MethodCallExpression linq)
+   在 System.Data.Objects.ELinq.ExpressionConverter.TypedTranslator`1.Translate(ExpressionConverter parent, Expression linq)
+   在 System.Data.Objects.ELinq.ExpressionConverter.TranslateExpression(Expression linq)
+   在 System.Data.Objects.ELinq.ExpressionConverter.EqualsTranslator.TypedTranslate(ExpressionConverter parent, BinaryExpression linq)
+   在 System.Data.Objects.ELinq.ExpressionConverter.TypedTranslator`1.Translate(ExpressionConverter parent, Expression linq)
+   在 System.Data.Objects.ELinq.ExpressionConverter.TranslateExpression(Expression linq)
+   在 System.Data.Objects.ELinq.ExpressionConverter.BinaryTranslator.TypedTranslate(ExpressionConverter parent, BinaryExpression linq)
+   在 System.Data.Objects.ELinq.ExpressionConverter.TypedTranslator`1.Translate(ExpressionConverter parent, Expression linq)
+   在 System.Data.Objects.ELinq.ExpressionConverter.TranslateExpression(Expression linq)
+   在 System.Data.Objects.ELinq.ExpressionConverter.BinaryTranslator.TypedTranslate(ExpressionConverter parent, BinaryExpression linq)
+   在 System.Data.Objects.ELinq.ExpressionConverter.TypedTranslator`1.Translate(ExpressionConverter parent, Expression linq)
+   在 System.Data.Objects.ELinq.ExpressionConverter.TranslateExpression(Expression linq)
+   在 System.Data.Objects.ELinq.ExpressionConverter.TranslateLambda(LambdaExpression lambda, DbExpression input)
+   在 System.Data.Objects.ELinq.ExpressionConverter.TranslateLambda(LambdaExpression lambda, DbExpression input, DbExpressionBinding& binding)
+   在 System.Data.Objects.ELinq.ExpressionConverter.MethodCallTranslator.OneLambdaTranslator.Translate(ExpressionConverter parent, MethodCallExpression call, DbExpression& source, DbExpressionBinding& sourceBinding, DbExpression& lambda)
+   在 System.Data.Objects.ELinq.ExpressionConverter.MethodCallTranslator.OneLambdaTranslator.Translate(ExpressionConverter parent, MethodCallExpression call)
+   在 System.Data.Objects.ELinq.ExpressionConverter.MethodCallTranslator.SequenceMethodTranslator.Translate(ExpressionConverter parent, MethodCallExpression call, SequenceMethod sequenceMethod)
+   在 System.Data.Objects.ELinq.ExpressionConverter.MethodCallTranslator.TypedTranslate(ExpressionConverter parent, MethodCallExpression linq)
+   在 System.Data.Objects.ELinq.ExpressionConverter.TypedTranslator`1.Translate(ExpressionConverter parent, Expression linq)
+   在 System.Data.Objects.ELinq.ExpressionConverter.TranslateExpression(Expression linq)
+   在 System.Data.Objects.ELinq.ExpressionConverter.MethodCallTranslator.UnarySequenceMethodTranslator.Translate(ExpressionConverter parent, MethodCallExpression call)
+   在 System.Data.Objects.ELinq.ExpressionConverter.MethodCallTranslator.SequenceMethodTranslator.Translate(ExpressionConverter parent, MethodCallExpression call, SequenceMethod sequenceMethod)
+   在 System.Data.Objects.ELinq.ExpressionConverter.MethodCallTranslator.TypedTranslate(ExpressionConverter parent, MethodCallExpression linq)
+   在 System.Data.Objects.ELinq.ExpressionConverter.TypedTranslator`1.Translate(ExpressionConverter parent, Expression linq)
+   在 System.Data.Objects.ELinq.ExpressionConverter.TranslateExpression(Expression linq)
+   在 System.Data.Objects.ELinq.ExpressionConverter.Convert()
+   在 System.Data.Objects.ELinq.ELinqQueryState.GetExecutionPlan(Nullable`1 forMergeOption)
+   在 System.Data.Objects.ObjectQuery`1.GetResults(Nullable`1 forMergeOption)
+   在 System.Data.Objects.ObjectQuery`1.System.Collections.Generic.IEnumerable<T>.GetEnumerator()
+   在 System.Linq.Enumerable.FirstOrDefault[TSource](IEnumerable`1 source)
+   在 System.Data.Objects.ELinq.ObjectQueryProvider.<>c__11`1.<GetElementFunction>b__11_1(IEnumerable`1 sequence)
+   在 System.Data.Objects.ELinq.ObjectQueryProvider.ExecuteSingle[TResult](IEnumerable`1 query, Expression queryRoot)
+   在 System.Data.Objects.ELinq.ObjectQueryProvider.System.Linq.IQueryProvider.Execute[S](Expression expression)
+   在 System.Data.Entity.Internal.Linq.DbQueryProvider.Execute[TResult](Expression expression)
+   在 System.Linq.Queryable.FirstOrDefault[TSource](IQueryable`1 source)
+   在 Enterprise.IIS.business.Factor.PipeCarSalesVolume.Grid1_RowDataBound(Object sender, GridRowEventArgs e) 位置 E:\ffqserp\trunk\application\Enterprise.IIS\business\Factor\PipeCarSalesVolume.aspx.cs:行号 168
+   在 FineUI.Grid.OnRowDataBound(GridRowEventArgs e)
+   在 FineUI.Grid.DataBindRow(Int32 rowIndex, Object rowObj)
+   在 FineUI.Grid.DataBindToDataTable(DataTable dataTable)
+   在 FineUI.Grid.DataBind()
+   在 Enterprise.IIS.business.Factor.PipeCarSalesVolume.BindData() 位置 E:\ffqserp\trunk\application\Enterprise.IIS\business\Factor\PipeCarSalesVolume.aspx.cs:行号 124
+   在 Enterprise.IIS.business.Factor.PipeCarSalesVolume.btnSearch_Click(Object sender, EventArgs e) 位置 E:\ffqserp\trunk\application\Enterprise.IIS\business\Factor\PipeCarSalesVolume.aspx.cs:行号 130
+   在 FineUI.Button.OnClick(EventArgs e)
+   在 FineUI.Button.RaisePostBackEvent(String eventArgument)
+   在 System.Web.UI.Page.RaisePostBackEvent(IPostBackEventHandler sourceControl, String eventArgument)
+   在 System.Web.UI.Page.RaisePostBackEvent(NameValueCollection postData)
+   在 System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+2019/06/13 +08:00 14:43:09     [8592] Enterprise.Framework.Log.LogUtil.ErrorLog(:0) Enterprise.Framework.Log.LogUtil.ErrorLog(:0) [(null)] - 
+错误开始===========================================
+客户机IP:::1
+错误地址:http://localhost:19008/Business/Factor/PipeCarSalesVolume.aspx
+异常信息:引发类型为“System.Web.HttpUnhandledException”的异常。
+错误结束=========================================== e 
+System.Web.HttpUnhandledException (0x80004005): 引发类型为“System.Web.HttpUnhandledException”的异常。 ---> System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 Enterprise.IIS.business.Factor.PipeCarSalesVolume.Grid1_RowDataBound(Object sender, GridRowEventArgs e) 位置 E:\ffqserp\trunk\application\Enterprise.IIS\business\Factor\PipeCarSalesVolume.aspx.cs:行号 167
+   在 FineUI.Grid.OnRowDataBound(GridRowEventArgs e)
+   在 FineUI.Grid.DataBindRow(Int32 rowIndex, Object rowObj)
+   在 FineUI.Grid.DataBindToDataTable(DataTable dataTable)
+   在 FineUI.Grid.DataBind()
+   在 Enterprise.IIS.business.Factor.PipeCarSalesVolume.BindData() 位置 E:\ffqserp\trunk\application\Enterprise.IIS\business\Factor\PipeCarSalesVolume.aspx.cs:行号 124
+   在 Enterprise.IIS.business.Factor.PipeCarSalesVolume.btnSearch_Click(Object sender, EventArgs e) 位置 E:\ffqserp\trunk\application\Enterprise.IIS\business\Factor\PipeCarSalesVolume.aspx.cs:行号 130
+   在 FineUI.Button.OnClick(EventArgs e)
+   在 FineUI.Button.RaisePostBackEvent(String eventArgument)
+   在 System.Web.UI.Page.RaisePostBackEvent(IPostBackEventHandler sourceControl, String eventArgument)
+   在 System.Web.UI.Page.RaisePostBackEvent(NameValueCollection postData)
+   在 System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   在 System.Web.UI.Page.HandleError(Exception e)
+   在 System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   在 System.Web.UI.Page.ProcessRequest(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   在 System.Web.UI.Page.ProcessRequest()
+   在 System.Web.UI.Page.ProcessRequestWithNoAssert(HttpContext context)
+   在 System.Web.UI.Page.ProcessRequest(HttpContext context)
+   在 ASP.business_factor_pipecarsalesvolume_aspx.ProcessRequest(HttpContext context) 位置 c:\Windows\Microsoft.NET\Framework\v4.0.30319\Temporary ASP.NET Files\vs\acc0e68d\f6fd98d3\App_Web_0dq502ul.0.cs:行号 0
+   在 System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   在 System.Web.HttpApplication.ExecuteStepImpl(IExecutionStep step)
+   在 System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+2019/06/13 +08:00 14:43:09     [8592] Enterprise.Framework.Log.LogUtil.ErrorLog(:0) Enterprise.Framework.Log.LogUtil.ErrorLog(:0) [(null)] - 未将对象引用设置到对象的实例。 e 
+System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 Enterprise.IIS.business.Factor.PipeCarSalesVolume.Grid1_RowDataBound(Object sender, GridRowEventArgs e) 位置 E:\ffqserp\trunk\application\Enterprise.IIS\business\Factor\PipeCarSalesVolume.aspx.cs:行号 167
+   在 FineUI.Grid.OnRowDataBound(GridRowEventArgs e)
+   在 FineUI.Grid.DataBindRow(Int32 rowIndex, Object rowObj)
+   在 FineUI.Grid.DataBindToDataTable(DataTable dataTable)
+   在 FineUI.Grid.DataBind()
+   在 Enterprise.IIS.business.Factor.PipeCarSalesVolume.BindData() 位置 E:\ffqserp\trunk\application\Enterprise.IIS\business\Factor\PipeCarSalesVolume.aspx.cs:行号 124
+   在 Enterprise.IIS.business.Factor.PipeCarSalesVolume.btnSearch_Click(Object sender, EventArgs e) 位置 E:\ffqserp\trunk\application\Enterprise.IIS\business\Factor\PipeCarSalesVolume.aspx.cs:行号 130
+   在 FineUI.Button.OnClick(EventArgs e)
+   在 FineUI.Button.RaisePostBackEvent(String eventArgument)
+   在 System.Web.UI.Page.RaisePostBackEvent(IPostBackEventHandler sourceControl, String eventArgument)
+   在 System.Web.UI.Page.RaisePostBackEvent(NameValueCollection postData)
+   在 System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+2019/06/13 +08:00 14:45:07     [22928] Enterprise.Framework.Log.LogUtil.ErrorLog(:0) Enterprise.Framework.Log.LogUtil.ErrorLog(:0) [(null)] - 
+错误开始===========================================
+客户机IP:::1
+错误地址:http://localhost:19008/Business/Factor/PipeCarSalesVolume.aspx
+异常信息:引发类型为“System.Web.HttpUnhandledException”的异常。
+错误结束=========================================== e 
+System.Web.HttpUnhandledException (0x80004005): 引发类型为“System.Web.HttpUnhandledException”的异常。 ---> System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 Enterprise.IIS.business.Factor.PipeCarSalesVolume.Grid1_RowDataBound(Object sender, GridRowEventArgs e) 位置 E:\ffqserp\trunk\application\Enterprise.IIS\business\Factor\PipeCarSalesVolume.aspx.cs:行号 167
+   在 FineUI.Grid.OnRowDataBound(GridRowEventArgs e)
+   在 FineUI.Grid.DataBindRow(Int32 rowIndex, Object rowObj)
+   在 FineUI.Grid.DataBindToDataTable(DataTable dataTable)
+   在 FineUI.Grid.DataBind()
+   在 Enterprise.IIS.business.Factor.PipeCarSalesVolume.BindData() 位置 E:\ffqserp\trunk\application\Enterprise.IIS\business\Factor\PipeCarSalesVolume.aspx.cs:行号 124
+   在 Enterprise.IIS.business.Factor.PipeCarSalesVolume.btnSearch_Click(Object sender, EventArgs e) 位置 E:\ffqserp\trunk\application\Enterprise.IIS\business\Factor\PipeCarSalesVolume.aspx.cs:行号 130
+   在 FineUI.Button.OnClick(EventArgs e)
+   在 FineUI.Button.RaisePostBackEvent(String eventArgument)
+   在 System.Web.UI.Page.RaisePostBackEvent(IPostBackEventHandler sourceControl, String eventArgument)
+   在 System.Web.UI.Page.RaisePostBackEvent(NameValueCollection postData)
+   在 System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   在 System.Web.UI.Page.HandleError(Exception e)
+   在 System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   在 System.Web.UI.Page.ProcessRequest(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   在 System.Web.UI.Page.ProcessRequest()
+   在 System.Web.UI.Page.ProcessRequestWithNoAssert(HttpContext context)
+   在 System.Web.UI.Page.ProcessRequest(HttpContext context)
+   在 ASP.business_factor_pipecarsalesvolume_aspx.ProcessRequest(HttpContext context) 位置 c:\Windows\Microsoft.NET\Framework\v4.0.30319\Temporary ASP.NET Files\vs\acc0e68d\f6fd98d3\App_Web_r4jv2ijs.0.cs:行号 0
+   在 System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   在 System.Web.HttpApplication.ExecuteStepImpl(IExecutionStep step)
+   在 System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+2019/06/13 +08:00 14:45:07     [22928] Enterprise.Framework.Log.LogUtil.ErrorLog(:0) Enterprise.Framework.Log.LogUtil.ErrorLog(:0) [(null)] - 未将对象引用设置到对象的实例。 e 
+System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 Enterprise.IIS.business.Factor.PipeCarSalesVolume.Grid1_RowDataBound(Object sender, GridRowEventArgs e) 位置 E:\ffqserp\trunk\application\Enterprise.IIS\business\Factor\PipeCarSalesVolume.aspx.cs:行号 167
+   在 FineUI.Grid.OnRowDataBound(GridRowEventArgs e)
+   在 FineUI.Grid.DataBindRow(Int32 rowIndex, Object rowObj)
+   在 FineUI.Grid.DataBindToDataTable(DataTable dataTable)
+   在 FineUI.Grid.DataBind()
+   在 Enterprise.IIS.business.Factor.PipeCarSalesVolume.BindData() 位置 E:\ffqserp\trunk\application\Enterprise.IIS\business\Factor\PipeCarSalesVolume.aspx.cs:行号 124
+   在 Enterprise.IIS.business.Factor.PipeCarSalesVolume.btnSearch_Click(Object sender, EventArgs e) 位置 E:\ffqserp\trunk\application\Enterprise.IIS\business\Factor\PipeCarSalesVolume.aspx.cs:行号 130
+   在 FineUI.Button.OnClick(EventArgs e)
+   在 FineUI.Button.RaisePostBackEvent(String eventArgument)
+   在 System.Web.UI.Page.RaisePostBackEvent(IPostBackEventHandler sourceControl, String eventArgument)
+   在 System.Web.UI.Page.RaisePostBackEvent(NameValueCollection postData)
+   在 System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+2019/06/13 +08:00 14:48:44     [7680] Enterprise.Framework.Log.LogUtil.ErrorLog(:0) Enterprise.Framework.Log.LogUtil.ErrorLog(:0) [(null)] - 
+错误开始===========================================
+客户机IP:::1
+错误地址:http://localhost:19008/Business/Factor/PipeCarSalesVolume.aspx
+异常信息:引发类型为“System.Web.HttpUnhandledException”的异常。
+错误结束=========================================== e 
+System.Web.HttpUnhandledException (0x80004005): 引发类型为“System.Web.HttpUnhandledException”的异常。 ---> System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 Enterprise.IIS.business.Factor.PipeCarSalesVolume.Grid1_RowDataBound(Object sender, GridRowEventArgs e) 位置 E:\ffqserp\trunk\application\Enterprise.IIS\business\Factor\PipeCarSalesVolume.aspx.cs:行号 167
+   在 FineUI.Grid.OnRowDataBound(GridRowEventArgs e)
+   在 FineUI.Grid.DataBindRow(Int32 rowIndex, Object rowObj)
+   在 FineUI.Grid.DataBindToDataTable(DataTable dataTable)
+   在 FineUI.Grid.DataBind()
+   在 Enterprise.IIS.business.Factor.PipeCarSalesVolume.BindData() 位置 E:\ffqserp\trunk\application\Enterprise.IIS\business\Factor\PipeCarSalesVolume.aspx.cs:行号 124
+   在 Enterprise.IIS.business.Factor.PipeCarSalesVolume.btnSearch_Click(Object sender, EventArgs e) 位置 E:\ffqserp\trunk\application\Enterprise.IIS\business\Factor\PipeCarSalesVolume.aspx.cs:行号 130
+   在 FineUI.Button.OnClick(EventArgs e)
+   在 FineUI.Button.RaisePostBackEvent(String eventArgument)
+   在 System.Web.UI.Page.RaisePostBackEvent(IPostBackEventHandler sourceControl, String eventArgument)
+   在 System.Web.UI.Page.RaisePostBackEvent(NameValueCollection postData)
+   在 System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   在 System.Web.UI.Page.HandleError(Exception e)
+   在 System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   在 System.Web.UI.Page.ProcessRequest(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   在 System.Web.UI.Page.ProcessRequest()
+   在 System.Web.UI.Page.ProcessRequestWithNoAssert(HttpContext context)
+   在 System.Web.UI.Page.ProcessRequest(HttpContext context)
+   在 ASP.business_factor_pipecarsalesvolume_aspx.ProcessRequest(HttpContext context) 位置 c:\Windows\Microsoft.NET\Framework\v4.0.30319\Temporary ASP.NET Files\vs\acc0e68d\f6fd98d3\App_Web_r4jv2ijs.0.cs:行号 0
+   在 System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   在 System.Web.HttpApplication.ExecuteStepImpl(IExecutionStep step)
+   在 System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+2019/06/13 +08:00 14:48:46     [7680] Enterprise.Framework.Log.LogUtil.ErrorLog(:0) Enterprise.Framework.Log.LogUtil.ErrorLog(:0) [(null)] - 未将对象引用设置到对象的实例。 e 
+System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 Enterprise.IIS.business.Factor.PipeCarSalesVolume.Grid1_RowDataBound(Object sender, GridRowEventArgs e) 位置 E:\ffqserp\trunk\application\Enterprise.IIS\business\Factor\PipeCarSalesVolume.aspx.cs:行号 167
+   在 FineUI.Grid.OnRowDataBound(GridRowEventArgs e)
+   在 FineUI.Grid.DataBindRow(Int32 rowIndex, Object rowObj)
+   在 FineUI.Grid.DataBindToDataTable(DataTable dataTable)
+   在 FineUI.Grid.DataBind()
+   在 Enterprise.IIS.business.Factor.PipeCarSalesVolume.BindData() 位置 E:\ffqserp\trunk\application\Enterprise.IIS\business\Factor\PipeCarSalesVolume.aspx.cs:行号 124
+   在 Enterprise.IIS.business.Factor.PipeCarSalesVolume.btnSearch_Click(Object sender, EventArgs e) 位置 E:\ffqserp\trunk\application\Enterprise.IIS\business\Factor\PipeCarSalesVolume.aspx.cs:行号 130
+   在 FineUI.Button.OnClick(EventArgs e)
+   在 FineUI.Button.RaisePostBackEvent(String eventArgument)
+   在 System.Web.UI.Page.RaisePostBackEvent(IPostBackEventHandler sourceControl, String eventArgument)
+   在 System.Web.UI.Page.RaisePostBackEvent(NameValueCollection postData)
+   在 System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+2019/06/13 +08:00 15:53:01     [17568] Enterprise.Framework.Log.LogUtil.ErrorLog(:0) Enterprise.Framework.Log.LogUtil.ErrorLog(:0) [(null)] - 
+错误开始===========================================
+客户机IP:::1
+错误地址:http://localhost:19008/Business/Factor/PipeCarSalesVolume.aspx
+异常信息:引发类型为“System.Web.HttpUnhandledException”的异常。
+错误结束=========================================== e 
+System.Web.HttpUnhandledException (0x80004005): 引发类型为“System.Web.HttpUnhandledException”的异常。 ---> System.ArgumentOutOfRangeException: 长度不能小于 0。
+参数名: length
+   在 System.String.Substring(Int32 startIndex, Int32 length)
+   在 Enterprise.IIS.business.Factor.PipeCarSalesVolume.Grid1_RowDataBound(Object sender, GridRowEventArgs e) 位置 E:\ffqserp\trunk\application\Enterprise.IIS\business\Factor\PipeCarSalesVolume.aspx.cs:行号 179
+   在 FineUI.Grid.OnRowDataBound(GridRowEventArgs e)
+   在 FineUI.Grid.DataBindRow(Int32 rowIndex, Object rowObj)
+   在 FineUI.Grid.DataBindToDataTable(DataTable dataTable)
+   在 FineUI.Grid.DataBind()
+   在 Enterprise.IIS.business.Factor.PipeCarSalesVolume.BindData() 位置 E:\ffqserp\trunk\application\Enterprise.IIS\business\Factor\PipeCarSalesVolume.aspx.cs:行号 124
+   在 Enterprise.IIS.business.Factor.PipeCarSalesVolume.btnSearch_Click(Object sender, EventArgs e) 位置 E:\ffqserp\trunk\application\Enterprise.IIS\business\Factor\PipeCarSalesVolume.aspx.cs:行号 130
+   在 FineUI.Button.OnClick(EventArgs e)
+   在 FineUI.Button.RaisePostBackEvent(String eventArgument)
+   在 System.Web.UI.Page.RaisePostBackEvent(IPostBackEventHandler sourceControl, String eventArgument)
+   在 System.Web.UI.Page.RaisePostBackEvent(NameValueCollection postData)
+   在 System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   在 System.Web.UI.Page.HandleError(Exception e)
+   在 System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   在 System.Web.UI.Page.ProcessRequest(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   在 System.Web.UI.Page.ProcessRequest()
+   在 System.Web.UI.Page.ProcessRequestWithNoAssert(HttpContext context)
+   在 System.Web.UI.Page.ProcessRequest(HttpContext context)
+   在 ASP.business_factor_pipecarsalesvolume_aspx.ProcessRequest(HttpContext context) 位置 c:\Windows\Microsoft.NET\Framework\v4.0.30319\Temporary ASP.NET Files\vs\acc0e68d\f6fd98d3\App_Web_fb3aqs0v.0.cs:行号 0
+   在 System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   在 System.Web.HttpApplication.ExecuteStepImpl(IExecutionStep step)
+   在 System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+2019/06/13 +08:00 15:53:01     [17568] Enterprise.Framework.Log.LogUtil.ErrorLog(:0) Enterprise.Framework.Log.LogUtil.ErrorLog(:0) [(null)] - 长度不能小于 0。
+参数名: length e 
+System.ArgumentOutOfRangeException: 长度不能小于 0。
+参数名: length
+   在 System.String.Substring(Int32 startIndex, Int32 length)
+   在 Enterprise.IIS.business.Factor.PipeCarSalesVolume.Grid1_RowDataBound(Object sender, GridRowEventArgs e) 位置 E:\ffqserp\trunk\application\Enterprise.IIS\business\Factor\PipeCarSalesVolume.aspx.cs:行号 179
+   在 FineUI.Grid.OnRowDataBound(GridRowEventArgs e)
+   在 FineUI.Grid.DataBindRow(Int32 rowIndex, Object rowObj)
+   在 FineUI.Grid.DataBindToDataTable(DataTable dataTable)
+   在 FineUI.Grid.DataBind()
+   在 Enterprise.IIS.business.Factor.PipeCarSalesVolume.BindData() 位置 E:\ffqserp\trunk\application\Enterprise.IIS\business\Factor\PipeCarSalesVolume.aspx.cs:行号 124
+   在 Enterprise.IIS.business.Factor.PipeCarSalesVolume.btnSearch_Click(Object sender, EventArgs e) 位置 E:\ffqserp\trunk\application\Enterprise.IIS\business\Factor\PipeCarSalesVolume.aspx.cs:行号 130
+   在 FineUI.Button.OnClick(EventArgs e)
+   在 FineUI.Button.RaisePostBackEvent(String eventArgument)
+   在 System.Web.UI.Page.RaisePostBackEvent(IPostBackEventHandler sourceControl, String eventArgument)
+   在 System.Web.UI.Page.RaisePostBackEvent(NameValueCollection postData)
+   在 System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+2019/06/13 +08:00 15:54:28     [12928] Enterprise.Framework.Log.LogUtil.ErrorLog(:0) Enterprise.Framework.Log.LogUtil.ErrorLog(:0) [(null)] - 
+错误开始===========================================
+客户机IP:::1
+错误地址:http://localhost:19008/Business/Factor/PipeCarSalesVolume.aspx
+异常信息:引发类型为“System.Web.HttpUnhandledException”的异常。
+错误结束=========================================== e 
+System.Web.HttpUnhandledException (0x80004005): 引发类型为“System.Web.HttpUnhandledException”的异常。 ---> System.NotSupportedException: LINQ to Entities 不识别方法“Int32 Parse(System.String)”，因此该方法无法转换为存储表达式。
+   在 System.Data.Objects.ELinq.ExpressionConverter.MethodCallTranslator.DefaultTranslator.Translate(ExpressionConverter parent, MethodCallExpression call)
+   在 System.Data.Objects.ELinq.ExpressionConverter.MethodCallTranslator.TypedTranslate(ExpressionConverter parent, MethodCallExpression linq)
+   在 System.Data.Objects.ELinq.ExpressionConverter.TypedTranslator`1.Translate(ExpressionConverter parent, Expression linq)
+   在 System.Data.Objects.ELinq.ExpressionConverter.TranslateExpression(Expression linq)
+   在 System.Data.Objects.ELinq.ExpressionConverter.EqualsTranslator.TypedTranslate(ExpressionConverter parent, BinaryExpression linq)
+   在 System.Data.Objects.ELinq.ExpressionConverter.TypedTranslator`1.Translate(ExpressionConverter parent, Expression linq)
+   在 System.Data.Objects.ELinq.ExpressionConverter.TranslateExpression(Expression linq)
+   在 System.Data.Objects.ELinq.ExpressionConverter.BinaryTranslator.TypedTranslate(ExpressionConverter parent, BinaryExpression linq)
+   在 System.Data.Objects.ELinq.ExpressionConverter.TypedTranslator`1.Translate(ExpressionConverter parent, Expression linq)
+   在 System.Data.Objects.ELinq.ExpressionConverter.TranslateExpression(Expression linq)
+   在 System.Data.Objects.ELinq.ExpressionConverter.BinaryTranslator.TypedTranslate(ExpressionConverter parent, BinaryExpression linq)
+   在 System.Data.Objects.ELinq.ExpressionConverter.TypedTranslator`1.Translate(ExpressionConverter parent, Expression linq)
+   在 System.Data.Objects.ELinq.ExpressionConverter.TranslateExpression(Expression linq)
+   在 System.Data.Objects.ELinq.ExpressionConverter.TranslateLambda(LambdaExpression lambda, DbExpression input)
+   在 System.Data.Objects.ELinq.ExpressionConverter.TranslateLambda(LambdaExpression lambda, DbExpression input, DbExpressionBinding& binding)
+   在 System.Data.Objects.ELinq.ExpressionConverter.MethodCallTranslator.OneLambdaTranslator.Translate(ExpressionConverter parent, MethodCallExpression call, DbExpression& source, DbExpressionBinding& sourceBinding, DbExpression& lambda)
+   在 System.Data.Objects.ELinq.ExpressionConverter.MethodCallTranslator.OneLambdaTranslator.Translate(ExpressionConverter parent, MethodCallExpression call)
+   在 System.Data.Objects.ELinq.ExpressionConverter.MethodCallTranslator.SequenceMethodTranslator.Translate(ExpressionConverter parent, MethodCallExpression call, SequenceMethod sequenceMethod)
+   在 System.Data.Objects.ELinq.ExpressionConverter.MethodCallTranslator.TypedTranslate(ExpressionConverter parent, MethodCallExpression linq)
+   在 System.Data.Objects.ELinq.ExpressionConverter.TypedTranslator`1.Translate(ExpressionConverter parent, Expression linq)
+   在 System.Data.Objects.ELinq.ExpressionConverter.TranslateExpression(Expression linq)
+   在 System.Data.Objects.ELinq.ExpressionConverter.MethodCallTranslator.UnarySequenceMethodTranslator.Translate(ExpressionConverter parent, MethodCallExpression call)
+   在 System.Data.Objects.ELinq.ExpressionConverter.MethodCallTranslator.SequenceMethodTranslator.Translate(ExpressionConverter parent, MethodCallExpression call, SequenceMethod sequenceMethod)
+   在 System.Data.Objects.ELinq.ExpressionConverter.MethodCallTranslator.TypedTranslate(ExpressionConverter parent, MethodCallExpression linq)
+   在 System.Data.Objects.ELinq.ExpressionConverter.TypedTranslator`1.Translate(ExpressionConverter parent, Expression linq)
+   在 System.Data.Objects.ELinq.ExpressionConverter.TranslateExpression(Expression linq)
+   在 System.Data.Objects.ELinq.ExpressionConverter.Convert()
+   在 System.Data.Objects.ELinq.ELinqQueryState.GetExecutionPlan(Nullable`1 forMergeOption)
+   在 System.Data.Objects.ObjectQuery`1.GetResults(Nullable`1 forMergeOption)
+   在 System.Data.Objects.ObjectQuery`1.System.Collections.Generic.IEnumerable<T>.GetEnumerator()
+   在 System.Linq.Enumerable.FirstOrDefault[TSource](IEnumerable`1 source)
+   在 System.Data.Objects.ELinq.ObjectQueryProvider.<>c__11`1.<GetElementFunction>b__11_1(IEnumerable`1 sequence)
+   在 System.Data.Objects.ELinq.ObjectQueryProvider.ExecuteSingle[TResult](IEnumerable`1 query, Expression queryRoot)
+   在 System.Data.Objects.ELinq.ObjectQueryProvider.System.Linq.IQueryProvider.Execute[S](Expression expression)
+   在 System.Data.Entity.Internal.Linq.DbQueryProvider.Execute[TResult](Expression expression)
+   在 System.Linq.Queryable.FirstOrDefault[TSource](IQueryable`1 source)
+   在 Enterprise.IIS.business.Factor.PipeCarSalesVolume.Grid1_RowDataBound(Object sender, GridRowEventArgs e) 位置 E:\ffqserp\trunk\application\Enterprise.IIS\business\Factor\PipeCarSalesVolume.aspx.cs:行号 188
+   在 FineUI.Grid.OnRowDataBound(GridRowEventArgs e)
+   在 FineUI.Grid.DataBindRow(Int32 rowIndex, Object rowObj)
+   在 FineUI.Grid.DataBindToDataTable(DataTable dataTable)
+   在 FineUI.Grid.DataBind()
+   在 Enterprise.IIS.business.Factor.PipeCarSalesVolume.BindData() 位置 E:\ffqserp\trunk\application\Enterprise.IIS\business\Factor\PipeCarSalesVolume.aspx.cs:行号 124
+   在 Enterprise.IIS.business.Factor.PipeCarSalesVolume.btnSearch_Click(Object sender, EventArgs e) 位置 E:\ffqserp\trunk\application\Enterprise.IIS\business\Factor\PipeCarSalesVolume.aspx.cs:行号 130
+   在 FineUI.Button.OnClick(EventArgs e)
+   在 FineUI.Button.RaisePostBackEvent(String eventArgument)
+   在 System.Web.UI.Page.RaisePostBackEvent(IPostBackEventHandler sourceControl, String eventArgument)
+   在 System.Web.UI.Page.RaisePostBackEvent(NameValueCollection postData)
+   在 System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   在 System.Web.UI.Page.HandleError(Exception e)
+   在 System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   在 System.Web.UI.Page.ProcessRequest(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   在 System.Web.UI.Page.ProcessRequest()
+   在 System.Web.UI.Page.ProcessRequestWithNoAssert(HttpContext context)
+   在 System.Web.UI.Page.ProcessRequest(HttpContext context)
+   在 ASP.business_factor_pipecarsalesvolume_aspx.ProcessRequest(HttpContext context) 位置 c:\Windows\Microsoft.NET\Framework\v4.0.30319\Temporary ASP.NET Files\vs\acc0e68d\f6fd98d3\App_Web_kosqw5sj.0.cs:行号 0
+   在 System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   在 System.Web.HttpApplication.ExecuteStepImpl(IExecutionStep step)
+   在 System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+2019/06/13 +08:00 15:54:28     [12928] Enterprise.Framework.Log.LogUtil.ErrorLog(:0) Enterprise.Framework.Log.LogUtil.ErrorLog(:0) [(null)] - LINQ to Entities 不识别方法“Int32 Parse(System.String)”，因此该方法无法转换为存储表达式。 e 
+System.NotSupportedException: LINQ to Entities 不识别方法“Int32 Parse(System.String)”，因此该方法无法转换为存储表达式。
+   在 System.Data.Objects.ELinq.ExpressionConverter.MethodCallTranslator.DefaultTranslator.Translate(ExpressionConverter parent, MethodCallExpression call)
+   在 System.Data.Objects.ELinq.ExpressionConverter.MethodCallTranslator.TypedTranslate(ExpressionConverter parent, MethodCallExpression linq)
+   在 System.Data.Objects.ELinq.ExpressionConverter.TypedTranslator`1.Translate(ExpressionConverter parent, Expression linq)
+   在 System.Data.Objects.ELinq.ExpressionConverter.TranslateExpression(Expression linq)
+   在 System.Data.Objects.ELinq.ExpressionConverter.EqualsTranslator.TypedTranslate(ExpressionConverter parent, BinaryExpression linq)
+   在 System.Data.Objects.ELinq.ExpressionConverter.TypedTranslator`1.Translate(ExpressionConverter parent, Expression linq)
+   在 System.Data.Objects.ELinq.ExpressionConverter.TranslateExpression(Expression linq)
+   在 System.Data.Objects.ELinq.ExpressionConverter.BinaryTranslator.TypedTranslate(ExpressionConverter parent, BinaryExpression linq)
+   在 System.Data.Objects.ELinq.ExpressionConverter.TypedTranslator`1.Translate(ExpressionConverter parent, Expression linq)
+   在 System.Data.Objects.ELinq.ExpressionConverter.TranslateExpression(Expression linq)
+   在 System.Data.Objects.ELinq.ExpressionConverter.BinaryTranslator.TypedTranslate(ExpressionConverter parent, BinaryExpression linq)
+   在 System.Data.Objects.ELinq.ExpressionConverter.TypedTranslator`1.Translate(ExpressionConverter parent, Expression linq)
+   在 System.Data.Objects.ELinq.ExpressionConverter.TranslateExpression(Expression linq)
+   在 System.Data.Objects.ELinq.ExpressionConverter.TranslateLambda(LambdaExpression lambda, DbExpression input)
+   在 System.Data.Objects.ELinq.ExpressionConverter.TranslateLambda(LambdaExpression lambda, DbExpression input, DbExpressionBinding& binding)
+   在 System.Data.Objects.ELinq.ExpressionConverter.MethodCallTranslator.OneLambdaTranslator.Translate(ExpressionConverter parent, MethodCallExpression call, DbExpression& source, DbExpressionBinding& sourceBinding, DbExpression& lambda)
+   在 System.Data.Objects.ELinq.ExpressionConverter.MethodCallTranslator.OneLambdaTranslator.Translate(ExpressionConverter parent, MethodCallExpression call)
+   在 System.Data.Objects.ELinq.ExpressionConverter.MethodCallTranslator.SequenceMethodTranslator.Translate(ExpressionConverter parent, MethodCallExpression call, SequenceMethod sequenceMethod)
+   在 System.Data.Objects.ELinq.ExpressionConverter.MethodCallTranslator.TypedTranslate(ExpressionConverter parent, MethodCallExpression linq)
+   在 System.Data.Objects.ELinq.ExpressionConverter.TypedTranslator`1.Translate(ExpressionConverter parent, Expression linq)
+   在 System.Data.Objects.ELinq.ExpressionConverter.TranslateExpression(Expression linq)
+   在 System.Data.Objects.ELinq.ExpressionConverter.MethodCallTranslator.UnarySequenceMethodTranslator.Translate(ExpressionConverter parent, MethodCallExpression call)
+   在 System.Data.Objects.ELinq.ExpressionConverter.MethodCallTranslator.SequenceMethodTranslator.Translate(ExpressionConverter parent, MethodCallExpression call, SequenceMethod sequenceMethod)
+   在 System.Data.Objects.ELinq.ExpressionConverter.MethodCallTranslator.TypedTranslate(ExpressionConverter parent, MethodCallExpression linq)
+   在 System.Data.Objects.ELinq.ExpressionConverter.TypedTranslator`1.Translate(ExpressionConverter parent, Expression linq)
+   在 System.Data.Objects.ELinq.ExpressionConverter.TranslateExpression(Expression linq)
+   在 System.Data.Objects.ELinq.ExpressionConverter.Convert()
+   在 System.Data.Objects.ELinq.ELinqQueryState.GetExecutionPlan(Nullable`1 forMergeOption)
+   在 System.Data.Objects.ObjectQuery`1.GetResults(Nullable`1 forMergeOption)
+   在 System.Data.Objects.ObjectQuery`1.System.Collections.Generic.IEnumerable<T>.GetEnumerator()
+   在 System.Linq.Enumerable.FirstOrDefault[TSource](IEnumerable`1 source)
+   在 System.Data.Objects.ELinq.ObjectQueryProvider.<>c__11`1.<GetElementFunction>b__11_1(IEnumerable`1 sequence)
+   在 System.Data.Objects.ELinq.ObjectQueryProvider.ExecuteSingle[TResult](IEnumerable`1 query, Expression queryRoot)
+   在 System.Data.Objects.ELinq.ObjectQueryProvider.System.Linq.IQueryProvider.Execute[S](Expression expression)
+   在 System.Data.Entity.Internal.Linq.DbQueryProvider.Execute[TResult](Expression expression)
+   在 System.Linq.Queryable.FirstOrDefault[TSource](IQueryable`1 source)
+   在 Enterprise.IIS.business.Factor.PipeCarSalesVolume.Grid1_RowDataBound(Object sender, GridRowEventArgs e) 位置 E:\ffqserp\trunk\application\Enterprise.IIS\business\Factor\PipeCarSalesVolume.aspx.cs:行号 188
+   在 FineUI.Grid.OnRowDataBound(GridRowEventArgs e)
+   在 FineUI.Grid.DataBindRow(Int32 rowIndex, Object rowObj)
+   在 FineUI.Grid.DataBindToDataTable(DataTable dataTable)
+   在 FineUI.Grid.DataBind()
+   在 Enterprise.IIS.business.Factor.PipeCarSalesVolume.BindData() 位置 E:\ffqserp\trunk\application\Enterprise.IIS\business\Factor\PipeCarSalesVolume.aspx.cs:行号 124
+   在 Enterprise.IIS.business.Factor.PipeCarSalesVolume.btnSearch_Click(Object sender, EventArgs e) 位置 E:\ffqserp\trunk\application\Enterprise.IIS\business\Factor\PipeCarSalesVolume.aspx.cs:行号 130
+   在 FineUI.Button.OnClick(EventArgs e)
+   在 FineUI.Button.RaisePostBackEvent(String eventArgument)
+   在 System.Web.UI.Page.RaisePostBackEvent(IPostBackEventHandler sourceControl, String eventArgument)
+   在 System.Web.UI.Page.RaisePostBackEvent(NameValueCollection postData)
+   在 System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+2019/06/13 +08:00 15:57:24     [22372] Enterprise.Framework.Log.LogUtil.ErrorLog(:0) Enterprise.Framework.Log.LogUtil.ErrorLog(:0) [(null)] - 
+错误开始===========================================
+客户机IP:::1
+错误地址:http://localhost:19008/Business/Factor/PipeCarSalesVolume.aspx
+异常信息:引发类型为“System.Web.HttpUnhandledException”的异常。
+错误结束=========================================== e 
+System.Web.HttpUnhandledException (0x80004005): 引发类型为“System.Web.HttpUnhandledException”的异常。 ---> System.FormatException: 输入字符串的格式不正确。
+   在 System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   在 System.Number.ParseInt32(String s, NumberStyles style, NumberFormatInfo info)
+   在 System.Int32.Parse(String s)
+   在 Enterprise.IIS.business.Factor.PipeCarSalesVolume.Grid1_RowDataBound(Object sender, GridRowEventArgs e) 位置 E:\ffqserp\trunk\application\Enterprise.IIS\business\Factor\PipeCarSalesVolume.aspx.cs:行号 188
+   在 FineUI.Grid.OnRowDataBound(GridRowEventArgs e)
+   在 FineUI.Grid.DataBindRow(Int32 rowIndex, Object rowObj)
+   在 FineUI.Grid.DataBindToDataTable(DataTable dataTable)
+   在 FineUI.Grid.DataBind()
+   在 Enterprise.IIS.business.Factor.PipeCarSalesVolume.BindData() 位置 E:\ffqserp\trunk\application\Enterprise.IIS\business\Factor\PipeCarSalesVolume.aspx.cs:行号 124
+   在 Enterprise.IIS.business.Factor.PipeCarSalesVolume.btnSearch_Click(Object sender, EventArgs e) 位置 E:\ffqserp\trunk\application\Enterprise.IIS\business\Factor\PipeCarSalesVolume.aspx.cs:行号 130
+   在 FineUI.Button.OnClick(EventArgs e)
+   在 FineUI.Button.RaisePostBackEvent(String eventArgument)
+   在 System.Web.UI.Page.RaisePostBackEvent(IPostBackEventHandler sourceControl, String eventArgument)
+   在 System.Web.UI.Page.RaisePostBackEvent(NameValueCollection postData)
+   在 System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   在 System.Web.UI.Page.HandleError(Exception e)
+   在 System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   在 System.Web.UI.Page.ProcessRequest(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   在 System.Web.UI.Page.ProcessRequest()
+   在 System.Web.UI.Page.ProcessRequestWithNoAssert(HttpContext context)
+   在 System.Web.UI.Page.ProcessRequest(HttpContext context)
+   在 ASP.business_factor_pipecarsalesvolume_aspx.ProcessRequest(HttpContext context) 位置 c:\Windows\Microsoft.NET\Framework\v4.0.30319\Temporary ASP.NET Files\vs\acc0e68d\f6fd98d3\App_Web_yiialuvp.0.cs:行号 0
+   在 System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   在 System.Web.HttpApplication.ExecuteStepImpl(IExecutionStep step)
+   在 System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+2019/06/13 +08:00 15:57:24     [22372] Enterprise.Framework.Log.LogUtil.ErrorLog(:0) Enterprise.Framework.Log.LogUtil.ErrorLog(:0) [(null)] - 输入字符串的格式不正确。 e 
+System.FormatException: 输入字符串的格式不正确。
+   在 System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   在 System.Number.ParseInt32(String s, NumberStyles style, NumberFormatInfo info)
+   在 System.Int32.Parse(String s)
+   在 Enterprise.IIS.business.Factor.PipeCarSalesVolume.Grid1_RowDataBound(Object sender, GridRowEventArgs e) 位置 E:\ffqserp\trunk\application\Enterprise.IIS\business\Factor\PipeCarSalesVolume.aspx.cs:行号 188
+   在 FineUI.Grid.OnRowDataBound(GridRowEventArgs e)
+   在 FineUI.Grid.DataBindRow(Int32 rowIndex, Object rowObj)
+   在 FineUI.Grid.DataBindToDataTable(DataTable dataTable)
+   在 FineUI.Grid.DataBind()
+   在 Enterprise.IIS.business.Factor.PipeCarSalesVolume.BindData() 位置 E:\ffqserp\trunk\application\Enterprise.IIS\business\Factor\PipeCarSalesVolume.aspx.cs:行号 124
+   在 Enterprise.IIS.business.Factor.PipeCarSalesVolume.btnSearch_Click(Object sender, EventArgs e) 位置 E:\ffqserp\trunk\application\Enterprise.IIS\business\Factor\PipeCarSalesVolume.aspx.cs:行号 130
+   在 FineUI.Button.OnClick(EventArgs e)
+   在 FineUI.Button.RaisePostBackEvent(String eventArgument)
+   在 System.Web.UI.Page.RaisePostBackEvent(IPostBackEventHandler sourceControl, String eventArgument)
+   在 System.Web.UI.Page.RaisePostBackEvent(NameValueCollection postData)
+   在 System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+2019/06/13 +08:00 15:59:26     [28748] Enterprise.Framework.Log.LogUtil.ErrorLog(:0) Enterprise.Framework.Log.LogUtil.ErrorLog(:0) [(null)] - 
+错误开始===========================================
+客户机IP:::1
+错误地址:http://localhost:19008/Business/Factor/PipeCarSalesVolume.aspx
+异常信息:引发类型为“System.Web.HttpUnhandledException”的异常。
+错误结束=========================================== e 
+System.Web.HttpUnhandledException (0x80004005): 引发类型为“System.Web.HttpUnhandledException”的异常。 ---> System.FormatException: 输入字符串的格式不正确。
+   在 System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   在 System.Number.ParseInt32(String s, NumberStyles style, NumberFormatInfo info)
+   在 System.Int32.Parse(String s)
+   在 Enterprise.IIS.business.Factor.PipeCarSalesVolume.Grid1_RowDataBound(Object sender, GridRowEventArgs e) 位置 E:\ffqserp\trunk\application\Enterprise.IIS\business\Factor\PipeCarSalesVolume.aspx.cs:行号 188
+   在 FineUI.Grid.OnRowDataBound(GridRowEventArgs e)
+   在 FineUI.Grid.DataBindRow(Int32 rowIndex, Object rowObj)
+   在 FineUI.Grid.DataBindToDataTable(DataTable dataTable)
+   在 FineUI.Grid.DataBind()
+   在 Enterprise.IIS.business.Factor.PipeCarSalesVolume.BindData() 位置 E:\ffqserp\trunk\application\Enterprise.IIS\business\Factor\PipeCarSalesVolume.aspx.cs:行号 124
+   在 Enterprise.IIS.business.Factor.PipeCarSalesVolume.btnSearch_Click(Object sender, EventArgs e) 位置 E:\ffqserp\trunk\application\Enterprise.IIS\business\Factor\PipeCarSalesVolume.aspx.cs:行号 130
+   在 FineUI.Button.OnClick(EventArgs e)
+   在 FineUI.Button.RaisePostBackEvent(String eventArgument)
+   在 System.Web.UI.Page.RaisePostBackEvent(IPostBackEventHandler sourceControl, String eventArgument)
+   在 System.Web.UI.Page.RaisePostBackEvent(NameValueCollection postData)
+   在 System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   在 System.Web.UI.Page.HandleError(Exception e)
+   在 System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   在 System.Web.UI.Page.ProcessRequest(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   在 System.Web.UI.Page.ProcessRequest()
+   在 System.Web.UI.Page.ProcessRequestWithNoAssert(HttpContext context)
+   在 System.Web.UI.Page.ProcessRequest(HttpContext context)
+   在 ASP.business_factor_pipecarsalesvolume_aspx.ProcessRequest(HttpContext context) 位置 c:\Windows\Microsoft.NET\Framework\v4.0.30319\Temporary ASP.NET Files\vs\acc0e68d\f6fd98d3\App_Web_yiialuvp.0.cs:行号 0
+   在 System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   在 System.Web.HttpApplication.ExecuteStepImpl(IExecutionStep step)
+   在 System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+2019/06/13 +08:00 15:59:26     [28748] Enterprise.Framework.Log.LogUtil.ErrorLog(:0) Enterprise.Framework.Log.LogUtil.ErrorLog(:0) [(null)] - 输入字符串的格式不正确。 e 
+System.FormatException: 输入字符串的格式不正确。
+   在 System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   在 System.Number.ParseInt32(String s, NumberStyles style, NumberFormatInfo info)
+   在 System.Int32.Parse(String s)
+   在 Enterprise.IIS.business.Factor.PipeCarSalesVolume.Grid1_RowDataBound(Object sender, GridRowEventArgs e) 位置 E:\ffqserp\trunk\application\Enterprise.IIS\business\Factor\PipeCarSalesVolume.aspx.cs:行号 188
+   在 FineUI.Grid.OnRowDataBound(GridRowEventArgs e)
+   在 FineUI.Grid.DataBindRow(Int32 rowIndex, Object rowObj)
+   在 FineUI.Grid.DataBindToDataTable(DataTable dataTable)
+   在 FineUI.Grid.DataBind()
+   在 Enterprise.IIS.business.Factor.PipeCarSalesVolume.BindData() 位置 E:\ffqserp\trunk\application\Enterprise.IIS\business\Factor\PipeCarSalesVolume.aspx.cs:行号 124
+   在 Enterprise.IIS.business.Factor.PipeCarSalesVolume.btnSearch_Click(Object sender, EventArgs e) 位置 E:\ffqserp\trunk\application\Enterprise.IIS\business\Factor\PipeCarSalesVolume.aspx.cs:行号 130
+   在 FineUI.Button.OnClick(EventArgs e)
+   在 FineUI.Button.RaisePostBackEvent(String eventArgument)
+   在 System.Web.UI.Page.RaisePostBackEvent(IPostBackEventHandler sourceControl, String eventArgument)
+   在 System.Web.UI.Page.RaisePostBackEvent(NameValueCollection postData)
+   在 System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+2019/06/13 +08:00 16:00:57     [7940] Enterprise.Framework.Log.LogUtil.ErrorLog(:0) Enterprise.Framework.Log.LogUtil.ErrorLog(:0) [(null)] - 
+错误开始===========================================
+客户机IP:::1
+错误地址:http://localhost:19008/Business/Factor/PipeCarSalesVolume.aspx
+异常信息:引发类型为“System.Web.HttpUnhandledException”的异常。
+错误结束=========================================== e 
+System.Web.HttpUnhandledException (0x80004005): 引发类型为“System.Web.HttpUnhandledException”的异常。 ---> System.FormatException: 输入字符串的格式不正确。
+   在 System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   在 System.Number.ParseInt32(String s, NumberStyles style, NumberFormatInfo info)
+   在 System.Int32.Parse(String s)
+   在 Enterprise.IIS.business.Factor.PipeCarSalesVolume.Grid1_RowDataBound(Object sender, GridRowEventArgs e) 位置 E:\ffqserp\trunk\application\Enterprise.IIS\business\Factor\PipeCarSalesVolume.aspx.cs:行号 188
+   在 FineUI.Grid.OnRowDataBound(GridRowEventArgs e)
+   在 FineUI.Grid.DataBindRow(Int32 rowIndex, Object rowObj)
+   在 FineUI.Grid.DataBindToDataTable(DataTable dataTable)
+   在 FineUI.Grid.DataBind()
+   在 Enterprise.IIS.business.Factor.PipeCarSalesVolume.BindData() 位置 E:\ffqserp\trunk\application\Enterprise.IIS\business\Factor\PipeCarSalesVolume.aspx.cs:行号 124
+   在 Enterprise.IIS.business.Factor.PipeCarSalesVolume.btnSearch_Click(Object sender, EventArgs e) 位置 E:\ffqserp\trunk\application\Enterprise.IIS\business\Factor\PipeCarSalesVolume.aspx.cs:行号 130
+   在 FineUI.Button.OnClick(EventArgs e)
+   在 FineUI.Button.RaisePostBackEvent(String eventArgument)
+   在 System.Web.UI.Page.RaisePostBackEvent(IPostBackEventHandler sourceControl, String eventArgument)
+   在 System.Web.UI.Page.RaisePostBackEvent(NameValueCollection postData)
+   在 System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   在 System.Web.UI.Page.HandleError(Exception e)
+   在 System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   在 System.Web.UI.Page.ProcessRequest(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   在 System.Web.UI.Page.ProcessRequest()
+   在 System.Web.UI.Page.ProcessRequestWithNoAssert(HttpContext context)
+   在 System.Web.UI.Page.ProcessRequest(HttpContext context)
+   在 ASP.business_factor_pipecarsalesvolume_aspx.ProcessRequest(HttpContext context) 位置 c:\Windows\Microsoft.NET\Framework\v4.0.30319\Temporary ASP.NET Files\vs\acc0e68d\f6fd98d3\App_Web_cwvlqvqr.0.cs:行号 0
+   在 System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   在 System.Web.HttpApplication.ExecuteStepImpl(IExecutionStep step)
+   在 System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+2019/06/13 +08:00 16:00:57     [7940] Enterprise.Framework.Log.LogUtil.ErrorLog(:0) Enterprise.Framework.Log.LogUtil.ErrorLog(:0) [(null)] - 输入字符串的格式不正确。 e 
+System.FormatException: 输入字符串的格式不正确。
+   在 System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   在 System.Number.ParseInt32(String s, NumberStyles style, NumberFormatInfo info)
+   在 System.Int32.Parse(String s)
+   在 Enterprise.IIS.business.Factor.PipeCarSalesVolume.Grid1_RowDataBound(Object sender, GridRowEventArgs e) 位置 E:\ffqserp\trunk\application\Enterprise.IIS\business\Factor\PipeCarSalesVolume.aspx.cs:行号 188
+   在 FineUI.Grid.OnRowDataBound(GridRowEventArgs e)
+   在 FineUI.Grid.DataBindRow(Int32 rowIndex, Object rowObj)
+   在 FineUI.Grid.DataBindToDataTable(DataTable dataTable)
+   在 FineUI.Grid.DataBind()
+   在 Enterprise.IIS.business.Factor.PipeCarSalesVolume.BindData() 位置 E:\ffqserp\trunk\application\Enterprise.IIS\business\Factor\PipeCarSalesVolume.aspx.cs:行号 124
+   在 Enterprise.IIS.business.Factor.PipeCarSalesVolume.btnSearch_Click(Object sender, EventArgs e) 位置 E:\ffqserp\trunk\application\Enterprise.IIS\business\Factor\PipeCarSalesVolume.aspx.cs:行号 130
+   在 FineUI.Button.OnClick(EventArgs e)
+   在 FineUI.Button.RaisePostBackEvent(String eventArgument)
+   在 System.Web.UI.Page.RaisePostBackEvent(IPostBackEventHandler sourceControl, String eventArgument)
+   在 System.Web.UI.Page.RaisePostBackEvent(NameValueCollection postData)
+   在 System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+2019/06/13 +08:00 16:04:39     [22044] Enterprise.Framework.Log.LogUtil.ErrorLog(:0) Enterprise.Framework.Log.LogUtil.ErrorLog(:0) [(null)] - 
+错误开始===========================================
+客户机IP:::1
+错误地址:http://localhost:19008/Business/Factor/PipeCarSalesVolume.aspx
+异常信息:引发类型为“System.Web.HttpUnhandledException”的异常。
+错误结束=========================================== e 
+System.Web.HttpUnhandledException (0x80004005): 引发类型为“System.Web.HttpUnhandledException”的异常。 ---> System.FormatException: 输入字符串的格式不正确。
+   在 System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   在 System.Number.ParseInt32(String s, NumberStyles style, NumberFormatInfo info)
+   在 System.Convert.ToInt32(String value)
+   在 Enterprise.IIS.business.Factor.PipeCarSalesVolume.Grid1_RowDataBound(Object sender, GridRowEventArgs e) 位置 E:\ffqserp\trunk\application\Enterprise.IIS\business\Factor\PipeCarSalesVolume.aspx.cs:行号 188
+   在 FineUI.Grid.OnRowDataBound(GridRowEventArgs e)
+   在 FineUI.Grid.DataBindRow(Int32 rowIndex, Object rowObj)
+   在 FineUI.Grid.DataBindToDataTable(DataTable dataTable)
+   在 FineUI.Grid.DataBind()
+   在 Enterprise.IIS.business.Factor.PipeCarSalesVolume.BindData() 位置 E:\ffqserp\trunk\application\Enterprise.IIS\business\Factor\PipeCarSalesVolume.aspx.cs:行号 124
+   在 Enterprise.IIS.business.Factor.PipeCarSalesVolume.btnSearch_Click(Object sender, EventArgs e) 位置 E:\ffqserp\trunk\application\Enterprise.IIS\business\Factor\PipeCarSalesVolume.aspx.cs:行号 130
+   在 FineUI.Button.OnClick(EventArgs e)
+   在 FineUI.Button.RaisePostBackEvent(String eventArgument)
+   在 System.Web.UI.Page.RaisePostBackEvent(IPostBackEventHandler sourceControl, String eventArgument)
+   在 System.Web.UI.Page.RaisePostBackEvent(NameValueCollection postData)
+   在 System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   在 System.Web.UI.Page.HandleError(Exception e)
+   在 System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   在 System.Web.UI.Page.ProcessRequest(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   在 System.Web.UI.Page.ProcessRequest()
+   在 System.Web.UI.Page.ProcessRequestWithNoAssert(HttpContext context)
+   在 System.Web.UI.Page.ProcessRequest(HttpContext context)
+   在 ASP.business_factor_pipecarsalesvolume_aspx.ProcessRequest(HttpContext context) 位置 c:\Windows\Microsoft.NET\Framework\v4.0.30319\Temporary ASP.NET Files\vs\acc0e68d\f6fd98d3\App_Web_lfrclmk2.2.cs:行号 0
+   在 System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   在 System.Web.HttpApplication.ExecuteStepImpl(IExecutionStep step)
+   在 System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+2019/06/13 +08:00 16:04:39     [22044] Enterprise.Framework.Log.LogUtil.ErrorLog(:0) Enterprise.Framework.Log.LogUtil.ErrorLog(:0) [(null)] - 输入字符串的格式不正确。 e 
+System.FormatException: 输入字符串的格式不正确。
+   在 System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   在 System.Number.ParseInt32(String s, NumberStyles style, NumberFormatInfo info)
+   在 System.Convert.ToInt32(String value)
+   在 Enterprise.IIS.business.Factor.PipeCarSalesVolume.Grid1_RowDataBound(Object sender, GridRowEventArgs e) 位置 E:\ffqserp\trunk\application\Enterprise.IIS\business\Factor\PipeCarSalesVolume.aspx.cs:行号 188
+   在 FineUI.Grid.OnRowDataBound(GridRowEventArgs e)
+   在 FineUI.Grid.DataBindRow(Int32 rowIndex, Object rowObj)
+   在 FineUI.Grid.DataBindToDataTable(DataTable dataTable)
+   在 FineUI.Grid.DataBind()
+   在 Enterprise.IIS.business.Factor.PipeCarSalesVolume.BindData() 位置 E:\ffqserp\trunk\application\Enterprise.IIS\business\Factor\PipeCarSalesVolume.aspx.cs:行号 124
+   在 Enterprise.IIS.business.Factor.PipeCarSalesVolume.btnSearch_Click(Object sender, EventArgs e) 位置 E:\ffqserp\trunk\application\Enterprise.IIS\business\Factor\PipeCarSalesVolume.aspx.cs:行号 130
+   在 FineUI.Button.OnClick(EventArgs e)
+   在 FineUI.Button.RaisePostBackEvent(String eventArgument)
+   在 System.Web.UI.Page.RaisePostBackEvent(IPostBackEventHandler sourceControl, String eventArgument)
+   在 System.Web.UI.Page.RaisePostBackEvent(NameValueCollection postData)
+   在 System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+2019/06/13 +08:00 16:07:26     [30792] Enterprise.Framework.Log.LogUtil.ErrorLog(:0) Enterprise.Framework.Log.LogUtil.ErrorLog(:0) [(null)] - 
+错误开始===========================================
+客户机IP:::1
+错误地址:http://localhost:19008/Business/Factor/PipeCarSalesVolume.aspx
+异常信息:引发类型为“System.Web.HttpUnhandledException”的异常。
+错误结束=========================================== e 
+System.Web.HttpUnhandledException (0x80004005): 引发类型为“System.Web.HttpUnhandledException”的异常。 ---> System.FormatException: 输入字符串的格式不正确。
+   在 System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   在 System.Number.ParseInt32(String s, NumberStyles style, NumberFormatInfo info)
+   在 System.Convert.ToInt32(String value)
+   在 Enterprise.IIS.business.Factor.PipeCarSalesVolume.Grid1_RowDataBound(Object sender, GridRowEventArgs e) 位置 E:\ffqserp\trunk\application\Enterprise.IIS\business\Factor\PipeCarSalesVolume.aspx.cs:行号 188
+   在 FineUI.Grid.OnRowDataBound(GridRowEventArgs e)
+   在 FineUI.Grid.DataBindRow(Int32 rowIndex, Object rowObj)
+   在 FineUI.Grid.DataBindToDataTable(DataTable dataTable)
+   在 FineUI.Grid.DataBind()
+   在 Enterprise.IIS.business.Factor.PipeCarSalesVolume.BindData() 位置 E:\ffqserp\trunk\application\Enterprise.IIS\business\Factor\PipeCarSalesVolume.aspx.cs:行号 124
+   在 Enterprise.IIS.business.Factor.PipeCarSalesVolume.btnSearch_Click(Object sender, EventArgs e) 位置 E:\ffqserp\trunk\application\Enterprise.IIS\business\Factor\PipeCarSalesVolume.aspx.cs:行号 130
+   在 FineUI.Button.OnClick(EventArgs e)
+   在 FineUI.Button.RaisePostBackEvent(String eventArgument)
+   在 System.Web.UI.Page.RaisePostBackEvent(IPostBackEventHandler sourceControl, String eventArgument)
+   在 System.Web.UI.Page.RaisePostBackEvent(NameValueCollection postData)
+   在 System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   在 System.Web.UI.Page.HandleError(Exception e)
+   在 System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   在 System.Web.UI.Page.ProcessRequest(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   在 System.Web.UI.Page.ProcessRequest()
+   在 System.Web.UI.Page.ProcessRequestWithNoAssert(HttpContext context)
+   在 System.Web.UI.Page.ProcessRequest(HttpContext context)
+   在 ASP.business_factor_pipecarsalesvolume_aspx.ProcessRequest(HttpContext context) 位置 c:\Windows\Microsoft.NET\Framework\v4.0.30319\Temporary ASP.NET Files\vs\acc0e68d\f6fd98d3\App_Web_p05zc40b.1.cs:行号 0
+   在 System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   在 System.Web.HttpApplication.ExecuteStepImpl(IExecutionStep step)
+   在 System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+2019/06/13 +08:00 16:07:26     [30792] Enterprise.Framework.Log.LogUtil.ErrorLog(:0) Enterprise.Framework.Log.LogUtil.ErrorLog(:0) [(null)] - 输入字符串的格式不正确。 e 
+System.FormatException: 输入字符串的格式不正确。
+   在 System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   在 System.Number.ParseInt32(String s, NumberStyles style, NumberFormatInfo info)
+   在 System.Convert.ToInt32(String value)
+   在 Enterprise.IIS.business.Factor.PipeCarSalesVolume.Grid1_RowDataBound(Object sender, GridRowEventArgs e) 位置 E:\ffqserp\trunk\application\Enterprise.IIS\business\Factor\PipeCarSalesVolume.aspx.cs:行号 188
+   在 FineUI.Grid.OnRowDataBound(GridRowEventArgs e)
+   在 FineUI.Grid.DataBindRow(Int32 rowIndex, Object rowObj)
+   在 FineUI.Grid.DataBindToDataTable(DataTable dataTable)
+   在 FineUI.Grid.DataBind()
+   在 Enterprise.IIS.business.Factor.PipeCarSalesVolume.BindData() 位置 E:\ffqserp\trunk\application\Enterprise.IIS\business\Factor\PipeCarSalesVolume.aspx.cs:行号 124
+   在 Enterprise.IIS.business.Factor.PipeCarSalesVolume.btnSearch_Click(Object sender, EventArgs e) 位置 E:\ffqserp\trunk\application\Enterprise.IIS\business\Factor\PipeCarSalesVolume.aspx.cs:行号 130
+   在 FineUI.Button.OnClick(EventArgs e)
+   在 FineUI.Button.RaisePostBackEvent(String eventArgument)
+   在 System.Web.UI.Page.RaisePostBackEvent(IPostBackEventHandler sourceControl, String eventArgument)
+   在 System.Web.UI.Page.RaisePostBackEvent(NameValueCollection postData)
+   在 System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+2019/06/13 +08:00 16:10:44     [30156] Enterprise.Framework.Log.LogUtil.ErrorLog(:0) Enterprise.Framework.Log.LogUtil.ErrorLog(:0) [(null)] - 
+错误开始===========================================
+客户机IP:::1
+错误地址:http://localhost:19008/Business/Factor/PipeCarSalesVolume.aspx
+异常信息:引发类型为“System.Web.HttpUnhandledException”的异常。
+错误结束=========================================== e 
+System.Web.HttpUnhandledException (0x80004005): 引发类型为“System.Web.HttpUnhandledException”的异常。 ---> System.FormatException: 输入字符串的格式不正确。
+   在 System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   在 System.Number.ParseInt32(String s, NumberStyles style, NumberFormatInfo info)
+   在 System.Convert.ToInt32(String value)
+   在 Enterprise.IIS.business.Factor.PipeCarSalesVolume.Grid1_RowDataBound(Object sender, GridRowEventArgs e) 位置 E:\ffqserp\trunk\application\Enterprise.IIS\business\Factor\PipeCarSalesVolume.aspx.cs:行号 188
+   在 FineUI.Grid.OnRowDataBound(GridRowEventArgs e)
+   在 FineUI.Grid.DataBindRow(Int32 rowIndex, Object rowObj)
+   在 FineUI.Grid.DataBindToDataTable(DataTable dataTable)
+   在 FineUI.Grid.DataBind()
+   在 Enterprise.IIS.business.Factor.PipeCarSalesVolume.BindData() 位置 E:\ffqserp\trunk\application\Enterprise.IIS\business\Factor\PipeCarSalesVolume.aspx.cs:行号 124
+   在 Enterprise.IIS.business.Factor.PipeCarSalesVolume.btnSearch_Click(Object sender, EventArgs e) 位置 E:\ffqserp\trunk\application\Enterprise.IIS\business\Factor\PipeCarSalesVolume.aspx.cs:行号 130
+   在 FineUI.Button.OnClick(EventArgs e)
+   在 FineUI.Button.RaisePostBackEvent(String eventArgument)
+   在 System.Web.UI.Page.RaisePostBackEvent(IPostBackEventHandler sourceControl, String eventArgument)
+   在 System.Web.UI.Page.RaisePostBackEvent(NameValueCollection postData)
+   在 System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   在 System.Web.UI.Page.HandleError(Exception e)
+   在 System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   在 System.Web.UI.Page.ProcessRequest(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   在 System.Web.UI.Page.ProcessRequest()
+   在 System.Web.UI.Page.ProcessRequestWithNoAssert(HttpContext context)
+   在 System.Web.UI.Page.ProcessRequest(HttpContext context)
+   在 ASP.business_factor_pipecarsalesvolume_aspx.ProcessRequest(HttpContext context) 位置 c:\Windows\Microsoft.NET\Framework\v4.0.30319\Temporary ASP.NET Files\vs\acc0e68d\f6fd98d3\App_Web_wuntsp5z.0.cs:行号 0
+   在 System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   在 System.Web.HttpApplication.ExecuteStepImpl(IExecutionStep step)
+   在 System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+2019/06/13 +08:00 16:10:44     [30156] Enterprise.Framework.Log.LogUtil.ErrorLog(:0) Enterprise.Framework.Log.LogUtil.ErrorLog(:0) [(null)] - 输入字符串的格式不正确。 e 
+System.FormatException: 输入字符串的格式不正确。
+   在 System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   在 System.Number.ParseInt32(String s, NumberStyles style, NumberFormatInfo info)
+   在 System.Convert.ToInt32(String value)
+   在 Enterprise.IIS.business.Factor.PipeCarSalesVolume.Grid1_RowDataBound(Object sender, GridRowEventArgs e) 位置 E:\ffqserp\trunk\application\Enterprise.IIS\business\Factor\PipeCarSalesVolume.aspx.cs:行号 188
+   在 FineUI.Grid.OnRowDataBound(GridRowEventArgs e)
+   在 FineUI.Grid.DataBindRow(Int32 rowIndex, Object rowObj)
+   在 FineUI.Grid.DataBindToDataTable(DataTable dataTable)
+   在 FineUI.Grid.DataBind()
+   在 Enterprise.IIS.business.Factor.PipeCarSalesVolume.BindData() 位置 E:\ffqserp\trunk\application\Enterprise.IIS\business\Factor\PipeCarSalesVolume.aspx.cs:行号 124
+   在 Enterprise.IIS.business.Factor.PipeCarSalesVolume.btnSearch_Click(Object sender, EventArgs e) 位置 E:\ffqserp\trunk\application\Enterprise.IIS\business\Factor\PipeCarSalesVolume.aspx.cs:行号 130
+   在 FineUI.Button.OnClick(EventArgs e)
+   在 FineUI.Button.RaisePostBackEvent(String eventArgument)
+   在 System.Web.UI.Page.RaisePostBackEvent(IPostBackEventHandler sourceControl, String eventArgument)
+   在 System.Web.UI.Page.RaisePostBackEvent(NameValueCollection postData)
+   在 System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+2019/06/13 +08:00 16:16:53     [25888] Enterprise.Framework.Log.LogUtil.ErrorLog(:0) Enterprise.Framework.Log.LogUtil.ErrorLog(:0) [(null)] - 
+错误开始===========================================
+客户机IP:::1
+错误地址:http://localhost:19008/Business/Factor/PipeCarSalesVolume.aspx
+异常信息:引发类型为“System.Web.HttpUnhandledException”的异常。
+错误结束=========================================== e 
+System.Web.HttpUnhandledException (0x80004005): 引发类型为“System.Web.HttpUnhandledException”的异常。 ---> System.Reflection.TargetInvocationException: 调用的目标发生了异常。 ---> Microsoft.JScript.JScriptException: 应为“)”
+   在 Microsoft.JScript.DocumentContext.HandleError(JScriptException error)
+   在 Microsoft.JScript.Context.HandleError(JSError errorId, String message, Boolean treatAsError)
+   在 Microsoft.JScript.JSParser.EOFError(JSError errorId)
+   在 Microsoft.JScript.JSParser.ReportError(JSError errorId, Context context, Boolean skipToken)
+   在 Microsoft.JScript.JSParser.ReportError(JSError errorId, Boolean skipToken)
+   在 Microsoft.JScript.JSParser.ParseLeftHandSideExpression(Boolean isMinus, Boolean& canBeAttribute, Boolean warnForKeyword)
+   在 Microsoft.JScript.JSParser.ParseUnaryExpression(Boolean& isLeftHandSideExpr, Boolean& canBeAttribute, Boolean isMinus, Boolean warnForKeyword)
+   在 Microsoft.JScript.JSParser.ParseStatement()
+   在 Microsoft.JScript.JSParser.ParseStatements(Boolean insideEval)
+   在 Microsoft.JScript.Eval.DoEvaluate(Object source, VsaEngine engine, Boolean isUnsafe)
+   在 Microsoft.JScript.Eval.JScriptEvaluate(Object source, Object unsafeOption, VsaEngine engine)
+   在 Evaluator.Eval(String expr)
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 System.RuntimeMethodHandle.InvokeMethod(Object target, Object[] arguments, Signature sig, Boolean constructor)
+   在 System.Reflection.RuntimeMethodInfo.UnsafeInvokeInternal(Object obj, Object[] parameters, Object[] arguments)
+   在 System.Reflection.RuntimeMethodInfo.Invoke(Object obj, BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)
+   在 System.RuntimeType.InvokeMember(String name, BindingFlags bindingFlags, Binder binder, Object target, Object[] providedArgs, ParameterModifier[] modifiers, CultureInfo culture, String[] namedParams)
+   在 System.Type.InvokeMember(String name, BindingFlags invokeAttr, Binder binder, Object target, Object[] args)
+   在 Enterprise.IIS.Common.FormulaCalculator.Eval(String statement) 位置 E:\ffqserp\trunk\application\Enterprise.IIS\Common\FormulaCalculator.cs:行号 19
+   在 Enterprise.IIS.business.Factor.PipeCarSalesVolume.Grid1_RowDataBound(Object sender, GridRowEventArgs e) 位置 E:\ffqserp\trunk\application\Enterprise.IIS\business\Factor\PipeCarSalesVolume.aspx.cs:行号 235
+   在 FineUI.Grid.OnRowDataBound(GridRowEventArgs e)
+   在 FineUI.Grid.DataBindRow(Int32 rowIndex, Object rowObj)
+   在 FineUI.Grid.DataBindToDataTable(DataTable dataTable)
+   在 FineUI.Grid.DataBind()
+   在 Enterprise.IIS.business.Factor.PipeCarSalesVolume.BindData() 位置 E:\ffqserp\trunk\application\Enterprise.IIS\business\Factor\PipeCarSalesVolume.aspx.cs:行号 124
+   在 Enterprise.IIS.business.Factor.PipeCarSalesVolume.btnSearch_Click(Object sender, EventArgs e) 位置 E:\ffqserp\trunk\application\Enterprise.IIS\business\Factor\PipeCarSalesVolume.aspx.cs:行号 130
+   在 FineUI.Button.OnClick(EventArgs e)
+   在 FineUI.Button.RaisePostBackEvent(String eventArgument)
+   在 System.Web.UI.Page.RaisePostBackEvent(IPostBackEventHandler sourceControl, String eventArgument)
+   在 System.Web.UI.Page.RaisePostBackEvent(NameValueCollection postData)
+   在 System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   在 System.Web.UI.Page.HandleError(Exception e)
+   在 System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   在 System.Web.UI.Page.ProcessRequest(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   在 System.Web.UI.Page.ProcessRequest()
+   在 System.Web.UI.Page.ProcessRequestWithNoAssert(HttpContext context)
+   在 System.Web.UI.Page.ProcessRequest(HttpContext context)
+   在 ASP.business_factor_pipecarsalesvolume_aspx.ProcessRequest(HttpContext context) 位置 c:\Windows\Microsoft.NET\Framework\v4.0.30319\Temporary ASP.NET Files\vs\acc0e68d\f6fd98d3\App_Web_qsro4me4.2.cs:行号 0
+   在 System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   在 System.Web.HttpApplication.ExecuteStepImpl(IExecutionStep step)
+   在 System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+2019/06/13 +08:00 16:16:53     [25888] Enterprise.Framework.Log.LogUtil.ErrorLog(:0) Enterprise.Framework.Log.LogUtil.ErrorLog(:0) [(null)] - 应为“)” e 
+Microsoft.JScript.JScriptException: 应为“)”
+   在 Microsoft.JScript.DocumentContext.HandleError(JScriptException error)
+   在 Microsoft.JScript.Context.HandleError(JSError errorId, String message, Boolean treatAsError)
+   在 Microsoft.JScript.JSParser.EOFError(JSError errorId)
+   在 Microsoft.JScript.JSParser.ReportError(JSError errorId, Context context, Boolean skipToken)
+   在 Microsoft.JScript.JSParser.ReportError(JSError errorId, Boolean skipToken)
+   在 Microsoft.JScript.JSParser.ParseLeftHandSideExpression(Boolean isMinus, Boolean& canBeAttribute, Boolean warnForKeyword)
+   在 Microsoft.JScript.JSParser.ParseUnaryExpression(Boolean& isLeftHandSideExpr, Boolean& canBeAttribute, Boolean isMinus, Boolean warnForKeyword)
+   在 Microsoft.JScript.JSParser.ParseStatement()
+   在 Microsoft.JScript.JSParser.ParseStatements(Boolean insideEval)
+   在 Microsoft.JScript.Eval.DoEvaluate(Object source, VsaEngine engine, Boolean isUnsafe)
+   在 Microsoft.JScript.Eval.JScriptEvaluate(Object source, Object unsafeOption, VsaEngine engine)
+   在 Evaluator.Eval(String expr)
+2019/06/13 +08:00 16:18:24     [27744] Enterprise.Framework.Log.LogUtil.ErrorLog(:0) Enterprise.Framework.Log.LogUtil.ErrorLog(:0) [(null)] - 
+错误开始===========================================
+客户机IP:::1
+错误地址:http://localhost:19008/Business/Factor/PipeCarSalesVolume.aspx
+异常信息:引发类型为“System.Web.HttpUnhandledException”的异常。
+错误结束=========================================== e 
+System.Web.HttpUnhandledException (0x80004005): 引发类型为“System.Web.HttpUnhandledException”的异常。 ---> System.Reflection.TargetInvocationException: 调用的目标发生了异常。 ---> Microsoft.JScript.JScriptException: 应为“)”
+   在 Microsoft.JScript.DocumentContext.HandleError(JScriptException error)
+   在 Microsoft.JScript.Context.HandleError(JSError errorId, String message, Boolean treatAsError)
+   在 Microsoft.JScript.JSParser.EOFError(JSError errorId)
+   在 Microsoft.JScript.JSParser.ReportError(JSError errorId, Context context, Boolean skipToken)
+   在 Microsoft.JScript.JSParser.ReportError(JSError errorId, Boolean skipToken)
+   在 Microsoft.JScript.JSParser.ParseLeftHandSideExpression(Boolean isMinus, Boolean& canBeAttribute, Boolean warnForKeyword)
+   在 Microsoft.JScript.JSParser.ParseUnaryExpression(Boolean& isLeftHandSideExpr, Boolean& canBeAttribute, Boolean isMinus, Boolean warnForKeyword)
+   在 Microsoft.JScript.JSParser.ParseStatement()
+   在 Microsoft.JScript.JSParser.ParseStatements(Boolean insideEval)
+   在 Microsoft.JScript.Eval.DoEvaluate(Object source, VsaEngine engine, Boolean isUnsafe)
+   在 Microsoft.JScript.Eval.JScriptEvaluate(Object source, Object unsafeOption, VsaEngine engine)
+   在 Evaluator.Eval(String expr)
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 System.RuntimeMethodHandle.InvokeMethod(Object target, Object[] arguments, Signature sig, Boolean constructor)
+   在 System.Reflection.RuntimeMethodInfo.UnsafeInvokeInternal(Object obj, Object[] parameters, Object[] arguments)
+   在 System.Reflection.RuntimeMethodInfo.Invoke(Object obj, BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)
+   在 System.RuntimeType.InvokeMember(String name, BindingFlags bindingFlags, Binder binder, Object target, Object[] providedArgs, ParameterModifier[] modifiers, CultureInfo culture, String[] namedParams)
+   在 System.Type.InvokeMember(String name, BindingFlags invokeAttr, Binder binder, Object target, Object[] args)
+   在 Enterprise.IIS.Common.FormulaCalculator.Eval(String statement) 位置 E:\ffqserp\trunk\application\Enterprise.IIS\Common\FormulaCalculator.cs:行号 19
+   在 Enterprise.IIS.business.Factor.PipeCarSalesVolume.Grid1_RowDataBound(Object sender, GridRowEventArgs e) 位置 E:\ffqserp\trunk\application\Enterprise.IIS\business\Factor\PipeCarSalesVolume.aspx.cs:行号 235
+   在 FineUI.Grid.OnRowDataBound(GridRowEventArgs e)
+   在 FineUI.Grid.DataBindRow(Int32 rowIndex, Object rowObj)
+   在 FineUI.Grid.DataBindToDataTable(DataTable dataTable)
+   在 FineUI.Grid.DataBind()
+   在 Enterprise.IIS.business.Factor.PipeCarSalesVolume.BindData() 位置 E:\ffqserp\trunk\application\Enterprise.IIS\business\Factor\PipeCarSalesVolume.aspx.cs:行号 124
+   在 Enterprise.IIS.business.Factor.PipeCarSalesVolume.btnSearch_Click(Object sender, EventArgs e) 位置 E:\ffqserp\trunk\application\Enterprise.IIS\business\Factor\PipeCarSalesVolume.aspx.cs:行号 130
+   在 FineUI.Button.OnClick(EventArgs e)
+   在 FineUI.Button.RaisePostBackEvent(String eventArgument)
+   在 System.Web.UI.Page.RaisePostBackEvent(IPostBackEventHandler sourceControl, String eventArgument)
+   在 System.Web.UI.Page.RaisePostBackEvent(NameValueCollection postData)
+   在 System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   在 System.Web.UI.Page.HandleError(Exception e)
+   在 System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   在 System.Web.UI.Page.ProcessRequest(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   在 System.Web.UI.Page.ProcessRequest()
+   在 System.Web.UI.Page.ProcessRequestWithNoAssert(HttpContext context)
+   在 System.Web.UI.Page.ProcessRequest(HttpContext context)
+   在 ASP.business_factor_pipecarsalesvolume_aspx.ProcessRequest(HttpContext context) 位置 c:\Windows\Microsoft.NET\Framework\v4.0.30319\Temporary ASP.NET Files\vs\acc0e68d\f6fd98d3\App_Web_qsro4me4.2.cs:行号 0
+   在 System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   在 System.Web.HttpApplication.ExecuteStepImpl(IExecutionStep step)
+   在 System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+2019/06/13 +08:00 16:18:24     [27744] Enterprise.Framework.Log.LogUtil.ErrorLog(:0) Enterprise.Framework.Log.LogUtil.ErrorLog(:0) [(null)] - 应为“)” e 
+Microsoft.JScript.JScriptException: 应为“)”
+   在 Microsoft.JScript.DocumentContext.HandleError(JScriptException error)
+   在 Microsoft.JScript.Context.HandleError(JSError errorId, String message, Boolean treatAsError)
+   在 Microsoft.JScript.JSParser.EOFError(JSError errorId)
+   在 Microsoft.JScript.JSParser.ReportError(JSError errorId, Context context, Boolean skipToken)
+   在 Microsoft.JScript.JSParser.ReportError(JSError errorId, Boolean skipToken)
+   在 Microsoft.JScript.JSParser.ParseLeftHandSideExpression(Boolean isMinus, Boolean& canBeAttribute, Boolean warnForKeyword)
+   在 Microsoft.JScript.JSParser.ParseUnaryExpression(Boolean& isLeftHandSideExpr, Boolean& canBeAttribute, Boolean isMinus, Boolean warnForKeyword)
+   在 Microsoft.JScript.JSParser.ParseStatement()
+   在 Microsoft.JScript.JSParser.ParseStatements(Boolean insideEval)
+   在 Microsoft.JScript.Eval.DoEvaluate(Object source, VsaEngine engine, Boolean isUnsafe)
+   在 Microsoft.JScript.Eval.JScriptEvaluate(Object source, Object unsafeOption, VsaEngine engine)
+   在 Evaluator.Eval(String expr)
+2019/06/13 +08:00 16:20:33     [8584] Enterprise.Framework.Log.LogUtil.ErrorLog(:0) Enterprise.Framework.Log.LogUtil.ErrorLog(:0) [(null)] - 
+错误开始===========================================
+客户机IP:::1
+错误地址:http://localhost:19008/Business/Factor/PipeCarSalesVolume.aspx
+异常信息:引发类型为“System.Web.HttpUnhandledException”的异常。
+错误结束=========================================== e 
+System.Web.HttpUnhandledException (0x80004005): 引发类型为“System.Web.HttpUnhandledException”的异常。 ---> System.FormatException: 输入字符串的格式不正确。
+   在 System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   在 System.Number.ParseInt32(String s, NumberStyles style, NumberFormatInfo info)
+   在 System.Convert.ToInt32(String value)
+   在 Enterprise.IIS.business.Factor.PipeCarSalesVolume.Grid1_RowDataBound(Object sender, GridRowEventArgs e) 位置 E:\ffqserp\trunk\application\Enterprise.IIS\business\Factor\PipeCarSalesVolume.aspx.cs:行号 171
+   在 FineUI.Grid.OnRowDataBound(GridRowEventArgs e)
+   在 FineUI.Grid.DataBindRow(Int32 rowIndex, Object rowObj)
+   在 FineUI.Grid.DataBindToDataTable(DataTable dataTable)
+   在 FineUI.Grid.DataBind()
+   在 Enterprise.IIS.business.Factor.PipeCarSalesVolume.BindData() 位置 E:\ffqserp\trunk\application\Enterprise.IIS\business\Factor\PipeCarSalesVolume.aspx.cs:行号 124
+   在 Enterprise.IIS.business.Factor.PipeCarSalesVolume.btnSearch_Click(Object sender, EventArgs e) 位置 E:\ffqserp\trunk\application\Enterprise.IIS\business\Factor\PipeCarSalesVolume.aspx.cs:行号 130
+   在 FineUI.Button.OnClick(EventArgs e)
+   在 FineUI.Button.RaisePostBackEvent(String eventArgument)
+   在 System.Web.UI.Page.RaisePostBackEvent(IPostBackEventHandler sourceControl, String eventArgument)
+   在 System.Web.UI.Page.RaisePostBackEvent(NameValueCollection postData)
+   在 System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   在 System.Web.UI.Page.HandleError(Exception e)
+   在 System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   在 System.Web.UI.Page.ProcessRequest(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   在 System.Web.UI.Page.ProcessRequest()
+   在 System.Web.UI.Page.ProcessRequestWithNoAssert(HttpContext context)
+   在 System.Web.UI.Page.ProcessRequest(HttpContext context)
+   在 ASP.business_factor_pipecarsalesvolume_aspx.ProcessRequest(HttpContext context) 位置 c:\Windows\Microsoft.NET\Framework\v4.0.30319\Temporary ASP.NET Files\vs\acc0e68d\f6fd98d3\App_Web_v1poyvl3.1.cs:行号 0
+   在 System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   在 System.Web.HttpApplication.ExecuteStepImpl(IExecutionStep step)
+   在 System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+2019/06/13 +08:00 16:20:33     [8584] Enterprise.Framework.Log.LogUtil.ErrorLog(:0) Enterprise.Framework.Log.LogUtil.ErrorLog(:0) [(null)] - 输入字符串的格式不正确。 e 
+System.FormatException: 输入字符串的格式不正确。
+   在 System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   在 System.Number.ParseInt32(String s, NumberStyles style, NumberFormatInfo info)
+   在 System.Convert.ToInt32(String value)
+   在 Enterprise.IIS.business.Factor.PipeCarSalesVolume.Grid1_RowDataBound(Object sender, GridRowEventArgs e) 位置 E:\ffqserp\trunk\application\Enterprise.IIS\business\Factor\PipeCarSalesVolume.aspx.cs:行号 171
+   在 FineUI.Grid.OnRowDataBound(GridRowEventArgs e)
+   在 FineUI.Grid.DataBindRow(Int32 rowIndex, Object rowObj)
+   在 FineUI.Grid.DataBindToDataTable(DataTable dataTable)
+   在 FineUI.Grid.DataBind()
+   在 Enterprise.IIS.business.Factor.PipeCarSalesVolume.BindData() 位置 E:\ffqserp\trunk\application\Enterprise.IIS\business\Factor\PipeCarSalesVolume.aspx.cs:行号 124
+   在 Enterprise.IIS.business.Factor.PipeCarSalesVolume.btnSearch_Click(Object sender, EventArgs e) 位置 E:\ffqserp\trunk\application\Enterprise.IIS\business\Factor\PipeCarSalesVolume.aspx.cs:行号 130
+   在 FineUI.Button.OnClick(EventArgs e)
+   在 FineUI.Button.RaisePostBackEvent(String eventArgument)
+   在 System.Web.UI.Page.RaisePostBackEvent(IPostBackEventHandler sourceControl, String eventArgument)
+   在 System.Web.UI.Page.RaisePostBackEvent(NameValueCollection postData)
+   在 System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+2019/06/13 +08:00 16:23:19     [4884] Enterprise.Framework.Log.LogUtil.ErrorLog(:0) Enterprise.Framework.Log.LogUtil.ErrorLog(:0) [(null)] - 
+错误开始===========================================
+客户机IP:::1
+错误地址:http://localhost:19008/Business/Factor/PipeCarSalesVolume.aspx
+异常信息:引发类型为“System.Web.HttpUnhandledException”的异常。
+错误结束=========================================== e 
+System.Web.HttpUnhandledException (0x80004005): 引发类型为“System.Web.HttpUnhandledException”的异常。 ---> System.FormatException: 输入字符串的格式不正确。
+   在 System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   在 System.Number.ParseInt32(String s, NumberStyles style, NumberFormatInfo info)
+   在 System.Convert.ToInt32(String value)
+   在 Enterprise.IIS.business.Factor.PipeCarSalesVolume.Grid1_RowDataBound(Object sender, GridRowEventArgs e) 位置 E:\ffqserp\trunk\application\Enterprise.IIS\business\Factor\PipeCarSalesVolume.aspx.cs:行号 171
+   在 FineUI.Grid.OnRowDataBound(GridRowEventArgs e)
+   在 FineUI.Grid.DataBindRow(Int32 rowIndex, Object rowObj)
+   在 FineUI.Grid.DataBindToDataTable(DataTable dataTable)
+   在 FineUI.Grid.DataBind()
+   在 Enterprise.IIS.business.Factor.PipeCarSalesVolume.BindData() 位置 E:\ffqserp\trunk\application\Enterprise.IIS\business\Factor\PipeCarSalesVolume.aspx.cs:行号 124
+   在 Enterprise.IIS.business.Factor.PipeCarSalesVolume.btnSearch_Click(Object sender, EventArgs e) 位置 E:\ffqserp\trunk\application\Enterprise.IIS\business\Factor\PipeCarSalesVolume.aspx.cs:行号 130
+   在 FineUI.Button.OnClick(EventArgs e)
+   在 FineUI.Button.RaisePostBackEvent(String eventArgument)
+   在 System.Web.UI.Page.RaisePostBackEvent(IPostBackEventHandler sourceControl, String eventArgument)
+   在 System.Web.UI.Page.RaisePostBackEvent(NameValueCollection postData)
+   在 System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   在 System.Web.UI.Page.HandleError(Exception e)
+   在 System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   在 System.Web.UI.Page.ProcessRequest(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   在 System.Web.UI.Page.ProcessRequest()
+   在 System.Web.UI.Page.ProcessRequestWithNoAssert(HttpContext context)
+   在 System.Web.UI.Page.ProcessRequest(HttpContext context)
+   在 ASP.business_factor_pipecarsalesvolume_aspx.ProcessRequest(HttpContext context) 位置 c:\Windows\Microsoft.NET\Framework\v4.0.30319\Temporary ASP.NET Files\vs\acc0e68d\f6fd98d3\App_Web_dp5g0s4r.1.cs:行号 0
+   在 System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   在 System.Web.HttpApplication.ExecuteStepImpl(IExecutionStep step)
+   在 System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+2019/06/13 +08:00 16:23:19     [4884] Enterprise.Framework.Log.LogUtil.ErrorLog(:0) Enterprise.Framework.Log.LogUtil.ErrorLog(:0) [(null)] - 输入字符串的格式不正确。 e 
+System.FormatException: 输入字符串的格式不正确。
+   在 System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   在 System.Number.ParseInt32(String s, NumberStyles style, NumberFormatInfo info)
+   在 System.Convert.ToInt32(String value)
+   在 Enterprise.IIS.business.Factor.PipeCarSalesVolume.Grid1_RowDataBound(Object sender, GridRowEventArgs e) 位置 E:\ffqserp\trunk\application\Enterprise.IIS\business\Factor\PipeCarSalesVolume.aspx.cs:行号 171
+   在 FineUI.Grid.OnRowDataBound(GridRowEventArgs e)
+   在 FineUI.Grid.DataBindRow(Int32 rowIndex, Object rowObj)
+   在 FineUI.Grid.DataBindToDataTable(DataTable dataTable)
+   在 FineUI.Grid.DataBind()
+   在 Enterprise.IIS.business.Factor.PipeCarSalesVolume.BindData() 位置 E:\ffqserp\trunk\application\Enterprise.IIS\business\Factor\PipeCarSalesVolume.aspx.cs:行号 124
+   在 Enterprise.IIS.business.Factor.PipeCarSalesVolume.btnSearch_Click(Object sender, EventArgs e) 位置 E:\ffqserp\trunk\application\Enterprise.IIS\business\Factor\PipeCarSalesVolume.aspx.cs:行号 130
+   在 FineUI.Button.OnClick(EventArgs e)
+   在 FineUI.Button.RaisePostBackEvent(String eventArgument)
+   在 System.Web.UI.Page.RaisePostBackEvent(IPostBackEventHandler sourceControl, String eventArgument)
+   在 System.Web.UI.Page.RaisePostBackEvent(NameValueCollection postData)
+   在 System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+2019/06/13 +08:00 16:25:43     [15644] Enterprise.Framework.Log.LogUtil.ErrorLog(:0) Enterprise.Framework.Log.LogUtil.ErrorLog(:0) [(null)] - 
+错误开始===========================================
+客户机IP:::1
+错误地址:http://localhost:19008/Business/Factor/PipeCarSalesVolume.aspx
+异常信息:引发类型为“System.Web.HttpUnhandledException”的异常。
+错误结束=========================================== e 
+System.Web.HttpUnhandledException (0x80004005): 引发类型为“System.Web.HttpUnhandledException”的异常。 ---> System.InvalidOperationException: “LHFactor”的“FBar”属性不能设置为“Decimal”值。必须将该属性设置为类型为“String”的非 null 值。
+   在 System.Data.Common.Internal.Materialization.Shaper.ErrorHandlingValueReader`1.GetValue(DbDataReader reader, Int32 ordinal)
+   在 lambda_method(Closure , Shaper )
+   在 System.Data.Common.Internal.Materialization.Shaper.HandleEntityAppendOnly[TEntity](Func`2 constructEntityDelegate, EntityKey entityKey, EntitySet entitySet)
+   在 lambda_method(Closure , Shaper )
+   在 System.Data.Common.Internal.Materialization.Coordinator`1.ReadNextElement(Shaper shaper)
+   在 System.Data.Common.Internal.Materialization.Shaper`1.SimpleEnumerator.MoveNext()
+   在 System.Linq.Enumerable.FirstOrDefault[TSource](IEnumerable`1 source)
+   在 System.Data.Objects.ELinq.ObjectQueryProvider.<>c__11`1.<GetElementFunction>b__11_1(IEnumerable`1 sequence)
+   在 System.Data.Objects.ELinq.ObjectQueryProvider.ExecuteSingle[TResult](IEnumerable`1 query, Expression queryRoot)
+   在 System.Data.Objects.ELinq.ObjectQueryProvider.System.Linq.IQueryProvider.Execute[S](Expression expression)
+   在 System.Data.Entity.Internal.Linq.DbQueryProvider.Execute[TResult](Expression expression)
+   在 System.Linq.Queryable.FirstOrDefault[TSource](IQueryable`1 source)
+   在 Enterprise.IIS.business.Factor.PipeCarSalesVolume.Grid1_RowDataBound(Object sender, GridRowEventArgs e) 位置 E:\ffqserp\trunk\application\Enterprise.IIS\business\Factor\PipeCarSalesVolume.aspx.cs:行号 192
+   在 FineUI.Grid.OnRowDataBound(GridRowEventArgs e)
+   在 FineUI.Grid.DataBindRow(Int32 rowIndex, Object rowObj)
+   在 FineUI.Grid.DataBindToDataTable(DataTable dataTable)
+   在 FineUI.Grid.DataBind()
+   在 Enterprise.IIS.business.Factor.PipeCarSalesVolume.BindData() 位置 E:\ffqserp\trunk\application\Enterprise.IIS\business\Factor\PipeCarSalesVolume.aspx.cs:行号 124
+   在 Enterprise.IIS.business.Factor.PipeCarSalesVolume.btnSearch_Click(Object sender, EventArgs e) 位置 E:\ffqserp\trunk\application\Enterprise.IIS\business\Factor\PipeCarSalesVolume.aspx.cs:行号 130
+   在 FineUI.Button.OnClick(EventArgs e)
+   在 FineUI.Button.RaisePostBackEvent(String eventArgument)
+   在 System.Web.UI.Page.RaisePostBackEvent(IPostBackEventHandler sourceControl, String eventArgument)
+   在 System.Web.UI.Page.RaisePostBackEvent(NameValueCollection postData)
+   在 System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   在 System.Web.UI.Page.HandleError(Exception e)
+   在 System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   在 System.Web.UI.Page.ProcessRequest(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   在 System.Web.UI.Page.ProcessRequest()
+   在 System.Web.UI.Page.ProcessRequestWithNoAssert(HttpContext context)
+   在 System.Web.UI.Page.ProcessRequest(HttpContext context)
+   在 ASP.business_factor_pipecarsalesvolume_aspx.ProcessRequest(HttpContext context) 位置 c:\Windows\Microsoft.NET\Framework\v4.0.30319\Temporary ASP.NET Files\vs\acc0e68d\f6fd98d3\App_Web_xdh3tr4r.2.cs:行号 0
+   在 System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   在 System.Web.HttpApplication.ExecuteStepImpl(IExecutionStep step)
+   在 System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+2019/06/13 +08:00 16:25:43     [15644] Enterprise.Framework.Log.LogUtil.ErrorLog(:0) Enterprise.Framework.Log.LogUtil.ErrorLog(:0) [(null)] - “LHFactor”的“FBar”属性不能设置为“Decimal”值。必须将该属性设置为类型为“String”的非 null 值。 e 
+System.InvalidOperationException: “LHFactor”的“FBar”属性不能设置为“Decimal”值。必须将该属性设置为类型为“String”的非 null 值。
+   在 System.Data.Common.Internal.Materialization.Shaper.ErrorHandlingValueReader`1.GetValue(DbDataReader reader, Int32 ordinal)
+   在 lambda_method(Closure , Shaper )
+   在 System.Data.Common.Internal.Materialization.Shaper.HandleEntityAppendOnly[TEntity](Func`2 constructEntityDelegate, EntityKey entityKey, EntitySet entitySet)
+   在 lambda_method(Closure , Shaper )
+   在 System.Data.Common.Internal.Materialization.Coordinator`1.ReadNextElement(Shaper shaper)
+   在 System.Data.Common.Internal.Materialization.Shaper`1.SimpleEnumerator.MoveNext()
+   在 System.Linq.Enumerable.FirstOrDefault[TSource](IEnumerable`1 source)
+   在 System.Data.Objects.ELinq.ObjectQueryProvider.<>c__11`1.<GetElementFunction>b__11_1(IEnumerable`1 sequence)
+   在 System.Data.Objects.ELinq.ObjectQueryProvider.ExecuteSingle[TResult](IEnumerable`1 query, Expression queryRoot)
+   在 System.Data.Objects.ELinq.ObjectQueryProvider.System.Linq.IQueryProvider.Execute[S](Expression expression)
+   在 System.Data.Entity.Internal.Linq.DbQueryProvider.Execute[TResult](Expression expression)
+   在 System.Linq.Queryable.FirstOrDefault[TSource](IQueryable`1 source)
+   在 Enterprise.IIS.business.Factor.PipeCarSalesVolume.Grid1_RowDataBound(Object sender, GridRowEventArgs e) 位置 E:\ffqserp\trunk\application\Enterprise.IIS\business\Factor\PipeCarSalesVolume.aspx.cs:行号 192
+   在 FineUI.Grid.OnRowDataBound(GridRowEventArgs e)
+   在 FineUI.Grid.DataBindRow(Int32 rowIndex, Object rowObj)
+   在 FineUI.Grid.DataBindToDataTable(DataTable dataTable)
+   在 FineUI.Grid.DataBind()
+   在 Enterprise.IIS.business.Factor.PipeCarSalesVolume.BindData() 位置 E:\ffqserp\trunk\application\Enterprise.IIS\business\Factor\PipeCarSalesVolume.aspx.cs:行号 124
+   在 Enterprise.IIS.business.Factor.PipeCarSalesVolume.btnSearch_Click(Object sender, EventArgs e) 位置 E:\ffqserp\trunk\application\Enterprise.IIS\business\Factor\PipeCarSalesVolume.aspx.cs:行号 130
+   在 FineUI.Button.OnClick(EventArgs e)
+   在 FineUI.Button.RaisePostBackEvent(String eventArgument)
+   在 System.Web.UI.Page.RaisePostBackEvent(IPostBackEventHandler sourceControl, String eventArgument)
+   在 System.Web.UI.Page.RaisePostBackEvent(NameValueCollection postData)
+   在 System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)

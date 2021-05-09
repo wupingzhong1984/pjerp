@@ -1,0 +1,12 @@
+﻿2020/10/26 09:14:10            ，销售单：OC-201027-0001，销售单详细单号：95495---G0870, 
+2020/10/26 09:14:32            ，销售单：OC-201027-0001，销售单详细单号：95495---G0870,错误：，销售单：OC-201027-0001，销售单详细单号：95495---G0870,,错误信息：无法连接到远程服务器,错误堆栈：   在 System.Net.HttpWebRequest.GetRequestStream(TransportContext& context)
+   在 System.Net.HttpWebRequest.GetRequestStream()
+   在 Enterprise.IIS.Common.HttpRequest.httpRequest(tmsModel t, String uri) 位置 h:\ffqserp\trunk\application\Enterprise.IIS\Common\HttpRequest.cs:行号 61 
+2020/10/26 09:25:23            ，销售单：OC-201027-0002，销售单详细单号：95496---G0875, 
+2020/10/26 09:25:48            ，销售单：OC-201027-0002，销售单详细单号：95496---G0875,错误：，销售单：OC-201027-0002，销售单详细单号：95496---G0875,,错误信息：无法连接到远程服务器,错误堆栈：   在 System.Net.HttpWebRequest.GetRequestStream(TransportContext& context)
+   在 System.Net.HttpWebRequest.GetRequestStream()
+   在 Enterprise.IIS.Common.HttpRequest.httpRequest(tmsModel t, String uri) 位置 h:\ffqserp\trunk\application\Enterprise.IIS\Common\HttpRequest.cs:行号 61 
+2020/10/26 13:42:22            ，销售单：OC-201027-0001，销售单详细单号：94126---G1141, 
+2020/10/26 13:42:44            ，销售单：OC-201027-0001，销售单详细单号：94126---G1141,错误：，销售单：OC-201027-0001，销售单详细单号：94126---G1141,,错误信息：无法连接到远程服务器,错误堆栈：   在 System.Net.HttpWebRequest.GetRequestStream(TransportContext& context)
+   在 System.Net.HttpWebRequest.GetRequestStream()
+   在 Enterprise.IIS.Common.HttpRequest.httpRequest(tmsModel t, String uri) 位置 h:\ffqserp\trunk\application\Enterprise.IIS\Common\HttpRequest.cs:行号 61 

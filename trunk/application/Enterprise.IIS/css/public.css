@@ -1,0 +1,29 @@
+/*-----		Global		------*/
+*{margin:0px;padding:0px;font-family:'Arial','Î¢ÈíÑÅºÚ';font-size:12px;}
+*html{background-image:url(about:blank);background-attachment:fixed;}
+img,textarea,input.txt,input.bst{border:0px;}
+a{text-decoration:none;}
+ul,li{list-style:none;}
+input,select{outline:none;}
+textarea{outline:none;resize:none;}
+
+.top_bg{background:#FFF;height:86px;}
+.top{width:1170px;margin:0 auto;}
+.top a{float:left;width:488px;height:86px;display:block;background:url(../images/LHlogo.png) no-repeat;}
+.top a span{display:none;}
+
+.main_bg{background:url(../images/mainbg.png) no-repeat center top;}
+.main{width:1170px;margin:0 auto;height:576px;background:url(../images/mainbgone.png) no-repeat;}
+.main .loginbg{background:url(../images/loginbg.png) no-repeat;width:333px;padding:0 50px;height:444px;padding-top:132px;float:right;}
+.main .loginbg p{font-size:16px;font-family:'Î¢ÈíÑÅºÚ';line-height:48px;padding-top:10px;color:#333;}
+.main .loginbg p span{color:#F00;line-height:36px;padding-left:5px;}
+.main .loginbg .username{width:323px;height:46px;padding:1px 0px;background:url(../images/usernamebg.png) no-repeat;}
+.main .loginbg .usernamehover{background:url(../images/usernamebghover.jpg) no-repeat;}
+.main .loginbg .password{width:323px;height:46px;padding:1px 0px;background:url(../images/pwdbg.png) no-repeat;}
+.main .loginbg .passwordhover{background:url(../images/pwdbghover.png) no-repeat;}
+.main .loginbg input{border:0px;height:46px;line-height:46px;width:260px;margin-left:45px;}
+.main .loginbg .btn{text-align:center;padding-top:25px;}
+.main .loginbg .btn input{margin-left:-10px;width:193px;height:67px;background:url(../images/btn.png) no-repeat;cursor:pointer;}
+
+.footer{line-height:67px;text-align:center;color:#616161;}
+.footer a{color:#616161;}

@@ -1,0 +1,504 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Enterprise.DataAccess</name>
+    </assembly>
+    <members>
+        <member name="T:Enterprise.DataAccess.SQLServer.Enterprise">
+            <summary>
+                摘要：
+                    SqlServer企业级数据库操作应用
+            </summary>
+        </member>
+        <member name="F:Enterprise.DataAccess.SQLServer.Enterprise.ConnectionString">
+            <summary>
+                摘要:
+                    数据库连接字符串
+            </summary>
+        </member>
+        <member name="F:Enterprise.DataAccess.SQLServer.Enterprise.CommandTimeout">
+            <summary>
+                摘要:
+                    获取或设置所有对象上下文操作的超时值（以秒为单位）。null 值表示将使用基础提供程序的默认值。
+            
+                返回结果:
+                     表示超时值的 System.Int32 值（以秒为单位）。
+            
+                异常:
+                    System.ArgumentException:
+                    超时值小于 0。    
+            </summary>
+        </member>
+        <member name="M:Enterprise.DataAccess.SQLServer.Enterprise.GetConnectionStrings">
+            <summary>
+                摘要:
+                    获取数据库连接字符串
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:Enterprise.DataAccess.SQLServer.Enterprise.GetCommandTimeout">
+            <summary>
+                摘要:
+                    获取或设置所有对象上下文操作的超时值（以秒为单位）。null 值表示将使用基础提供程序的默认值。
+            
+                返回结果:
+                     表示超时值的 System.Int32 值（以秒为单位）。
+            
+                异常:
+                    System.ArgumentException:
+                    超时值小于 0。    
+            </summary>
+        </member>
+        <member name="M:Enterprise.DataAccess.SQLServer.Enterprise.GetApplicationException(System.Data.SqlClient.SqlException)">
+            <summary>
+                摘要:
+                    获取数据库链接异常处理。
+            </summary>
+            <param name="ex"></param>
+            <returns>Exception</returns>
+        </member>
+        <member name="M:Enterprise.DataAccess.SQLServer.Enterprise.SetDbCommand(System.Data.Common.DbCommand)">
+            <summary>
+                摘要:
+                    获取或设置在终止执行命令的尝试并生成错误之前的等待时间。
+                
+                返回结果:
+                    等待命令执行的时间（以秒为单位）。
+            </summary>
+            <param name="dbCommand"></param>
+            <returns>DbCommand</returns>
+        </member>
+        <member name="M:Enterprise.DataAccess.SQLServer.Enterprise.GetDatabase">
+            <summary>
+                摘要:
+                    获取或设置连接数据库实例。
+            
+                返回结果:
+                    数据库实例
+            </summary>
+            <returns>SqlDatabase</returns>
+        </member>
+        <member name="M:Enterprise.DataAccess.SQLServer.Enterprise.CloseDatabase(Microsoft.Practices.EnterpriseLibrary.Data.Sql.SqlDatabase)">
+            <summary>
+                摘要:
+                    关闭数据库实例操作
+            </summary>
+            <param name="sqlDatabase"></param>
+        </member>
+        <member name="M:Enterprise.DataAccess.SQLServer.Enterprise.AddParaToCommand(System.Data.Common.DbCommand,System.Collections.Generic.Dictionary{System.String,System.Object})">
+            <summary>
+                摘要:
+                    添加参数到数据执行脚本
+            </summary>
+            <param name="dbCommand">dbCommand</param>
+            <param name="dictParameter">dictParameter</param>
+        </member>
+        <member name="M:Enterprise.DataAccess.SQLServer.Enterprise.ExecuteSqlCommand(System.String)">
+            <summary>
+                摘要：
+                    执行查询语句，返回数据集对象
+            
+                返回结果：
+                    DataSet
+            </summary>
+            <param name="sql"></param>
+            <returns>DataSet</returns>
+        </member>
+        <member name="M:Enterprise.DataAccess.SQLServer.Enterprise.ExecuteSqlCommand(System.String,System.Collections.Generic.Dictionary{System.String,System.Object})">
+            <summary>
+                摘要：
+                    执行查询语句并返回数据集对象，并带有参数
+            
+                返回结果:
+                    DataSet
+            </summary>
+            <param name="sql">sql</param>
+            <param name="dictParameter">Dictionary</param>
+            <returns>DataSet</returns>
+        </member>
+        <member name="M:Enterprise.DataAccess.SQLServer.Enterprise.ExecuteProcedureCommand(System.String)">
+            <summary>
+                摘要：
+                    执行存储过程，返回数据集对象
+            
+                执行结果：
+                    DataSet
+            </summary>
+            <param name="procedureName">存储过程名称</param>
+            <returns>DataSet</returns>
+        </member>
+        <member name="M:Enterprise.DataAccess.SQLServer.Enterprise.ExecuteProcedureCommand(System.String,System.Collections.Generic.Dictionary{System.String,System.Object})">
+            <summary>
+                摘要：
+                    执行存储过程,并带有参数，返回数据集对象
+            
+                执行结果：
+                    DataSet
+            </summary>
+            <param name="procedureName">存储过程名称</param>
+            <param name="parameter">Dictionary</param>
+            <returns>DataSet</returns>
+        </member>
+        <member name="M:Enterprise.DataAccess.SQLServer.Enterprise.ExecuteProcedurePagerCommand(System.Collections.Generic.Dictionary{System.String,System.Object})">
+            <summary>
+                摘要：
+                    执行分页存储过程
+                
+                参数：
+                    @TblName：表名
+                    @ViewColumns：返回列，中间用'，'分隔
+                    @OrderColumns：排序列，中间用'，'分隔
+                    @PageSize：页面大小
+                    @PageIndex：当前索引
+                    @IsReCount：返回记录总数, 非 0 值则返回 
+                    @OrderType: 设置排序类型, 非 0 值则降序
+                    @Where:条件 
+                    
+                返回结果：
+                    DataSet
+            </summary>
+            <param name="dictParameter">参数</param>
+            <returns>DataSet</returns>
+        </member>
+        <member name="M:Enterprise.DataAccess.SQLServer.Enterprise.ExecuteNonQuery(System.String)">
+            <summary>
+                摘要：
+                    执行新增，删除，更新SQL
+            </summary>
+            <param name="sql"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Enterprise.DataAccess.SQLServer.Enterprise.ExecuteNonQuery(System.String,System.Collections.Generic.Dictionary{System.String,System.Object})">
+            <summary>
+                摘要：
+                    执行新增、删除、更新SQL  
+            </summary>
+            <param name="sql"></param>
+            <param name="dictParameter"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Enterprise.DataAccess.SQLServer.Enterprise.ExecuteProcedureNonQuery(System.String)">
+            <summary>
+                摘要：
+                    执行存储过程，新增、删除、更新
+            </summary>
+            <param name="procedureName"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Enterprise.DataAccess.SQLServer.Enterprise.ExecuteProcedureNonQuery(System.String,System.Collections.Generic.Dictionary{System.String,System.Object})">
+            <summary>
+                摘要：
+                    执行新增、删除、更新SQL
+            </summary>
+            <param name="procedureName"></param>
+            <param name="dictParameter"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Enterprise.DataAccess.SQLServer.Enterprise.ExecuteProcedureNonQuery(System.String,System.Collections.Generic.Dictionary{System.String,System.Object},System.String)">
+            <summary>
+                摘要：
+                    执行新增、删除、更新SQL
+                
+                参数：
+                    
+            </summary>
+            <param name="procedureName">存储过程名称</param>
+            <param name="dictParameter">参数</param>
+            <param name="direction">返回参数</param>
+            <returns>新增自增Id</returns>
+        </member>
+        <member name="T:Enterprise.DataAccess.SQLServer.SqlService">
+            <summary>
+                摘要：
+                    SQLServer企业数据库操作
+            </summary>
+        </member>
+        <member name="M:Enterprise.DataAccess.SQLServer.SqlService.Add(System.Collections.Generic.Dictionary{System.String,System.Object},System.String)">
+            <summary>
+                摘要：
+                    新增
+            </summary>
+            <param name="dictParameter">数据值，Key=@+列明</param>
+            <param name="tablename">表名</param>
+        </member>
+        <member name="M:Enterprise.DataAccess.SQLServer.SqlService.Delete(System.Collections.Generic.Dictionary{System.String,System.Object},System.String)">
+            <summary>
+                摘要：
+                    删除数据（物理删除）
+            </summary>
+            <param name="dictParameter">删除条件</param>
+            <param name="tablename">表名</param>
+        </member>
+        <member name="M:Enterprise.DataAccess.SQLServer.SqlService.DeleteLogic(System.Collections.Generic.Dictionary{System.String,System.Object},System.String)">
+            <summary>
+                摘要：
+                    删除数据（逻辑删除）
+            </summary>
+            <param name="dictParameter">删除的条件</param>
+            <param name="tablename">表名</param>
+        </member>
+        <member name="M:Enterprise.DataAccess.SQLServer.SqlService.Update(System.Collections.Generic.Dictionary{System.String,System.Object},System.Collections.Generic.Dictionary{System.String,System.Object},System.String)">
+            <summary>
+                摘要：
+                    修改数据
+            </summary>
+            <param name="dictSet">更新的列</param>
+            <param name="dictWhere">更新条件</param>
+            <param name="tablename">表名</param>
+        </member>
+        <member name="M:Enterprise.DataAccess.SQLServer.SqlService.Where(System.String,System.Collections.Generic.Dictionary{System.String,System.Object})">
+            <summary>
+                摘要:
+                    查询数据
+                
+                结果：
+                    DataSet
+            </summary>
+            <param name="dictParameter">查询条件</param>
+            <param name="sql">查询Sql</param>
+            <returns></returns>
+        </member>
+        <member name="M:Enterprise.DataAccess.SQLServer.SqlService.Where(System.String)">
+            <summary>
+                摘要:
+                    查询数据
+                
+                结果：
+                    DataSet
+            </summary>
+            <param name="sql">查询Sql</param>
+            <returns></returns>
+        </member>
+        <member name="M:Enterprise.DataAccess.SQLServer.SqlService.CreateUniCode(System.String,System.String)">
+            <summary>
+                摘要：
+                    单据号
+            </summary>
+            <param name="fx">单据前缀</param>
+            <param name="date">时间</param>
+            <returns></returns>
+        </member>
+        <member name="M:Enterprise.DataAccess.SQLServer.SqlService.ExecuteProcedureCommand(System.String)">
+            <summary>
+            执行存储过程并返回数据集
+            </summary>
+            <param name="procedureName">存储过程名称</param>
+            <returns></returns>
+        </member>
+        <member name="M:Enterprise.DataAccess.SQLServer.SqlService.ExecuteProcedureCommand(System.String,System.Collections.Generic.Dictionary{System.String,System.Object})">
+            <summary>
+            执行带参数的存储过程并返回数据集
+            </summary>
+            <param name="procedureName">存储过程</param>
+            <param name="dictParameterParameter">参数</param>
+            <returns></returns>
+        </member>
+        <member name="M:Enterprise.DataAccess.SQLServer.SqlService.ExecuteProcedureNonQuery(System.String)">
+            <summary>
+            执行存储过程
+            </summary>
+            <param name="procedureName">存储过程</param>
+            <returns></returns>
+        </member>
+        <member name="M:Enterprise.DataAccess.SQLServer.SqlService.ExecuteProcedureNonQuery(System.String,System.Collections.Generic.Dictionary{System.String,System.Object})">
+            <summary>
+            执行带参数的存储过程
+            </summary>
+            <param name="procedureName"></param>
+            <param name="dictParameterParameter"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Enterprise.DataAccess.SQLServer.SqlService.ExecuteProcedureNonQuery(System.String,System.Collections.Generic.Dictionary{System.String,System.Object},System.String)">
+            <summary>
+            执行带参数的存储过程并返回值
+            </summary>
+            <param name="procedureName">名称</param>
+            <param name="dictParameterParameter">参数</param>
+            <param name="returnValue">返回值</param>
+            <returns></returns>
+        </member>
+        <member name="M:Enterprise.DataAccess.SQLServer.SqlService.ExecProcCommand(System.String,System.String,System.String,System.Int32,System.Int32,System.Int32,System.Int32,System.String)">
+            <summary>
+                摘要：
+                    执行分页存储过程
+                
+                参数：
+                    @TblName：表名
+                    @ViewColumns：返回列，中间用'，'分隔
+                    @OrderColumns：排序列，中间用'，'分隔
+                    @PageSize：页面大小
+                    @PageIndex：当前索引
+                    @ReCount：返回记录总数, 非 0 值则返回 
+                    @OrderType: 设置排序类型, 非 0 值则降序
+                    @Where:条件 
+                    
+                返回结果：
+                    DataSet
+            </summary>
+            <param name="tablename"> @TblName：表名</param>
+            <param name="viewColumns">@ViewColumns：返回列，中间用'，'分隔</param>
+            <param name="orderColumns">@OrderColumns：排序列，中间用'，'分隔</param>
+            <param name="pagesize">@PageSize：页面大小</param>
+            <param name="pageindex">@PageIndex：当前索引</param>
+            <param name="reCount">@ReCount：返回记录总数, 非 0 值则返回 </param>
+            <param name="orderType">@OrderType: 设置排序类型, 非 0 值则降序</param>
+            <param name="where">@Where:条件 </param>
+            <returns>DataSet</returns>
+        </member>
+        <member name="M:Enterprise.DataAccess.SQLServer.SqlService.ExecuteNonQuery(System.String)">
+            <summary>
+                摘要：
+                    执行SQL语句
+            </summary>
+            <param name="sql"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Enterprise.DataAccess.SQLServer.SqlService.ExecNonQuery(System.String,System.Collections.Generic.Dictionary{System.String,System.Object})">
+            <summary>
+                摘要：
+                    执行SQL语句+参数
+            </summary>
+            <param name="sql"></param>
+            <param name="dictParameter"></param>
+            <returns></returns>
+        </member>
+        <member name="T:Enterprise.DataAccess.SQLServer.SqlServiceUtiles">
+            <summary>
+                摘要:
+                    SQLServer 企业数据库操作
+            </summary>
+        </member>
+        <member name="M:Enterprise.DataAccess.SQLServer.SqlServiceUtiles.GetSelectSql(System.Collections.Generic.Dictionary{System.String,System.Object},System.String)">
+            <summary>
+            拼接查询方法的SQL文
+            </summary>
+            <param name="pDict">拼接条件</param>
+            <param name="pSqltext">表名</param>
+            <returns>SQL文</returns>
+        </member>
+        <member name="M:Enterprise.DataAccess.SQLServer.SqlServiceUtiles.JoinInsertSqlNotCommon(System.Collections.Generic.Dictionary{System.String,System.Object},System.String)">
+            <summary>
+            拼接新增方法的SQL文
+            </summary>
+            <param name="pDict">拼接条件</param>
+            <param name="pTableName">表名</param>
+            <returns>SQL文</returns>
+        </member>
+        <member name="M:Enterprise.DataAccess.SQLServer.SqlServiceUtiles.JoinInsertSqlForReturn(System.Collections.Generic.Dictionary{System.String,System.Object},System.String)">
+            <summary>
+            拼接返回自增ID的新增方法的SQL文
+            </summary>
+            <param name="pDict">拼接条件</param>
+            <param name="pTableName">表名</param>
+            <returns>SQL文</returns>
+        </member>
+        <member name="M:Enterprise.DataAccess.SQLServer.SqlServiceUtiles.JoinUpdateSqlNotCommon(System.Collections.Generic.Dictionary{System.String,System.Object},System.Collections.Generic.Dictionary{System.String,System.Object},System.String)">
+            <summary>
+            拼接修改方法的SQL文(不带共通字段)
+            </summary>
+            <param name="pDictCollum">拼接字段</param>
+            <param name="pDictWhere">拼接条件</param>
+            <param name="pTableName">表名</param>
+            <returns>SQL文</returns>
+        </member>
+        <member name="M:Enterprise.DataAccess.SQLServer.SqlServiceUtiles.GetSelectSqlAddWhere(System.Collections.Generic.Dictionary{System.String,System.Object},System.String)">
+            <summary>
+            拼接查询方法的SQL文
+            </summary>
+            <param name="pDict">拼接条件</param>
+            <param name="pSqltext"></param>
+            <returns>SQL文</returns>
+        </member>
+        <member name="M:Enterprise.DataAccess.SQLServer.SqlServiceUtiles.JoinDeleteSql(System.Collections.Generic.Dictionary{System.String,System.Object},System.String)">
+            <summary>
+            拼接删除方法的SQL文
+            </summary>
+            <param name="pDict">拼接条件</param>
+            <param name="pTableName">表名</param>
+            <returns>SQL文</returns>
+        </member>
+        <member name="M:Enterprise.DataAccess.SQLServer.SqlServiceUtiles.JoinLogicDeleteSqlNotCommon(System.Collections.Generic.Dictionary{System.String,System.Object},System.String)">
+            <summary>
+            拼接删除方法的SQL文－－逻辑删除
+            </summary>
+            <param name="pDictWhere"></param>
+            <param name="pTableName">表名</param>
+            <returns>SQL文</returns>
+        </member>
+        <member name="M:Enterprise.DataAccess.SQLServer.SqlServiceUtiles.JoinDicts(System.Collections.Generic.Dictionary{System.String,System.Object},System.Collections.Generic.Dictionary{System.String,System.Object})">
+            <summary>
+            拼接数据字典
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="T:Enterprise.DataAccess.SQLServer.SqlUtiles">
+            <summary>
+                摘要:
+                    SQLServer 企业数据库操作
+            </summary>
+        </member>
+        <member name="M:Enterprise.DataAccess.SQLServer.SqlUtiles.GetSelectSql(System.Collections.Generic.Dictionary{System.String,System.Object},System.String)">
+            <summary>
+            拼接查询方法的SQL文
+            </summary>
+            <param name="pDict">拼接条件</param>
+            <param name="pSqltext">表名</param>
+            <returns>SQL文</returns>
+        </member>
+        <member name="M:Enterprise.DataAccess.SQLServer.SqlUtiles.JoinInsertSqlNotCommon(System.Collections.Generic.Dictionary{System.String,System.Object},System.String)">
+            <summary>
+            拼接新增方法的SQL文
+            </summary>
+            <param name="pDict">拼接条件</param>
+            <param name="pTableName">表名</param>
+            <returns>SQL文</returns>
+        </member>
+        <member name="M:Enterprise.DataAccess.SQLServer.SqlUtiles.JoinInsertSqlForReturn(System.Collections.Generic.Dictionary{System.String,System.Object},System.String)">
+            <summary>
+            拼接返回自增ID的新增方法的SQL文
+            </summary>
+            <param name="pDict">拼接条件</param>
+            <param name="pTableName">表名</param>
+            <returns>SQL文</returns>
+        </member>
+        <member name="M:Enterprise.DataAccess.SQLServer.SqlUtiles.JoinUpdateSqlNotCommon(System.Collections.Generic.Dictionary{System.String,System.Object},System.Collections.Generic.Dictionary{System.String,System.Object},System.String)">
+            <summary>
+            拼接修改方法的SQL文(不带共通字段)
+            </summary>
+            <param name="pDictCollum">拼接字段</param>
+            <param name="pDictWhere">拼接条件</param>
+            <param name="pTableName">表名</param>
+            <returns>SQL文</returns>
+        </member>
+        <member name="M:Enterprise.DataAccess.SQLServer.SqlUtiles.GetSelectSqlAddWhere(System.Collections.Generic.Dictionary{System.String,System.Object},System.String)">
+            <summary>
+            拼接查询方法的SQL文
+            </summary>
+            <param name="pDict">拼接条件</param>
+            <param name="pSqltext"></param>
+            <returns>SQL文</returns>
+        </member>
+        <member name="M:Enterprise.DataAccess.SQLServer.SqlUtiles.JoinDeleteSql(System.Collections.Generic.Dictionary{System.String,System.Object},System.String)">
+            <summary>
+            拼接删除方法的SQL文
+            </summary>
+            <param name="pDict">拼接条件</param>
+            <param name="pTableName">表名</param>
+            <returns>SQL文</returns>
+        </member>
+        <member name="M:Enterprise.DataAccess.SQLServer.SqlUtiles.JoinLogicDeleteSqlNotCommon(System.Collections.Generic.Dictionary{System.String,System.Object},System.String)">
+            <summary>
+            拼接删除方法的SQL文－－逻辑删除
+            </summary>
+            <param name="pDictWhere"></param>
+            <param name="pTableName">表名</param>
+            <returns>SQL文</returns>
+        </member>
+        <member name="M:Enterprise.DataAccess.SQLServer.SqlUtiles.JoinDicts(System.Collections.Generic.Dictionary{System.String,System.Object},System.Collections.Generic.Dictionary{System.String,System.Object})">
+            <summary>
+            拼接数据字典
+            </summary>
+            <returns></returns>
+        </member>
+    </members>
+</doc>

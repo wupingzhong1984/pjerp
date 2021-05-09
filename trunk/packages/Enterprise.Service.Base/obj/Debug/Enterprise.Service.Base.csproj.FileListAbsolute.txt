@@ -1,0 +1,13 @@
+E:\ffqserp\trunk\packages\bin\Debug\Enterprise.Service.Base.dll.config
+E:\ffqserp\trunk\packages\bin\Debug\Enterprise.Service.Base.dll
+E:\ffqserp\trunk\packages\bin\Debug\Enterprise.Service.Base.pdb
+E:\ffqserp\trunk\packages\Enterprise.Service.Base\obj\Debug\Enterprise.Service.Base.csproj.CoreCompileInputs.cache
+E:\ffqserp\trunk\packages\Enterprise.Service.Base\obj\Debug\Enterprise.Service.Base.csproj.CopyComplete
+E:\ffqserp\trunk\packages\Enterprise.Service.Base\obj\Debug\Enterprise.Service.Base.dll
+E:\ffqserp\trunk\packages\Enterprise.Service.Base\obj\Debug\Enterprise.Service.Base.pdb
+E:\ffqserp\trunk\packages\Enterprise.Service.Base\obj\Debug\Enterprise.Service.Base.csprojAssemblyReference.cache
+H:\ffqserp\trunk\packages\bin\Debug\Enterprise.Service.Base.dll.config
+H:\ffqserp\trunk\packages\bin\Debug\Enterprise.Service.Base.dll
+H:\ffqserp\trunk\packages\bin\Debug\Enterprise.Service.Base.pdb
+H:\ffqserp\trunk\packages\Enterprise.Service.Base\obj\Debug\Enterprise.Service.Base.dll
+H:\ffqserp\trunk\packages\Enterprise.Service.Base\obj\Debug\Enterprise.Service.Base.pdb

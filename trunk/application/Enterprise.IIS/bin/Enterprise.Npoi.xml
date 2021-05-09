@@ -1,0 +1,44 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Enterprise.Npoi</name>
+    </assembly>
+    <members>
+        <member name="T:Enterprise.Npoi.NpoiUtility">
+            <summary>
+            导出EXCEL
+            </summary>
+        </member>
+        <member name="M:Enterprise.Npoi.NpoiUtility.ExportExcel(System.String,System.Int32,System.Web.HttpContext,System.Data.DataTable,System.String,System.String@)">
+            <summary>
+            通过NPOI，读模版表格，生成报表
+            </summary>
+            <param name="fileName">报表名称</param>
+            <param name="rowIndex">从模版中的第几行插入操作</param>
+            <param name="httpContext">上下文件</param>
+            <param name="dataSource">数据源</param>
+            <param name="templatePath">模版文件</param>
+            <param name="filePath">生成后的文件位置</param>
+            <returns></returns>
+        </member>
+        <member name="M:Enterprise.Npoi.NpoiUtility.ExportExcel(System.String,System.Web.HttpContext,System.Collections.Generic.Dictionary{System.String,System.Object},System.String,System.String@)">
+            <summary>
+            通过NPOI，读模版表格，生成报表(针对不规则表格处理)
+            </summary>
+            <param name="fileName">报表名称</param>
+            <param name="context">上下文件</param>
+            <param name="parms">第几行几列存储的内容,格式:1|1</param>
+            <param name="templatePath">模版文件</param>
+            <param name="filePath">生成后的文件位置</param>
+            <returns></returns>
+        </member>
+        <!-- 对于成员“F:Enterprise.Npoi.NpoiUtility._hssfworkbook”忽略有格式错误的 XML 注释 -->
+        <member name="M:Enterprise.Npoi.NpoiUtility.InitializeWorkbook(System.Web.HttpContext,System.String)">
+            <summary>
+            
+            </summary>
+            <param name="httpContext"></param>
+            <param name="templatePaht"></param>
+        </member>
+    </members>
+</doc>

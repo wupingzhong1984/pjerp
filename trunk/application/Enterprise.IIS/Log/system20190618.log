@@ -1,0 +1,378 @@
+﻿2019/06/18 +08:00 12:01:58     [11672] Enterprise.Framework.Log.LogUtil.ErrorLog(:0) Enterprise.Framework.Log.LogUtil.ErrorLog(:0) [(null)] - 
+错误开始===========================================
+客户机IP:::1
+错误地址:http://localhost:19008/Business/Factor/PipeCarSalesVolume.aspx
+异常信息:引发类型为“System.Web.HttpUnhandledException”的异常。
+错误结束=========================================== e 
+System.Web.HttpUnhandledException (0x80004005): 引发类型为“System.Web.HttpUnhandledException”的异常。 ---> System.ArgumentException: 该字符串未被识别为有效的 DateTime。不能在 FDate 列中存储 <>。所需类型是 DateTime。 ---> System.FormatException: 该字符串未被识别为有效的 DateTime。
+   在 System.DateTimeParse.Parse(String s, DateTimeFormatInfo dtfi, DateTimeStyles styles)
+   在 System.Convert.ToDateTime(String value, IFormatProvider provider)
+   在 System.String.System.IConvertible.ToDateTime(IFormatProvider provider)
+   在 System.Data.Common.DateTimeStorage.Set(Int32 record, Object value)
+   在 System.Data.DataColumn.set_Item(Int32 record, Object value)
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 System.Data.DataColumn.set_Item(Int32 record, Object value)
+   在 System.Data.DataRow.set_Item(DataColumn column, Object value)
+   在 System.Data.DataRow.set_Item(Int32 columnIndex, Object value)
+   在 Enterprise.IIS.business.Factor.PipeCarSalesVolume.BindData() 位置 E:\ffqserp\trunk\application\Enterprise.IIS\business\Factor\PipeCarSalesVolume.aspx.cs:行号 129
+   在 Enterprise.IIS.business.Factor.PipeCarSalesVolume.btnSearch_Click(Object sender, EventArgs e) 位置 E:\ffqserp\trunk\application\Enterprise.IIS\business\Factor\PipeCarSalesVolume.aspx.cs:行号 153
+   在 FineUI.Button.OnClick(EventArgs e)
+   在 FineUI.Button.RaisePostBackEvent(String eventArgument)
+   在 System.Web.UI.Page.RaisePostBackEvent(IPostBackEventHandler sourceControl, String eventArgument)
+   在 System.Web.UI.Page.RaisePostBackEvent(NameValueCollection postData)
+   在 System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   在 System.Web.UI.Page.HandleError(Exception e)
+   在 System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   在 System.Web.UI.Page.ProcessRequest(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   在 System.Web.UI.Page.ProcessRequest()
+   在 System.Web.UI.Page.ProcessRequestWithNoAssert(HttpContext context)
+   在 System.Web.UI.Page.ProcessRequest(HttpContext context)
+   在 ASP.business_factor_pipecarsalesvolume_aspx.ProcessRequest(HttpContext context) 位置 c:\Windows\Microsoft.NET\Framework\v4.0.30319\Temporary ASP.NET Files\vs\acc0e68d\f6fd98d3\App_Web_1t3s4rbr.2.cs:行号 0
+   在 System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   在 System.Web.HttpApplication.ExecuteStepImpl(IExecutionStep step)
+   在 System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+2019/06/18 +08:00 12:01:59     [11672] Enterprise.Framework.Log.LogUtil.ErrorLog(:0) Enterprise.Framework.Log.LogUtil.ErrorLog(:0) [(null)] - 该字符串未被识别为有效的 DateTime。 e 
+System.FormatException: 该字符串未被识别为有效的 DateTime。
+   在 System.DateTimeParse.Parse(String s, DateTimeFormatInfo dtfi, DateTimeStyles styles)
+   在 System.Convert.ToDateTime(String value, IFormatProvider provider)
+   在 System.String.System.IConvertible.ToDateTime(IFormatProvider provider)
+   在 System.Data.Common.DateTimeStorage.Set(Int32 record, Object value)
+   在 System.Data.DataColumn.set_Item(Int32 record, Object value)
+2019/06/18 +08:00 12:02:49     [11672] Enterprise.Framework.Log.LogUtil.ErrorLog(:0) Enterprise.Framework.Log.LogUtil.ErrorLog(:0) [(null)] - 
+错误开始===========================================
+客户机IP:::1
+错误地址:http://localhost:19008/Business/Factor/PipeCarSalesVolume.aspx
+异常信息:引发类型为“System.Web.HttpUnhandledException”的异常。
+错误结束=========================================== e 
+System.Web.HttpUnhandledException (0x80004005): 引发类型为“System.Web.HttpUnhandledException”的异常。 ---> System.ArgumentException: 该字符串未被识别为有效的 DateTime。不能在 FDate 列中存储 <>。所需类型是 DateTime。 ---> System.FormatException: 该字符串未被识别为有效的 DateTime。
+   在 System.DateTimeParse.Parse(String s, DateTimeFormatInfo dtfi, DateTimeStyles styles)
+   在 System.Convert.ToDateTime(String value, IFormatProvider provider)
+   在 System.String.System.IConvertible.ToDateTime(IFormatProvider provider)
+   在 System.Data.Common.DateTimeStorage.Set(Int32 record, Object value)
+   在 System.Data.DataColumn.set_Item(Int32 record, Object value)
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 System.Data.DataColumn.set_Item(Int32 record, Object value)
+   在 System.Data.DataRow.set_Item(DataColumn column, Object value)
+   在 System.Data.DataRow.set_Item(Int32 columnIndex, Object value)
+   在 Enterprise.IIS.business.Factor.PipeCarSalesVolume.BindData() 位置 E:\ffqserp\trunk\application\Enterprise.IIS\business\Factor\PipeCarSalesVolume.aspx.cs:行号 129
+   在 Enterprise.IIS.business.Factor.PipeCarSalesVolume.btnSearch_Click(Object sender, EventArgs e) 位置 E:\ffqserp\trunk\application\Enterprise.IIS\business\Factor\PipeCarSalesVolume.aspx.cs:行号 153
+   在 FineUI.Button.OnClick(EventArgs e)
+   在 FineUI.Button.RaisePostBackEvent(String eventArgument)
+   在 System.Web.UI.Page.RaisePostBackEvent(IPostBackEventHandler sourceControl, String eventArgument)
+   在 System.Web.UI.Page.RaisePostBackEvent(NameValueCollection postData)
+   在 System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   在 System.Web.UI.Page.HandleError(Exception e)
+   在 System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   在 System.Web.UI.Page.ProcessRequest(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   在 System.Web.UI.Page.ProcessRequest()
+   在 System.Web.UI.Page.ProcessRequestWithNoAssert(HttpContext context)
+   在 System.Web.UI.Page.ProcessRequest(HttpContext context)
+   在 ASP.business_factor_pipecarsalesvolume_aspx.ProcessRequest(HttpContext context) 位置 c:\Windows\Microsoft.NET\Framework\v4.0.30319\Temporary ASP.NET Files\vs\acc0e68d\f6fd98d3\App_Web_b44zk2et.0.cs:行号 0
+   在 System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   在 System.Web.HttpApplication.ExecuteStepImpl(IExecutionStep step)
+   在 System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+2019/06/18 +08:00 12:02:49     [11672] Enterprise.Framework.Log.LogUtil.ErrorLog(:0) Enterprise.Framework.Log.LogUtil.ErrorLog(:0) [(null)] - 该字符串未被识别为有效的 DateTime。 e 
+System.FormatException: 该字符串未被识别为有效的 DateTime。
+   在 System.DateTimeParse.Parse(String s, DateTimeFormatInfo dtfi, DateTimeStyles styles)
+   在 System.Convert.ToDateTime(String value, IFormatProvider provider)
+   在 System.String.System.IConvertible.ToDateTime(IFormatProvider provider)
+   在 System.Data.Common.DateTimeStorage.Set(Int32 record, Object value)
+   在 System.Data.DataColumn.set_Item(Int32 record, Object value)
+2019/06/18 +08:00 12:03:51     [16136] Enterprise.Framework.Log.LogUtil.ErrorLog(:0) Enterprise.Framework.Log.LogUtil.ErrorLog(:0) [(null)] - 
+错误开始===========================================
+客户机IP:::1
+错误地址:http://localhost:19008/Business/Factor/PipeCarSalesVolume.aspx
+异常信息:引发类型为“System.Web.HttpUnhandledException”的异常。
+错误结束=========================================== e 
+System.Web.HttpUnhandledException (0x80004005): 引发类型为“System.Web.HttpUnhandledException”的异常。 ---> System.ArgumentException: 输入字符串的格式不正确。不能在 waterspace 列中存储 <>。所需类型是 Decimal。 ---> System.FormatException: 输入字符串的格式不正确。
+   在 System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   在 System.Number.ParseDecimal(String value, NumberStyles options, NumberFormatInfo numfmt)
+   在 System.Convert.ToDecimal(String value, IFormatProvider provider)
+   在 System.String.System.IConvertible.ToDecimal(IFormatProvider provider)
+   在 System.Data.Common.DecimalStorage.Set(Int32 record, Object value)
+   在 System.Data.DataColumn.set_Item(Int32 record, Object value)
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 System.Data.DataColumn.set_Item(Int32 record, Object value)
+   在 System.Data.DataRow.set_Item(DataColumn column, Object value)
+   在 System.Data.DataRow.set_Item(Int32 columnIndex, Object value)
+   在 Enterprise.IIS.business.Factor.PipeCarSalesVolume.BindData() 位置 E:\ffqserp\trunk\application\Enterprise.IIS\business\Factor\PipeCarSalesVolume.aspx.cs:行号 133
+   在 Enterprise.IIS.business.Factor.PipeCarSalesVolume.btnSearch_Click(Object sender, EventArgs e) 位置 E:\ffqserp\trunk\application\Enterprise.IIS\business\Factor\PipeCarSalesVolume.aspx.cs:行号 153
+   在 FineUI.Button.OnClick(EventArgs e)
+   在 FineUI.Button.RaisePostBackEvent(String eventArgument)
+   在 System.Web.UI.Page.RaisePostBackEvent(IPostBackEventHandler sourceControl, String eventArgument)
+   在 System.Web.UI.Page.RaisePostBackEvent(NameValueCollection postData)
+   在 System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   在 System.Web.UI.Page.HandleError(Exception e)
+   在 System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   在 System.Web.UI.Page.ProcessRequest(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   在 System.Web.UI.Page.ProcessRequest()
+   在 System.Web.UI.Page.ProcessRequestWithNoAssert(HttpContext context)
+   在 System.Web.UI.Page.ProcessRequest(HttpContext context)
+   在 ASP.business_factor_pipecarsalesvolume_aspx.ProcessRequest(HttpContext context) 位置 c:\Windows\Microsoft.NET\Framework\v4.0.30319\Temporary ASP.NET Files\vs\acc0e68d\f6fd98d3\App_Web_b44zk2et.0.cs:行号 0
+   在 System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   在 System.Web.HttpApplication.ExecuteStepImpl(IExecutionStep step)
+   在 System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+2019/06/18 +08:00 12:03:51     [16136] Enterprise.Framework.Log.LogUtil.ErrorLog(:0) Enterprise.Framework.Log.LogUtil.ErrorLog(:0) [(null)] - 输入字符串的格式不正确。 e 
+System.FormatException: 输入字符串的格式不正确。
+   在 System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   在 System.Number.ParseDecimal(String value, NumberStyles options, NumberFormatInfo numfmt)
+   在 System.Convert.ToDecimal(String value, IFormatProvider provider)
+   在 System.String.System.IConvertible.ToDecimal(IFormatProvider provider)
+   在 System.Data.Common.DecimalStorage.Set(Int32 record, Object value)
+   在 System.Data.DataColumn.set_Item(Int32 record, Object value)
+2019/06/18 +08:00 12:06:21     [11672] Enterprise.Framework.Log.LogUtil.ErrorLog(:0) Enterprise.Framework.Log.LogUtil.ErrorLog(:0) [(null)] - 
+错误开始===========================================
+客户机IP:::1
+错误地址:http://localhost:19008/Business/Factor/PipeCarSalesVolume.aspx
+异常信息:引发类型为“System.Web.HttpUnhandledException”的异常。
+错误结束=========================================== e 
+System.Web.HttpUnhandledException (0x80004005): 引发类型为“System.Web.HttpUnhandledException”的异常。 ---> System.ArgumentException: 输入字符串的格式不正确。不能在 FPrice 列中存储 <>。所需类型是 Decimal。 ---> System.FormatException: 输入字符串的格式不正确。
+   在 System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   在 System.Number.ParseDecimal(String value, NumberStyles options, NumberFormatInfo numfmt)
+   在 System.Convert.ToDecimal(String value, IFormatProvider provider)
+   在 System.String.System.IConvertible.ToDecimal(IFormatProvider provider)
+   在 System.Data.Common.DecimalStorage.Set(Int32 record, Object value)
+   在 System.Data.DataColumn.set_Item(Int32 record, Object value)
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 System.Data.DataColumn.set_Item(Int32 record, Object value)
+   在 System.Data.DataRow.set_Item(DataColumn column, Object value)
+   在 System.Data.DataRow.set_Item(Int32 columnIndex, Object value)
+   在 Enterprise.IIS.business.Factor.PipeCarSalesVolume.BindData() 位置 E:\ffqserp\trunk\application\Enterprise.IIS\business\Factor\PipeCarSalesVolume.aspx.cs:行号 141
+   在 Enterprise.IIS.business.Factor.PipeCarSalesVolume.btnSearch_Click(Object sender, EventArgs e) 位置 E:\ffqserp\trunk\application\Enterprise.IIS\business\Factor\PipeCarSalesVolume.aspx.cs:行号 153
+   在 FineUI.Button.OnClick(EventArgs e)
+   在 FineUI.Button.RaisePostBackEvent(String eventArgument)
+   在 System.Web.UI.Page.RaisePostBackEvent(IPostBackEventHandler sourceControl, String eventArgument)
+   在 System.Web.UI.Page.RaisePostBackEvent(NameValueCollection postData)
+   在 System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   在 System.Web.UI.Page.HandleError(Exception e)
+   在 System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   在 System.Web.UI.Page.ProcessRequest(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   在 System.Web.UI.Page.ProcessRequest()
+   在 System.Web.UI.Page.ProcessRequestWithNoAssert(HttpContext context)
+   在 System.Web.UI.Page.ProcessRequest(HttpContext context)
+   在 ASP.business_factor_pipecarsalesvolume_aspx.ProcessRequest(HttpContext context) 位置 c:\Windows\Microsoft.NET\Framework\v4.0.30319\Temporary ASP.NET Files\vs\acc0e68d\f6fd98d3\App_Web_b44zk2et.0.cs:行号 0
+   在 System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   在 System.Web.HttpApplication.ExecuteStepImpl(IExecutionStep step)
+   在 System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+2019/06/18 +08:00 12:06:21     [11672] Enterprise.Framework.Log.LogUtil.ErrorLog(:0) Enterprise.Framework.Log.LogUtil.ErrorLog(:0) [(null)] - 输入字符串的格式不正确。 e 
+System.FormatException: 输入字符串的格式不正确。
+   在 System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   在 System.Number.ParseDecimal(String value, NumberStyles options, NumberFormatInfo numfmt)
+   在 System.Convert.ToDecimal(String value, IFormatProvider provider)
+   在 System.String.System.IConvertible.ToDecimal(IFormatProvider provider)
+   在 System.Data.Common.DecimalStorage.Set(Int32 record, Object value)
+   在 System.Data.DataColumn.set_Item(Int32 record, Object value)
+2019/06/18 +08:00 12:07:10     [11672] Enterprise.Framework.Log.LogUtil.ErrorLog(:0) Enterprise.Framework.Log.LogUtil.ErrorLog(:0) [(null)] - 
+错误开始===========================================
+客户机IP:::1
+错误地址:http://localhost:19008/Business/Factor/PipeCarSalesVolume.aspx
+异常信息:引发类型为“System.Web.HttpUnhandledException”的异常。
+错误结束=========================================== e 
+System.Web.HttpUnhandledException (0x80004005): 引发类型为“System.Web.HttpUnhandledException”的异常。 ---> System.FormatException: 输入字符串的格式不正确。
+   在 System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   在 System.Number.ParseDecimal(String value, NumberStyles options, NumberFormatInfo numfmt)
+   在 System.Convert.ToDecimal(String value)
+   在 Enterprise.IIS.business.Factor.PipeCarSalesVolume.Grid1_RowDataBound(Object sender, GridRowEventArgs e) 位置 E:\ffqserp\trunk\application\Enterprise.IIS\business\Factor\PipeCarSalesVolume.aspx.cs:行号 207
+   在 FineUI.Grid.OnRowDataBound(GridRowEventArgs e)
+   在 FineUI.Grid.DataBindRow(Int32 rowIndex, Object rowObj)
+   在 FineUI.Grid.DataBindToDataTable(DataTable dataTable)
+   在 FineUI.Grid.DataBind()
+   在 Enterprise.IIS.business.Factor.PipeCarSalesVolume.BindData() 位置 E:\ffqserp\trunk\application\Enterprise.IIS\business\Factor\PipeCarSalesVolume.aspx.cs:行号 147
+   在 Enterprise.IIS.business.Factor.PipeCarSalesVolume.btnSearch_Click(Object sender, EventArgs e) 位置 E:\ffqserp\trunk\application\Enterprise.IIS\business\Factor\PipeCarSalesVolume.aspx.cs:行号 153
+   在 FineUI.Button.OnClick(EventArgs e)
+   在 FineUI.Button.RaisePostBackEvent(String eventArgument)
+   在 System.Web.UI.Page.RaisePostBackEvent(IPostBackEventHandler sourceControl, String eventArgument)
+   在 System.Web.UI.Page.RaisePostBackEvent(NameValueCollection postData)
+   在 System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   在 System.Web.UI.Page.HandleError(Exception e)
+   在 System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   在 System.Web.UI.Page.ProcessRequest(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   在 System.Web.UI.Page.ProcessRequest()
+   在 System.Web.UI.Page.ProcessRequestWithNoAssert(HttpContext context)
+   在 System.Web.UI.Page.ProcessRequest(HttpContext context)
+   在 ASP.business_factor_pipecarsalesvolume_aspx.ProcessRequest(HttpContext context) 位置 c:\Windows\Microsoft.NET\Framework\v4.0.30319\Temporary ASP.NET Files\vs\acc0e68d\f6fd98d3\App_Web_b44zk2et.0.cs:行号 0
+   在 System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   在 System.Web.HttpApplication.ExecuteStepImpl(IExecutionStep step)
+   在 System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+2019/06/18 +08:00 12:07:10     [11672] Enterprise.Framework.Log.LogUtil.ErrorLog(:0) Enterprise.Framework.Log.LogUtil.ErrorLog(:0) [(null)] - 输入字符串的格式不正确。 e 
+System.FormatException: 输入字符串的格式不正确。
+   在 System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   在 System.Number.ParseDecimal(String value, NumberStyles options, NumberFormatInfo numfmt)
+   在 System.Convert.ToDecimal(String value)
+   在 Enterprise.IIS.business.Factor.PipeCarSalesVolume.Grid1_RowDataBound(Object sender, GridRowEventArgs e) 位置 E:\ffqserp\trunk\application\Enterprise.IIS\business\Factor\PipeCarSalesVolume.aspx.cs:行号 207
+   在 FineUI.Grid.OnRowDataBound(GridRowEventArgs e)
+   在 FineUI.Grid.DataBindRow(Int32 rowIndex, Object rowObj)
+   在 FineUI.Grid.DataBindToDataTable(DataTable dataTable)
+   在 FineUI.Grid.DataBind()
+   在 Enterprise.IIS.business.Factor.PipeCarSalesVolume.BindData() 位置 E:\ffqserp\trunk\application\Enterprise.IIS\business\Factor\PipeCarSalesVolume.aspx.cs:行号 147
+   在 Enterprise.IIS.business.Factor.PipeCarSalesVolume.btnSearch_Click(Object sender, EventArgs e) 位置 E:\ffqserp\trunk\application\Enterprise.IIS\business\Factor\PipeCarSalesVolume.aspx.cs:行号 153
+   在 FineUI.Button.OnClick(EventArgs e)
+   在 FineUI.Button.RaisePostBackEvent(String eventArgument)
+   在 System.Web.UI.Page.RaisePostBackEvent(IPostBackEventHandler sourceControl, String eventArgument)
+   在 System.Web.UI.Page.RaisePostBackEvent(NameValueCollection postData)
+   在 System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+2019/06/18 +08:00 12:07:21     [16136] Enterprise.Framework.Log.LogUtil.ErrorLog(:0) Enterprise.Framework.Log.LogUtil.ErrorLog(:0) [(null)] - 
+错误开始===========================================
+客户机IP:::1
+错误地址:http://localhost:19008/Business/Factor/PipeCarSalesVolume.aspx
+异常信息:引发类型为“System.Web.HttpUnhandledException”的异常。
+错误结束=========================================== e 
+System.Web.HttpUnhandledException (0x80004005): 引发类型为“System.Web.HttpUnhandledException”的异常。 ---> System.FormatException: 输入字符串的格式不正确。
+   在 System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   在 System.Number.ParseDecimal(String value, NumberStyles options, NumberFormatInfo numfmt)
+   在 System.Convert.ToDecimal(String value)
+   在 Enterprise.IIS.business.Factor.PipeCarSalesVolume.Grid1_RowDataBound(Object sender, GridRowEventArgs e) 位置 E:\ffqserp\trunk\application\Enterprise.IIS\business\Factor\PipeCarSalesVolume.aspx.cs:行号 207
+   在 FineUI.Grid.OnRowDataBound(GridRowEventArgs e)
+   在 FineUI.Grid.DataBindRow(Int32 rowIndex, Object rowObj)
+   在 FineUI.Grid.DataBindToDataTable(DataTable dataTable)
+   在 FineUI.Grid.DataBind()
+   在 Enterprise.IIS.business.Factor.PipeCarSalesVolume.BindData() 位置 E:\ffqserp\trunk\application\Enterprise.IIS\business\Factor\PipeCarSalesVolume.aspx.cs:行号 147
+   在 Enterprise.IIS.business.Factor.PipeCarSalesVolume.btnSearch_Click(Object sender, EventArgs e) 位置 E:\ffqserp\trunk\application\Enterprise.IIS\business\Factor\PipeCarSalesVolume.aspx.cs:行号 153
+   在 FineUI.Button.OnClick(EventArgs e)
+   在 FineUI.Button.RaisePostBackEvent(String eventArgument)
+   在 System.Web.UI.Page.RaisePostBackEvent(IPostBackEventHandler sourceControl, String eventArgument)
+   在 System.Web.UI.Page.RaisePostBackEvent(NameValueCollection postData)
+   在 System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   在 System.Web.UI.Page.HandleError(Exception e)
+   在 System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   在 System.Web.UI.Page.ProcessRequest(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   在 System.Web.UI.Page.ProcessRequest()
+   在 System.Web.UI.Page.ProcessRequestWithNoAssert(HttpContext context)
+   在 System.Web.UI.Page.ProcessRequest(HttpContext context)
+   在 ASP.business_factor_pipecarsalesvolume_aspx.ProcessRequest(HttpContext context) 位置 c:\Windows\Microsoft.NET\Framework\v4.0.30319\Temporary ASP.NET Files\vs\acc0e68d\f6fd98d3\App_Web_b44zk2et.0.cs:行号 0
+   在 System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   在 System.Web.HttpApplication.ExecuteStepImpl(IExecutionStep step)
+   在 System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+2019/06/18 +08:00 12:07:21     [16136] Enterprise.Framework.Log.LogUtil.ErrorLog(:0) Enterprise.Framework.Log.LogUtil.ErrorLog(:0) [(null)] - 输入字符串的格式不正确。 e 
+System.FormatException: 输入字符串的格式不正确。
+   在 System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   在 System.Number.ParseDecimal(String value, NumberStyles options, NumberFormatInfo numfmt)
+   在 System.Convert.ToDecimal(String value)
+   在 Enterprise.IIS.business.Factor.PipeCarSalesVolume.Grid1_RowDataBound(Object sender, GridRowEventArgs e) 位置 E:\ffqserp\trunk\application\Enterprise.IIS\business\Factor\PipeCarSalesVolume.aspx.cs:行号 207
+   在 FineUI.Grid.OnRowDataBound(GridRowEventArgs e)
+   在 FineUI.Grid.DataBindRow(Int32 rowIndex, Object rowObj)
+   在 FineUI.Grid.DataBindToDataTable(DataTable dataTable)
+   在 FineUI.Grid.DataBind()
+   在 Enterprise.IIS.business.Factor.PipeCarSalesVolume.BindData() 位置 E:\ffqserp\trunk\application\Enterprise.IIS\business\Factor\PipeCarSalesVolume.aspx.cs:行号 147
+   在 Enterprise.IIS.business.Factor.PipeCarSalesVolume.btnSearch_Click(Object sender, EventArgs e) 位置 E:\ffqserp\trunk\application\Enterprise.IIS\business\Factor\PipeCarSalesVolume.aspx.cs:行号 153
+   在 FineUI.Button.OnClick(EventArgs e)
+   在 FineUI.Button.RaisePostBackEvent(String eventArgument)
+   在 System.Web.UI.Page.RaisePostBackEvent(IPostBackEventHandler sourceControl, String eventArgument)
+   在 System.Web.UI.Page.RaisePostBackEvent(NameValueCollection postData)
+   在 System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+2019/06/18 +08:00 12:08:54     [16136] Enterprise.Framework.Log.LogUtil.ErrorLog(:0) Enterprise.Framework.Log.LogUtil.ErrorLog(:0) [(null)] - 
+错误开始===========================================
+客户机IP:::1
+错误地址:http://localhost:19008/Business/Factor/PipeCarSalesVolume.aspx
+异常信息:引发类型为“System.Web.HttpUnhandledException”的异常。
+错误结束=========================================== e 
+System.Web.HttpUnhandledException (0x80004005): 引发类型为“System.Web.HttpUnhandledException”的异常。 ---> System.FormatException: 输入字符串的格式不正确。
+   在 System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   在 System.Number.ParseDecimal(String value, NumberStyles options, NumberFormatInfo numfmt)
+   在 System.Convert.ToDecimal(String value)
+   在 Enterprise.IIS.business.Factor.PipeCarSalesVolume.Grid1_RowDataBound(Object sender, GridRowEventArgs e) 位置 E:\ffqserp\trunk\application\Enterprise.IIS\business\Factor\PipeCarSalesVolume.aspx.cs:行号 210
+   在 FineUI.Grid.OnRowDataBound(GridRowEventArgs e)
+   在 FineUI.Grid.DataBindRow(Int32 rowIndex, Object rowObj)
+   在 FineUI.Grid.DataBindToDataTable(DataTable dataTable)
+   在 FineUI.Grid.DataBind()
+   在 Enterprise.IIS.business.Factor.PipeCarSalesVolume.BindData() 位置 E:\ffqserp\trunk\application\Enterprise.IIS\business\Factor\PipeCarSalesVolume.aspx.cs:行号 147
+   在 Enterprise.IIS.business.Factor.PipeCarSalesVolume.btnSearch_Click(Object sender, EventArgs e) 位置 E:\ffqserp\trunk\application\Enterprise.IIS\business\Factor\PipeCarSalesVolume.aspx.cs:行号 153
+   在 FineUI.Button.OnClick(EventArgs e)
+   在 FineUI.Button.RaisePostBackEvent(String eventArgument)
+   在 System.Web.UI.Page.RaisePostBackEvent(IPostBackEventHandler sourceControl, String eventArgument)
+   在 System.Web.UI.Page.RaisePostBackEvent(NameValueCollection postData)
+   在 System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   在 System.Web.UI.Page.HandleError(Exception e)
+   在 System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   在 System.Web.UI.Page.ProcessRequest(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   在 System.Web.UI.Page.ProcessRequest()
+   在 System.Web.UI.Page.ProcessRequestWithNoAssert(HttpContext context)
+   在 System.Web.UI.Page.ProcessRequest(HttpContext context)
+   在 ASP.business_factor_pipecarsalesvolume_aspx.ProcessRequest(HttpContext context) 位置 c:\Windows\Microsoft.NET\Framework\v4.0.30319\Temporary ASP.NET Files\vs\acc0e68d\f6fd98d3\App_Web_g4rfj5ev.0.cs:行号 0
+   在 System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   在 System.Web.HttpApplication.ExecuteStepImpl(IExecutionStep step)
+   在 System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+2019/06/18 +08:00 12:08:54     [16136] Enterprise.Framework.Log.LogUtil.ErrorLog(:0) Enterprise.Framework.Log.LogUtil.ErrorLog(:0) [(null)] - 输入字符串的格式不正确。 e 
+System.FormatException: 输入字符串的格式不正确。
+   在 System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   在 System.Number.ParseDecimal(String value, NumberStyles options, NumberFormatInfo numfmt)
+   在 System.Convert.ToDecimal(String value)
+   在 Enterprise.IIS.business.Factor.PipeCarSalesVolume.Grid1_RowDataBound(Object sender, GridRowEventArgs e) 位置 E:\ffqserp\trunk\application\Enterprise.IIS\business\Factor\PipeCarSalesVolume.aspx.cs:行号 210
+   在 FineUI.Grid.OnRowDataBound(GridRowEventArgs e)
+   在 FineUI.Grid.DataBindRow(Int32 rowIndex, Object rowObj)
+   在 FineUI.Grid.DataBindToDataTable(DataTable dataTable)
+   在 FineUI.Grid.DataBind()
+   在 Enterprise.IIS.business.Factor.PipeCarSalesVolume.BindData() 位置 E:\ffqserp\trunk\application\Enterprise.IIS\business\Factor\PipeCarSalesVolume.aspx.cs:行号 147
+   在 Enterprise.IIS.business.Factor.PipeCarSalesVolume.btnSearch_Click(Object sender, EventArgs e) 位置 E:\ffqserp\trunk\application\Enterprise.IIS\business\Factor\PipeCarSalesVolume.aspx.cs:行号 153
+   在 FineUI.Button.OnClick(EventArgs e)
+   在 FineUI.Button.RaisePostBackEvent(String eventArgument)
+   在 System.Web.UI.Page.RaisePostBackEvent(IPostBackEventHandler sourceControl, String eventArgument)
+   在 System.Web.UI.Page.RaisePostBackEvent(NameValueCollection postData)
+   在 System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+2019/06/18 +08:00 12:10:34     [10276] Enterprise.Framework.Log.LogUtil.ErrorLog(:0) Enterprise.Framework.Log.LogUtil.ErrorLog(:0) [(null)] - 
+错误开始===========================================
+客户机IP:::1
+错误地址:http://localhost:19008/Business/Factor/PipeCarSalesVolume.aspx
+异常信息:引发类型为“System.Web.HttpUnhandledException”的异常。
+错误结束=========================================== e 
+System.Web.HttpUnhandledException (0x80004005): 引发类型为“System.Web.HttpUnhandledException”的异常。 ---> System.FormatException: 输入字符串的格式不正确。
+   在 System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   在 System.Number.ParseDecimal(String value, NumberStyles options, NumberFormatInfo numfmt)
+   在 System.Convert.ToDecimal(String value)
+   在 Enterprise.IIS.business.Factor.PipeCarSalesVolume.Grid1_RowDataBound(Object sender, GridRowEventArgs e) 位置 E:\ffqserp\trunk\application\Enterprise.IIS\business\Factor\PipeCarSalesVolume.aspx.cs:行号 210
+   在 FineUI.Grid.OnRowDataBound(GridRowEventArgs e)
+   在 FineUI.Grid.DataBindRow(Int32 rowIndex, Object rowObj)
+   在 FineUI.Grid.DataBindToDataTable(DataTable dataTable)
+   在 FineUI.Grid.DataBind()
+   在 Enterprise.IIS.business.Factor.PipeCarSalesVolume.BindData() 位置 E:\ffqserp\trunk\application\Enterprise.IIS\business\Factor\PipeCarSalesVolume.aspx.cs:行号 147
+   在 Enterprise.IIS.business.Factor.PipeCarSalesVolume.btnSearch_Click(Object sender, EventArgs e) 位置 E:\ffqserp\trunk\application\Enterprise.IIS\business\Factor\PipeCarSalesVolume.aspx.cs:行号 153
+   在 FineUI.Button.OnClick(EventArgs e)
+   在 FineUI.Button.RaisePostBackEvent(String eventArgument)
+   在 System.Web.UI.Page.RaisePostBackEvent(IPostBackEventHandler sourceControl, String eventArgument)
+   在 System.Web.UI.Page.RaisePostBackEvent(NameValueCollection postData)
+   在 System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   在 System.Web.UI.Page.HandleError(Exception e)
+   在 System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   在 System.Web.UI.Page.ProcessRequest(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   在 System.Web.UI.Page.ProcessRequest()
+   在 System.Web.UI.Page.ProcessRequestWithNoAssert(HttpContext context)
+   在 System.Web.UI.Page.ProcessRequest(HttpContext context)
+   在 ASP.business_factor_pipecarsalesvolume_aspx.ProcessRequest(HttpContext context) 位置 c:\Windows\Microsoft.NET\Framework\v4.0.30319\Temporary ASP.NET Files\vs\acc0e68d\f6fd98d3\App_Web_g4rfj5ev.0.cs:行号 0
+   在 System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   在 System.Web.HttpApplication.ExecuteStepImpl(IExecutionStep step)
+   在 System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+2019/06/18 +08:00 12:10:34     [10276] Enterprise.Framework.Log.LogUtil.ErrorLog(:0) Enterprise.Framework.Log.LogUtil.ErrorLog(:0) [(null)] - 输入字符串的格式不正确。 e 
+System.FormatException: 输入字符串的格式不正确。
+   在 System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   在 System.Number.ParseDecimal(String value, NumberStyles options, NumberFormatInfo numfmt)
+   在 System.Convert.ToDecimal(String value)
+   在 Enterprise.IIS.business.Factor.PipeCarSalesVolume.Grid1_RowDataBound(Object sender, GridRowEventArgs e) 位置 E:\ffqserp\trunk\application\Enterprise.IIS\business\Factor\PipeCarSalesVolume.aspx.cs:行号 210
+   在 FineUI.Grid.OnRowDataBound(GridRowEventArgs e)
+   在 FineUI.Grid.DataBindRow(Int32 rowIndex, Object rowObj)
+   在 FineUI.Grid.DataBindToDataTable(DataTable dataTable)
+   在 FineUI.Grid.DataBind()
+   在 Enterprise.IIS.business.Factor.PipeCarSalesVolume.BindData() 位置 E:\ffqserp\trunk\application\Enterprise.IIS\business\Factor\PipeCarSalesVolume.aspx.cs:行号 147
+   在 Enterprise.IIS.business.Factor.PipeCarSalesVolume.btnSearch_Click(Object sender, EventArgs e) 位置 E:\ffqserp\trunk\application\Enterprise.IIS\business\Factor\PipeCarSalesVolume.aspx.cs:行号 153
+   在 FineUI.Button.OnClick(EventArgs e)
+   在 FineUI.Button.RaisePostBackEvent(String eventArgument)
+   在 System.Web.UI.Page.RaisePostBackEvent(IPostBackEventHandler sourceControl, String eventArgument)
+   在 System.Web.UI.Page.RaisePostBackEvent(NameValueCollection postData)
+   在 System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+2019/06/18 +08:00 15:55:55     [19852] Enterprise.Framework.Log.LogUtil.ErrorLog(:0) Enterprise.Framework.Log.LogUtil.ErrorLog(:0) [(null)] - 值不能为 null。
+参数名: input e 
+System.ArgumentNullException: 值不能为 null。
+参数名: input
+   在 System.Text.RegularExpressions.Regex.IsMatch(String input)
+   在 Enterprise.IIS.business.TubeSales.D.SubmintEdit() 位置 E:\ffqserp\trunk\application\Enterprise.IIS\business\TubeSales\D.aspx.cs:行号 245
+2019/06/18 +08:00 15:59:52     [5000] Enterprise.Framework.Log.LogUtil.ErrorLog(:0) Enterprise.Framework.Log.LogUtil.ErrorLog(:0) [(null)] - 值不能为 null。
+参数名: input e 
+System.ArgumentNullException: 值不能为 null。
+参数名: input
+   在 System.Text.RegularExpressions.Regex.IsMatch(String input)
+   在 Enterprise.IIS.business.TubeSales.D.SubmintEdit() 位置 E:\ffqserp\trunk\application\Enterprise.IIS\business\TubeSales\D.aspx.cs:行号 245
+2019/06/18 +08:00 16:00:14     [5000] Enterprise.Framework.Log.LogUtil.ErrorLog(:0) Enterprise.Framework.Log.LogUtil.ErrorLog(:0) [(null)] - 值不能为 null。
+参数名: input e 
+System.ArgumentNullException: 值不能为 null。
+参数名: input
+   在 System.Text.RegularExpressions.Regex.IsMatch(String input)
+   在 Enterprise.IIS.business.TubeSales.D.SubmintEdit() 位置 E:\ffqserp\trunk\application\Enterprise.IIS\business\TubeSales\D.aspx.cs:行号 245

@@ -1,0 +1,106 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.40629.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "application", "application", "{822068B1-6D09-4D57-AD41-720DF39D0375}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".nuget", ".nuget", "{B1617D1F-6F97-4EB5-868A-660E4374435C}"
+	ProjectSection(SolutionItems) = preProject
+		.nuget\NuGet.Config = .nuget\NuGet.Config
+		.nuget\NuGet.exe = .nuget\NuGet.exe
+		.nuget\NuGet.targets = .nuget\NuGet.targets
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "packages", "packages", "{8E12D03B-3ED9-442C-B460-BEB4B79AF5E0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Enterprise.Service.Base", "trunk\packages\Enterprise.Service.Base\Enterprise.Service.Base.csproj", "{47C11E9C-80F2-4F5C-A89D-57AD518E8D63}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Enterprise.IIS", "trunk\application\Enterprise.IIS\Enterprise.IIS.csproj", "{E115053C-AD10-4671-BB11-AC852FB4B0EE}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "InterFace", "InterFace", "{51A588CE-D4D3-499B-B05C-0E61A6740888}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Enterprise.WebService", "Enterprise.WebService\Enterprise.WebService.csproj", "{47B4ADA9-7EAA-4786-BFCF-126D3EA8CB83}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Winform", "Winform", "{BC5CEFC4-BE3A-46EE-A325-1418E5676A79}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "T6InterFaceAuto", "T6InterFaceAuto\T6InterFaceAuto.csproj", "{A051E602-8631-4343-82FC-EF5C0298A835}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Debug|Mixed Platforms = Debug|Mixed Platforms
+		Debug|x86 = Debug|x86
+		Release|Any CPU = Release|Any CPU
+		Release|Mixed Platforms = Release|Mixed Platforms
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{47C11E9C-80F2-4F5C-A89D-57AD518E8D63}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{47C11E9C-80F2-4F5C-A89D-57AD518E8D63}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{47C11E9C-80F2-4F5C-A89D-57AD518E8D63}.Debug|Mixed Platforms.ActiveCfg = Debug|Any CPU
+		{47C11E9C-80F2-4F5C-A89D-57AD518E8D63}.Debug|Mixed Platforms.Build.0 = Debug|Any CPU
+		{47C11E9C-80F2-4F5C-A89D-57AD518E8D63}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{47C11E9C-80F2-4F5C-A89D-57AD518E8D63}.Debug|x86.Build.0 = Debug|Any CPU
+		{47C11E9C-80F2-4F5C-A89D-57AD518E8D63}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{47C11E9C-80F2-4F5C-A89D-57AD518E8D63}.Release|Any CPU.Build.0 = Release|Any CPU
+		{47C11E9C-80F2-4F5C-A89D-57AD518E8D63}.Release|Mixed Platforms.ActiveCfg = Release|Any CPU
+		{47C11E9C-80F2-4F5C-A89D-57AD518E8D63}.Release|Mixed Platforms.Build.0 = Release|Any CPU
+		{47C11E9C-80F2-4F5C-A89D-57AD518E8D63}.Release|x86.ActiveCfg = Release|Any CPU
+		{47C11E9C-80F2-4F5C-A89D-57AD518E8D63}.Release|x86.Build.0 = Release|Any CPU
+		{E115053C-AD10-4671-BB11-AC852FB4B0EE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E115053C-AD10-4671-BB11-AC852FB4B0EE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E115053C-AD10-4671-BB11-AC852FB4B0EE}.Debug|Mixed Platforms.ActiveCfg = Debug|Any CPU
+		{E115053C-AD10-4671-BB11-AC852FB4B0EE}.Debug|Mixed Platforms.Build.0 = Debug|Any CPU
+		{E115053C-AD10-4671-BB11-AC852FB4B0EE}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{E115053C-AD10-4671-BB11-AC852FB4B0EE}.Debug|x86.Build.0 = Debug|Any CPU
+		{E115053C-AD10-4671-BB11-AC852FB4B0EE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E115053C-AD10-4671-BB11-AC852FB4B0EE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E115053C-AD10-4671-BB11-AC852FB4B0EE}.Release|Mixed Platforms.ActiveCfg = Release|Any CPU
+		{E115053C-AD10-4671-BB11-AC852FB4B0EE}.Release|Mixed Platforms.Build.0 = Release|Any CPU
+		{E115053C-AD10-4671-BB11-AC852FB4B0EE}.Release|x86.ActiveCfg = Release|Any CPU
+		{E115053C-AD10-4671-BB11-AC852FB4B0EE}.Release|x86.Build.0 = Release|Any CPU
+		{47B4ADA9-7EAA-4786-BFCF-126D3EA8CB83}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{47B4ADA9-7EAA-4786-BFCF-126D3EA8CB83}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{47B4ADA9-7EAA-4786-BFCF-126D3EA8CB83}.Debug|Mixed Platforms.ActiveCfg = Debug|Any CPU
+		{47B4ADA9-7EAA-4786-BFCF-126D3EA8CB83}.Debug|Mixed Platforms.Build.0 = Debug|Any CPU
+		{47B4ADA9-7EAA-4786-BFCF-126D3EA8CB83}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{47B4ADA9-7EAA-4786-BFCF-126D3EA8CB83}.Debug|x86.Build.0 = Debug|Any CPU
+		{47B4ADA9-7EAA-4786-BFCF-126D3EA8CB83}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{47B4ADA9-7EAA-4786-BFCF-126D3EA8CB83}.Release|Any CPU.Build.0 = Release|Any CPU
+		{47B4ADA9-7EAA-4786-BFCF-126D3EA8CB83}.Release|Mixed Platforms.ActiveCfg = Release|Any CPU
+		{47B4ADA9-7EAA-4786-BFCF-126D3EA8CB83}.Release|Mixed Platforms.Build.0 = Release|Any CPU
+		{47B4ADA9-7EAA-4786-BFCF-126D3EA8CB83}.Release|x86.ActiveCfg = Release|Any CPU
+		{47B4ADA9-7EAA-4786-BFCF-126D3EA8CB83}.Release|x86.Build.0 = Release|Any CPU
+		{A051E602-8631-4343-82FC-EF5C0298A835}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A051E602-8631-4343-82FC-EF5C0298A835}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A051E602-8631-4343-82FC-EF5C0298A835}.Debug|Mixed Platforms.ActiveCfg = Debug|Any CPU
+		{A051E602-8631-4343-82FC-EF5C0298A835}.Debug|Mixed Platforms.Build.0 = Debug|Any CPU
+		{A051E602-8631-4343-82FC-EF5C0298A835}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{A051E602-8631-4343-82FC-EF5C0298A835}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A051E602-8631-4343-82FC-EF5C0298A835}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A051E602-8631-4343-82FC-EF5C0298A835}.Release|Mixed Platforms.ActiveCfg = Release|Any CPU
+		{A051E602-8631-4343-82FC-EF5C0298A835}.Release|Mixed Platforms.Build.0 = Release|Any CPU
+		{A051E602-8631-4343-82FC-EF5C0298A835}.Release|x86.ActiveCfg = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{47C11E9C-80F2-4F5C-A89D-57AD518E8D63} = {8E12D03B-3ED9-442C-B460-BEB4B79AF5E0}
+		{E115053C-AD10-4671-BB11-AC852FB4B0EE} = {822068B1-6D09-4D57-AD41-720DF39D0375}
+		{47B4ADA9-7EAA-4786-BFCF-126D3EA8CB83} = {51A588CE-D4D3-499B-B05C-0E61A6740888}
+		{A051E602-8631-4343-82FC-EF5C0298A835} = {BC5CEFC4-BE3A-46EE-A325-1418E5676A79}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {6135A84D-099F-4AD4-8527-0469E2067EF6}
+		VisualSVNWorkingCopyRoot = .
+	EndGlobalSection
+	GlobalSection(SubversionScc) = preSolution
+		Svn-Managed = True
+		Manager = AnkhSVN - Subversion Support for Visual Studio
+	EndGlobalSection
+	GlobalSection(TestCaseManagementSettings) = postSolution
+		CategoryFile = application.vsmdi
+	EndGlobalSection
+EndGlobal

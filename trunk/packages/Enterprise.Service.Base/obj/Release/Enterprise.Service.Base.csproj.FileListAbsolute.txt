@@ -1,0 +1,14 @@
+E:\ffqserp\trunk\packages\bin\Release\Enterprise.Service.Base.dll.config
+E:\ffqserp\trunk\packages\bin\Release\Enterprise.Service.Base.dll
+E:\ffqserp\trunk\packages\bin\Release\Enterprise.Service.Base.pdb
+E:\ffqserp\trunk\packages\Enterprise.Service.Base\obj\Release\Enterprise.Service.Base.dll
+E:\ffqserp\trunk\packages\Enterprise.Service.Base\obj\Release\Enterprise.Service.Base.pdb
+E:\ffqserp\trunk\packages\Enterprise.Service.Base\obj\Release\Enterprise.Service.Base.csprojAssemblyReference.cache
+E:\ffqserp\trunk\packages\Enterprise.Service.Base\obj\Release\Enterprise.Service.Base.csproj.CoreCompileInputs.cache
+E:\ffqserp\trunk\packages\Enterprise.Service.Base\obj\Release\Enterprise.Service.Base.csproj.CopyComplete
+H:\ffqserp\trunk\packages\bin\Release\Enterprise.Service.Base.dll.config
+H:\ffqserp\trunk\packages\bin\Release\Enterprise.Service.Base.dll
+H:\ffqserp\trunk\packages\bin\Release\Enterprise.Service.Base.pdb
+H:\ffqserp\trunk\packages\Enterprise.Service.Base\obj\Release\Enterprise.Service.Base.csprojResolveAssemblyReference.cache
+H:\ffqserp\trunk\packages\Enterprise.Service.Base\obj\Release\Enterprise.Service.Base.dll
+H:\ffqserp\trunk\packages\Enterprise.Service.Base\obj\Release\Enterprise.Service.Base.pdb

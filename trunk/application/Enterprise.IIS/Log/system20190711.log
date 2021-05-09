@@ -1,0 +1,24 @@
+﻿2019/07/11 +08:00 08:40:03     [11704] Enterprise.Framework.Log.LogUtil.InfoLog(:0) Enterprise.Framework.Log.LogUtil.InfoLog(:0) [(null)] - ，销售单：OC-190712-0001，销售单详细单号：79199---G0450, e 
+2019/07/11 +08:00 08:40:26     [11704] Enterprise.Framework.Log.LogUtil.InfoLog(:0) Enterprise.Framework.Log.LogUtil.InfoLog(:0) [(null)] - ，销售单：OC-190712-0001，销售单详细单号：79199---G0450,错误：，销售单：OC-190712-0001，销售单详细单号：79199---G0450,,错误信息：无法连接到远程服务器,错误堆栈：   在 System.Net.HttpWebRequest.GetRequestStream(TransportContext& context)
+   在 System.Net.HttpWebRequest.GetRequestStream()
+   在 Enterprise.IIS.Common.HttpRequest.httpRequest(tmsModel t, String uri) 位置 E:\ffqserp\trunk\application\Enterprise.IIS\Common\HttpRequest.cs:行号 61 e 
+2019/07/11 +08:00 08:40:54     [32312] Enterprise.Framework.Log.LogUtil.InfoLog(:0) Enterprise.Framework.Log.LogUtil.InfoLog(:0) [(null)] - ，发货单：XS-190711-0001，发货单详细单号：105452---G0450,，销售单：OC-190712-0001，销售单详细单号：79199---G0450, e 
+2019/07/11 +08:00 08:41:16     [32312] Enterprise.Framework.Log.LogUtil.InfoLog(:0) Enterprise.Framework.Log.LogUtil.InfoLog(:0) [(null)] - ，发货单：XS-190711-0001，发货单详细单号：105452---G0450,，销售单：OC-190712-0001，销售单详细单号：79199---G0450,错误：，发货单：XS-190711-0001，发货单详细单号：105452---G0450,，销售单：OC-190712-0001，销售单详细单号：79199---G0450,,错误信息：无法连接到远程服务器,错误堆栈：   在 System.Net.HttpWebRequest.GetRequestStream(TransportContext& context)
+   在 System.Net.HttpWebRequest.GetRequestStream()
+   在 Enterprise.IIS.Common.HttpRequest.httpRequest(tmsModel t, String uri) 位置 E:\ffqserp\trunk\application\Enterprise.IIS\Common\HttpRequest.cs:行号 61 e 
+2019/07/11 +08:00 11:01:55     [11112] Enterprise.Framework.Log.LogUtil.InfoLog(:0) Enterprise.Framework.Log.LogUtil.InfoLog(:0) [(null)] - ，发货单详细单号：，销售单：AT-190712-0001，销售单详细单号：79200---G0023, e 
+2019/07/11 +08:00 11:02:17     [11112] Enterprise.Framework.Log.LogUtil.InfoLog(:0) Enterprise.Framework.Log.LogUtil.InfoLog(:0) [(null)] - ，发货单详细单号：，销售单：AT-190712-0001，销售单详细单号：79200---G0023,错误：，发货单详细单号：，销售单：AT-190712-0001，销售单详细单号：79200---G0023,,错误信息：无法连接到远程服务器,错误堆栈：   在 System.Net.HttpWebRequest.GetRequestStream(TransportContext& context)
+   在 System.Net.HttpWebRequest.GetRequestStream()
+   在 Enterprise.IIS.Common.HttpRequest.httpRequest(tmsModel t, String uri) 位置 E:\ffqserp\trunk\application\Enterprise.IIS\Common\HttpRequest.cs:行号 61 e 
+2019/07/11 +08:00 11:02:39     [18056] Enterprise.Framework.Log.LogUtil.InfoLog(:0) Enterprise.Framework.Log.LogUtil.InfoLog(:0) [(null)] - ，发货单详细单号：，销售单：AT-190712-0001，销售单详细单号：79200---G0023, e 
+2019/07/11 +08:00 11:03:00     [18056] Enterprise.Framework.Log.LogUtil.InfoLog(:0) Enterprise.Framework.Log.LogUtil.InfoLog(:0) [(null)] - ，发货单详细单号：，销售单：AT-190712-0001，销售单详细单号：79200---G0023,错误：，发货单详细单号：，销售单：AT-190712-0001，销售单详细单号：79200---G0023,,错误信息：无法连接到远程服务器,错误堆栈：   在 System.Net.HttpWebRequest.GetRequestStream(TransportContext& context)
+   在 System.Net.HttpWebRequest.GetRequestStream()
+   在 Enterprise.IIS.Common.HttpRequest.httpRequest(tmsModel t, String uri) 位置 E:\ffqserp\trunk\application\Enterprise.IIS\Common\HttpRequest.cs:行号 61 e 
+2019/07/11 +08:00 11:07:44     [25940] Enterprise.Framework.Log.LogUtil.InfoLog(:0) Enterprise.Framework.Log.LogUtil.InfoLog(:0) [(null)] - ，发货单详细单号：，销售单：AT-190712-0001，销售单详细单号：79200---G0023, e 
+2019/07/11 +08:00 11:08:05     [25940] Enterprise.Framework.Log.LogUtil.InfoLog(:0) Enterprise.Framework.Log.LogUtil.InfoLog(:0) [(null)] - ，发货单详细单号：，销售单：AT-190712-0001，销售单详细单号：79200---G0023,错误：，发货单详细单号：，销售单：AT-190712-0001，销售单详细单号：79200---G0023,,错误信息：无法连接到远程服务器,错误堆栈：   在 System.Net.HttpWebRequest.GetRequestStream(TransportContext& context)
+   在 System.Net.HttpWebRequest.GetRequestStream()
+   在 Enterprise.IIS.Common.HttpRequest.httpRequest(tmsModel t, String uri) 位置 E:\ffqserp\trunk\application\Enterprise.IIS\Common\HttpRequest.cs:行号 61 e 
+2019/07/11 +08:00 11:08:38     [11112] Enterprise.Framework.Log.LogUtil.InfoLog(:0) Enterprise.Framework.Log.LogUtil.InfoLog(:0) [(null)] - ，发货单详细单号：，销售单：AT-190712-0001，销售单详细单号：79200---G0023, e 
+2019/07/11 +08:00 11:08:59     [11112] Enterprise.Framework.Log.LogUtil.InfoLog(:0) Enterprise.Framework.Log.LogUtil.InfoLog(:0) [(null)] - ，发货单详细单号：，销售单：AT-190712-0001，销售单详细单号：79200---G0023,错误：，发货单详细单号：，销售单：AT-190712-0001，销售单详细单号：79200---G0023,,错误信息：无法连接到远程服务器,错误堆栈：   在 System.Net.HttpWebRequest.GetRequestStream(TransportContext& context)
+   在 System.Net.HttpWebRequest.GetRequestStream()
+   在 Enterprise.IIS.Common.HttpRequest.httpRequest(tmsModel t, String uri) 位置 E:\ffqserp\trunk\application\Enterprise.IIS\Common\HttpRequest.cs:行号 61 e 

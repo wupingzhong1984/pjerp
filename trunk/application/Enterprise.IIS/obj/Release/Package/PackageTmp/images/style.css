@@ -1,0 +1,78 @@
+html {
+	overflow: hidden;
+}
+body {
+	margin: 0px; padding: 0px; border: 0px currentColor; height: 100%; text-align: left; line-height: 100%; font-size: 12px; background-color: rgb(32, 122, 175);
+}
+form {
+	margin: 0px; padding: 0px;
+}
+.clear {
+	line-height: 1px; clear: both;
+}
+input {
+	
+}
+.login_main {
+	margin: 0px auto; width: 1440px; text-align: left; position: relative; background-color: rgb(32, 122, 175);
+}
+.login_top {
+	background-position: 0px 100%; width: 100%; height: 258px; background-image: url("login_top.jpg"); background-repeat: no-repeat;
+}
+.login_middle {
+	width: 100%; height: 345px;
+}
+.login_middleleft {
+	width: 632px; height: 100%; float: left; background-image: url("login_centerleft.jpg"); background-repeat: no-repeat;
+}
+.login_middlecenter {
+	width: 808px; height: 100%; text-align: left; float: left; background-image: url("login_centerright.jpg"); background-repeat: no-repeat;
+}
+.login_bottom {
+	width: 100%;top: 0px; height: 100px; background-image: url("login_bottom.jpg"); background-repeat: no-repeat;
+}
+.login_title {
+	left: 235px; top: 100px; width: 560px; height: 61px; position: absolute;
+}
+.letter_space {
+	letter-spacing: 1em;
+}
+.login_user {
+	padding: 0px; color: rgb(0, 0, 0); font-weight: bold;
+}
+.login_pass {
+	padding: 30px 0px 0px; color: rgb(0, 0, 0); font-weight: bold;
+}
+.login_form {
+	padding: 83px 0px 0px 70px;
+}
+.login_button input {
+	border: 0px currentColor; width: 110px; height: 35px; cursor: pointer; background-image: url("click.gif"); background-color: transparent;
+}
+.login_user input {
+	border: 0px currentColor; width: 290px; height: 40px; line-height: 40px; padding-left: 3px; font-size: 16px; cursor: text; background-color: transparent;
+}
+.login_pass input {
+	border: 0px currentColor; width: 290px; height: 40px; line-height: 40px; padding-left: 3px; font-size: 16px; cursor: text; background-color: transparent;
+}
+.login_button_left {
+	left: 658px; top: 485px; position: absolute;
+}
+.login_button_right {
+	left: 742px; top: 628px; position: absolute;
+}
+.login_copyright {
+	padding: 40px 0px 0px 20px; text-align: center; color: rgb(255, 255, 255); font-family: "Î¢ÈíÑÅºÚ"; font-size: 14px;
+}
+.login_info {
+	left: 650px; top: 538px; width: auto; color: rgb(254, 40, 14); line-height: 150%; overflow: hidden; font-size: 12px; position: absolute;
+}
+.login_info2 {
+	left: 785px; top: 490px; width: 240px; color: rgb(153, 153, 153); line-height: 150%; overflow: hidden; font-size: 14px; position: absolute;
+}
+.login_skin {
+	height: 30px; right: 10px; bottom: 10px; color: rgb(0, 0, 0); line-height: 30px; position: absolute;
+}
+.login_skin span {
+	cursor: pointer;
+}

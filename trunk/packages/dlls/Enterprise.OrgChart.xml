@@ -1,0 +1,837 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Enterprise.OrgChart</name>
+    </assembly>
+    <members>
+        <member name="T:Enterprise.OrgChart.BasePostBackControl">
+            <summary>
+            Implements the IPostBackEventHandler and IPostBackDataHandler interfaces.
+            Creates a hidden helper, if needed, and allows controls to set and receive
+            the data from that helper.
+            
+            Implementation Notes:
+            1. Be sure to assign the data to HelperData either before
+               OnPreRender or in OnPreRender before calling base.OnPreRender().
+            2. The hidden helper will have an ID of HelperID.
+            3. The hidden helper will only be created when NeedHelper is true.
+            </summary>
+        </member>
+        <member name="T:Enterprise.OrgChart.BaseRichControl">
+            <summary>
+            Base class that splits rendering into three paths:
+            UpLevel, DownLevel, and Designer.
+            
+            Provides access to the common files path.
+            
+            Provides a resource manager.
+            </summary>
+        </member>
+        <member name="M:Enterprise.OrgChart.BaseRichControl.#ctor">
+            <summary>
+            Initializes a new instance of a BaseRichControl.
+            </summary>
+        </member>
+        <member name="M:Enterprise.OrgChart.BaseRichControl.CreateLevelChecker">
+            <summary>
+            Creates the BrowserLevelChecker object used to determine uplevel 
+            and downlevel browsers. Override to return a custom BrowserLevelChecker.
+            Defaults: IE 5.5 and above is uplevel. Everything else is downlevel.
+            </summary>
+            <returns>The BrowserLevelChecker object.</returns>
+        </member>
+        <member name="M:Enterprise.OrgChart.BaseRichControl.Render(System.Web.UI.HtmlTextWriter)">
+            <summary>
+            Outputs control content to a provided HtmlTextWriter output stream.
+            </summary>
+            <param name="writer">The HtmlTextWriter object that receives the control content.</param>
+        </member>
+        <member name="M:Enterprise.OrgChart.BaseRichControl.RenderUpLevelPath(System.Web.UI.HtmlTextWriter)">
+            <summary>
+            Renders the control for an uplevel browser.
+            </summary>
+            <param name="writer">The HtmlTextWriter object that receives the control content.</param>
+        </member>
+        <member name="M:Enterprise.OrgChart.BaseRichControl.RenderDownLevelPath(System.Web.UI.HtmlTextWriter)">
+            <summary>
+            Renders the control for a downlevel browser.
+            </summary>
+            <param name="writer">The HtmlTextWriter object that receives the control content.</param>
+        </member>
+        <member name="M:Enterprise.OrgChart.BaseRichControl.RenderDesignerPath(System.Web.UI.HtmlTextWriter)">
+            <summary>
+            Renders the control for a visual designer.
+            </summary>
+            <param name="writer">The HtmlTextWriter object that receives the control content.</param>
+        </member>
+        <member name="M:Enterprise.OrgChart.BaseRichControl.AddPathToFilename(System.String)">
+            <summary>
+            Adds the common file path to the filename.
+            </summary>
+            <param name="filename">The filename to qualify with the common path.</param>
+            <returns>The full path of the filename with the common path.</returns>
+        </member>
+        <member name="M:Enterprise.OrgChart.BaseRichControl.AddPathToFilename(System.Web.HttpContext,System.String)">
+            <summary>
+            Static version of AddPathToFilename so that classes not deriving from
+            BaseRichControl can still find the common files path.
+            </summary>
+            <param name="context">The context from which to get the configuration.</param>
+            <param name="filename">The filename to qualify with the common path.</param>
+            <returns>The full path of the filename with the common path.</returns>
+        </member>
+        <member name="M:Enterprise.OrgChart.BaseRichControl.FindCommonPath(System.Web.HttpContext)">
+            <summary>
+            Finds the path for client files used be server controls.
+            </summary>
+            <param name="context">The context from which to get the configuration.</param>
+            <returns>The path name.</returns>
+        </member>
+        <member name="M:Enterprise.OrgChart.BaseRichControl.CleanupPath(System.String)">
+            <summary>
+            Ensures that there is a '/' at the end of a path string.
+            </summary>
+            <param name="path">The path name to cleanup.</param>
+            <returns>The cleaned up path name.</returns>
+        </member>
+        <member name="M:Enterprise.OrgChart.BaseRichControl.GetStringResource(System.String)">
+            <summary>
+            Uses ResourceManager to retrieve string resources.
+            </summary>
+        </member>
+        <member name="P:Enterprise.OrgChart.BaseRichControl.RenderPath1">
+            <summary>
+            The ID of the rendering path being used.
+            </summary>
+        </member>
+        <member name="P:Enterprise.OrgChart.BaseRichControl.IsDesignMode">
+            <summary>
+            true if currently in design mode.
+            </summary>
+        </member>
+        <member name="P:Enterprise.OrgChart.BaseRichControl.IsUpLevelBrowser">
+            <summary>
+            true if using an uplevel browser.
+            </summary>
+        </member>
+        <member name="P:Enterprise.OrgChart.BaseRichControl.ResourceManager">
+            <summary>
+            A ResourceManager for all our controls to access resources.
+            </summary>
+        </member>
+        <member name="M:Enterprise.OrgChart.BasePostBackControl.ProcessData(System.String)">
+            <summary>
+            Processes post back data for the server control given the data from the hidden helper.
+            </summary>
+            <param name="szData">The data from the hidden helper</param>
+            <returns>true if the server control's state changes as a result of the post back; otherwise false.</returns>
+        </member>
+        <member name="M:Enterprise.OrgChart.BasePostBackControl.LoadPostData(System.String,System.Collections.Specialized.NameValueCollection)">
+            <summary>
+            Processes post back data for a server control.
+            </summary>
+            <param name="postDataKey">The key identifier for the control.</param>
+            <param name="postCollection">The collection of all incoming name values.</param>
+            <returns>true if the server control's state changes as a result of the post back; otherwise false.</returns>
+        </member>
+        <member name="M:Enterprise.OrgChart.BasePostBackControl.RaisePostDataChangedEvent">
+            <summary>
+            Signals the server control object to notify the ASP.NET application that the state of the control has changed.
+            </summary>
+        </member>
+        <member name="M:Enterprise.OrgChart.BasePostBackControl.RaisePostBackEvent(System.String)">
+            <summary>
+            Enables a server control to process an event raised when a form is posted to the server.
+            </summary>
+            <param name="eventArgument">A String that represents an optional event argument to be passed to the event handler.</param>
+        </member>
+        <member name="M:Enterprise.OrgChart.BasePostBackControl.OnInit(System.EventArgs)">
+            <summary>
+            Registers the control as needing post back handling if a hidden helper is needed.
+            </summary>
+            <param name="e">The event data.</param>
+        </member>
+        <member name="M:Enterprise.OrgChart.BasePostBackControl.OnPreRender(System.EventArgs)">
+            <summary>
+            Sets the hidden helper's data if a hidden helper is needed.
+            </summary>
+            <param name="e">The event data.</param>
+        </member>
+        <member name="M:Enterprise.OrgChart.BasePostBackControl.System#Web#UI#IPostBackDataHandler#LoadPostData(System.String,System.Collections.Specialized.NameValueCollection)">
+            <summary>
+            Processes post back data for a server control.
+            </summary>
+            <param name="postDataKey">The key identifier for the control.</param>
+            <param name="postCollection">The collection of all incoming name values.</param>
+            <returns>true if the server control's state changes as a result of the post back; otherwise false.</returns>
+        </member>
+        <member name="M:Enterprise.OrgChart.BasePostBackControl.System#Web#UI#IPostBackDataHandler#RaisePostDataChangedEvent">
+            <summary>
+            Signals the server control object to notify the ASP.NET application that the state of the control has changed.
+            </summary>
+        </member>
+        <member name="M:Enterprise.OrgChart.BasePostBackControl.System#Web#UI#IPostBackEventHandler#RaisePostBackEvent(System.String)">
+            <summary>
+            Enables a server control to process an event raised when a form is posted to the server.
+            </summary>
+            <param name="eventArgument">A String that represents an optional event argument to be passed to the event handler.</param>
+        </member>
+        <member name="P:Enterprise.OrgChart.BasePostBackControl.NeedHelper">
+            <summary>
+            Returns a true value to indicate that a hidden helper is needed by this control.
+            </summary>
+        </member>
+        <member name="P:Enterprise.OrgChart.BasePostBackControl.HelperID">
+            <summary>
+            The ID of the hidden helper.
+            </summary>
+        </member>
+        <member name="P:Enterprise.OrgChart.BasePostBackControl.ClientHelperID">
+            <summary>
+            Client-side script ID of the hidden helper.
+            </summary>
+        </member>
+        <member name="P:Enterprise.OrgChart.BasePostBackControl.HelperData">
+            <summary>
+            The data to store inside the hidden helper.
+            </summary>
+        </member>
+        <member name="T:Enterprise.OrgChart.RenderPathID">
+            <summary>
+            ID indicating which rendering path to use.
+            To create custom IDs, set them starting at MaxPath or higher.
+            </summary>
+        </member>
+        <member name="F:Enterprise.OrgChart.RenderPathID.DownLevelPath">
+            <summary>
+            ID for down level browsers.
+            </summary>
+        </member>
+        <member name="F:Enterprise.OrgChart.RenderPathID.UpLevelPath">
+            <summary>
+            ID for up level browsers (IE 5.5 and above).
+            </summary>
+        </member>
+        <member name="F:Enterprise.OrgChart.RenderPathID.DesignerPath">
+            <summary>
+            ID for design mode.
+            </summary>
+        </member>
+        <member name="F:Enterprise.OrgChart.RenderPathID.MaxPath">
+            <summary>
+            Use when adding new paths.
+            </summary>
+        </member>
+        <member name="M:Enterprise.OrgChart.Design.OrgChartDesigner.#ctor">
+            <summary>
+            初始化 PagerDesigner 的新实例。
+            </summary>
+        </member>
+        <member name="M:Enterprise.OrgChart.Design.OrgChartDesigner.GetErrorDesignTimeHtml(System.Exception)">
+            <summary>
+            获取在呈现控件时遇到错误后在设计时为指定的异常显示的 HTML。
+            </summary>
+            <param name="e">要为其显示错误信息的异常。</param>
+            <returns>设计时为指定的异常显示的 HTML。</returns>
+        </member>
+        <member name="T:Enterprise.OrgChart.IOrgNode">
+            <summary>
+            IOrgChart 的摘要说明。
+            </summary>
+        </member>
+        <member name="T:Enterprise.OrgChart.BrowserLevel">
+            <summary>
+            Represents a Browser's version.
+            </summary>
+        </member>
+        <member name="M:Enterprise.OrgChart.BrowserLevel.#ctor(System.Int32,System.Double,System.Boolean)">
+            <summary>
+            Initializes a new instance of a BrowserLevel.
+            </summary>
+            <param name="majorversion">Major Version</param>
+            <param name="minorversion">Minor Version</param>
+            <param name="requireWindows">Requires Win32</param>
+        </member>
+        <member name="M:Enterprise.OrgChart.BrowserLevel.op_Equality(Enterprise.OrgChart.BrowserLevel,Enterprise.OrgChart.BrowserLevel)">
+            <summary>
+            Tests for equality between to BrowserLevel objects.
+            </summary>
+            <param name="bl1">The first object.</param>
+            <param name="bl2">The second object.</param>
+            <returns>true if the same.</returns>
+        </member>
+        <member name="M:Enterprise.OrgChart.BrowserLevel.Equals(System.Object)">
+            <summary>
+            Tests for equality between to BrowserLevel objects.
+            </summary>
+            <param name="obj">The object to compare this object to.</param>
+            <returns>true if the same.</returns>
+        </member>
+        <member name="M:Enterprise.OrgChart.BrowserLevel.GetHashCode">
+            <summary>
+            Returns a hash code.
+            </summary>
+            <returns>The hash code.</returns>
+        </member>
+        <member name="M:Enterprise.OrgChart.BrowserLevel.op_Inequality(Enterprise.OrgChart.BrowserLevel,Enterprise.OrgChart.BrowserLevel)">
+            <summary>
+            Tests for inequality.
+            </summary>
+            <param name="bl1">The first object.</param>
+            <param name="bl2">The second object.</param>
+            <returns>true if different.</returns>
+        </member>
+        <member name="M:Enterprise.OrgChart.BrowserLevel.op_GreaterThan(Enterprise.OrgChart.BrowserLevel,Enterprise.OrgChart.BrowserLevel)">
+            <summary>
+            Tests for inequality.
+            </summary>
+            <param name="bl1">The first object.</param>
+            <param name="bl2">The second object.</param>
+            <returns>true if the first object is greater than the second.</returns>
+        </member>
+        <member name="M:Enterprise.OrgChart.BrowserLevel.op_LessThan(Enterprise.OrgChart.BrowserLevel,Enterprise.OrgChart.BrowserLevel)">
+            <summary>
+            Test for inequality.
+            </summary>
+            <param name="bl1">The first object.</param>
+            <param name="bl2">The second object.</param>
+            <returns>Returns true if the first object is less than the second.</returns>
+        </member>
+        <member name="M:Enterprise.OrgChart.BrowserLevel.op_GreaterThanOrEqual(Enterprise.OrgChart.BrowserLevel,Enterprise.OrgChart.BrowserLevel)">
+            <summary>
+            Test for equality or greater than inequality.
+            </summary>
+            <param name="bl1">The first object.</param>
+            <param name="bl2">The second object.</param>
+            <returns>true if the first object is greater than or equal to the second.</returns>
+        </member>
+        <member name="M:Enterprise.OrgChart.BrowserLevel.op_LessThanOrEqual(Enterprise.OrgChart.BrowserLevel,Enterprise.OrgChart.BrowserLevel)">
+            <summary>
+            Tests for equality or less than inequality.
+            </summary>
+            <param name="bl1">The first object.</param>
+            <param name="bl2">The second object.</param>
+            <returns>true if the first object is less than or equal to the second.</returns>
+        </member>
+        <member name="P:Enterprise.OrgChart.BrowserLevel.MajorVersion">
+            <summary>
+            The major version (3 in 3.1).
+            </summary>
+        </member>
+        <member name="P:Enterprise.OrgChart.BrowserLevel.MinorVersion">
+            <summary>
+            The minor version (0.1 in 3.1).
+            </summary>
+        </member>
+        <member name="P:Enterprise.OrgChart.BrowserLevel.RequireWindows">
+            <summary>
+            Indicates whether the Windows client is required.
+            </summary>
+        </member>
+        <member name="T:Enterprise.OrgChart.BrowserLevelChecker">
+            <summary>
+            Determines if a browser falls into the uplevel or downlevel category.
+            </summary>
+        </member>
+        <member name="M:Enterprise.OrgChart.BrowserLevelChecker.#ctor">
+            <summary>
+            Initializes a new instance of a BrowserLevelChecker.
+            </summary>
+        </member>
+        <member name="M:Enterprise.OrgChart.BrowserLevelChecker.#ctor(System.String,System.Int32,System.Double,System.Boolean)">
+            <summary>
+            Initializes a new instance of a BrowserLevelChecker.
+            </summary>
+            <param name="browser">Uplevel browser name.</param>
+            <param name="majorversion">Uplevel major version.</param>
+            <param name="minorversion">Uplevel minor version.</param>
+            <param name="requireWindows">Uplevel Win32 requirement.</param>
+        </member>
+        <member name="M:Enterprise.OrgChart.BrowserLevelChecker.#ctor(System.String,Enterprise.OrgChart.BrowserLevel)">
+            <summary>
+            Initializes a new instance of a BrowserLevelChecker.
+            </summary>
+            <param name="browser">Uplevel browser name.</param>
+            <param name="minBrowser">Uplevel browser version.</param>
+        </member>
+        <member name="M:Enterprise.OrgChart.BrowserLevelChecker.Add(System.String,System.Int32,System.Double,System.Boolean)">
+            <summary>
+            Adds an uplevel browser.
+            </summary>
+            <param name="browser">Uplevel browser name.</param>
+            <param name="majorversion">Uplevel major version.</param>
+            <param name="minorversion">Uplevel minor version.</param>
+            <param name="requireWindows">Uplevel Win32 required.</param>
+        </member>
+        <member name="M:Enterprise.OrgChart.BrowserLevelChecker.Add(System.String,Enterprise.OrgChart.BrowserLevel)">
+            <summary>
+            Adds an uplevel browser.
+            </summary>
+            <param name="browser">Uplevel browser name.</param>
+            <param name="minBrowser">Uplevel browser version.</param>
+        </member>
+        <member name="M:Enterprise.OrgChart.BrowserLevelChecker.IsUpLevelBrowser(System.Web.HttpContext)">
+            <summary>
+            Determines if a browser is uplevel.
+            </summary>
+            <param name="context">HttpContext containing browser information.</param>
+            <returns>true if uplevel, false if downlevel.</returns>
+        </member>
+        <member name="T:Enterprise.OrgChart.OrgChart">
+            <summary>
+            组织机构图
+            </summary>
+        </member>
+        <member name="M:Enterprise.OrgChart.OrgChart.#ctor">
+            <summary>
+            Initializes a new instance of a OrgChart.
+            </summary>
+        </member>
+        <member name="F:Enterprise.OrgChart.OrgChart._PositionStyle">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="F:Enterprise.OrgChart.OrgChart._ChartStyle">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="F:Enterprise.OrgChart.OrgChart._ImageFolder">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:Enterprise.OrgChart.OrgChart.RenderEndTag(System.Web.UI.HtmlTextWriter)">
+            <summary>
+            目前没有什么用，作为干扰
+            </summary>
+            <param name="writer"></param>
+        </member>
+        <member name="M:Enterprise.OrgChart.OrgChart.EncryptoPassword(System.String,System.String)">
+            <summary>
+            哈希加密。
+            这是一个单向的加密方法，多用于口令的加密存储。用户提供的口令经过这个方法生成哈希口令。可以通过预留口令比较的方法进行判断。
+            </summary>
+            <param name="PasswordString">需要加密的字符串</param>
+            <param name="PasswordFormat">加密算法：可以选择MD5和SHA1。如果拼写错误，将缺省为MD5</param>
+            <returns></returns>
+        </member>
+        <member name="M:Enterprise.OrgChart.OrgChart.NodeDemo(Enterprise.OrgChart.OrgNode@)">
+            <summary>
+            如果没有数据，输出模拟数据
+            </summary>
+        </member>
+        <member name="M:Enterprise.OrgChart.OrgChart.RenderContents(System.Web.UI.HtmlTextWriter)">
+            <summary>
+            将此控件呈现给指定的输出参数。
+            </summary>
+            <param name="output">要写出到的 HTML 编写器 </param>
+        </member>
+        <member name="M:Enterprise.OrgChart.OrgChart.ChartDataBind4(Enterprise.OrgChart.OrgNode)">
+            <summary>
+            
+            </summary>
+            <param name="ParentNode"></param>
+        </member>
+        <member name="P:Enterprise.OrgChart.OrgChart.Node">
+            <summary>
+            组织结构图的根节点
+            </summary>
+        </member>
+        <member name="T:Enterprise.OrgChart.ClickEventHandler">
+            <summary>
+            Delegate to handle click events on the TreeView.
+            </summary>
+        </member>
+        <member name="T:Enterprise.OrgChart.SelectEventHandler">
+            <summary>
+            Delegate to handle select events on the TreeView.
+            </summary>
+        </member>
+        <member name="T:Enterprise.OrgChart.TreeViewSelectEventArgs">
+            <summary>
+            Event arguments for the OnSelectedIndexChange event
+            </summary>
+        </member>
+        <member name="M:Enterprise.OrgChart.TreeViewSelectEventArgs.#ctor(System.String,System.String)">
+            <summary>
+            Initializes a new instance of a TreeViewSelectEventArgs object.
+            </summary>
+            <param name="strOldNodeIndex">The old node.</param>
+            <param name="strNewNodeIndex">The new node.</param>
+        </member>
+        <member name="P:Enterprise.OrgChart.TreeViewSelectEventArgs.OldNode">
+            <summary>
+            The previously selected node.
+            </summary>
+        </member>
+        <member name="P:Enterprise.OrgChart.TreeViewSelectEventArgs.NewNode">
+            <summary>
+            The newly selected node.
+            </summary>
+        </member>
+        <member name="T:Enterprise.OrgChart.TreeViewClickEventArgs">
+            <summary>
+            Event arguments for the OnClick event 
+            </summary>
+        </member>
+        <member name="M:Enterprise.OrgChart.TreeViewClickEventArgs.#ctor(System.String)">
+            <summary>
+            Initializes a new instance of a TreeViewClickEventArgs object.
+            </summary>
+            <param name="node">The ID of the node that was clicked</param>
+        </member>
+        <member name="P:Enterprise.OrgChart.TreeViewClickEventArgs.Node">
+            <summary>
+            The ID of the node that was clicked.
+            </summary>
+        </member>
+        <member name="T:Enterprise.OrgChart.ExpandableValue">
+            <summary>
+            Indicates how a OrgNode should handle expanding and the plus sign.
+            </summary>
+        </member>
+        <member name="F:Enterprise.OrgChart.ExpandableValue.Always">
+            <summary>
+            Always shows a plus sign and attempts to expand.
+            </summary>
+        </member>
+        <member name="F:Enterprise.OrgChart.ExpandableValue.Auto">
+            <summary>
+            Shows a plus sign and allows expanding only when there are children.
+            </summary>
+        </member>
+        <member name="F:Enterprise.OrgChart.ExpandableValue.CheckOnce">
+            <summary>
+            Allows expanding to be attempted once, such as in a databinding case, when
+            the existence of children is unknown.
+            </summary>
+        </member>
+        <member name="T:Enterprise.OrgChart.OrgNode">
+            <summary>
+            OrgNode class: represents a tree node.
+            Renders the necessary tags to display a treenode and handle its events.
+            </summary>
+        </member>
+        <member name="F:Enterprise.OrgChart.OrgNode._X">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="F:Enterprise.OrgChart.OrgNode._Y">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="F:Enterprise.OrgChart.OrgNode._ImageFolder">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:Enterprise.OrgChart.OrgNode.#ctor">
+            <summary>
+            Initializes a new instance of a OrgNode.
+            </summary>
+        </member>
+        <member name="M:Enterprise.OrgChart.OrgNode.OnSelectedIndexChange(System.EventArgs)">
+            <summary>
+            Event handler for the OnSelectedIndexChange event.
+            </summary>
+            <param name="e">Event arguments</param>
+            <returns>true to bubble, false to cancel</returns>
+        </member>
+        <member name="M:Enterprise.OrgChart.OrgNode.GetNodeIndex">
+            <summary>
+            Returns a x.y.z format node index string representing the node's position in the hierarchy.
+            </summary>
+            <returns>The x.y.z formatted index.</returns>
+        </member>
+        <member name="P:Enterprise.OrgChart.OrgNode.ID">
+            <summary>
+            Returns a reference to the ID.
+            </summary>
+        </member>
+        <member name="P:Enterprise.OrgChart.OrgNode.Parent">
+            <summary>
+            Returns a reference to the parent object.
+            </summary>
+        </member>
+        <member name="P:Enterprise.OrgChart.OrgNode.Type">
+            <summary>
+            Name of the OrgNodeType to apply to this node
+            </summary>
+        </member>
+        <member name="P:Enterprise.OrgChart.OrgNode.Text">
+            <summary>
+            Text to display
+            </summary>
+        </member>
+        <member name="P:Enterprise.OrgChart.OrgNode.NavigateUrl">
+            <summary>
+            Url to navigate to when node is selected
+            </summary>
+        </member>
+        <member name="P:Enterprise.OrgChart.OrgNode.Description">
+            <summary>
+            Custom data
+            </summary>
+        </member>
+        <member name="P:Enterprise.OrgChart.OrgNode.UnderDesc">
+            <summary>
+            Custom data
+            </summary>
+        </member>
+        <member name="P:Enterprise.OrgChart.OrgNode.Nodes">
+            <summary>
+            Gets the collection of nodes in the control.
+            </summary>
+        </member>
+        <member name="T:Enterprise.OrgChart.OrgNodeCollection">
+            <summary>
+            Collection of OrgNodes within a TreeView.
+            </summary>
+        </member>
+        <member name="M:Enterprise.OrgChart.OrgNodeCollection.#ctor(Enterprise.OrgChart.IOrgNode)">
+            <summary>
+            Initializes a new instance of a OrgNodeCollection.
+            </summary>
+            <param name="parent">The parent OrgNode of this collection.</param>
+        </member>
+        <member name="M:Enterprise.OrgChart.OrgNodeCollection.#ctor">
+            <summary>
+            Initializes a new instance of a OrgNodeCollection.
+            </summary>
+        </member>
+        <member name="M:Enterprise.OrgChart.OrgNodeCollection.OnSet(System.Int32,System.Object,System.Object)">
+            <summary>
+            
+            </summary>
+            <param name="index">The index of the item being changed.</param>
+            <param name="oldValue">The old item.</param>
+            <param name="newValue">The new item.</param>
+        </member>
+        <member name="M:Enterprise.OrgChart.OrgNodeCollection.SetItemProperties(Enterprise.OrgChart.IOrgNode)">
+            <summary>
+            Sets properties of the OrgNode before being added.
+            </summary>
+            <param name="item">The OrgNode to be set.</param>
+        </member>
+        <member name="M:Enterprise.OrgChart.OrgNodeCollection.Add(Enterprise.OrgChart.OrgNode)">
+            <summary>
+            Adds a OrgNode to the collection.
+            </summary>
+            <param name="item">The OrgNode to add.</param>
+        </member>
+        <member name="M:Enterprise.OrgChart.OrgNodeCollection.AddAt(System.Int32,Enterprise.OrgChart.OrgNode)">
+            <summary>
+            Adds a OrgNode to the collection at a specific index.
+            </summary>
+            <param name="index">The index at which to add the item.</param>
+            <param name="item">The OrgNode to add.</param>
+        </member>
+        <member name="M:Enterprise.OrgChart.OrgNodeCollection.Contains(Enterprise.OrgChart.OrgNode)">
+            <summary>
+            Determines if a OrgNode is in the collection.
+            </summary>
+            <param name="item">The OrgNode to search for.</param>
+            <returns>true if the OrgNode exists within the collection. false otherwise.</returns>
+        </member>
+        <member name="M:Enterprise.OrgChart.OrgNodeCollection.IndexOf(Enterprise.OrgChart.OrgNode)">
+            <summary>
+            Determines zero-based index of a OrgNode within the collection.
+            </summary>
+            <param name="item">The OrgNode to locate within the collection.</param>
+            <returns>The zero-based index.</returns>
+        </member>
+        <member name="M:Enterprise.OrgChart.OrgNodeCollection.Remove(Enterprise.OrgChart.OrgNode)">
+            <summary>
+            Removes a OrgNode from the collection.
+            </summary>
+            <param name="item">The OrgNode to remove.</param>
+        </member>
+        <member name="P:Enterprise.OrgChart.OrgNodeCollection.Parent">
+            <summary>
+            The parent object of this collection.
+            </summary>
+        </member>
+        <member name="P:Enterprise.OrgChart.OrgNodeCollection.Item(System.Int32)">
+            <summary>
+            Indexer into the collection.
+            </summary>
+        </member>
+        <member name="T:Enterprise.OrgChart.OrgNodeType">
+            <summary>
+            OrgNodeType class
+            </summary>
+        </member>
+        <member name="F:Enterprise.OrgChart.OrgNodeType._Parent">
+            <summary>
+            从原TreeBase中拿来
+            </summary>
+        </member>
+        <member name="M:Enterprise.OrgChart.OrgNodeType.ToString">
+            <summary>
+            Returns the string representation of the OrgNodeType.
+            </summary>
+            <returns>The string representation of the OrgNodeType.</returns>
+        </member>
+        <member name="P:Enterprise.OrgChart.OrgNodeType.Parent">
+            <summary>
+            Returns a reference to the parent object.
+            </summary>
+        </member>
+        <member name="P:Enterprise.OrgChart.OrgNodeType.Type">
+            <summary>
+            The name of this OrgNodeType.
+            </summary>
+        </member>
+        <member name="P:Enterprise.OrgChart.OrgNodeType.NavigateUrl">
+            <summary>
+            The URL that TreeNodes of this type should navigate to when clicked.
+            </summary>
+        </member>
+        <member name="T:Enterprise.OrgChart.OrgNodeTypeCollection">
+            <summary>
+            Collection of TreeNodes within a TreeView.
+            </summary>
+        </member>
+        <member name="M:Enterprise.OrgChart.OrgNodeTypeCollection.#ctor">
+            <summary>
+            Initializes a new instance of a TreeNodeCollection.
+            </summary>
+        </member>
+        <member name="M:Enterprise.OrgChart.OrgNodeTypeCollection.#ctor(System.Object)">
+            <summary>
+            Initializes a new instance of a TreeNodeCollection.
+            </summary>
+            <param name="parent">The parent OrgNodeType of this collection.</param>
+        </member>
+        <member name="M:Enterprise.OrgChart.OrgNodeTypeCollection.OnInsert(System.Int32,System.Object)">
+            <summary>
+            Sets item properties on being inserted.
+            </summary>
+            <param name="index">The index of the item being inserted.</param>
+            <param name="value">The item being inserted.</param>
+        </member>
+        <member name="M:Enterprise.OrgChart.OrgNodeTypeCollection.OnSet(System.Int32,System.Object,System.Object)">
+            <summary>
+            Sets item properties on being set.
+            </summary>
+            <param name="index">The index of the item being changed.</param>
+            <param name="oldValue">The old item.</param>
+            <param name="newValue">The new item.</param>
+        </member>
+        <member name="M:Enterprise.OrgChart.OrgNodeTypeCollection.Add(Enterprise.OrgChart.OrgNodeType)">
+            <summary>
+            Adds a OrgNodeType to the collection.
+            </summary>
+            <param name="item">The OrgNodeType to add.</param>
+        </member>
+        <member name="M:Enterprise.OrgChart.OrgNodeTypeCollection.AddAt(System.Int32,Enterprise.OrgChart.OrgNodeType)">
+            <summary>
+            Adds a OrgNodeType to the collection at a specific index.
+            </summary>
+            <param name="index">The index at which to add the item.</param>
+            <param name="item">The OrgNodeType to add.</param>
+        </member>
+        <member name="M:Enterprise.OrgChart.OrgNodeTypeCollection.Contains(Enterprise.OrgChart.OrgNodeType)">
+            <summary>
+            Determines if a OrgNodeType is in the collection.
+            </summary>
+            <param name="item">The OrgNodeType to search for.</param>
+            <returns>true if the OrgNodeType exists within the collection. false otherwise.</returns>
+        </member>
+        <member name="M:Enterprise.OrgChart.OrgNodeTypeCollection.IndexOf(Enterprise.OrgChart.OrgNodeType)">
+            <summary>
+            Determines zero-based index of a OrgNodeType within the collection.
+            </summary>
+            <param name="item">The OrgNodeType to locate within the collection.</param>
+            <returns>The zero-based index.</returns>
+        </member>
+        <member name="M:Enterprise.OrgChart.OrgNodeTypeCollection.Remove(Enterprise.OrgChart.OrgNodeType)">
+            <summary>
+            Removes a OrgNodeType from the collection.
+            </summary>
+            <param name="item">The OrgNodeType to remove.</param>
+        </member>
+        <member name="P:Enterprise.OrgChart.OrgNodeTypeCollection.Parent">
+            <summary>
+            The parent object of this collection.
+            </summary>
+        </member>
+        <member name="P:Enterprise.OrgChart.OrgNodeTypeCollection.Item(System.Int32)">
+            <summary>
+            Indexer into the collection.
+            </summary>
+        </member>
+        <member name="T:Enterprise.OrgChart.ResDescriptionAttribute">
+            <summary>
+            Implements the DescriptionAttribute except that the parameter is a resource name.
+            </summary>
+        </member>
+        <member name="M:Enterprise.OrgChart.ResDescriptionAttribute.#ctor(System.String)">
+            <summary>
+            Initializes a new instance of a ResDescriptionAttribute.
+            </summary>
+            <param name="resourceName">The name of the string resource.</param>
+        </member>
+        <member name="T:Enterprise.OrgChart.Resources.Whidsoft_WebControls_OrgChart">
+            <summary>
+              一个强类型的资源类，用于查找本地化的字符串等。
+            </summary>
+        </member>
+        <member name="P:Enterprise.OrgChart.Resources.Whidsoft_WebControls_OrgChart.ResourceManager">
+            <summary>
+              返回此类使用的缓存的 ResourceManager 实例。
+            </summary>
+        </member>
+        <member name="P:Enterprise.OrgChart.Resources.Whidsoft_WebControls_OrgChart.Culture">
+            <summary>
+              使用此强类型资源类，为所有资源查找
+              重写当前线程的 CurrentUICulture 属性。
+            </summary>
+        </member>
+        <member name="T:Enterprise.OrgChart.Util">
+            <summary>
+             Utility class with various useful static functions.
+            </summary>
+        </member>
+        <member name="M:Enterprise.OrgChart.Util.ConvertToHtmlFontSize(System.Web.UI.WebControls.FontUnit)">
+            <summary>
+             Converts a FontUnit to a size for the HTML FONT tag
+            </summary>
+        </member>
+        <member name="M:Enterprise.OrgChart.Util.FindForm(System.Web.UI.Control)">
+            <summary>
+             Searches for an object's parents for a Form object
+            </summary>
+        </member>
+        <member name="M:Enterprise.OrgChart.Util.ExtractNumberString(System.String)">
+            <summary>
+            Given a string that contains a number, extracts the substring containing the number.
+            Returns only the first number.
+            Example: "5px" returns "5"
+            </summary>
+            <param name="str">The string containing the number.</param>
+            <returns>The extracted number or String.Empty.</returns>
+        </member>
+        <member name="M:Enterprise.OrgChart.Util.ExtractNumberStrings(System.String)">
+            <summary>
+            Extracts all numbers from the string.
+            </summary>
+            <param name="str">The string containing numbers.</param>
+            <returns>An array of the numbers as strings.</returns>
+        </member>
+        <member name="M:Enterprise.OrgChart.Util.ColorToHexString(System.String)">
+            <summary>
+             Converts a color string to a hex value string ("Green" -> "#000800")
+            </summary>
+        </member>
+        <member name="M:Enterprise.OrgChart.Util.ColorToHexString(System.Drawing.Color)">
+            <summary>
+             Converts a Color to a hex value string (Color.Green -> "#000800")
+            </summary>
+        </member>
+    </members>
+</doc>

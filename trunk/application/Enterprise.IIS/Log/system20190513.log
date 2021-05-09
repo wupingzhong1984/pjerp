@@ -1,0 +1,35 @@
+﻿2019/05/13 +08:00 16:00:17     [16672] Enterprise.Framework.Log.LogUtil.ErrorLog(:0) Enterprise.Framework.Log.LogUtil.ErrorLog(:0) [(null)] - 
+错误开始===========================================
+客户机IP:::1
+错误地址:http://localhost:19008/Business/ProductOutPut/Index.aspx
+异常信息:引发类型为“System.Web.HttpUnhandledException”的异常。
+错误结束=========================================== e 
+System.Web.HttpUnhandledException (0x80004005): 引发类型为“System.Web.HttpUnhandledException”的异常。 ---> System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 CallSite.Target(Closure , CallSite , StockInService , Expression`1 , Int32 , Int32 , Object , OrderingOrders , Int32& )
+   在 CallSite.Target(Closure , CallSite , StockInService , Expression`1 , Int32 , Int32 , Object , OrderingOrders , Int32& )
+   在 Enterprise.IIS.business.ProductOutPut.Index.BindDataGrid() 位置 E:\ffqserp\trunk\application\Enterprise.IIS\business\ProductOutPut\Index.aspx.cs:行号 322
+   在 Enterprise.IIS.business.ProductOutPut.Index.Page_Load(Object sender, EventArgs e) 位置 E:\ffqserp\trunk\application\Enterprise.IIS\business\ProductOutPut\Index.aspx.cs:行号 86
+   在 System.Web.Util.CalliEventHandlerDelegateProxy.Callback(Object sender, EventArgs e)
+   在 System.Web.UI.Control.OnLoad(EventArgs e)
+   在 System.Web.UI.Control.LoadRecursive()
+   在 System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   在 System.Web.UI.Page.HandleError(Exception e)
+   在 System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   在 System.Web.UI.Page.ProcessRequest(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   在 System.Web.UI.Page.ProcessRequest()
+   在 System.Web.UI.Page.ProcessRequestWithNoAssert(HttpContext context)
+   在 System.Web.UI.Page.ProcessRequest(HttpContext context)
+   在 ASP.business_productoutput_index_aspx.ProcessRequest(HttpContext context) 位置 c:\Windows\Microsoft.NET\Framework\v4.0.30319\Temporary ASP.NET Files\vs\acc0e68d\f6fd98d3\App_Web_43y5dz32.1.cs:行号 0
+   在 System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   在 System.Web.HttpApplication.ExecuteStepImpl(IExecutionStep step)
+   在 System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+2019/05/13 +08:00 16:00:17     [16672] Enterprise.Framework.Log.LogUtil.ErrorLog(:0) Enterprise.Framework.Log.LogUtil.ErrorLog(:0) [(null)] - 未将对象引用设置到对象的实例。 e 
+System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 CallSite.Target(Closure , CallSite , StockInService , Expression`1 , Int32 , Int32 , Object , OrderingOrders , Int32& )
+   在 CallSite.Target(Closure , CallSite , StockInService , Expression`1 , Int32 , Int32 , Object , OrderingOrders , Int32& )
+   在 Enterprise.IIS.business.ProductOutPut.Index.BindDataGrid() 位置 E:\ffqserp\trunk\application\Enterprise.IIS\business\ProductOutPut\Index.aspx.cs:行号 322
+   在 Enterprise.IIS.business.ProductOutPut.Index.Page_Load(Object sender, EventArgs e) 位置 E:\ffqserp\trunk\application\Enterprise.IIS\business\ProductOutPut\Index.aspx.cs:行号 86
+   在 System.Web.Util.CalliEventHandlerDelegateProxy.Callback(Object sender, EventArgs e)
+   在 System.Web.UI.Control.OnLoad(EventArgs e)
+   在 System.Web.UI.Control.LoadRecursive()
+   在 System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)

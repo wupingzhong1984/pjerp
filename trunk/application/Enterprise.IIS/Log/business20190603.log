@@ -1,0 +1,20 @@
+﻿2019/06/03 13:53:35            ，发货单：XS-190603-0001，发货单详细单号：105440---G0021, 
+2019/06/03 13:54:04            ，发货单：XS-190603-0001，发货单详细单号：105440---G0021,错误：，发货单：XS-190603-0001，发货单详细单号：105440---G0021,,错误信息：无法连接到远程服务器,错误堆栈：   在 System.Net.HttpWebRequest.GetRequestStream(TransportContext& context)
+   在 System.Net.HttpWebRequest.GetRequestStream()
+   在 Enterprise.IIS.Common.HttpRequest.httpRequest(tmsModel t, String uri) 位置 E:\ffqserp\trunk\application\Enterprise.IIS\Common\HttpRequest.cs:行号 61 
+2019/06/03 13:54:54            ，发货单：XS-190603-0001，发货单详细单号：105440---G0021, 
+2019/06/03 13:55:15            ，发货单：XS-190603-0001，发货单详细单号：105440---G0021,错误：，发货单：XS-190603-0001，发货单详细单号：105440---G0021,,错误信息：无法连接到远程服务器,错误堆栈：   在 System.Net.HttpWebRequest.GetRequestStream(TransportContext& context)
+   在 System.Net.HttpWebRequest.GetRequestStream()
+   在 Enterprise.IIS.Common.HttpRequest.httpRequest(tmsModel t, String uri) 位置 E:\ffqserp\trunk\application\Enterprise.IIS\Common\HttpRequest.cs:行号 61 
+2019/06/03 14:02:20            ，发货单：XS-190603-0001，发货单详细单号：105440---G0021, 
+2019/06/03 14:02:42            ，发货单：XS-190603-0001，发货单详细单号：105440---G0021,错误：，发货单：XS-190603-0001，发货单详细单号：105440---G0021,,错误信息：无法连接到远程服务器,错误堆栈：   在 System.Net.HttpWebRequest.GetRequestStream(TransportContext& context)
+   在 System.Net.HttpWebRequest.GetRequestStream()
+   在 Enterprise.IIS.Common.HttpRequest.httpRequest(tmsModel t, String uri) 位置 E:\ffqserp\trunk\application\Enterprise.IIS\Common\HttpRequest.cs:行号 61 
+2019/06/03 14:13:29            ，发货单：XS-190603-0001，发货单详细单号：105440---G0021, 
+2019/06/03 14:13:51            ，发货单：XS-190603-0001，发货单详细单号：105440---G0021,错误：，发货单：XS-190603-0001，发货单详细单号：105440---G0021,,错误信息：无法连接到远程服务器,错误堆栈：   在 System.Net.HttpWebRequest.GetRequestStream(TransportContext& context)
+   在 System.Net.HttpWebRequest.GetRequestStream()
+   在 Enterprise.IIS.Common.HttpRequest.httpRequest(tmsModel t, String uri) 位置 E:\ffqserp\trunk\application\Enterprise.IIS\Common\HttpRequest.cs:行号 61 
+2019/06/03 14:18:23            ，发货单：XS-190603-0001，发货单详细单号：105440---G0021, 
+2019/06/03 14:18:44            ，发货单：XS-190603-0001，发货单详细单号：105440---G0021,错误：，发货单：XS-190603-0001，发货单详细单号：105440---G0021,,错误信息：无法连接到远程服务器,错误堆栈：   在 System.Net.HttpWebRequest.GetRequestStream(TransportContext& context)
+   在 System.Net.HttpWebRequest.GetRequestStream()
+   在 Enterprise.IIS.Common.HttpRequest.httpRequest(tmsModel t, String uri) 位置 E:\ffqserp\trunk\application\Enterprise.IIS\Common\HttpRequest.cs:行号 61 

@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wsdl:definitions xmlns:soapenc="http://schemas.xmlsoap.org/soap/encoding/" xmlns:mime="http://schemas.xmlsoap.org/wsdl/mime/" xmlns:tns="http://tempuri.org/" xmlns:s="http://www.w3.org/2001/XMLSchema" xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:tm="http://microsoft.com/wsdl/mime/textMatching/" xmlns:http="http://schemas.xmlsoap.org/wsdl/http/" xmlns:soap12="http://schemas.xmlsoap.org/wsdl/soap12/" targetNamespace="http://tempuri.org/" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">
+  <wsdl:types>
+    <s:schema elementFormDefault="qualified" targetNamespace="http://tempuri.org/">
+      <s:element name="Importvouch">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="sXML" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="ImportvouchResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="ImportvouchResult" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="Helloworld">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="sXML" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="HelloworldResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="HelloworldResult" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+    </s:schema>
+  </wsdl:types>
+  <wsdl:message name="ImportvouchSoapIn">
+    <wsdl:part name="parameters" element="tns:Importvouch" />
+  </wsdl:message>
+  <wsdl:message name="ImportvouchSoapOut">
+    <wsdl:part name="parameters" element="tns:ImportvouchResponse" />
+  </wsdl:message>
+  <wsdl:message name="HelloworldSoapIn">
+    <wsdl:part name="parameters" element="tns:Helloworld" />
+  </wsdl:message>
+  <wsdl:message name="HelloworldSoapOut">
+    <wsdl:part name="parameters" element="tns:HelloworldResponse" />
+  </wsdl:message>
+  <wsdl:portType name="U2ImportSoap">
+    <wsdl:operation name="Importvouch">
+      <wsdl:input message="tns:ImportvouchSoapIn" />
+      <wsdl:output message="tns:ImportvouchSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="Helloworld">
+      <wsdl:input message="tns:HelloworldSoapIn" />
+      <wsdl:output message="tns:HelloworldSoapOut" />
+    </wsdl:operation>
+  </wsdl:portType>
+  <wsdl:binding name="U2ImportSoap" type="tns:U2ImportSoap">
+    <soap:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <wsdl:operation name="Importvouch">
+      <soap:operation soapAction="http://tempuri.org/Importvouch" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="Helloworld">
+      <soap:operation soapAction="http://tempuri.org/Helloworld" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:binding name="U2ImportSoap12" type="tns:U2ImportSoap">
+    <soap12:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <wsdl:operation name="Importvouch">
+      <soap12:operation soapAction="http://tempuri.org/Importvouch" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="Helloworld">
+      <soap12:operation soapAction="http://tempuri.org/Helloworld" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:service name="U2Import">
+    <wsdl:port name="U2ImportSoap" binding="tns:U2ImportSoap">
+      <soap:address location="http://192.168.1.250/U2WebService/U2Import.asmx" />
+    </wsdl:port>
+    <wsdl:port name="U2ImportSoap12" binding="tns:U2ImportSoap12">
+      <soap12:address location="http://192.168.1.250/U2WebService/U2Import.asmx" />
+    </wsdl:port>
+  </wsdl:service>
+</wsdl:definitions>
